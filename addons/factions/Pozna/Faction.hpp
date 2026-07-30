@@ -4,5 +4,6 @@ class CfgFactionClasses {
         priority = 1;
         side = 1; // BLUFOR
         icon = "\a3\Data_f\cfgFactionClasses_BLU_ca.paa";
+        flag = "..\data\flags\flag_Pozna_Battalion_co.paa";
     };
 };
