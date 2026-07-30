@@ -1,0 +1,27 @@
+name = "Freeman: Guerrilla Warfare Factions"
+author = "WOJTEK885"
+prefix = "gr7bow_fgw_factions"
+mainprefix = "z"
+
+[version]
+path = "addons/main/script_version.hpp"
+git_hash = 0
+
+[files]
+include = [
+    "mod.cpp",
+    "meta.cpp",
+    "logo_gr7bow_fgw_factions.png",
+    "logo_gr7bow_fgw_factions_over.png",
+    "logo_gr7bow_fgw_factions_ca.paa",
+    "logo_gr7bow_fgw_factions_over_ca.paa",
+    "LICENSE.md",
+    "README.md",
+]
+exclude = []
+
+[hemtt.release]
+archive = false
+
+[properties]
+author = "WOJTEK885"

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FGWF">
+    <Package name="Main">
+        <Key ID="STR_gr7bow_fgw_factions_main_displayName">
+            <English>Main</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_main_url">
+            <English>https://github.com/WOJTEK885/FGW_Factions</English>
+            <Polish>https://github.com/WOJTEK885/FGW_Factions</Polish>
+        </Key>
+    </Package>
+</Project>
