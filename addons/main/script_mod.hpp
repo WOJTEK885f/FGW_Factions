@@ -1,6 +1,6 @@
 #define MAINPREFIX z
 #define PREFIX gr7bow_fgw_factions
-#define MOD_NAME Freeman: Guerrilla Warfare Factions
+#define MOD_NAME "Freeman: Guerrilla Warfare Factions"
 #define AUTHOR "WOJTEK885"
 
 #define REQUIRED_VERSION 2.20
