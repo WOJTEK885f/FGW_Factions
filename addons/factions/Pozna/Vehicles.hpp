@@ -8,7 +8,8 @@ class FGW_B_Pozna_Base : B_Soldier_F {
         editorSubcategory = "EdSubcat_Personnel";
 
         // Klimat frakcji: Wschodni wygląd i rosyjski język
-        identityTypes[] = {"LanguageRUS", "LanguageEnoch_F", "Head_Russian", "Head_Euro"};
+        identityTypes[] = {"LanguageRUS", "CUP_D_Language_RU", "Head_Russian", "Head_Euro", "Head_Enoch"};
+        genericNames = "RussianMen";
 };
 
 class FGW_B_Pozna_Fighter : FGW_B_Pozna_Base {
