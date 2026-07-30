@@ -12,7 +12,11 @@ class CfgPatches {
             "A3_Characters_F"
         };
         units[] = {
-            QGVAR(Pozna_Rifleman)
+            "FGW_B_Pozna_Fighter",
+            "CUP_Weapons_LoadOrder",
+            "CUP_Creatures_Military_Russia",
+            "usp_gear_body",
+            "CFP_vests",
         };
         weapons[] = {};
         VERSION_CONFIG;

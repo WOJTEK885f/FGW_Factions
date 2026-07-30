@@ -1,6 +1,6 @@
-class GVAR(Pozna_Rifleman) : B_Soldier_F {
+class FGW_B_Pozna_Fighter : B_Soldier_F {
         author = AUTHOR;
-        _generalMacro = QGVAR(Pozna_Rifleman);
+        _generalMacro = "FGW_B_Pozna_Fighter";
         scope = 2;
         scopeCurator = 2;
 
@@ -14,7 +14,7 @@ class GVAR(Pozna_Rifleman) : B_Soldier_F {
         weapons[] = {"CUP_arifle_SAIGA_MK03", "Throw", "Put"};
         respawnWeapons[] = {"CUP_arifle_SAIGA_MK03", "Throw", "Put"};
 
-        // Amunicja i granaty (każda sztuka musi być osobnym wpisem w tablicy)
+        // Amunicja i granaty
         magazines[] = {
             "CUP_HandGrenade_RGD5",
             "CUP_10Rnd_762x39_SaigaMk03_M",
