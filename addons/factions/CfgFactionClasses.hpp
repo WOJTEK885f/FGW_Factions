@@ -1,0 +1,1 @@
+#include "Pozna\Faction.hpp"

@@ -5,7 +5,7 @@ class CfgPatches {
         author = AUTHOR;
         authors[] = {"WOJTEK885"};
         url = CSTRING(url);
-        name = COMPONENT_NAME;
+        name = QUOTE(COMPONENT);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "cba_main"
