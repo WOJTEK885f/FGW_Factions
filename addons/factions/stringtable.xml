@@ -5,12 +5,36 @@
             <English>Factions</English>
         </Key>
 
+        <Key ID="STR_gr7bow_fgw_factions_factions_Alpha_FactionName">
+            <English>Alpha Forces</English>
+        </Key>
+
+        <Key ID="STR_gr7bow_fgw_factions_factions_Atov_FactionName">
+            <English>Atov Federation</English>
+        </Key>
+
+        <Key ID="STR_gr7bow_fgw_factions_factions_CFR_FactionName">
+            <English>Chernivkan Front</English>
+        </Key>
+
+        <Key ID="STR_gr7bow_fgw_factions_factions_FCA_FactionName">
+            <English>Free Cossacks Army</English>
+        </Key>
+
         <Key ID="STR_gr7bow_fgw_factions_factions_Pozna_FactionName">
             <English>Pozna Battalion</English>
         </Key>
 
         <Key ID="STR_gr7bow_fgw_factions_factions_Pozna_Fighter">
             <English>Pozna Fighter</English>
+        </Key>
+
+        <Key ID="STR_gr7bow_fgw_factions_factions_Uman_FactionName">
+            <English>Uman Brotherhood</English>
+        </Key>
+
+        <Key ID="STR_gr7bow_fgw_factions_factions_VFF_FactionName">
+            <English>Valkyrie Female Fighters</English>
         </Key>
     </Package>
 </Project>
