@@ -1,8 +1,19 @@
 [default]
 workshop = [
     "450814997",  # CBA_A3
-    "3499977893", # Advanced Dev Tools
+    "1751569185", # Pythia
+    "1387934106", # 7erra's Editing Extensions
+    "2073243184", # 3Den Stringtable Viewer
     "623475643",  # 3DEN Enhanced
+    "1779063631",  # Zeus Enhanced
+    "463939057",  # ace
+    "2791403093",  # Better Inventory
+    "497660133",  # CUP Weapons
+    "497661914",  # CUP Units
+    "541888371",  # CUP Vehicles
+    "1369691841",  # CFP
+    "1795825073",  # USP
+    "2424797017",  # TFW
 ]
 presets = []
 dlc = []
