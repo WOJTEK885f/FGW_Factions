@@ -1,13 +1,13 @@
 class FGW_B_Pozna_Base : B_Soldier_F {
         author = AUTHOR;
-        scope = 0;         // Ukryte w Edytorze
-        scopeCurator = 0;  // Ukryte w Zeusie
+        scope = 0;         // Hidden in Editor
+        scopeCurator = 0;  // Hidden in Zeus
 
-        // Wspólne przypisania
+        // Common assignments
         faction = QGVAR(Pozna);
         editorSubcategory = "EdSubcat_Personnel";
 
-        // Klimat frakcji: Wschodni wygląd i rosyjski język
+        // Faction identity: Slavic appearance and Russian language
         identityTypes[] = {"LanguageRUS", "CUP_D_Language_RU", "Head_Russian", "Head_Euro", "Head_Enoch"};
         genericNames = "RussianMen";
 };
