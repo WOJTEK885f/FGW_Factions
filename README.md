@@ -6,7 +6,7 @@
         <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square" alt="Freeman: Guerrilla Warfare Factions Version">
     </a>
     <a href="https://github.com/WOJTEK885f/FGW_Factions/issues">
-        <img src="https://img.shields.io/github/issues-raw/WOJTEK885/FGW_Factions.svg?style=flat-square&label=Issues" alt="Freeman: Guerrilla Warfare Factions Issues">
+        <img src="https://img.shields.io/github/issues-raw/WOJTEK885f/FGW_Factions.svg?style=flat-square&label=Issues" alt="Freeman: Guerrilla Warfare Factions Issues">
     </a>
     <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=MOD_ID">
         <img src="https://img.shields.io/steam/downloads/MOD_ID.svg?style=flat-square&label=Downloads" alt="Freeman: Guerrilla Warfare Factions Downloads">
@@ -16,6 +16,7 @@
     </a>
     <br>
     <img src="https://img.shields.io/github/actions/workflow/status/WOJTEK885f/FGW_Factions/hemtt.yml?style=flat-square&label=HEMTT" alt="HEMTT">
+    <img src="https://img.shields.io/github/actions/workflow/status/WOJTEK885f/FGW_Factions/validate.yml?style=flat-square&label=Validate" alt="Validate">
 
 </p>
 
