@@ -1,4 +1,5 @@
 <!-- If you want to make changes to this README, you need to also modify the README.md in the docs folder as well -->
+<!-- markdownlint-disable MD033 -->
 
 <h1 align="center">Freeman: Guerrilla Warfare Factions</h1>
 <p align="center">
@@ -25,7 +26,9 @@
 </p>
 
 ## Contributing
+
 For new contributers, see the [Contributing Setup & Guidelines](./.github/CONTRIBUTING.md).
 
 ## License
+
 Freeman: Guerrilla Warfare Factions is licensed under [APL-ND](./LICENSE.md).
