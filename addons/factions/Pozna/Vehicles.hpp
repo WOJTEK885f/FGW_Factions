@@ -1,12 +1,23 @@
-class FGW_B_Pozna_Fighter : B_Soldier_F {
+class FGW_B_Pozna_Base : B_Soldier_F {
+        author = AUTHOR;
+        scope = 0;         // Ukryte w Edytorze
+        scopeCurator = 0;  // Ukryte w Zeusie
+
+        // Wspólne przypisania
+        faction = QGVAR(Pozna);
+        editorSubcategory = "EdSubcat_Personnel";
+
+        // Klimat frakcji: Wschodni wygląd i rosyjski język
+        identityTypes[] = {"LanguageRUS", "LanguageEnoch_F", "Head_Russian", "Head_Euro"};
+};
+
+class FGW_B_Pozna_Fighter : FGW_B_Pozna_Base {
         _generalMacro = "FGW_B_Pozna_Fighter";
         scope = 2;
         scopeCurator = 2;
         editorPreview = "";
 
         displayName = "$STR_gr7bow_fgw_factions_factions_Pozna_Fighter";
-        faction = QGVAR(Pozna);
-        editorSubcategory = "EdSubcat_Personnel";
 
         uniformClass = "USP_G3F_AOR1";
         backpack = "";
