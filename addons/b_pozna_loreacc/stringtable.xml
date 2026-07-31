@@ -1,38 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="FGWF">
-    <Package name="Factions">
-        <Key ID="STR_gr7bow_fgw_factions_factions_Alpha_FactionName">
-            <English>Alpha Forces</English>
-        </Key>
-        <Key ID="STR_gr7bow_fgw_factions_factions_Atov_FactionName">
-            <English>Atov Federation</English>
-        </Key>
-        <Key ID="STR_gr7bow_fgw_factions_factions_CFR_FactionName">
-            <English>Chernivkan Front</English>
-        </Key>
-        <Key ID="STR_gr7bow_fgw_factions_factions_FCA_FactionName">
-            <English>Free Cossacks Army</English>
-        </Key>
-        <Key ID="STR_gr7bow_fgw_factions_factions_Pozna_Commando">
+    <Package name="B_Pozna_Loreacc">
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Commando">
             <English>Pozna Commando</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_factions_Pozna_FactionName">
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_FactionName">
             <English>Pozna Battalion</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_factions_Pozna_Fighter">
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Fighter">
             <English>Pozna Fighter</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_factions_Pozna_SniperElite">
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_SniperElite">
             <English>Pozna Sniper Elite</English>
-        </Key>
-        <Key ID="STR_gr7bow_fgw_factions_factions_Uman_FactionName">
-            <English>Uman Brotherhood</English>
-        </Key>
-        <Key ID="STR_gr7bow_fgw_factions_factions_VFF_FactionName">
-            <English>Valkyrie Female Fighters</English>
-        </Key>
-        <Key ID="STR_gr7bow_fgw_factions_factions_displayName">
-            <English>Factions</English>
         </Key>
     </Package>
 </Project>
