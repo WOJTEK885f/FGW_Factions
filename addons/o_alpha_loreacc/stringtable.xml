@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FGWF">
+    <Package name="O_Alpha_Loreacc">
+        <Key ID="STR_gr7bow_fgw_factions_o_alpha_loreacc_FactionName">
+            <English>Alpha Forces</English>
+        </Key>
+    </Package>
+</Project>

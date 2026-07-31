@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FGWF">
+    <Package name="O_Atov_Loreacc">
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_FactionName">
+            <English>Atov Federation</English>
+        </Key>
+    </Package>
+</Project>

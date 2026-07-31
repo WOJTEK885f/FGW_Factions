@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FGWF">
+    <Package name="O_Uman_Loreacc">
+        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_FactionName">
+            <English>Uman Brotherhood</English>
+        </Key>
+    </Package>
+</Project>
