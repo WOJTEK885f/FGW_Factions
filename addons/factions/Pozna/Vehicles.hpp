@@ -53,3 +53,95 @@ class FGW_B_Pozna_Fighter: FGW_B_Pozna_Base {
             "ItemWatch"
         };
     };
+
+class FGW_B_Pozna_Commando : FGW_B_Pozna_Base {
+    _generalMacro = "FGW_B_Pozna_Commando";
+    scope = 2;
+    scopeCurator = 2;
+    editorPreview = "";
+
+    displayName = "$STR_gr7bow_fgw_factions_factions_Pozna_Commando";
+
+    uniformClass = "USP_RUGBY_G3C_RGR_AOR1";
+    backpack = "";
+
+    weapons[] = {"CUP_arifle_M4A3_black", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_M4A3_black", "Throw", "Put"};
+
+    magazines[] = {
+        "CUP_HandGrenade_RGD5",
+        "CUP_HandGrenade_RGD5",
+        MAG_6("CUP_30Rnd_556x45_Stanag")
+    };
+    respawnMagazines[] = {
+        "CUP_HandGrenade_RGD5",
+        "CUP_HandGrenade_RGD5",
+        MAG_6("CUP_30Rnd_556x45_Stanag")
+    };
+
+    Items[] = {"CUP_NVG_PVS7", "FirstAidKit"};
+    RespawnItems[] = {"CUP_NVG_PVS7", "FirstAidKit"};
+
+    linkedItems[] = {
+        "CUP_V_CPC_Fastbelt_rngr",
+        "SP_PASGTHelmet_Black1",
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch"
+    };
+    respawnLinkedItems[] = {
+        "CUP_V_CPC_Fastbelt_rngr",
+        "SP_PASGTHelmet_Black1",
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch"
+    };
+};
+
+class FGW_B_Pozna_SniperElite : FGW_B_Pozna_Base {
+    _generalMacro = "FGW_B_Pozna_SniperElite";
+    scope = 2;
+    scopeCurator = 2;
+    editorPreview = "";
+
+    displayName = "$STR_gr7bow_fgw_factions_factions_Pozna_SniperElite";
+
+    uniformClass = "USP_G3F_AOR1";
+    backpack = "";
+
+    weapons[] = {"CUP_srifle_SVD_pso", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_srifle_SVD_pso", "Throw", "Put"};
+
+    magazines[] = {
+        "SmokeShell",
+        MAG_8("CUP_10Rnd_762x54_SVD_M")
+    };
+    respawnMagazines[] = {
+        "SmokeShell",
+        MAG_8("CUP_10Rnd_762x54_SVD_M")
+    };
+
+    Items[] = {
+        "CUP_NVG_PVS7",
+        "FirstAidKit"
+    };
+    RespawnItems[] = {
+        "CUP_NVG_PVS7",
+        "FirstAidKit"
+    };
+
+    linkedItems[] = {
+        "CUP_V_CDF_OfficerBelt",
+        "SP_BoonieHat_Tan",
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch"
+    };
+    respawnLinkedItems[] = {
+        "CUP_V_CDF_OfficerBelt",
+        "SP_BoonieHat_Tan",
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch"
+    };
+};
