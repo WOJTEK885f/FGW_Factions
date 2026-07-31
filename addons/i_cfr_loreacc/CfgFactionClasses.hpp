@@ -3,5 +3,5 @@ class GVAR(CFR) {
     priority = 1;
     side = 2;
     icon = "\a3\Data_f\cfgFactionClasses_IND_ca.paa";
-    flag = "data\flags\flag_Chernivkan_Front_co.paa";
+    flag = "data\flags\flag_ChernivkanFront_co.paa";
 };

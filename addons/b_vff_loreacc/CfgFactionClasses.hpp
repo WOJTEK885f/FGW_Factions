@@ -3,5 +3,5 @@ class GVAR(VFF) {
     priority = 1;
     side = 1;
     icon = "\a3\Data_f\cfgFactionClasses_BLU_ca.paa";
-    flag = "data\flags\flag_Valkyrie_Female_Fighters_co.paa";
+    flag = "data\flags\flag_ValkyrieFemaleFighters_co.paa";
 };
