@@ -29,7 +29,8 @@ class CfgPatches {
             "FGW_O_Atov_ArmedPolice",
             "FGW_O_Atov_Scout",
             "FGW_O_Atov_Commando",
-            "FGW_O_Atov_Sharpshooter"
+            "FGW_O_Atov_Sharpshooter",
+            "FGW_O_Atov_SpecialForce"
         };
         weapons[] = {};
         VERSION_CONFIG;
