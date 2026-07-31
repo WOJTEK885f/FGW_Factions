@@ -18,10 +18,10 @@
 #define MAG_9(a) a, a, a, a, a, a, a, a, a
 #define MAG_10(a) a, a, a, a, a, a, a, a, a, a
 #define MAG_11(a) a, a, a, a, a, a, a, a, a, a, a
-#define MAG_12(a) a, a, a, a, a, a, a, a, a, a,	a, a
-#define MAG_13(a) a, a, a, a, a, a, a, a, a, a,	a, a, a
-#define MAG_14(a) a, a, a, a, a, a, a, a, a, a,	a, a, a, a
-#define MAG_15(a) a, a, a, a, a, a, a, a, a, a,	a, a, a, a, a
+#define MAG_12(a) a, a, a, a, a, a, a, a, a, a, a, a
+#define MAG_13(a) a, a, a, a, a, a, a, a, a, a, a, a, a
+#define MAG_14(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a
+#define MAG_15(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
 
 #define MAG_XX(a,b) class _xx_##a {magazine = a; count = b;}
 #define WEAP_XX(a,b) class _xx_##a {weapon = a; count = b;}
