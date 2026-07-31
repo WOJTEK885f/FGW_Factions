@@ -22,8 +22,3 @@
 #define MAG_13(a) a, a, a, a, a, a, a, a, a, a, a, a, a
 #define MAG_14(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a
 #define MAG_15(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
-
-#define MAG_XX(a,b) class _xx_##a {magazine = a; count = b;}
-#define WEAP_XX(a,b) class _xx_##a {weapon = a; count = b;}
-#define ITEM_XX(a,b) class _xx_##a {name = a; count = b;}
-#define PACK_XX(a,b) class _xx_##a {backpack = a; count = b;}
