@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="FGWF">
     <Package name="O_Atov_Loreacc">
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_ArmedPolice">
+            <English>Federal Armed Police</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Commando">
+            <English>Federal Commando</English>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_FactionName">
             <English>Atov Federation</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Infantry">
+            <English>Federal Infantry</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Machinegunner">
+            <English>Federal Machinegunner</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Scout">
+            <English>Federal Scout</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Sharpshooter">
+            <English>Federal Sharpshooter</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_SpecialForce">
+            <English>Federal Special Force</English>
         </Key>
     </Package>
 </Project>

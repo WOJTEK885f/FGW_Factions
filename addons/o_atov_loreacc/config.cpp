@@ -1,0 +1,40 @@
+#include "script_component.hpp"
+
+class CfgPatches {
+    class ADDON {
+        author = AUTHOR;
+        authors[] = {"WOJTEK885"};
+        url = ECSTRING(main,url);
+        name = QUOTE(COMPONENT);
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {
+            "gr7bow_fgw_factions_main",
+            "A3_Characters_F",
+            "A3_Weapons_F",
+            "sp_fwa_thompson",
+            "CUP_Weapons_WeaponsCore",
+            "CUP_Weapons_East_Attachments",
+            "CUP_Weapons_NVG",
+            "CUP_Creatures_Military_PMC", // Infantry: Vest, SpecialForce: Uniform
+            "CUP_Creatures_Military_USMC", // Infantry: Uniform, SpecialForce: Vest, Sharpshooter: Headgear
+            "CUP_Creatures_Military_Russia", // Infantry: Balaclava, Machinegunner: Helmet
+            "CUP_Creatures_Military_CDF", // Machinegunner: Vest
+            "cfp_uniforms", // Scout, ArmedPolice, Commando, Sharpshooter: Uniform
+            "cfp_vests", // Scout, ArmedPolice, Commando, Sharpshooter: Vest
+            "cfp_headgear" // Scout, ArmedPolice, Commando, SpecialForce: Helmet
+        };
+        units[] = {
+            "FGW_O_Atov_Infantry",
+            "FGW_O_Atov_Machinegunner",
+            "FGW_O_Atov_ArmedPolice",
+            "FGW_O_Atov_Scout",
+            "FGW_O_Atov_Commando",
+            "FGW_O_Atov_Sharpshooter"
+        };
+        weapons[] = {};
+        VERSION_CONFIG;
+    };
+};
+
+#include "CfgFactionClasses.hpp"
+#include "CfgVehicles.hpp"
