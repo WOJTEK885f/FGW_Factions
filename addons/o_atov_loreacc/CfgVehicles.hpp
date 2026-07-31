@@ -67,7 +67,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "";
 
-        displayName = "$STR_gr7bow_o_atov_loreacc_Machinegunner";
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Machinegunner";
 
         uniformClass = "CUP_U_B_USMC_FROG3_WMARPAT";
         backpack = "";
@@ -113,7 +113,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "";
 
-        displayName = "$STR_gr7bow_o_atov_loreacc_ArmedPolice";
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_ArmedPolice";
 
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
@@ -163,7 +163,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "";
 
-        displayName = "$STR_gr7bow_o_atov_loreacc_Scout";
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Scout";
 
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
@@ -213,7 +213,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "";
 
-        displayName = "$STR_gr7bow_o_atov_loreacc_Commando";
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Commando";
 
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
@@ -261,7 +261,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "";
 
-        displayName = "$STR_gr7bow_o_atov_loreacc_SpecialForce";
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_SpecialForce";
 
         uniformClass = "CUP_I_B_PMC_Unit_35";
         backpack = "";
@@ -307,7 +307,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "";
 
-        displayName = "$STR_gr7bow_o_atov_loreacc_Sharpshooter";
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Sharpshooter";
 
         uniformClass = "CFP_BDU_M81Iraq";
         backpack = "";
