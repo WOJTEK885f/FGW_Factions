@@ -57,7 +57,7 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_Pozna_Commando : FGW_B_Pozna_Base {
+    class FGW_B_Pozna_Commando: FGW_B_Pozna_Base {
         _generalMacro = "FGW_B_Pozna_Commando";
         scope = 2;
         scopeCurator = 2;
@@ -101,7 +101,7 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_Pozna_SniperElite : FGW_B_Pozna_Base {
+    class FGW_B_Pozna_SniperElite: FGW_B_Pozna_Base {
         _generalMacro = "FGW_B_Pozna_SniperElite";
         scope = 2;
         scopeCurator = 2;
