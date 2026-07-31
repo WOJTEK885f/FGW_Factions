@@ -12,11 +12,11 @@ class CfgPatches {
             "A3_Characters_F",
             "CUP_Weapons_WeaponsCore",
             "CUP_Weapons_NVG",
+            "USP_Gear_Body", // All units: Uniforms
             "CUP_Creatures_Military_CDF", // Sniper Elite: Vest
             "CUP_Creatures_Military_USMC", // Commando: Vest
-            "USP_Gear_Body", // All units: Uniforms
             "cfp_vests", // Fighter: Vest
-            "cfp_headgear" // Commando: Helmet
+            "cfp_headgear" // Commando, Sniper Elite: Helmet
         };
         units[] = {
             "FGW_B_Pozna_Fighter",
