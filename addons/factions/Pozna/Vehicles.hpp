@@ -1,4 +1,7 @@
-class FGW_B_Pozna_Base : B_Soldier_F {
+// Forward declarations
+class B_Soldier_F;
+
+class FGW_B_Pozna_Base: B_Soldier_F {
         author = AUTHOR;
         scope = 0;         // Hidden in Editor
         scopeCurator = 0;  // Hidden in Zeus
@@ -12,7 +15,7 @@ class FGW_B_Pozna_Base : B_Soldier_F {
         genericNames = "RussianMen";
 };
 
-class FGW_B_Pozna_Fighter : FGW_B_Pozna_Base {
+class FGW_B_Pozna_Fighter: FGW_B_Pozna_Base {
         _generalMacro = "FGW_B_Pozna_Fighter";
         scope = 2;
         scopeCurator = 2;
