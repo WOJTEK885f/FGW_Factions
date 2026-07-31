@@ -9,14 +9,14 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "gr7bow_fgw_factions_main",
-            "A3_Characters_F"
-        };
-        units[] = {
-            "FGW_B_Pozna_Fighter",
+            "A3_Characters_F",
             "CUP_Weapons_LoadOrder",
             "CUP_Creatures_Military_Russia",
             "usp_gear_body",
-            "CFP_vests",
+            "CFP_vests"
+        };
+        units[] = {
+            "FGW_B_Pozna_Fighter"
         };
         weapons[] = {};
         VERSION_CONFIG;
