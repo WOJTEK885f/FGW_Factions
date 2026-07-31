@@ -15,7 +15,7 @@ class CfgPatches {
             "CUP_Creatures_Military_CDF", // Sniper Elite: Vest
             "CUP_Creatures_Military_USMC", // Commando: Vest
             "USP_Gear_Body", // All units: Uniforms
-            "cfp_vests" // Fighter: Vest
+            "cfp_vests", // Fighter: Vest
             "cfp_headgear" // Commando: Helmet
         };
         units[] = {
