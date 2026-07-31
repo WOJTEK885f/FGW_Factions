@@ -1,5 +1,5 @@
-#define COMPONENT factions
-#define COMPONENT_BEAUTIFIED Factions
+#define COMPONENT i_fca_loreacc
+#define COMPONENT_BEAUTIFIED Free Cossacks Army Lore Accurate
 #include "\z\gr7bow_fgw_factions\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

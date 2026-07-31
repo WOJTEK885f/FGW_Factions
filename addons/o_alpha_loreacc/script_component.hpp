@@ -1,5 +1,5 @@
-#define COMPONENT factions
-#define COMPONENT_BEAUTIFIED Factions
+#define COMPONENT o_alpha_loreacc
+#define COMPONENT_BEAUTIFIED OPFOR Alpha Forces Lore Accurate
 #include "\z\gr7bow_fgw_factions\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
