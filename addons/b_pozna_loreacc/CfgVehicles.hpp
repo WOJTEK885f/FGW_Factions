@@ -21,7 +21,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "";
 
-        displayName = "$STR_gr7bow_fgw_factions_factions_Pozna_Fighter";
+        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Fighter";
 
         uniformClass = "USP_G3F_AOR1";
         backpack = "";
@@ -63,7 +63,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "";
 
-        displayName = "$STR_gr7bow_fgw_factions_factions_Pozna_Commando";
+        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Commando";
 
         uniformClass = "USP_RUGBY_G3C_RGR_AOR1";
         backpack = "";
@@ -107,7 +107,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "";
 
-        displayName = "$STR_gr7bow_fgw_factions_factions_Pozna_SniperElite";
+        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_SniperElite";
 
         uniformClass = "USP_G3F_AOR1";
         backpack = "";
