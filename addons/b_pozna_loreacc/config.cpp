@@ -10,11 +10,13 @@ class CfgPatches {
         requiredAddons[] = {
             "gr7bow_fgw_factions_main",
             "A3_Characters_F",
+            "A3_Weapons_F",
             "CUP_Weapons_WeaponsCore",
             "CUP_Weapons_NVG",
             "USP_Gear_Body", // All units: Uniforms
             "CUP_Creatures_Military_CDF", // Sniper Elite: Vest
             "CUP_Creatures_Military_USMC", // Commando: Vest
+            "CUP_Creatures_Military_Russia", // Fighter: Balaclava
             "cfp_vests", // Fighter: Vest
             "cfp_headgear" // Commando, Sniper Elite: Helmet
         };
