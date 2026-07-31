@@ -1,6 +1,3 @@
-// Forward declarations
-class B_Soldier_F;
-
 class FGW_B_VFF_Base: B_Soldier_F {
         author = AUTHOR;
         scope = 0;         // Hidden in Editor
