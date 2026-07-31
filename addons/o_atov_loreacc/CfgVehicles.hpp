@@ -13,6 +13,11 @@ class CfgVehicles {
         // Faction identity: Eastern Slavic appearance and Russian language
         identityTypes[] = {"LanguageRUS", "CUP_D_Language_RU", "Head_Russian", "Head_Euro"};
         genericNames = "RussianMen";
+
+        // Event handler to ensure the unit wears the correct uniform upon spawning
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) forceAddUniform (getText (configFile >> 'CfgVehicles' >> typeOf (_this select 0) >> 'uniformClass')); };";
+        };
     };
 
     class FGW_O_Atov_Infantry: FGW_O_Atov_Base {
