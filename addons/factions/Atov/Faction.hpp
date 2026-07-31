@@ -1,7 +1,0 @@
-class GVAR(Atov) {
-    displayName = "$STR_gr7bow_fgw_factions_factions_Atov_FactionName";
-    priority = 1;
-    side = 0; // OPFOR
-    icon = "\a3\Data_f\cfgFactionClasses_OPF_ca.paa";
-    flag = "..\data\flags\flag_Atov_Federation_co.paa";
-};

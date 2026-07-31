@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FGWF">
+    <Package name="B_Pozna_Loreacc">
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Commando">
+            <English>Pozna Commando</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_FactionName">
+            <English>Pozna Battalion</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Fighter">
+            <English>Pozna Fighter</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_SniperElite">
+            <English>Pozna Sniper Elite</English>
+        </Key>
+    </Package>
+</Project>
