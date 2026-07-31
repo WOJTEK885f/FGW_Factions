@@ -301,7 +301,7 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Atov_Sharpshooter : FGW_O_Atov_Base {
+    class FGW_O_Atov_Sharpshooter: FGW_O_Atov_Base {
         _generalMacro = "FGW_O_Atov_Sharpshooter";
         scope = 2;
         scopeCurator = 2;
