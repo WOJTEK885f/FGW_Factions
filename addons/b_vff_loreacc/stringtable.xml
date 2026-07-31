@@ -2,7 +2,7 @@
 <Project name="FGWF">
     <Package name="B_VFF_Loreacc">
         <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_FactionName">
-            <English>Valkyrie Female Fighters</English>
+            <English>F:GW Valkyrie Female Fighters</English>
         </Key>
     </Package>
 </Project>

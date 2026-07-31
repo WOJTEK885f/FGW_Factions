@@ -2,7 +2,7 @@
 <Project name="FGWF">
     <Package name="I_CFR_Loreacc">
         <Key ID="STR_gr7bow_fgw_factions_i_cfr_loreacc_FactionName">
-            <English>Chernivkan Front</English>
+            <English>F:GW Chernivkan Front</English>
         </Key>
     </Package>
 </Project>
