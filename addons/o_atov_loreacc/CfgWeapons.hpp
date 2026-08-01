@@ -26,7 +26,7 @@ class CfgWeapons {
         displayName = "PMC Clothes T-Shirt/Tactical Pants (Black, UCP) - Atov Federation";
         scope = 2; // Available in Arsenal
 
-        class ItemInfo : UniformItem {
+        class ItemInfo: UniformItem {
             // Apply our unlocked dummy model instead of the restricted CUP one
             uniformClass = "FGW_O_Atov_Dummy_PMC35";
 
