@@ -1,6 +1,21 @@
 class CfgVehicles {
     class O_Soldier_F; // Forward declaration
 
+    // Import the original carriers from CUP
+    class CUP_B_USMC_Soldier_14;
+    class CUP_I_PMC_Soldier_35;
+
+    // Create a hidden dummy unit for Atov to bypass faction side restrictions
+    class FGW_O_Atov_Dummy_FROG3: CUP_B_USMC_Soldier_14 {
+        scope = 1; // Hidden in Eden Editor
+        modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allow all sides to use this model
+    };
+
+    class FGW_O_Atov_Dummy_PMC35: CUP_I_PMC_Soldier_35 {
+        scope = 1; // Hidden in Eden Editor
+        modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allows all sides to wear this model
+    };
+
     class FGW_O_Atov_Base: O_Soldier_F {
         author = AUTHOR;
         scope = 0;         // Hidden in Editor
@@ -13,11 +28,6 @@ class CfgVehicles {
         // Faction identity: Eastern Slavic appearance and Russian language
         identityTypes[] = {"LanguageRUS", "CUP_D_Language_RU", "Head_Russian", "Head_Euro"};
         genericNames = "RussianMen";
-
-        // Event handler to ensure the unit wears the correct uniform upon spawning
-        class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) forceAddUniform (getText (configFile >> 'CfgVehicles' >> typeOf (_this select 0) >> 'uniformClass')); };";
-        };
     };
 
     class FGW_O_Atov_Infantry: FGW_O_Atov_Base {
@@ -28,7 +38,7 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Infantry";
 
-        uniformClass = "CUP_U_B_USMC_FROG3_WMARPAT";
+        uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_arifle_M16A4_Base", "Throw", "Put"};
@@ -74,7 +84,7 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Machinegunner";
 
-        uniformClass = "CUP_U_B_USMC_FROG3_WMARPAT";
+        uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_lmg_M249_E2", "Throw", "Put"};
@@ -268,7 +278,7 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_SpecialForce";
 
-        uniformClass = "CUP_I_B_PMC_Unit_35";
+        uniformClass = "FGW_U_O_PMC_Unit_35_ATOV";
         backpack = "";
 
         weapons[] = {"SMG_01_F", "Throw", "Put"};

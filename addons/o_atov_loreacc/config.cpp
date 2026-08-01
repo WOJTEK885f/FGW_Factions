@@ -15,8 +15,8 @@ class CfgPatches {
             "CUP_Weapons_WeaponsCore",
             "CUP_Weapons_East_Attachments",
             "CUP_Weapons_NVG",
-            "CUP_Creatures_Military_PMC", // Infantry: Vest, SpecialForce: Uniform
-            "CUP_Creatures_Military_USMC", // Infantry: Uniform, SpecialForce: Vest, Sharpshooter: Headgear
+            "CUP_Creatures_Military_PMC", // Infantry: Vest, SpecialForce: Uniform(Custom)
+            "CUP_Creatures_Military_USMC", // Infantry, Machinegunner: Uniform(Custom), SpecialForce: Vest, Sharpshooter: Headgear
             "CUP_Creatures_Military_Russia", // Infantry: Balaclava, Machinegunner: Helmet
             "CUP_Creatures_Military_CDF", // Machinegunner: Vest
             "cfp_uniforms", // Scout, ArmedPolice, Commando, Sharpshooter: Uniform
@@ -32,10 +32,14 @@ class CfgPatches {
             "FGW_O_Atov_Sharpshooter",
             "FGW_O_Atov_SpecialForce"
         };
-        weapons[] = {};
+        weapons[] = {
+            "FGW_U_O_USMC_FROG3_WMARPAT_ATOV",
+            "FGW_U_O_PMC_Unit_35_ATOV"
+        };
         VERSION_CONFIG;
     };
 };
 
 #include "CfgFactionClasses.hpp"
+#include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
