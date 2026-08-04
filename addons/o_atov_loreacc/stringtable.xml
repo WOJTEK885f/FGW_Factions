@@ -10,6 +10,15 @@
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_FactionName">
             <English>F:GW Atov Federation</English>
         </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_InfantryFireteam">
+            <English>Atov Infantry Fireteam</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_SpecialForceTeam">
+            <English>Atov Special Force Team</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_WeaponTeam">
+            <English>Atov Weapon Team</English>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Infantry">
             <English>Federal Infantry</English>
         </Key>
