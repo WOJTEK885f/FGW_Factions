@@ -1,10 +1,10 @@
 class CfgGroups {
     class West {
         class GVAR(Pozna) {
-            displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_FactionName";
+            name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_FactionName";
 
             class Infantry {
-                displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_GroupCategory_Infantry";
+                name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_GroupCategory_Infantry";
 
                 class GVAR(Group_RifleSquad) {
                     name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_RifleSquad";
@@ -26,7 +26,7 @@ class CfgGroups {
                     faction = QGVAR(Pozna);
 
                     class Unit0 { side = 1; vehicle = "FGW_B_Pozna_SniperElite"; rank = "CORPORAL"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_Pozna_SniperElite"; rank = "PRIVATE"; position[] = {3,-3,0}; };
+                    class Unit1 { side = 1; vehicle = "FGW_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {3,-3,0}; };
                     class Unit2 { side = 1; vehicle = "FGW_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {3,3,0}; };
                 };
             };
