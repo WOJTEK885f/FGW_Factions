@@ -1,3 +1,6 @@
+<!-- markdownlint-disable-file MD024 -->
+<!-- markdownlint-disable-file MD001 -->
+
 # Freeman: Guerrilla Warfare – Units & Equipment Guide
 
 Automatically generated from the game data tables in `StreamingAssets/Native/Table`. Regenerate with `python tools/generate_units_guide.py`.
@@ -53,14 +56,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 25 · Rifle 0 · SMG 50 · Shotgun 0 · AR 0 · MG 0 · Launcher 10 · Throwing 40 · Armor 45`
 
-  - **Helmet:** none
-  - **Shirt:** White Stylish Blouse (1018)
-  - **Armor:** Police Vest (1406)
-  - **Pants:** Old Fashioned Jeans (1208)
-  - **Mask:** Sunglasses (1636)
-  - **Pistol:** Makarova (2805)
-  - **Rifle:** UMP9 (2207)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** White Stylish Blouse (1018)
+- **Armor:** Police Vest (1406)
+- **Pants:** Old Fashioned Jeans (1208)
+- **Mask:** Sunglasses (1636)
+- **Pistol:** Makarova (2805)
+- **Rifle:** UMP9 (2207)
+- **Misc:** none
 
 #### Militia Rifleman (ID 110)
 
@@ -68,14 +71,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 10 · Rifle 40 · SMG 0 · Shotgun 15 · AR 12 · MG 0 · Launcher 10 · Throwing 25 · Armor 30`
 
-  - **Helmet:** Old Helmet (1603) · Steel Helmet (1602) · Bike Helmet (1601)
-  - **Shirt:** Brown T-Shirt (1004) · Black Tank Top (1007) · Green Layered Shirt (1015) · Orange Layered Shirt (1014) · Black T-Shirt (1003) · Red Bandit Shirt (1029) · Freeman T-Shirt (1005) · Brown Tank Top (1008) · Brown Layered Shirt (1027) · Square Stylish Shirt (1019)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Old Fashioned Jeans (1208) · Ripped Jeans (1210) · Old Red Pants (1212) · Biker Pants (1214) · Blue Jeans (1209)
-  - **Mask:** Black Mask (1610)
-  - **Pistol:** none
-  - **Rifle:** MK14 (2401)
-  - **Misc:** none
+- **Helmet:** Old Helmet (1603) · Steel Helmet (1602) · Bike Helmet (1601)
+- **Shirt:** Brown T-Shirt (1004) · Black Tank Top (1007) · Green Layered Shirt (1015) · Orange Layered Shirt (1014) · Black T-Shirt (1003) · Red Bandit Shirt (1029) · Freeman T-Shirt (1005) · Brown Tank Top (1008) · Brown Layered Shirt (1027) · Square Stylish Shirt (1019)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Old Fashioned Jeans (1208) · Ripped Jeans (1210) · Old Red Pants (1212) · Biker Pants (1214) · Blue Jeans (1209)
+- **Mask:** Black Mask (1610)
+- **Pistol:** none
+- **Rifle:** MK14 (2401)
+- **Misc:** none
 
 #### Militia Sniper (ID 111)
 
@@ -83,14 +86,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 35 · Rifle 60 · SMG 0 · Shotgun 0 · AR 0 · MG 0 · Launcher 0 · Throwing 20 · Armor 22`
 
-  - **Helmet:** Camouflage Panama (1612)
-  - **Shirt:** Brown T-Shirt (1004)
-  - **Armor:** Militia Vest (1411)
-  - **Pants:** Camo Pants (1215)
-  - **Mask:** Camo Mask (1633)
-  - **Pistol:** P250 (2809)
-  - **Rifle:** MK14 (2401)
-  - **Misc:** SmokeGrenades (514)
+- **Helmet:** Camouflage Panama (1612)
+- **Shirt:** Brown T-Shirt (1004)
+- **Armor:** Militia Vest (1411)
+- **Pants:** Camo Pants (1215)
+- **Mask:** Camo Mask (1633)
+- **Pistol:** P250 (2809)
+- **Rifle:** MK14 (2401)
+- **Misc:** SmokeGrenades (514)
 
 #### Militia SMG Fighter (ID 112)
 
@@ -98,14 +101,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 0 · SMG 55 · Shotgun 0 · AR 10 · MG 0 · Launcher 10 · Throwing 35 · Armor 35`
 
-  - **Helmet:** Black Military Bandana (1617)
-  - **Shirt:** Camo Turtleneck (1011)
-  - **Armor:** Light Combat Vest (1404)
-  - **Pants:** Camo Pants (1215)
-  - **Mask:** Camo Mask (1633)
-  - **Pistol:** none
-  - **Rifle:** CQRifle (2203)
-  - **Misc:** RGD6 Grenade (508)
+- **Helmet:** Black Military Bandana (1617)
+- **Shirt:** Camo Turtleneck (1011)
+- **Armor:** Light Combat Vest (1404)
+- **Pants:** Camo Pants (1215)
+- **Mask:** Camo Mask (1633)
+- **Pistol:** none
+- **Rifle:** CQRifle (2203)
+- **Misc:** RGD6 Grenade (508)
 
 #### Female Militia (ID 115)
 
@@ -113,14 +116,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 45 · Rifle 12 · SMG 12 · Shotgun 12 · AR 12 · MG 6 · Launcher 10 · Throwing 20 · Armor 35`
 
-  - **Helmet:** none
-  - **Shirt:** Camo Turtleneck (1011)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Camo Pants (1215) · Black Jeans (1207) · Biker Pants (1214)
-  - **Mask:** none
-  - **Pistol:** TT56 (2808) · P1911 (2806)
-  - **Rifle:** none
-  - **Misc:** RGD6 Grenade (508)
+- **Helmet:** none
+- **Shirt:** Camo Turtleneck (1011)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Camo Pants (1215) · Black Jeans (1207) · Biker Pants (1214)
+- **Mask:** none
+- **Pistol:** TT56 (2808) · P1911 (2806)
+- **Rifle:** none
+- **Misc:** RGD6 Grenade (508)
 
 #### Female Civilian Fighter2 (ID 503)
 
@@ -128,14 +131,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 15 · Rifle 12 · SMG 0 · Shotgun 25 · AR 0 · MG 0 · Launcher 0 · Throwing 0 · Armor 25`
 
-  - **Helmet:** Green Military Bandana (1620)
-  - **Shirt:** Green T-Shirt (1038)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Old Fashioned Jeans (1208)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** Remington (2601)
-  - **Misc:** none
+- **Helmet:** Green Military Bandana (1620)
+- **Shirt:** Green T-Shirt (1038)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Old Fashioned Jeans (1208)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** Remington (2601)
+- **Misc:** none
 
 #### Female Civilian Fighter3 (ID 504)
 
@@ -143,14 +146,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 26 · Rifle 18 · SMG 0 · Shotgun 45 · AR 0 · MG 0 · Launcher 0 · Throwing 0 · Armor 40`
 
-  - **Helmet:** Steel Helmet (1602)
-  - **Shirt:** Green T-Shirt (1038)
-  - **Armor:** Light Black Vest (1416)
-  - **Pants:** Old Fashioned Jeans (1208)
-  - **Mask:** none
-  - **Pistol:** P1911 (2806)
-  - **Rifle:** Remington (2601)
-  - **Misc:** none
+- **Helmet:** Steel Helmet (1602)
+- **Shirt:** Green T-Shirt (1038)
+- **Armor:** Light Black Vest (1416)
+- **Pants:** Old Fashioned Jeans (1208)
+- **Mask:** none
+- **Pistol:** P1911 (2806)
+- **Rifle:** Remington (2601)
+- **Misc:** none
 
 **Squads (3):**
 
@@ -174,14 +177,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 25 · Rifle 0 · SMG 50 · Shotgun 0 · AR 0 · MG 0 · Launcher 10 · Throwing 40 · Armor 45`
 
-  - **Helmet:** none
-  - **Shirt:** White Stylish Blouse (1018)
-  - **Armor:** Police Vest (1406)
-  - **Pants:** Old Fashioned Jeans (1208)
-  - **Mask:** Sunglasses (1636)
-  - **Pistol:** Makarova (2805)
-  - **Rifle:** UMP9 (2207)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** White Stylish Blouse (1018)
+- **Armor:** Police Vest (1406)
+- **Pants:** Old Fashioned Jeans (1208)
+- **Mask:** Sunglasses (1636)
+- **Pistol:** Makarova (2805)
+- **Rifle:** UMP9 (2207)
+- **Misc:** none
 
 #### Gangster (ID 102)
 
@@ -189,14 +192,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 8 · Rifle 12 · SMG 18 · Shotgun 12 · AR 12 · MG 5 · Launcher 5 · Throwing 5 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Black Tank Top (1007)
-  - **Armor:** none
-  - **Pants:** Biker Pants (1214)
-  - **Mask:** Black Mask (1610)
-  - **Pistol:** none
-  - **Rifle:** MPS5 (2206)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Black Tank Top (1007)
+- **Armor:** none
+- **Pants:** Biker Pants (1214)
+- **Mask:** Black Mask (1610)
+- **Pistol:** none
+- **Rifle:** MPS5 (2206)
+- **Misc:** none
 
 **Squads (1):**
 
@@ -218,14 +221,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 25 · SMG 8 · Shotgun 0 · AR 0 · MG 0 · Launcher 5 · Throwing 8 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Brown Leather Jacket (1002) · Old Black Leather Jacket (1001)
-  - **Armor:** Militia Vest (1411) · Flak Vest (1401)
-  - **Pants:** Old Red Pants (1212) · Old Grey Pants (1211) · Biker Pants (1214)
-  - **Mask:** Black Shemagh (1629)
-  - **Pistol:** none
-  - **Rifle:** MK14 (2401) · VT14 (2011)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Brown Leather Jacket (1002) · Old Black Leather Jacket (1001)
+- **Armor:** Militia Vest (1411) · Flak Vest (1401)
+- **Pants:** Old Red Pants (1212) · Old Grey Pants (1211) · Biker Pants (1214)
+- **Mask:** Black Shemagh (1629)
+- **Pistol:** none
+- **Rifle:** MK14 (2401) · VT14 (2011)
+- **Misc:** none
 
 #### Armored Marauder (ID 3)
 
@@ -233,14 +236,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 25 · Rifle 15 · SMG 0 · Shotgun 0 · AR 55 · MG 0 · Launcher 10 · Throwing 30 · Armor 45`
 
-  - **Helmet:** none
-  - **Shirt:** Black T-Shirt (1003)
-  - **Armor:** Police Vest (1406)
-  - **Pants:** Black Jeans (1207)
-  - **Mask:** Gas Mask (1624)
-  - **Pistol:** P250 (2809)
-  - **Rifle:** AKM74 (2004) · AKS76 (2201)
-  - **Misc:** RGD6 Grenade (508)
+- **Helmet:** none
+- **Shirt:** Black T-Shirt (1003)
+- **Armor:** Police Vest (1406)
+- **Pants:** Black Jeans (1207)
+- **Mask:** Gas Mask (1624)
+- **Pistol:** P250 (2809)
+- **Rifle:** AKM74 (2004) · AKS76 (2201)
+- **Misc:** RGD6 Grenade (508)
 
 #### Terrorist (ID 4)
 
@@ -248,14 +251,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 0 · SMG 15 · Shotgun 0 · AR 0 · MG 55 · Launcher 20 · Throwing 20 · Armor 65`
 
-  - **Helmet:** none
-  - **Shirt:** Black Turtleneck (1010)
-  - **Armor:** Heavy Tactical Vest (1409)
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** Black Shemagh (1629)
-  - **Pistol:** none
-  - **Rifle:** PKM74 (2903)
-  - **Misc:** RGD6 Grenade (508) · RGD6 Grenade (508)
+- **Helmet:** none
+- **Shirt:** Black Turtleneck (1010)
+- **Armor:** Heavy Tactical Vest (1409)
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** Black Shemagh (1629)
+- **Pistol:** none
+- **Rifle:** PKM74 (2903)
+- **Misc:** RGD6 Grenade (508) · RGD6 Grenade (508)
 
 **Squads (3):**
 
@@ -279,14 +282,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 0 · SMG 18 · Shotgun 0 · AR 32 · MG 0 · Launcher 10 · Throwing 22 · Armor 40`
 
-  - **Helmet:** Pilot Helmet (1604)
-  - **Shirt:** Military Shirt Forest (1022)
-  - **Armor:** Police Vest (1406)
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** Black Balaclava (1609)
-  - **Pistol:** none
-  - **Rifle:** M16A5 (2007)
-  - **Misc:** RGD6 Grenade (508) · RGD6 Grenade (508)
+- **Helmet:** Pilot Helmet (1604)
+- **Shirt:** Military Shirt Forest (1022)
+- **Armor:** Police Vest (1406)
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** Black Balaclava (1609)
+- **Pistol:** none
+- **Rifle:** M16A5 (2007)
+- **Misc:** RGD6 Grenade (508) · RGD6 Grenade (508)
 
 #### Federal Machinegunner (ID 302)
 
@@ -294,14 +297,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 12 · SMG 25 · Shotgun 0 · AR 18 · MG 58 · Launcher 10 · Throwing 36 · Armor 60`
 
-  - **Helmet:** Spetsnaz Helmet (1608)
-  - **Shirt:** Military Shirt Forest (1022)
-  - **Armor:** Military Battle Vest (1407)
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** Mini24 (2902)
-  - **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · First Aid Kit (13)
+- **Helmet:** Spetsnaz Helmet (1608)
+- **Shirt:** Military Shirt Forest (1022)
+- **Armor:** Military Battle Vest (1407)
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** Mini24 (2902)
+- **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · First Aid Kit (13)
 
 #### Federal Sharpshooter (ID 303)
 
@@ -309,14 +312,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 35 · Rifle 68 · SMG 0 · Shotgun 0 · AR 0 · MG 0 · Launcher 5 · Throwing 8 · Armor 33`
 
-  - **Helmet:** Camo Military Bandana (1619)
-  - **Shirt:** Camo Shirt (1031)
-  - **Armor:** Scout Vest Camo (1414)
-  - **Pants:** Camo Pants (1215)
-  - **Mask:** none
-  - **Pistol:** Eagle80 (2802)
-  - **Rifle:** VA Val (2405)
-  - **Misc:** Night Vision Goggles (44) · First Aid Kit (13) · SmokeGrenades (514)
+- **Helmet:** Camo Military Bandana (1619)
+- **Shirt:** Camo Shirt (1031)
+- **Armor:** Scout Vest Camo (1414)
+- **Pants:** Camo Pants (1215)
+- **Mask:** none
+- **Pistol:** Eagle80 (2802)
+- **Rifle:** VA Val (2405)
+- **Misc:** Night Vision Goggles (44) · First Aid Kit (13) · SmokeGrenades (514)
 
 #### Federal Special Force (ID 304)
 
@@ -324,14 +327,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 15 · SMG 60 · Shotgun 0 · AR 45 · MG 22 · Launcher 22 · Throwing 38 · Armor 50`
 
-  - **Helmet:** Combat Helmet (1605)
-  - **Shirt:** Black Turtleneck (1010)
-  - **Armor:** Desert Assault Armor (1413)
-  - **Pants:** Marine Combat Pants (1205)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** VECTOR (2208)
-  - **Misc:** Night Vision Goggles (44) · First Aid Kit (13) · Grenade Launcher (515)
+- **Helmet:** Combat Helmet (1605)
+- **Shirt:** Black Turtleneck (1010)
+- **Armor:** Desert Assault Armor (1413)
+- **Pants:** Marine Combat Pants (1205)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** VECTOR (2208)
+- **Misc:** Night Vision Goggles (44) · First Aid Kit (13) · Grenade Launcher (515)
 
 #### Federal Armed Police (ID 305)
 
@@ -339,14 +342,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 45 · Rifle 12 · SMG 0 · Shotgun 40 · AR 18 · MG 0 · Launcher 5 · Throwing 10 · Armor 45`
 
-  - **Helmet:** Tactical Kevlar Helmet (1607)
-  - **Shirt:** Marine Military Shirt (1041)
-  - **Armor:** Heavy Tactical Vest (1409)
-  - **Pants:** Navy Military Pants (1217)
-  - **Mask:** Black Balaclava (1609)
-  - **Pistol:** P250 (2809)
-  - **Rifle:** Shot12 (2602)
-  - **Misc:** Night Vision Goggles (44) · RGD6 Grenade (508) · Grenade Launcher (515)
+- **Helmet:** Tactical Kevlar Helmet (1607)
+- **Shirt:** Marine Military Shirt (1041)
+- **Armor:** Heavy Tactical Vest (1409)
+- **Pants:** Navy Military Pants (1217)
+- **Mask:** Black Balaclava (1609)
+- **Pistol:** P250 (2809)
+- **Rifle:** Shot12 (2602)
+- **Misc:** Night Vision Goggles (44) · RGD6 Grenade (508) · Grenade Launcher (515)
 
 #### Federal Commando (ID 306)
 
@@ -354,14 +357,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 5 · Rifle 35 · SMG 10 · Shotgun 25 · AR 55 · MG 12 · Launcher 15 · Throwing 35 · Armor 40`
 
-  - **Helmet:** Combat Helmet (1605)
-  - **Shirt:** Marine Military Shirt (1041)
-  - **Armor:** Scout Vest Camo (1414)
-  - **Pants:** Navy Military Pants (1217)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** M4A (2015)
-  - **Misc:** Night Vision Goggles (44) · RGD6 Grenade (508) · Grenade Launcher (515)
+- **Helmet:** Combat Helmet (1605)
+- **Shirt:** Marine Military Shirt (1041)
+- **Armor:** Scout Vest Camo (1414)
+- **Pants:** Navy Military Pants (1217)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** M4A (2015)
+- **Misc:** Night Vision Goggles (44) · RGD6 Grenade (508) · Grenade Launcher (515)
 
 #### Federal Scout (ID 307)
 
@@ -369,14 +372,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 42 · Rifle 18 · SMG 65 · Shotgun 15 · AR 35 · MG 0 · Launcher 20 · Throwing 20 · Armor 35`
 
-  - **Helmet:** Combat Helmet (1605)
-  - **Shirt:** Marine Military Shirt (1041)
-  - **Armor:** Scout Vest Camo (1414)
-  - **Pants:** Navy Military Pants (1217)
-  - **Mask:** none
-  - **Pistol:** P250 (2809)
-  - **Rifle:** Thompson (2209)
-  - **Misc:** Night Vision Goggles (44) · RGD6 Grenade (508) · Grenade Launcher (515)
+- **Helmet:** Combat Helmet (1605)
+- **Shirt:** Marine Military Shirt (1041)
+- **Armor:** Scout Vest Camo (1414)
+- **Pants:** Navy Military Pants (1217)
+- **Mask:** none
+- **Pistol:** P250 (2809)
+- **Rifle:** Thompson (2209)
+- **Misc:** Night Vision Goggles (44) · RGD6 Grenade (508) · Grenade Launcher (515)
 
 **Squads (3):**
 
@@ -400,14 +403,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 30 · SMG 24 · Shotgun 0 · AR 10 · MG 0 · Launcher 5 · Throwing 30 · Armor 40`
 
-  - **Helmet:** none
-  - **Shirt:** Military Shirt Desert (1025)
-  - **Armor:** Scout Vest Desert (1403)
-  - **Pants:** Desert Military Pants (1206)
-  - **Mask:** Black Balaclava (1609)
-  - **Pistol:** none
-  - **Rifle:** VT14 (2011)
-  - **Misc:** RGD6 Grenade (508)
+- **Helmet:** none
+- **Shirt:** Military Shirt Desert (1025)
+- **Armor:** Scout Vest Desert (1403)
+- **Pants:** Desert Military Pants (1206)
+- **Mask:** Black Balaclava (1609)
+- **Pistol:** none
+- **Rifle:** VT14 (2011)
+- **Misc:** RGD6 Grenade (508)
 
 #### Pozna Sniper (ID 402)
 
@@ -415,14 +418,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 72 · SMG 10 · Shotgun 0 · AR 5 · MG 5 · Launcher 5 · Throwing 10 · Armor 30`
 
-  - **Helmet:** White Panama (1627)
-  - **Shirt:** Military Shirt Desert (1025)
-  - **Armor:** none
-  - **Pants:** Desert Military Pants (1206)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** SVD (2404)
-  - **Misc:** SmokeGrenades (514) · Night Vision Goggles (44)
+- **Helmet:** White Panama (1627)
+- **Shirt:** Military Shirt Desert (1025)
+- **Armor:** none
+- **Pants:** Desert Military Pants (1206)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** SVD (2404)
+- **Misc:** SmokeGrenades (514) · Night Vision Goggles (44)
 
 #### Pozna Commando (ID 403)
 
@@ -430,14 +433,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 0 · SMG 33 · Shotgun 0 · AR 58 · MG 0 · Launcher 15 · Throwing 50 · Armor 50`
 
-  - **Helmet:** Tactical Kevlar Helmet (1607)
-  - **Shirt:** Brown T-Shirt (1004)
-  - **Armor:** Desert Assault Armor (1413)
-  - **Pants:** Desert Military Pants (1206)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** M4A (2015)
-  - **Misc:** RGD6 Grenade (508) · RGD6 Grenade (508) · Night Vision Goggles (44)
+- **Helmet:** Tactical Kevlar Helmet (1607)
+- **Shirt:** Brown T-Shirt (1004)
+- **Armor:** Desert Assault Armor (1413)
+- **Pants:** Desert Military Pants (1206)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** M4A (2015)
+- **Misc:** RGD6 Grenade (508) · RGD6 Grenade (508) · Night Vision Goggles (44)
 
 **Squads (2):**
 
@@ -460,14 +463,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 18 · SMG 32 · Shotgun 0 · AR 10 · MG 5 · Launcher 5 · Throwing 18 · Armor 30`
 
-  - **Helmet:** Jungle Cap (1622)
-  - **Shirt:** Military Shirt Jungle (1023)
-  - **Armor:** Scout Vest Forest (1402)
-  - **Pants:** Jungle Combat Pants (1204)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** AKS76 (2201)
-  - **Misc:** RGD6 Grenade (508)
+- **Helmet:** Jungle Cap (1622)
+- **Shirt:** Military Shirt Jungle (1023)
+- **Armor:** Scout Vest Forest (1402)
+- **Pants:** Jungle Combat Pants (1204)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** AKS76 (2201)
+- **Misc:** RGD6 Grenade (508)
 
 #### FCA Rifleman (ID 202)
 
@@ -475,14 +478,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 45 · SMG 35 · Shotgun 0 · AR 15 · MG 8 · Launcher 10 · Throwing 20 · Armor 40`
 
-  - **Helmet:** Steel Helmet (1602)
-  - **Shirt:** Military Shirt Jungle (1023)
-  - **Armor:** Scout Vest Forest (1402)
-  - **Pants:** Jungle Combat Pants (1204)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** SKKS (2402)
-  - **Misc:** RGD6 Grenade (508) · First Aid Kit (13)
+- **Helmet:** Steel Helmet (1602)
+- **Shirt:** Military Shirt Jungle (1023)
+- **Armor:** Scout Vest Forest (1402)
+- **Pants:** Jungle Combat Pants (1204)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** SKKS (2402)
+- **Misc:** RGD6 Grenade (508) · First Aid Kit (13)
 
 #### FCA Grenadier (ID 203)
 
@@ -490,14 +493,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 32 · Rifle 20 · SMG 10 · Shotgun 0 · AR 30 · MG 10 · Launcher 45 · Throwing 50 · Armor 55`
 
-  - **Helmet:** Tactical Kevlar Helmet (1607)
-  - **Shirt:** Military Shirt Jungle (1023)
-  - **Armor:** Heavy Kevlar Vest (1408)
-  - **Pants:** Jungle Combat Pants (1204)
-  - **Mask:** AM Mask (1615)
-  - **Pistol:** TT56 (2808)
-  - **Rifle:** ARX160 (2014)
-  - **Misc:** RGD6 Grenade (508) · Grenade Launcher (515) · Night Vision Goggles (44)
+- **Helmet:** Tactical Kevlar Helmet (1607)
+- **Shirt:** Military Shirt Jungle (1023)
+- **Armor:** Heavy Kevlar Vest (1408)
+- **Pants:** Jungle Combat Pants (1204)
+- **Mask:** AM Mask (1615)
+- **Pistol:** TT56 (2808)
+- **Rifle:** ARX160 (2014)
+- **Misc:** RGD6 Grenade (508) · Grenade Launcher (515) · Night Vision Goggles (44)
 
 #### FCA Shock Troop (ID 204)
 
@@ -505,14 +508,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 5 · Rifle 10 · SMG 35 · Shotgun 0 · AR 42 · MG 45 · Launcher 22 · Throwing 25 · Armor 70`
 
-  - **Helmet:** Spetsnaz Helmet (1608)
-  - **Shirt:** Military Shirt Jungle (1023)
-  - **Armor:** Desert Assault Armor (1413)
-  - **Pants:** Jungle Combat Pants (1204)
-  - **Mask:** Navy Military Bandana (1621)
-  - **Pistol:** none
-  - **Rifle:** HMG (2901)
-  - **Misc:** RGD6 Grenade (508) · RGD6 Grenade (508) · RGD6 Grenade (508)
+- **Helmet:** Spetsnaz Helmet (1608)
+- **Shirt:** Military Shirt Jungle (1023)
+- **Armor:** Desert Assault Armor (1413)
+- **Pants:** Jungle Combat Pants (1204)
+- **Mask:** Navy Military Bandana (1621)
+- **Pistol:** none
+- **Rifle:** HMG (2901)
+- **Misc:** RGD6 Grenade (508) · RGD6 Grenade (508) · RGD6 Grenade (508)
 
 **Squads (3):**
 
@@ -536,14 +539,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 24 · Rifle 6 · SMG 42 · Shotgun 5 · AR 58 · MG 15 · Launcher 65 · Throwing 62 · Armor 60`
 
-  - **Helmet:** none
-  - **Shirt:** Red T-Shirt (1032)
-  - **Armor:** Heavy Kevlar Vest (1408)
-  - **Pants:** Black Jeans (1207)
-  - **Mask:** Ski Mask (1625)
-  - **Pistol:** Eagle80 (2802)
-  - **Rifle:** AKS76 (2201) · AKM74 (2004)
-  - **Misc:** RGD6 Grenade (508) · Grenade Launcher (515)
+- **Helmet:** none
+- **Shirt:** Red T-Shirt (1032)
+- **Armor:** Heavy Kevlar Vest (1408)
+- **Pants:** Black Jeans (1207)
+- **Mask:** Ski Mask (1625)
+- **Pistol:** Eagle80 (2802)
+- **Rifle:** AKS76 (2201) · AKM74 (2004)
+- **Misc:** RGD6 Grenade (508) · Grenade Launcher (515)
 
 #### Uman Militant (ID 602)
 
@@ -551,14 +554,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 36 · Rifle 12 · SMG 20 · Shotgun 15 · AR 68 · MG 15 · Launcher 30 · Throwing 32 · Armor 60`
 
-  - **Helmet:** none
-  - **Shirt:** Red T-Shirt (1032)
-  - **Armor:** Desert Assault Armor (1413)
-  - **Pants:** Black Jeans (1207)
-  - **Mask:** Red Mask (1634)
-  - **Pistol:** P250 (2809)
-  - **Rifle:** AK12 (2002) · AKM74 (2004)
-  - **Misc:** SmokeGrenades (514)
+- **Helmet:** none
+- **Shirt:** Red T-Shirt (1032)
+- **Armor:** Desert Assault Armor (1413)
+- **Pants:** Black Jeans (1207)
+- **Mask:** Red Mask (1634)
+- **Pistol:** P250 (2809)
+- **Rifle:** AK12 (2002) · AKM74 (2004)
+- **Misc:** SmokeGrenades (514)
 
 ### Valkerie Female Fighters (faction 8)
 
@@ -574,14 +577,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 15 · Rifle 12 · SMG 0 · Shotgun 25 · AR 0 · MG 0 · Launcher 0 · Throwing 0 · Armor 25`
 
-  - **Helmet:** Green Military Bandana (1620)
-  - **Shirt:** Green T-Shirt (1038)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Old Fashioned Jeans (1208)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** Remington (2601)
-  - **Misc:** none
+- **Helmet:** Green Military Bandana (1620)
+- **Shirt:** Green T-Shirt (1038)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Old Fashioned Jeans (1208)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** Remington (2601)
+- **Misc:** none
 
 #### Female Civilian Fighter3 (ID 504)
 
@@ -589,14 +592,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 26 · Rifle 18 · SMG 0 · Shotgun 45 · AR 0 · MG 0 · Launcher 0 · Throwing 0 · Armor 40`
 
-  - **Helmet:** Steel Helmet (1602)
-  - **Shirt:** Green T-Shirt (1038)
-  - **Armor:** Light Black Vest (1416)
-  - **Pants:** Old Fashioned Jeans (1208)
-  - **Mask:** none
-  - **Pistol:** P1911 (2806)
-  - **Rifle:** Remington (2601)
-  - **Misc:** none
+- **Helmet:** Steel Helmet (1602)
+- **Shirt:** Green T-Shirt (1038)
+- **Armor:** Light Black Vest (1416)
+- **Pants:** Old Fashioned Jeans (1208)
+- **Mask:** none
+- **Pistol:** P1911 (2806)
+- **Rifle:** Remington (2601)
+- **Misc:** none
 
 #### VFA Fighter (ID 505)
 
@@ -604,14 +607,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 30 · Rifle 60 · SMG 42 · Shotgun 33 · AR 50 · MG 12 · Launcher 30 · Throwing 40 · Armor 50`
 
-  - **Helmet:** Camo Kelver Helmet (1613)
-  - **Shirt:** Camo Shirt (1031)
-  - **Armor:** Police Camo Vest (1415)
-  - **Pants:** Camo Pants (1215)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** M416 (2008)
-  - **Misc:** RGD6 Grenade (508) · Night Vision Goggles (44) · SmokeGrenades (514)
+- **Helmet:** Camo Kelver Helmet (1613)
+- **Shirt:** Camo Shirt (1031)
+- **Armor:** Police Camo Vest (1415)
+- **Pants:** Camo Pants (1215)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** M416 (2008)
+- **Misc:** RGD6 Grenade (508) · Night Vision Goggles (44) · SmokeGrenades (514)
 
 #### VFA Women Marine (ID 506)
 
@@ -619,14 +622,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 12 · SMG 35 · Shotgun 5 · AR 66 · MG 25 · Launcher 25 · Throwing 30 · Armor 45`
 
-  - **Helmet:** Spetsnaz Helmet (1608)
-  - **Shirt:** Camo Shirt (1031)
-  - **Armor:** Military Battle Vest (1407)
-  - **Pants:** Camo Pants (1215)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** M16A5 (2007)
-  - **Misc:** SmokeGrenades (514) · First Aid Kit (13)
+- **Helmet:** Spetsnaz Helmet (1608)
+- **Shirt:** Camo Shirt (1031)
+- **Armor:** Military Battle Vest (1407)
+- **Pants:** Camo Pants (1215)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** M16A5 (2007)
+- **Misc:** SmokeGrenades (514) · First Aid Kit (13)
 
 #### VFA Women Special Police (ID 507)
 
@@ -634,14 +637,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 45 · Rifle 12 · SMG 15 · Shotgun 55 · AR 0 · MG 5 · Launcher 5 · Throwing 12 · Armor 35`
 
-  - **Helmet:** Old Camo Helmet (1637)
-  - **Shirt:** Camo Tank Top (1009)
-  - **Armor:** Scout Vest Camo (1414)
-  - **Pants:** Camo Pants (1215)
-  - **Mask:** none
-  - **Pistol:** P1911 (2806)
-  - **Rifle:** Striker12 (2603)
-  - **Misc:** RGD6 Grenade (508)
+- **Helmet:** Old Camo Helmet (1637)
+- **Shirt:** Camo Tank Top (1009)
+- **Armor:** Scout Vest Camo (1414)
+- **Pants:** Camo Pants (1215)
+- **Mask:** none
+- **Pistol:** P1911 (2806)
+- **Rifle:** Striker12 (2603)
+- **Misc:** RGD6 Grenade (508)
 
 **Squads (1):**
 
@@ -663,14 +666,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 42 · SMG 0 · Shotgun 12 · AR 10 · MG 10 · Launcher 10 · Throwing 20 · Armor 35`
 
-  - **Helmet:** Old Camo Helmet (1637)
-  - **Shirt:** Olive T-Shirt (1040)
-  - **Armor:** Scout Vest Camo (1414)
-  - **Pants:** Green Combat Pants (1218)
-  - **Mask:** Camo Mask (1633)
-  - **Pistol:** none
-  - **Rifle:** VT14 (2011)
-  - **Misc:** none
+- **Helmet:** Old Camo Helmet (1637)
+- **Shirt:** Olive T-Shirt (1040)
+- **Armor:** Scout Vest Camo (1414)
+- **Pants:** Green Combat Pants (1218)
+- **Mask:** Camo Mask (1633)
+- **Pistol:** none
+- **Rifle:** VT14 (2011)
+- **Misc:** none
 
 #### CFR Rebel Grenadier (ID 702)
 
@@ -678,14 +681,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 10 · SMG 52 · Shotgun 0 · AR 20 · MG 10 · Launcher 36 · Throwing 42 · Armor 50`
 
-  - **Helmet:** Old Helmet (1603)
-  - **Shirt:** Green Camouflage T-Shirt (1026)
-  - **Armor:** Police Camo Vest (1415)
-  - **Pants:** Green Combat Pants (1218)
-  - **Mask:** Ski Mask (1625)
-  - **Pistol:** none
-  - **Rifle:** CORAL (2202)
-  - **Misc:** RGD6 Grenade (508) · Grenade Launcher (515)
+- **Helmet:** Old Helmet (1603)
+- **Shirt:** Green Camouflage T-Shirt (1026)
+- **Armor:** Police Camo Vest (1415)
+- **Pants:** Green Combat Pants (1218)
+- **Mask:** Ski Mask (1625)
+- **Pistol:** none
+- **Rifle:** CORAL (2202)
+- **Misc:** RGD6 Grenade (508) · Grenade Launcher (515)
 
 #### CFR Rebel DM (ID 703)
 
@@ -693,14 +696,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 35 · Rifle 58 · SMG 20 · Shotgun 0 · AR 10 · MG 10 · Launcher 10 · Throwing 10 · Armor 30`
 
-  - **Helmet:** Camo Military Bandana (1619)
-  - **Shirt:** Green Camouflage T-Shirt (1026)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Green Combat Pants (1218)
-  - **Mask:** none
-  - **Pistol:** Eagle80 (2802)
-  - **Rifle:** SKKS (2402)
-  - **Misc:** RGD6 Grenade (508) · Grenade Launcher (515)
+- **Helmet:** Camo Military Bandana (1619)
+- **Shirt:** Green Camouflage T-Shirt (1026)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Green Combat Pants (1218)
+- **Mask:** none
+- **Pistol:** Eagle80 (2802)
+- **Rifle:** SKKS (2402)
+- **Misc:** RGD6 Grenade (508) · Grenade Launcher (515)
 
 ### Desert Marauders (faction 10)
 
@@ -716,14 +719,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 0 · SMG 42 · Shotgun 0 · AR 35 · MG 0 · Launcher 45 · Throwing 30 · Armor 65`
 
-  - **Helmet:** Sand Shemagh (1628)
-  - **Shirt:** Sand Camo T-Shirt (1039) · Brown Tank Top (1008) · Brown T-Shirt (1004) · Olive T-Shirt (1040)
-  - **Armor:** Police Camo Vest (1415)
-  - **Pants:** Sand Combat Pants (1219) · Desert Military Pants (1206) · Old Red Pants (1212) · Sand Military Pants (1216)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** AKS76 (2201) · AKM (2003)
-  - **Misc:** RGD6 Grenade (508)
+- **Helmet:** Sand Shemagh (1628)
+- **Shirt:** Sand Camo T-Shirt (1039) · Brown Tank Top (1008) · Brown T-Shirt (1004) · Olive T-Shirt (1040)
+- **Armor:** Police Camo Vest (1415)
+- **Pants:** Sand Combat Pants (1219) · Desert Military Pants (1206) · Old Red Pants (1212) · Sand Military Pants (1216)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** AKS76 (2201) · AKM (2003)
+- **Misc:** RGD6 Grenade (508)
 
 #### Desert Armed Bandit (ID 10)
 
@@ -731,14 +734,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 0 · SMG 15 · Shotgun 0 · AR 55 · MG 0 · Launcher 20 · Throwing 20 · Armor 60`
 
-  - **Helmet:** none
-  - **Shirt:** Sand Camo T-Shirt (1039)
-  - **Armor:** Desert Assault Armor (1413)
-  - **Pants:** Sand Military Pants (1216)
-  - **Mask:** Sand Shemagh (1628)
-  - **Pistol:** none
-  - **Rifle:** SCAR-L (2010)
-  - **Misc:** SmokeGrenades (514)
+- **Helmet:** none
+- **Shirt:** Sand Camo T-Shirt (1039)
+- **Armor:** Desert Assault Armor (1413)
+- **Pants:** Sand Military Pants (1216)
+- **Mask:** Sand Shemagh (1628)
+- **Pistol:** none
+- **Rifle:** SCAR-L (2010)
+- **Misc:** SmokeGrenades (514)
 
 **Squads (1):**
 
@@ -760,14 +763,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 30 · SMG 0 · Shotgun 12 · AR 0 · MG 0 · Launcher 5 · Throwing 30 · Armor 50`
 
-  - **Helmet:** Dark Shemagh (1614)
-  - **Shirt:** Green T-Shirt (1038)
-  - **Armor:** Light Black Vest (1416)
-  - **Pants:** Camo Pants (1215)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** VT14 (2011) · MK14 (2401)
-  - **Misc:** RGD6 Grenade (508) · SmokeGrenades (514)
+- **Helmet:** Dark Shemagh (1614)
+- **Shirt:** Green T-Shirt (1038)
+- **Armor:** Light Black Vest (1416)
+- **Pants:** Camo Pants (1215)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** VT14 (2011) · MK14 (2401)
+- **Misc:** RGD6 Grenade (508) · SmokeGrenades (514)
 
 #### Female Bandit3 (ID 501)
 
@@ -775,14 +778,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 36 · Rifle 36 · SMG 0 · Shotgun 0 · AR 0 · MG 0 · Launcher 0 · Throwing 0 · Armor 35`
 
-  - **Helmet:** Old Helmet (1603)
-  - **Shirt:** Green T-Shirt (1038)
-  - **Armor:** Scout Vest Forest (1402)
-  - **Pants:** Skinny Jeans (1213)
-  - **Mask:** none
-  - **Pistol:** P1911 (2806)
-  - **Rifle:** VT14 (2011)
-  - **Misc:** none
+- **Helmet:** Old Helmet (1603)
+- **Shirt:** Green T-Shirt (1038)
+- **Armor:** Scout Vest Forest (1402)
+- **Pants:** Skinny Jeans (1213)
+- **Mask:** none
+- **Pistol:** P1911 (2806)
+- **Rifle:** VT14 (2011)
+- **Misc:** none
 
 #### Female Bandit2 (ID 502)
 
@@ -790,14 +793,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 12 · Rifle 24 · SMG 0 · Shotgun 0 · AR 0 · MG 0 · Launcher 0 · Throwing 0 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Green T-Shirt (1038)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Old Red Pants (1212)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** MK14 (2401)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Green T-Shirt (1038)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Old Red Pants (1212)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** MK14 (2401)
+- **Misc:** none
 
 ### Pirates (faction 12)
 
@@ -813,14 +816,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 12 · SMG 0 · Shotgun 0 · AR 45 · MG 0 · Launcher 5 · Throwing 25 · Armor 45`
 
-  - **Helmet:** Black Military Bandana (1617)
-  - **Shirt:** Blue Layered Shirt (1013)
-  - **Armor:** Police Vest (1406)
-  - **Pants:** Marine Combat Pants (1205)
-  - **Mask:** Skull Mask (1635)
-  - **Pistol:** none
-  - **Rifle:** AKM74 (2004) · PDR (2009)
-  - **Misc:** SmokeGrenades (514)
+- **Helmet:** Black Military Bandana (1617)
+- **Shirt:** Blue Layered Shirt (1013)
+- **Armor:** Police Vest (1406)
+- **Pants:** Marine Combat Pants (1205)
+- **Mask:** Skull Mask (1635)
+- **Pistol:** none
+- **Rifle:** AKM74 (2004) · PDR (2009)
+- **Misc:** SmokeGrenades (514)
 
 #### Pirate Leader (ID 11)
 
@@ -828,14 +831,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 30 · Rifle 0 · SMG 0 · Shotgun 0 · AR 55 · MG 0 · Launcher 20 · Throwing 25 · Armor 45`
 
-  - **Helmet:** Old Camo Helmet (1637)
-  - **Shirt:** Blue Layered Shirt (1013)
-  - **Armor:** Military Battle Vest (1407)
-  - **Pants:** Marine Combat Pants (1205)
-  - **Mask:** Skull Mask (1635)
-  - **Pistol:** TT56 (2808)
-  - **Rifle:** AK12 (2002)
-  - **Misc:** SmokeGrenades (514)
+- **Helmet:** Old Camo Helmet (1637)
+- **Shirt:** Blue Layered Shirt (1013)
+- **Armor:** Military Battle Vest (1407)
+- **Pants:** Marine Combat Pants (1205)
+- **Mask:** Skull Mask (1635)
+- **Pistol:** TT56 (2808)
+- **Rifle:** AK12 (2002)
+- **Misc:** SmokeGrenades (514)
 
 ### Cossacks Rebels (faction 13)
 
@@ -851,14 +854,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 20 · SMG 0 · Shotgun 0 · AR 45 · MG 0 · Launcher 55 · Throwing 40 · Armor 60`
 
-  - **Helmet:** Old Helmet (1603)
-  - **Shirt:** Olive T-Shirt (1040)
-  - **Armor:** Heavy Kevlar Vest (1408)
-  - **Pants:** Jungle Combat Pants (1204)
-  - **Mask:** Camo Mask (1633)
-  - **Pistol:** none
-  - **Rifle:** AKM (2003) · AKM74 (2004) · AK12 (2002)
-  - **Misc:** RGD6 Grenade (508)
+- **Helmet:** Old Helmet (1603)
+- **Shirt:** Olive T-Shirt (1040)
+- **Armor:** Heavy Kevlar Vest (1408)
+- **Pants:** Jungle Combat Pants (1204)
+- **Mask:** Camo Mask (1633)
+- **Pistol:** none
+- **Rifle:** AKM (2003) · AKM74 (2004) · AK12 (2002)
+- **Misc:** RGD6 Grenade (508)
 
 #### Cossack Rebel Women Sniper (ID 12)
 
@@ -866,14 +869,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 35 · Rifle 58 · SMG 0 · Shotgun 0 · AR 0 · MG 0 · Launcher 5 · Throwing 5 · Armor 25`
 
-  - **Helmet:** Camo Military Bandana (1619)
-  - **Shirt:** Camo Shirt (1031)
-  - **Armor:** Militia Vest (1411)
-  - **Pants:** Old Red Pants (1212)
-  - **Mask:** Camo Mask (1633)
-  - **Pistol:** TT56 (2808)
-  - **Rifle:** AWR (2406)
-  - **Misc:** RGD6 Grenade (508)
+- **Helmet:** Camo Military Bandana (1619)
+- **Shirt:** Camo Shirt (1031)
+- **Armor:** Militia Vest (1411)
+- **Pants:** Old Red Pants (1212)
+- **Mask:** Camo Mask (1633)
+- **Pistol:** TT56 (2808)
+- **Rifle:** AWR (2406)
+- **Misc:** RGD6 Grenade (508)
 
 ### Bandits (faction 14)
 
@@ -889,14 +892,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 17 · SMG 0 · Shotgun 0 · AR 5 · MG 0 · Launcher 5 · Throwing 8 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Brown Layered Shirt (1027) · Black Tank Top (1007) · Red Layered Shirt (1028)
-  - **Armor:** none
-  - **Pants:** Old Red Pants (1212) · Old Grey Pants (1211) · Biker Pants (1214)
-  - **Mask:** Black Mask (1610)
-  - **Pistol:** none
-  - **Rifle:** MK14 (2401)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Brown Layered Shirt (1027) · Black Tank Top (1007) · Red Layered Shirt (1028)
+- **Armor:** none
+- **Pants:** Old Red Pants (1212) · Old Grey Pants (1211) · Biker Pants (1214)
+- **Mask:** Black Mask (1610)
+- **Pistol:** none
+- **Rifle:** MK14 (2401)
+- **Misc:** none
 
 #### Bandit (ID 2)
 
@@ -904,14 +907,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 25 · SMG 8 · Shotgun 0 · AR 0 · MG 0 · Launcher 5 · Throwing 8 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Brown Leather Jacket (1002) · Old Black Leather Jacket (1001)
-  - **Armor:** Militia Vest (1411) · Flak Vest (1401)
-  - **Pants:** Old Red Pants (1212) · Old Grey Pants (1211) · Biker Pants (1214)
-  - **Mask:** Black Shemagh (1629)
-  - **Pistol:** none
-  - **Rifle:** MK14 (2401) · VT14 (2011)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Brown Leather Jacket (1002) · Old Black Leather Jacket (1001)
+- **Armor:** Militia Vest (1411) · Flak Vest (1401)
+- **Pants:** Old Red Pants (1212) · Old Grey Pants (1211) · Biker Pants (1214)
+- **Mask:** Black Shemagh (1629)
+- **Pistol:** none
+- **Rifle:** MK14 (2401) · VT14 (2011)
+- **Misc:** none
 
 #### Raider (ID 9)
 
@@ -919,14 +922,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 12 · SMG 38 · Shotgun 0 · AR 0 · MG 0 · Launcher 5 · Throwing 5 · Armor 35`
 
-  - **Helmet:** none
-  - **Shirt:** Black Tank Top (1007)
-  - **Armor:** none
-  - **Pants:** Ripped Jeans (1210)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** MPS5 (2206) · UMP9 (2207)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Black Tank Top (1007)
+- **Armor:** none
+- **Pants:** Ripped Jeans (1210)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** MPS5 (2206) · UMP9 (2207)
+- **Misc:** none
 
 **Squads (1):**
 
@@ -948,14 +951,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 40 · SMG 0 · Shotgun 0 · AR 70 · MG 0 · Launcher 30 · Throwing 60 · Armor 60`
 
-  - **Helmet:** Tactical Kevlar Helmet (1607)
-  - **Shirt:** Sand Camo T-Shirt (1039)
-  - **Armor:** Heavy Tactical Vest (1409)
-  - **Pants:** Sand Military Pants (1216)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** M416 (2008)
-  - **Misc:** First Aid Kit (13) · RGD6 Grenade (508) · Night Vision Goggles (44)
+- **Helmet:** Tactical Kevlar Helmet (1607)
+- **Shirt:** Sand Camo T-Shirt (1039)
+- **Armor:** Heavy Tactical Vest (1409)
+- **Pants:** Sand Military Pants (1216)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** M416 (2008)
+- **Misc:** First Aid Kit (13) · RGD6 Grenade (508) · Night Vision Goggles (44)
 
 #### ALPHA ELITE SNIPER (ID 902)
 
@@ -963,14 +966,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 55 · Rifle 78 · SMG 0 · Shotgun 0 · AR 0 · MG 0 · Launcher 0 · Throwing 30 · Armor 40`
 
-  - **Helmet:** Old Helmet (1603)
-  - **Shirt:** Sand Camo T-Shirt (1039)
-  - **Armor:** Light Combat Vest (1404)
-  - **Pants:** Sand Military Pants (1216)
-  - **Mask:** none
-  - **Pistol:** Eagle80 (2802)
-  - **Rifle:** SV98m (2408)
-  - **Misc:** Binocular (52) · Night Vision Goggles (44) · First Aid Kit (13)
+- **Helmet:** Old Helmet (1603)
+- **Shirt:** Sand Camo T-Shirt (1039)
+- **Armor:** Light Combat Vest (1404)
+- **Pants:** Sand Military Pants (1216)
+- **Mask:** none
+- **Pistol:** Eagle80 (2802)
+- **Rifle:** SV98m (2408)
+- **Misc:** Binocular (52) · Night Vision Goggles (44) · First Aid Kit (13)
 
 #### ALPHA ELITE STORMTROOPER (ID 903)
 
@@ -978,14 +981,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 10 · Rifle 5 · SMG 36 · Shotgun 2 · AR 0 · MG 58 · Launcher 0 · Throwing 64 · Armor 80`
 
-  - **Helmet:** Marauder Helmet (1606)
-  - **Shirt:** Sand Camo T-Shirt (1039)
-  - **Armor:** Heavy Assault Armor (1410)
-  - **Pants:** Sand Military Pants (1216)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** HMG (2901)
-  - **Misc:** First Aid Kit (13) · RGD6 Grenade (508) · SmokeGrenades (514)
+- **Helmet:** Marauder Helmet (1606)
+- **Shirt:** Sand Camo T-Shirt (1039)
+- **Armor:** Heavy Assault Armor (1410)
+- **Pants:** Sand Military Pants (1216)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** HMG (2901)
+- **Misc:** First Aid Kit (13) · RGD6 Grenade (508) · SmokeGrenades (514)
 
 #### ALPHA ELITE SCOUTS (ID 904)
 
@@ -993,14 +996,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 20 · Rifle 3 · SMG 82 · Shotgun 41 · AR 10 · MG 2 · Launcher 0 · Throwing 23 · Armor 36`
 
-  - **Helmet:** Bike Helmet (1601)
-  - **Shirt:** Sand Camo T-Shirt (1039)
-  - **Armor:** Scout Vest Camo (1414)
-  - **Pants:** Sand Military Pants (1216)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** VECTOR (2208)
-  - **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
+- **Helmet:** Bike Helmet (1601)
+- **Shirt:** Sand Camo T-Shirt (1039)
+- **Armor:** Scout Vest Camo (1414)
+- **Pants:** Sand Military Pants (1216)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** VECTOR (2208)
+- **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
 
 ## Special Units
 
@@ -1010,14 +1013,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 8 · Rifle 28 · SMG 15 · Shotgun 15 · AR 75 · MG 15 · Launcher 35 · Throwing 20 · Armor 50`
 
-  - **Helmet:** Marauder Helmet (1606)
-  - **Shirt:** Navy T-Shirt (1033)
-  - **Armor:** Marine Vest (1405)
-  - **Pants:** Navy Military Pants (1217)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** M16A5 (2007)
-  - **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
+- **Helmet:** Marauder Helmet (1606)
+- **Shirt:** Navy T-Shirt (1033)
+- **Armor:** Marine Vest (1405)
+- **Pants:** Navy Military Pants (1217)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** M16A5 (2007)
+- **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
 
 #### Special Owl (ID 1002)
 
@@ -1025,14 +1028,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 56 · Rifle 80 · SMG 12 · Shotgun 12 · AR 18 · MG 8 · Launcher 8 · Throwing 10 · Armor 60`
 
-  - **Helmet:** Tactical Kevlar Helmet (1607)
-  - **Shirt:** Black Turtleneck (1010)
-  - **Armor:** Heavy Tactical Vest (1409)
-  - **Pants:** Black Jeans (1207)
-  - **Mask:** Tactical Glasses (1631)
-  - **Pistol:** G19 (2804)
-  - **Rifle:** SVD (2404)
-  - **Misc:** Night Vision Goggles (44) · Grenade Launcher (515) · SmokeGrenades (514)
+- **Helmet:** Tactical Kevlar Helmet (1607)
+- **Shirt:** Black Turtleneck (1010)
+- **Armor:** Heavy Tactical Vest (1409)
+- **Pants:** Black Jeans (1207)
+- **Mask:** Tactical Glasses (1631)
+- **Pistol:** G19 (2804)
+- **Rifle:** SVD (2404)
+- **Misc:** Night Vision Goggles (44) · Grenade Launcher (515) · SmokeGrenades (514)
 
 #### Special Rattlesnake (ID 1003)
 
@@ -1040,14 +1043,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 12 · Rifle 24 · SMG 26 · Shotgun 10 · AR 36 · MG 66 · Launcher 15 · Throwing 35 · Armor 38`
 
-  - **Helmet:** Bike Helmet (1601)
-  - **Shirt:** Brown T-Shirt (1004)
-  - **Armor:** Light Combat Vest (1404)
-  - **Pants:** Desert Military Pants (1206)
-  - **Mask:** Black Mask (1610)
-  - **Pistol:** none
-  - **Rifle:** HMG (2901)
-  - **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · RGD6 Grenade (508)
+- **Helmet:** Bike Helmet (1601)
+- **Shirt:** Brown T-Shirt (1004)
+- **Armor:** Light Combat Vest (1404)
+- **Pants:** Desert Military Pants (1206)
+- **Mask:** Black Mask (1610)
+- **Pistol:** none
+- **Rifle:** HMG (2901)
+- **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · RGD6 Grenade (508)
 
 #### Special Scorpion (ID 1004)
 
@@ -1055,14 +1058,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 5 · Rifle 28 · SMG 10 · Shotgun 45 · AR 72 · MG 18 · Launcher 20 · Throwing 35 · Armor 45`
 
-  - **Helmet:** Combat Helmet (1605)
-  - **Shirt:** Brown Tank Top (1008)
-  - **Armor:** Military Battle Vest (1407)
-  - **Pants:** Sand Military Pants (1216)
-  - **Mask:** Desert Mask (1639)
-  - **Pistol:** none
-  - **Rifle:** M4A (2015)
-  - **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
+- **Helmet:** Combat Helmet (1605)
+- **Shirt:** Brown Tank Top (1008)
+- **Armor:** Military Battle Vest (1407)
+- **Pants:** Sand Military Pants (1216)
+- **Mask:** Desert Mask (1639)
+- **Pistol:** none
+- **Rifle:** M4A (2015)
+- **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
 
 #### Special Cheetah (ID 1005)
 
@@ -1070,14 +1073,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 12 · Rifle 30 · SMG 45 · Shotgun 10 · AR 65 · MG 10 · Launcher 20 · Throwing 20 · Armor 45`
 
-  - **Helmet:** Old Camo Helmet (1637)
-  - **Shirt:** Green T-Shirt (1038)
-  - **Armor:** Scout Vest Forest (1402)
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** Camo Mask (1633)
-  - **Pistol:** none
-  - **Rifle:** AUG (2005)
-  - **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
+- **Helmet:** Old Camo Helmet (1637)
+- **Shirt:** Green T-Shirt (1038)
+- **Armor:** Scout Vest Forest (1402)
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** Camo Mask (1633)
+- **Pistol:** none
+- **Rifle:** AUG (2005)
+- **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
 
 #### Special Wolf (ID 1006)
 
@@ -1085,14 +1088,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 18 · Rifle 30 · SMG 72 · Shotgun 10 · AR 66 · MG 45 · Launcher 45 · Throwing 10 · Armor 60`
 
-  - **Helmet:** Tactical Kevlar Helmet (1607)
-  - **Shirt:** Black Turtleneck (1010)
-  - **Armor:** Heavy Tactical Vest (1409)
-  - **Pants:** Old Grey Pants (1211)
-  - **Mask:** Black Shemagh (1629)
-  - **Pistol:** none
-  - **Rifle:** UMP9 (2207)
-  - **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · SmokeGrenades (514)
+- **Helmet:** Tactical Kevlar Helmet (1607)
+- **Shirt:** Black Turtleneck (1010)
+- **Armor:** Heavy Tactical Vest (1409)
+- **Pants:** Old Grey Pants (1211)
+- **Mask:** Black Shemagh (1629)
+- **Pistol:** none
+- **Rifle:** UMP9 (2207)
+- **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · SmokeGrenades (514)
 
 #### Special Snowfox (ID 1007)
 
@@ -1100,14 +1103,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 66 · Rifle 75 · SMG 10 · Shotgun 10 · AR 10 · MG 10 · Launcher 5 · Throwing 8 · Armor 45`
 
-  - **Helmet:** Combat Helmet (1605)
-  - **Shirt:** Coyote T-Shirt (1037)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Blue Skirt (1201)
-  - **Mask:** Sunglasses (1636)
-  - **Pistol:** R1895 (2807)
-  - **Rifle:** VT14 (2011)
-  - **Misc:** Night Vision Goggles (44) · Grenade Launcher (515) · RGD6 Grenade (508)
+- **Helmet:** Combat Helmet (1605)
+- **Shirt:** Coyote T-Shirt (1037)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Blue Skirt (1201)
+- **Mask:** Sunglasses (1636)
+- **Pistol:** R1895 (2807)
+- **Rifle:** VT14 (2011)
+- **Misc:** Night Vision Goggles (44) · Grenade Launcher (515) · RGD6 Grenade (508)
 
 #### Special Vulture (ID 1008)
 
@@ -1115,14 +1118,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 0 · Rifle 30 · SMG 56 · Shotgun 80 · AR 10 · MG 36 · Launcher 5 · Throwing 45 · Armor 65`
 
-  - **Helmet:** Spetsnaz Helmet (1608)
-  - **Shirt:** Square Stylish Shirt (1019)
-  - **Armor:** Heavy Tactical Vest (1409)
-  - **Pants:** Sand Skirt (1220)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** Remington (2601)
-  - **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
+- **Helmet:** Spetsnaz Helmet (1608)
+- **Shirt:** Square Stylish Shirt (1019)
+- **Armor:** Heavy Tactical Vest (1409)
+- **Pants:** Sand Skirt (1220)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** Remington (2601)
+- **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
 
 ## Trained Units
 
@@ -1132,14 +1135,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 10 · Rifle 20 · SMG 36 · Shotgun 25 · AR 52 · MG 5 · Launcher 15 · Throwing 40 · Armor 40`
 
-  - **Helmet:** Camo Kelver Helmet (1613)
-  - **Shirt:** Camo Turtleneck (1011)
-  - **Armor:** Police Camo Vest (1415)
-  - **Pants:** Jungle Combat Pants (1204)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** M4A (2015)
-  - **Misc:** First Aid Kit (13) · SmokeGrenades (514) · RGD6 Grenade (508)
+- **Helmet:** Camo Kelver Helmet (1613)
+- **Shirt:** Camo Turtleneck (1011)
+- **Armor:** Police Camo Vest (1415)
+- **Pants:** Jungle Combat Pants (1204)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** M4A (2015)
+- **Misc:** First Aid Kit (13) · SmokeGrenades (514) · RGD6 Grenade (508)
 
 #### Trained Marksman (ID 802)
 
@@ -1147,14 +1150,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 12 · Rifle 52 · SMG 32 · Shotgun 0 · AR 0 · MG 0 · Launcher 25 · Throwing 30 · Armor 30`
 
-  - **Helmet:** Jungle Cap (1622)
-  - **Shirt:** Camo Turtleneck (1011)
-  - **Armor:** Scout Vest Forest (1402)
-  - **Pants:** Jungle Combat Pants (1204)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** AWR (2406)
-  - **Misc:** RGD6 Grenade (508) · Grenade Launcher (515) · SmokeGrenades (514)
+- **Helmet:** Jungle Cap (1622)
+- **Shirt:** Camo Turtleneck (1011)
+- **Armor:** Scout Vest Forest (1402)
+- **Pants:** Jungle Combat Pants (1204)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** AWR (2406)
+- **Misc:** RGD6 Grenade (508) · Grenade Launcher (515) · SmokeGrenades (514)
 
 #### Spetsnaz (ID 803)
 
@@ -1162,14 +1165,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 5 · Rifle 12 · SMG 42 · Shotgun 24 · AR 62 · MG 12 · Launcher 20 · Throwing 40 · Armor 75`
 
-  - **Helmet:** Tactical Kevlar Helmet (1607)
-  - **Shirt:** Navy Turtleneck (1042)
-  - **Armor:** Special Force Armor (1412)
-  - **Pants:** Navy Military Pants (1217)
-  - **Mask:** Gas Mask (1624)
-  - **Pistol:** none
-  - **Rifle:** M416 (2008)
-  - **Misc:** RGD6 Grenade (508) · Grenade Launcher (515) · First Aid Kit (13)
+- **Helmet:** Tactical Kevlar Helmet (1607)
+- **Shirt:** Navy Turtleneck (1042)
+- **Armor:** Special Force Armor (1412)
+- **Pants:** Navy Military Pants (1217)
+- **Mask:** Gas Mask (1624)
+- **Pistol:** none
+- **Rifle:** M416 (2008)
+- **Misc:** RGD6 Grenade (508) · Grenade Launcher (515) · First Aid Kit (13)
 
 ## Other Units
 
@@ -1179,14 +1182,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 10 · Rifle 25 · SMG 8 · Shotgun 12 · AR 10 · MG 8 · Launcher 10 · Throwing 15 · Armor 25`
 
-  - **Helmet:** White Panama (1627) · Beret (1616) · Sand Military Bandana (1618)
-  - **Shirt:** Red Bandit Shirt (1029) · Red Layered Shirt (1028) · Brown Tank Top (1008) · Grey Tank Top (1034) · Blue Bandit Shirt (1030)
-  - **Armor:** none
-  - **Pants:** Old Fashioned Jeans (1208) · Old Grey Pants (1211)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** MK14 (2401)
-  - **Misc:** none
+- **Helmet:** White Panama (1627) · Beret (1616) · Sand Military Bandana (1618)
+- **Shirt:** Red Bandit Shirt (1029) · Red Layered Shirt (1028) · Brown Tank Top (1008) · Grey Tank Top (1034) · Blue Bandit Shirt (1030)
+- **Armor:** none
+- **Pants:** Old Fashioned Jeans (1208) · Old Grey Pants (1211)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** MK14 (2401)
+- **Misc:** none
 
 #### Female Villager (ID 114)
 
@@ -1194,14 +1197,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 35 · Rifle 15 · SMG 5 · Shotgun 5 · AR 5 · MG 5 · Launcher 10 · Throwing 15 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Brown Dress (1012)
-  - **Armor:** none
-  - **Pants:** none
-  - **Mask:** none
-  - **Pistol:** Makarova (2805)
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Brown Dress (1012)
+- **Armor:** none
+- **Pants:** none
+- **Mask:** none
+- **Pistol:** Makarova (2805)
+- **Rifle:** none
+- **Misc:** none
 
 #### Armed Escort Guard (ID 116)
 
@@ -1209,14 +1212,14 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 65 · Rifle 10 · SMG 35 · Shotgun 30 · AR 5 · MG 5 · Launcher 10 · Throwing 22 · Armor 40`
 
-  - **Helmet:** MP Helmet (1638)
-  - **Shirt:** Black Turtleneck (1010)
-  - **Armor:** Light Black Vest (1416)
-  - **Pants:** Black Jeans (1207)
-  - **Mask:** none
-  - **Pistol:** R1895 (2807) · FS7 (2803) · G19 (2804)
-  - **Rifle:** Thompson (2209) · UMP9 (2207) · Shot12 (2602)
-  - **Misc:** RGD6 Grenade (508)
+- **Helmet:** MP Helmet (1638)
+- **Shirt:** Black Turtleneck (1010)
+- **Armor:** Light Black Vest (1416)
+- **Pants:** Black Jeans (1207)
+- **Mask:** none
+- **Pistol:** R1895 (2807) · FS7 (2803) · G19 (2804)
+- **Rifle:** Thompson (2209) · UMP9 (2207) · Shot12 (2602)
+- **Misc:** RGD6 Grenade (508)
 
 ## Heroes
 
@@ -1264,14 +1267,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 20 · SMG 10 · Shotgun 10 · AR 20 · MG 5 · Launcher 18 · Throwing 20 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Brown Dress (1012)
-  - **Armor:** none
-  - **Pants:** none
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Brown Dress (1012)
+- **Armor:** none
+- **Pants:** none
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** none
+- **Misc:** none
 
 #### Volodimir (ID 10002)
 
@@ -1279,14 +1282,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 10 · SMG 30 · Shotgun 10 · AR 40 · MG 50 · Launcher 20 · Throwing 40 · Armor 30`
 
-  - **Helmet:** none
-  - **Shirt:** Black Tank Top (1007)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** VECTOR (2208)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Black Tank Top (1007)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** VECTOR (2208)
+- **Misc:** none
 
 #### Ivan (ID 10003)
 
@@ -1294,14 +1297,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 10 · SMG 70 · Shotgun 30 · AR 40 · MG 10 · Launcher 10 · Throwing 26 · Armor 30`
 
-  - **Helmet:** none
-  - **Shirt:** White Tank Top (1036)
-  - **Armor:** none
-  - **Pants:** Blue Jeans (1209)
-  - **Mask:** none
-  - **Pistol:** Beretta (2801)
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** White Tank Top (1036)
+- **Armor:** none
+- **Pants:** Blue Jeans (1209)
+- **Mask:** none
+- **Pistol:** Beretta (2801)
+- **Rifle:** none
+- **Misc:** none
 
 #### Igor (ID 10004)
 
@@ -1309,14 +1312,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 20 · SMG 70 · Shotgun 10 · AR 30 · MG 20 · Launcher 20 · Throwing 30 · Armor 40`
 
-  - **Helmet:** none
-  - **Shirt:** Coyote T-Shirt (1037)
-  - **Armor:** Light Black Vest (1416)
-  - **Pants:** Old Fashioned Jeans (1208)
-  - **Mask:** none
-  - **Pistol:** Eagle80 (2802)
-  - **Rifle:** VECTOR (2208)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Coyote T-Shirt (1037)
+- **Armor:** Light Black Vest (1416)
+- **Pants:** Old Fashioned Jeans (1208)
+- **Mask:** none
+- **Pistol:** Eagle80 (2802)
+- **Rifle:** VECTOR (2208)
+- **Misc:** none
 
 #### Maria (ID 10005)
 
@@ -1324,14 +1327,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 30 · SMG 20 · Shotgun 10 · AR 10 · MG 10 · Launcher 10 · Throwing 20 · Armor 30`
 
-  - **Helmet:** none
-  - **Shirt:** White Tank Top (1036)
-  - **Armor:** none
-  - **Pants:** Black Jeans (1207)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** White Tank Top (1036)
+- **Armor:** none
+- **Pants:** Black Jeans (1207)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** none
+- **Misc:** none
 
 #### Anastasia (ID 10006)
 
@@ -1339,14 +1342,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 10 · SMG 10 · Shotgun 10 · AR 10 · MG 10 · Launcher 10 · Throwing 21 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Orange Camisole (1020)
-  - **Armor:** none
-  - **Pants:** Blue Skirt (1201)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Orange Camisole (1020)
+- **Armor:** none
+- **Pants:** Blue Skirt (1201)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** none
+- **Misc:** none
 
 #### Ludmila (ID 10007)
 
@@ -1354,14 +1357,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 10 · SMG 40 · Shotgun 30 · AR 30 · MG 10 · Launcher 10 · Throwing 28 · Armor 23`
 
-  - **Helmet:** none
-  - **Shirt:** Blue Dress (1043)
-  - **Armor:** none
-  - **Pants:** none
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Blue Dress (1043)
+- **Armor:** none
+- **Pants:** none
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** none
+- **Misc:** none
 
 #### Yevgen (ID 10008)
 
@@ -1369,14 +1372,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 35 · SMG 35 · Shotgun 22 · AR 22 · MG 15 · Launcher 5 · Throwing 25 · Armor 26`
 
-  - **Helmet:** none
-  - **Shirt:** Brown Tank Top (1008)
-  - **Armor:** none
-  - **Pants:** Old Fashioned Jeans (1208)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** Remington (2601)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Brown Tank Top (1008)
+- **Armor:** none
+- **Pants:** Old Fashioned Jeans (1208)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** Remington (2601)
+- **Misc:** none
 
 #### Georgiy (ID 10009)
 
@@ -1384,14 +1387,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 15 · SMG 15 · Shotgun 22 · AR 35 · MG 35 · Launcher 40 · Throwing 25 · Armor 23`
 
-  - **Helmet:** none
-  - **Shirt:** Green Layered Shirt (1015)
-  - **Armor:** none
-  - **Pants:** Biker Pants (1214)
-  - **Mask:** none
-  - **Pistol:** G19 (2804)
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Green Layered Shirt (1015)
+- **Armor:** none
+- **Pants:** Biker Pants (1214)
+- **Mask:** none
+- **Pistol:** G19 (2804)
+- **Rifle:** none
+- **Misc:** none
 
 #### Leonid (ID 10010)
 
@@ -1399,14 +1402,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 12 · SMG 35 · Shotgun 35 · AR 48 · MG 52 · Launcher 33 · Throwing 23 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Red T-Shirt (1032)
-  - **Armor:** none
-  - **Pants:** Blue Jeans (1209)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Red T-Shirt (1032)
+- **Armor:** none
+- **Pants:** Blue Jeans (1209)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** none
+- **Misc:** none
 
 #### Maxim (ID 10011)
 
@@ -1414,14 +1417,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 35 · SMG 32 · Shotgun 12 · AR 18 · MG 20 · Launcher 5 · Throwing 22 · Armor 22`
 
-  - **Helmet:** none
-  - **Shirt:** Square Stylish Shirt (1019)
-  - **Armor:** none
-  - **Pants:** Old Fashioned Jeans (1208)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Square Stylish Shirt (1019)
+- **Armor:** none
+- **Pants:** Old Fashioned Jeans (1208)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** none
+- **Misc:** none
 
 #### Miroslava (ID 10012)
 
@@ -1429,14 +1432,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 20 · SMG 10 · Shotgun 20 · AR 20 · MG 30 · Launcher 42 · Throwing 38 · Armor 21`
 
-  - **Helmet:** none
-  - **Shirt:** Short Camisole (1021)
-  - **Armor:** none
-  - **Pants:** Blue Jeans (1209)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Short Camisole (1021)
+- **Armor:** none
+- **Pants:** Blue Jeans (1209)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** none
+- **Misc:** none
 
 #### Olga (ID 10013)
 
@@ -1444,14 +1447,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 60 · SMG 30 · Shotgun 10 · AR 60 · MG 10 · Launcher 10 · Throwing 20 · Armor 40`
 
-  - **Helmet:** none
-  - **Shirt:** Olive T-Shirt (1040)
-  - **Armor:** none
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** VT14 (2011)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Olive T-Shirt (1040)
+- **Armor:** none
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** VT14 (2011)
+- **Misc:** none
 
 #### Victoria (ID 10014)
 
@@ -1459,14 +1462,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 40 · SMG 10 · Shotgun 10 · AR 50 · MG 20 · Launcher 30 · Throwing 40 · Armor 40`
 
-  - **Helmet:** none
-  - **Shirt:** Black Tank Top (1007)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Camo Pants (1215)
-  - **Mask:** none
-  - **Pistol:** Beretta (2801)
-  - **Rifle:** M16A5 (2007)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Black Tank Top (1007)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Camo Pants (1215)
+- **Mask:** none
+- **Pistol:** Beretta (2801)
+- **Rifle:** M16A5 (2007)
+- **Misc:** none
 
 #### Oksana (ID 10015)
 
@@ -1474,14 +1477,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 35 · SMG 32 · Shotgun 30 · AR 58 · MG 22 · Launcher 15 · Throwing 26 · Armor 35`
 
-  - **Helmet:** none
-  - **Shirt:** White Tank Top (1036)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Sand Combat Pants (1219)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** M416 (2008)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** White Tank Top (1036)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Sand Combat Pants (1219)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** M416 (2008)
+- **Misc:** none
 
 #### Ostap (ID 10016)
 
@@ -1489,14 +1492,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 60 · SMG 45 · Shotgun 55 · AR 35 · MG 27 · Launcher 18 · Throwing 23 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Green T-Shirt (1038)
-  - **Armor:** Heavy Kevlar Vest (1408)
-  - **Pants:** Jungle Combat Pants (1204)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** AKM (2003)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Green T-Shirt (1038)
+- **Armor:** Heavy Kevlar Vest (1408)
+- **Pants:** Jungle Combat Pants (1204)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** AKM (2003)
+- **Misc:** none
 
 #### Stepan (ID 10017)
 
@@ -1504,14 +1507,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 55 · SMG 35 · Shotgun 45 · AR 52 · MG 5 · Launcher 15 · Throwing 31 · Armor 12`
 
-  - **Helmet:** none
-  - **Shirt:** Black Tank Top (1007)
-  - **Armor:** Police Camo Vest (1415)
-  - **Pants:** Jungle Combat Pants (1204)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** Shot12 (2602)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Black Tank Top (1007)
+- **Armor:** Police Camo Vest (1415)
+- **Pants:** Jungle Combat Pants (1204)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** Shot12 (2602)
+- **Misc:** none
 
 #### Bohdan (ID 10018)
 
@@ -1519,14 +1522,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 36 · SMG 22 · Shotgun 31 · AR 24 · MG 41 · Launcher 36 · Throwing 20 · Armor 40`
 
-  - **Helmet:** none
-  - **Shirt:** Olive T-Shirt (1040)
-  - **Armor:** Military Battle Vest (1407)
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** AKS76 (2201)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Olive T-Shirt (1040)
+- **Armor:** Military Battle Vest (1407)
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** AKS76 (2201)
+- **Misc:** none
 
 #### Dimitro (ID 10019)
 
@@ -1534,14 +1537,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 45 · SMG 45 · Shotgun 48 · AR 60 · MG 35 · Launcher 33 · Throwing 55 · Armor 45`
 
-  - **Helmet:** none
-  - **Shirt:** Square Stylish Shirt (1019)
-  - **Armor:** none
-  - **Pants:** Old Fashioned Jeans (1208)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Square Stylish Shirt (1019)
+- **Armor:** none
+- **Pants:** Old Fashioned Jeans (1208)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** none
+- **Misc:** none
 
 #### Kostyantin (ID 10020)
 
@@ -1549,14 +1552,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 70 · SMG 45 · Shotgun 65 · AR 51 · MG 35 · Launcher 55 · Throwing 35 · Armor 45`
 
-  - **Helmet:** none
-  - **Shirt:** Military Shirt Forest (1022)
-  - **Armor:** none
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** none
-  - **Pistol:** Makarova (2805)
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Military Shirt Forest (1022)
+- **Armor:** none
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** none
+- **Pistol:** Makarova (2805)
+- **Rifle:** none
+- **Misc:** none
 
 #### Oleg (ID 10021)
 
@@ -1564,14 +1567,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 10 · SMG 55 · Shotgun 45 · AR 35 · MG 30 · Launcher 20 · Throwing 25 · Armor 15`
 
-  - **Helmet:** none
-  - **Shirt:** Military Shirt Forest (1022)
-  - **Armor:** Scout Vest Forest (1402)
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** M416 (2008)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Military Shirt Forest (1022)
+- **Armor:** Scout Vest Forest (1402)
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** M416 (2008)
+- **Misc:** none
 
 #### Vitaly (ID 10022)
 
@@ -1579,14 +1582,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 10 · SMG 35 · Shotgun 5 · AR 33 · MG 35 · Launcher 36 · Throwing 21 · Armor 19`
 
-  - **Helmet:** none
-  - **Shirt:** Military Shirt Forest (1022)
-  - **Armor:** none
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** none
-  - **Pistol:** G19 (2804)
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Military Shirt Forest (1022)
+- **Armor:** none
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** none
+- **Pistol:** G19 (2804)
+- **Rifle:** none
+- **Misc:** none
 
 #### Roman (ID 10023)
 
@@ -1594,14 +1597,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 60 · SMG 42 · Shotgun 5 · AR 42 · MG 35 · Launcher 35 · Throwing 20 · Armor 20`
 
-  - **Helmet:** none
-  - **Shirt:** Olive T-Shirt (1040)
-  - **Armor:** Scout Vest Desert (1403)
-  - **Pants:** Desert Military Pants (1206)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** SVD (2404)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Olive T-Shirt (1040)
+- **Armor:** Scout Vest Desert (1403)
+- **Pants:** Desert Military Pants (1206)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** SVD (2404)
+- **Misc:** none
 
 #### Yuriy (ID 10024)
 
@@ -1609,14 +1612,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 30 · SMG 45 · Shotgun 46 · AR 49 · MG 52 · Launcher 32 · Throwing 33 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Camo Turtleneck (1011)
-  - **Armor:** Scout Vest Camo (1414)
-  - **Pants:** Camo Pants (1215)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** AKS76 (2201)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Camo Turtleneck (1011)
+- **Armor:** Scout Vest Camo (1414)
+- **Pants:** Camo Pants (1215)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** AKS76 (2201)
+- **Misc:** none
 
 #### Denis (ID 10025)
 
@@ -1624,14 +1627,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 50 · SMG 23 · Shotgun 23 · AR 43 · MG 23 · Launcher 28 · Throwing 35 · Armor 35`
 
-  - **Helmet:** none
-  - **Shirt:** Black Tank Top (1007)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Camo Pants (1215)
-  - **Mask:** none
-  - **Pistol:** Beretta (2801)
-  - **Rifle:** M16A5 (2007)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Black Tank Top (1007)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Camo Pants (1215)
+- **Mask:** none
+- **Pistol:** Beretta (2801)
+- **Rifle:** M16A5 (2007)
+- **Misc:** none
 
 #### Tatyana (ID 10026)
 
@@ -1639,14 +1642,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 90 · SMG 20 · Shotgun 10 · AR 65 · MG 10 · Launcher 10 · Throwing 20 · Armor 20`
 
-  - **Helmet:** none
-  - **Shirt:** Black Tank Top (1007)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** SKKS (2402)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Black Tank Top (1007)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** SKKS (2402)
+- **Misc:** none
 
 #### Finn (ID 10027)
 
@@ -1654,14 +1657,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 20 · SMG 50 · Shotgun 10 · AR 52 · MG 36 · Launcher 40 · Throwing 60 · Armor 40`
 
-  - **Helmet:** none
-  - **Shirt:** Black Tank Top (1007)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Camo Pants (1215)
-  - **Mask:** none
-  - **Pistol:** Beretta (2801)
-  - **Rifle:** M16A5 (2007)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Black Tank Top (1007)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Camo Pants (1215)
+- **Mask:** none
+- **Pistol:** Beretta (2801)
+- **Rifle:** M16A5 (2007)
+- **Misc:** none
 
 #### Haaken (ID 10028)
 
@@ -1669,14 +1672,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 10 · SMG 40 · Shotgun 8 · AR 63 · MG 30 · Launcher 60 · Throwing 40 · Armor 50`
 
-  - **Helmet:** none
-  - **Shirt:** Black Tank Top (1007)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** SKKS (2402)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Black Tank Top (1007)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** SKKS (2402)
+- **Misc:** none
 
 #### Pedro (ID 10029)
 
@@ -1684,14 +1687,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 26 · SMG 25 · Shotgun 8 · AR 11 · MG 3 · Launcher 19 · Throwing 18 · Armor 20`
 
-  - **Helmet:** none
-  - **Shirt:** Black Tank Top (1007)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** SKKS (2402)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Black Tank Top (1007)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** SKKS (2402)
+- **Misc:** none
 
 #### Sergei (ID 10030)
 
@@ -1699,14 +1702,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 24 · SMG 30 · Shotgun 5 · AR 35 · MG 3 · Launcher 17 · Throwing 18 · Armor 24`
 
-  - **Helmet:** none
-  - **Shirt:** Black Tank Top (1007)
-  - **Armor:** Flak Vest (1401)
-  - **Pants:** Forest Combat Pants (1203)
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** SKKS (2402)
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Black Tank Top (1007)
+- **Armor:** Flak Vest (1401)
+- **Pants:** Forest Combat Pants (1203)
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** SKKS (2402)
+- **Misc:** none
 
 #### Irina (ID 10031)
 
@@ -1714,14 +1717,14 @@ Full profiles for the hero soldier bodies (stats + equipment):
 
   Skills: `Pistol 0 · Rifle 20 · SMG 45 · Shotgun 10 · AR 20 · MG 3 · Launcher 15 · Throwing 15 · Armor 25`
 
-  - **Helmet:** none
-  - **Shirt:** Brown Dress (1012)
-  - **Armor:** none
-  - **Pants:** none
-  - **Mask:** none
-  - **Pistol:** none
-  - **Rifle:** none
-  - **Misc:** none
+- **Helmet:** none
+- **Shirt:** Brown Dress (1012)
+- **Armor:** none
+- **Pants:** none
+- **Mask:** none
+- **Pistol:** none
+- **Rifle:** none
+- **Misc:** none
 
 ## Equipment Catalog
 
@@ -2075,4 +2078,3 @@ Ammo column shows the ammo type name and its catalog ID.
 | 17 | Fruits | NONE | 50 |
 | 37 | Vegetable | NONE | 40 |
 | 45 | Rice | NONE | 70 |
-
