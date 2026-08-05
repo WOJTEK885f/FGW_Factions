@@ -327,8 +327,8 @@ class CfgVehicles {
         uniformClass = "CFP_BDU_M81Iraq";
         backpack = "";
 
-        weapons[] = {"CUP_arifle_AS_VAL", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_AS_VAL", "Throw", "Put"};
+        weapons[] = {"CUP_arifle_AS_VAL_pso", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_AS_VAL_pso", "Throw", "Put"};
 
         magazines[] = {
             "SmokeShell",
