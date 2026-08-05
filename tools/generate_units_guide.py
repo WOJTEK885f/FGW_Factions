@@ -125,14 +125,14 @@ def equipment_lines(soldier: dict, weapon_table: dict, clothes_table: dict, item
         ("Rifle", "RifleId", weapon_table),
     ]
     for label, key, table in slots:
-        lines.append(f"  - **{label}:** {resolve_list(table, soldier.get(key, []))}")
+        lines.append(f"- **{label}:** {resolve_list(table, soldier.get(key, []))}")
     misc = [soldier.get("misc1Id", 0), soldier.get("misc2Id", 0), soldier.get("misc3Id", 0)]
     misc_items = []
     for item_id in misc:
         name = resolve_scalar(item_table, item_id)
         if name != "none":
             misc_items.append(name)
-    lines.append(f"  - **Misc:** {' · '.join(misc_items) if misc_items else 'none'}")
+    lines.append(f"- **Misc:** {' · '.join(misc_items) if misc_items else 'none'}")
     return lines
 
 
@@ -296,6 +296,9 @@ def render_guide(tables: dict[str, dict]) -> str:
     factions, squads, heroes = tables["Faction"], tables["Squad"], tables["Hero"]
 
     lines = []
+    lines.append("<!-- markdownlint-disable-file MD024 -->")
+    lines.append("<!-- markdownlint-disable-file MD001 -->")
+    lines.append("")
     lines.append("# Freeman: Guerrilla Warfare – Units & Equipment Guide")
     lines.append("")
     lines.append(
@@ -469,7 +472,7 @@ def main() -> None:
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
-        f.write(document)
+        f.write(document.rstrip())
         f.write("\n")
     logger.log(logger.LogLevel.INFO, f"Guide written to {output_path}")
 
