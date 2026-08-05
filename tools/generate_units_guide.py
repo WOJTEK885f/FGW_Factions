@@ -86,15 +86,19 @@ def resolve(table: dict, item_id) -> str:
 
 
 def resolve_list(table: dict, id_list) -> str:
-    """Resolves a list of IDs, skipping 0/None placeholders."""
+    """Resolves a list of IDs, appending '· none' when a 0/None placeholder is present."""
     if not id_list:
         return "none"
+    has_none = any(item_id in (0, None, "0", "") for item_id in id_list)
     names = []
     for item_id in id_list:
         if item_id in (0, None, "0", ""):
             continue
         names.append(resolve(table, item_id))
-    return " · ".join(names) if names else "none"
+    if not names:
+        return "none"
+    result = " · ".join(names)
+    return result + " · none" if has_none else result
 
 
 def resolve_scalar(table: dict, item_id) -> str:
@@ -335,7 +339,8 @@ def render_guide(tables: dict[str, dict]) -> str:
     lines.append("")
     lines.append(
         "The `Equipment` block lists every item the unit can spawn with. IDs in parentheses "
-        "match the catalog appendix at the bottom of this document."
+        "match the catalog appendix at the bottom of this document. A trailing `· none` means "
+        "that slot may also be empty — the unit can spawn without that item."
     )
     lines.append("")
 

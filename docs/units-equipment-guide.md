@@ -38,7 +38,7 @@ skill lets the unit make full use of heavier weapons in that category:
 
 ### Loadout slots
 
-The `Equipment` block lists every item the unit can spawn with. IDs in parentheses match the catalog appendix at the bottom of this document.
+The `Equipment` block lists every item the unit can spawn with. IDs in parentheses match the catalog appendix at the bottom of this document. A trailing `· none` means that slot may also be empty — the unit can spawn without that item.
 
 ## Units by Faction
 
@@ -61,7 +61,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Police Vest (1406)
 - **Pants:** Old Fashioned Jeans (1208)
 - **Mask:** Sunglasses (1636)
-- **Pistol:** Makarova (2805)
+- **Pistol:** Makarova (2805) · none
 - **Rifle:** UMP9 (2207)
 - **Misc:** none
 
@@ -71,11 +71,11 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 10 · Rifle 40 · SMG 0 · Shotgun 15 · AR 12 · MG 0 · Launcher 10 · Throwing 25 · Armor 30`
 
-- **Helmet:** Old Helmet (1603) · Steel Helmet (1602) · Bike Helmet (1601)
+- **Helmet:** Old Helmet (1603) · Steel Helmet (1602) · Bike Helmet (1601) · none
 - **Shirt:** Brown T-Shirt (1004) · Black Tank Top (1007) · Green Layered Shirt (1015) · Orange Layered Shirt (1014) · Black T-Shirt (1003) · Red Bandit Shirt (1029) · Freeman T-Shirt (1005) · Brown Tank Top (1008) · Brown Layered Shirt (1027) · Square Stylish Shirt (1019)
 - **Armor:** Flak Vest (1401)
 - **Pants:** Old Fashioned Jeans (1208) · Ripped Jeans (1210) · Old Red Pants (1212) · Biker Pants (1214) · Blue Jeans (1209)
-- **Mask:** Black Mask (1610)
+- **Mask:** Black Mask (1610) · none
 - **Pistol:** none
 - **Rifle:** MK14 (2401)
 - **Misc:** none
@@ -91,7 +91,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Militia Vest (1411)
 - **Pants:** Camo Pants (1215)
 - **Mask:** Camo Mask (1633)
-- **Pistol:** P250 (2809)
+- **Pistol:** P250 (2809) · none
 - **Rifle:** MK14 (2401)
 - **Misc:** SmokeGrenades (514)
 
@@ -182,7 +182,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Police Vest (1406)
 - **Pants:** Old Fashioned Jeans (1208)
 - **Mask:** Sunglasses (1636)
-- **Pistol:** Makarova (2805)
+- **Pistol:** Makarova (2805) · none
 - **Rifle:** UMP9 (2207)
 - **Misc:** none
 
@@ -241,7 +241,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Police Vest (1406)
 - **Pants:** Black Jeans (1207)
 - **Mask:** Gas Mask (1624)
-- **Pistol:** P250 (2809)
+- **Pistol:** P250 (2809) · none
 - **Rifle:** AKM74 (2004) · AKS76 (2201)
 - **Misc:** RGD6 Grenade (508)
 
@@ -317,7 +317,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Scout Vest Camo (1414)
 - **Pants:** Camo Pants (1215)
 - **Mask:** none
-- **Pistol:** Eagle80 (2802)
+- **Pistol:** Eagle80 (2802) · none
 - **Rifle:** VA Val (2405)
 - **Misc:** Night Vision Goggles (44) · First Aid Kit (13) · SmokeGrenades (514)
 
@@ -347,7 +347,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Heavy Tactical Vest (1409)
 - **Pants:** Navy Military Pants (1217)
 - **Mask:** Black Balaclava (1609)
-- **Pistol:** P250 (2809)
+- **Pistol:** P250 (2809) · none
 - **Rifle:** Shot12 (2602)
 - **Misc:** Night Vision Goggles (44) · RGD6 Grenade (508) · Grenade Launcher (515)
 
@@ -377,7 +377,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Scout Vest Camo (1414)
 - **Pants:** Navy Military Pants (1217)
 - **Mask:** none
-- **Pistol:** P250 (2809)
+- **Pistol:** P250 (2809) · none
 - **Rifle:** Thompson (2209)
 - **Misc:** Night Vision Goggles (44) · RGD6 Grenade (508) · Grenade Launcher (515)
 
@@ -498,7 +498,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Heavy Kevlar Vest (1408)
 - **Pants:** Jungle Combat Pants (1204)
 - **Mask:** AM Mask (1615)
-- **Pistol:** TT56 (2808)
+- **Pistol:** TT56 (2808) · none
 - **Rifle:** ARX160 (2014)
 - **Misc:** RGD6 Grenade (508) · Grenade Launcher (515) · Night Vision Goggles (44)
 
@@ -544,7 +544,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Heavy Kevlar Vest (1408)
 - **Pants:** Black Jeans (1207)
 - **Mask:** Ski Mask (1625)
-- **Pistol:** Eagle80 (2802)
+- **Pistol:** Eagle80 (2802) · none
 - **Rifle:** AKS76 (2201) · AKM74 (2004)
 - **Misc:** RGD6 Grenade (508) · Grenade Launcher (515)
 
@@ -559,7 +559,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Desert Assault Armor (1413)
 - **Pants:** Black Jeans (1207)
 - **Mask:** Red Mask (1634)
-- **Pistol:** P250 (2809)
+- **Pistol:** P250 (2809) · none
 - **Rifle:** AK12 (2002) · AKM74 (2004)
 - **Misc:** SmokeGrenades (514)
 
@@ -701,7 +701,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Flak Vest (1401)
 - **Pants:** Green Combat Pants (1218)
 - **Mask:** none
-- **Pistol:** Eagle80 (2802)
+- **Pistol:** Eagle80 (2802) · none
 - **Rifle:** SKKS (2402)
 - **Misc:** RGD6 Grenade (508) · Grenade Launcher (515)
 
@@ -836,7 +836,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Military Battle Vest (1407)
 - **Pants:** Marine Combat Pants (1205)
 - **Mask:** Skull Mask (1635)
-- **Pistol:** TT56 (2808)
+- **Pistol:** TT56 (2808) · none
 - **Rifle:** AK12 (2002)
 - **Misc:** SmokeGrenades (514)
 
@@ -971,7 +971,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Light Combat Vest (1404)
 - **Pants:** Sand Military Pants (1216)
 - **Mask:** none
-- **Pistol:** Eagle80 (2802)
+- **Pistol:** Eagle80 (2802) · none
 - **Rifle:** SV98m (2408)
 - **Misc:** Binocular (52) · Night Vision Goggles (44) · First Aid Kit (13)
 
@@ -1182,7 +1182,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 
   Skills: `Pistol 10 · Rifle 25 · SMG 8 · Shotgun 12 · AR 10 · MG 8 · Launcher 10 · Throwing 15 · Armor 25`
 
-- **Helmet:** White Panama (1627) · Beret (1616) · Sand Military Bandana (1618)
+- **Helmet:** White Panama (1627) · Beret (1616) · Sand Military Bandana (1618) · none
 - **Shirt:** Red Bandit Shirt (1029) · Red Layered Shirt (1028) · Brown Tank Top (1008) · Grey Tank Top (1034) · Blue Bandit Shirt (1030)
 - **Armor:** none
 - **Pants:** Old Fashioned Jeans (1208) · Old Grey Pants (1211)
@@ -1217,7 +1217,7 @@ The `Equipment` block lists every item the unit can spawn with. IDs in parenthes
 - **Armor:** Light Black Vest (1416)
 - **Pants:** Black Jeans (1207)
 - **Mask:** none
-- **Pistol:** R1895 (2807) · FS7 (2803) · G19 (2804)
+- **Pistol:** R1895 (2807) · FS7 (2803) · G19 (2804) · none
 - **Rifle:** Thompson (2209) · UMP9 (2207) · Shot12 (2602)
 - **Misc:** RGD6 Grenade (508)
 
