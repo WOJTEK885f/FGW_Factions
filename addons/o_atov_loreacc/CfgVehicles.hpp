@@ -65,14 +65,16 @@ class CfgVehicles {
             "CUP_RUS_Balaclava_blk",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
         respawnLinkedItems[] = {
             "CUP_V_PMC_IOTV_Black_Empty",
             "CUP_RUS_Balaclava_blk",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
@@ -111,14 +113,16 @@ class CfgVehicles {
             "CUP_H_RUS_Altyn_Shield_Up_black",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
         respawnLinkedItems[] = {
             "CUP_V_CDF_OfficerBelt",
             "CUP_H_RUS_Altyn_Shield_Up_black",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
@@ -161,14 +165,16 @@ class CfgVehicles {
             "SP_PASGTHelmet_Black1",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
         respawnLinkedItems[] = {
             "SP_Tactical1_Black",
             "SP_PASGTHelmet_Black1",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
@@ -211,14 +217,16 @@ class CfgVehicles {
             "CFP_OPS2017_Helmet_Grey",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
         respawnLinkedItems[] = {
             "CFP_Tactical1_M81",
             "CFP_OPS2017_Helmet_Grey",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
@@ -259,14 +267,16 @@ class CfgVehicles {
             "CFP_OPS2017_Helmet_Grey",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
         respawnLinkedItems[] = {
             "CFP_Tactical1_M81",
             "CFP_OPS2017_Helmet_Grey",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
@@ -305,14 +315,16 @@ class CfgVehicles {
             "CFP_OPS2017_Helmet_Grey",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
         respawnLinkedItems[] = {
             "CUP_V_CPC_Fastbelt_rngr",
             "CFP_OPS2017_Helmet_Grey",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
@@ -354,7 +366,8 @@ class CfgVehicles {
             "CUP_optic_PSO_1",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
         respawnLinkedItems[] = {
             "CFP_Tactical1_M81",
@@ -362,7 +375,8 @@ class CfgVehicles {
             "CUP_optic_PSO_1",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 };

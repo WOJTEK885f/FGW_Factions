@@ -46,14 +46,16 @@ class CfgVehicles {
             "CUP_RUS_Balaclava_blk",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
         respawnLinkedItems[] = {
             "SP_Tactical1_Tan",
             "CUP_RUS_Balaclava_blk",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
@@ -90,14 +92,16 @@ class CfgVehicles {
             "SP_PASGTHelmet_Black1",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
         respawnLinkedItems[] = {
             "CUP_V_CPC_Fastbelt_rngr",
             "SP_PASGTHelmet_Black1",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
@@ -138,14 +142,16 @@ class CfgVehicles {
             "SP_BoonieHat_Tan",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
         respawnLinkedItems[] = {
             "CUP_V_CDF_OfficerBelt",
             "SP_BoonieHat_Tan",
             "ItemMap",
             "ItemCompass",
-            "ItemWatch"
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
