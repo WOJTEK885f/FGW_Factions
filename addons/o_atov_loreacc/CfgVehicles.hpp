@@ -94,11 +94,11 @@ class CfgVehicles {
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_2("CUP_100Rnd_TE4_Green_Tracer_556x45_M249")
+            MAG_3("CUP_100Rnd_TE4_Green_Tracer_556x45_M249")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_2("CUP_100Rnd_TE4_Green_Tracer_556x45_M249")
+            MAG_3("CUP_100Rnd_TE4_Green_Tracer_556x45_M249")
         };
 
         Items[] = {
@@ -109,7 +109,7 @@ class CfgVehicles {
         };
 
         linkedItems[] = {
-            "CUP_V_CDF_OfficerBelt",
+            "CUP_V_C_Police_Holster",
             "CUP_H_RUS_Altyn_Shield_Up_black",
             "ItemMap",
             "ItemCompass",
@@ -117,7 +117,7 @@ class CfgVehicles {
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "CUP_V_CDF_OfficerBelt",
+            "CUP_V_C_Police_Holster",
             "CUP_H_RUS_Altyn_Shield_Up_black",
             "ItemMap",
             "ItemCompass",
