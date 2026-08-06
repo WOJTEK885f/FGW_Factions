@@ -130,3 +130,4 @@
 #define MAG_13(a) a, a, a, a, a, a, a, a, a, a, a, a, a
 #define MAG_14(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a
 #define MAG_15(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
+#define MAG_16(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
