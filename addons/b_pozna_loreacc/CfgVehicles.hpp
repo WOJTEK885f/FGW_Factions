@@ -31,11 +31,11 @@ class CfgVehicles {
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_15("CUP_10Rnd_762x39_SaigaMk03_M")
+            MAG_16("CUP_10Rnd_762x39_SaigaMk03_M")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_15("CUP_10Rnd_762x39_SaigaMk03_M")
+            MAG_16("CUP_10Rnd_762x39_SaigaMk03_M")
         };
 
         Items[] = {"FirstAidKit"};
@@ -76,12 +76,12 @@ class CfgVehicles {
         magazines[] = {
             "CUP_HandGrenade_RGD5",
             "CUP_HandGrenade_RGD5",
-            MAG_6("CUP_30Rnd_556x45_Stanag")
+            MAG_8("CUP_30Rnd_556x45_Stanag")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
             "CUP_HandGrenade_RGD5",
-            MAG_6("CUP_30Rnd_556x45_Stanag")
+            MAG_8("CUP_30Rnd_556x45_Stanag")
         };
 
         Items[] = {"CUP_NVG_PVS7", "FirstAidKit"};

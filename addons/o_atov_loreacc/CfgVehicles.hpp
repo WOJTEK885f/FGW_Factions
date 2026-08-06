@@ -46,11 +46,11 @@ class CfgVehicles {
 
         magazines[] = {
             MAG_2("CUP_HandGrenade_RGD5"),
-            MAG_5("CUP_30Rnd_556x45_Stanag")
+            MAG_8("CUP_30Rnd_556x45_Stanag")
         };
         respawnMagazines[] = {
             MAG_2("CUP_HandGrenade_RGD5"),
-            MAG_5("CUP_30Rnd_556x45_Stanag")
+            MAG_8("CUP_30Rnd_556x45_Stanag")
         };
 
         Items[] = {
@@ -94,11 +94,11 @@ class CfgVehicles {
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_3("CUP_100Rnd_TE4_Green_Tracer_556x45_M249")
+            MAG_4("CUP_100Rnd_TE4_Green_Tracer_556x45_M249")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_3("CUP_100Rnd_TE4_Green_Tracer_556x45_M249")
+            MAG_4("CUP_100Rnd_TE4_Green_Tracer_556x45_M249")
         };
 
         Items[] = {
@@ -143,16 +143,16 @@ class CfgVehicles {
         magazines[] = {
             "CUP_HandGrenade_RGD5",
             "rhs_panzerfaust60_mag",
-            MAG_3("CUP_17Rnd_9x19_M17_Black"),
-            MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck"),
-            MAG_8("CUP_8Rnd_12Gauge_Slug")
+            MAG_4("CUP_17Rnd_9x19_M17_Black"),
+            MAG_8("CUP_8Rnd_12Gauge_Slug"),
+            MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
             "rhs_panzerfaust60_mag",
-            MAG_3("CUP_17Rnd_9x19_M17_Black"),
-            MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck"),
-            MAG_8("CUP_8Rnd_12Gauge_Slug")
+            MAG_4("CUP_17Rnd_9x19_M17_Black"),
+            MAG_8("CUP_8Rnd_12Gauge_Slug"),
+            MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
         };
 
         Items[] = {
@@ -199,14 +199,14 @@ class CfgVehicles {
         magazines[] = {
             "CUP_HandGrenade_RGD5",
             "rhs_panzerfaust60_mag",
-            MAG_3("CUP_17Rnd_9x19_M17_Black"),
-            MAG_6("sp_fwa_30Rnd_45acp_thompson_m1a1")
+            MAG_4("CUP_17Rnd_9x19_M17_Black"),
+            MAG_8("sp_fwa_30Rnd_45acp_thompson_m1a1")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
             "rhs_panzerfaust60_mag",
-            MAG_3("CUP_17Rnd_9x19_M17_Black"),
-            MAG_6("sp_fwa_30Rnd_45acp_thompson_m1a1")
+            MAG_4("CUP_17Rnd_9x19_M17_Black"),
+            MAG_8("sp_fwa_30Rnd_45acp_thompson_m1a1")
         };
 
         Items[] = {
@@ -253,12 +253,12 @@ class CfgVehicles {
         magazines[] = {
             "CUP_HandGrenade_RGD5",
             "rhs_panzerfaust60_mag",
-            MAG_5("CUP_30Rnd_556x45_Stanag")
+            MAG_8("CUP_30Rnd_556x45_Stanag")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
             "rhs_panzerfaust60_mag",
-            MAG_5("CUP_30Rnd_556x45_Stanag")
+            MAG_8("CUP_30Rnd_556x45_Stanag")
         };
 
         Items[] = {
@@ -304,11 +304,11 @@ class CfgVehicles {
 
         magazines[] = {
             "rhs_panzerfaust60_mag",
-            MAG_7("30Rnd_45ACP_Mag_SMG_01")
+            MAG_8("30Rnd_45ACP_Mag_SMG_01")
         };
         respawnMagazines[] = {
             "rhs_panzerfaust60_mag",
-            MAG_7("30Rnd_45ACP_Mag_SMG_01")
+            MAG_8("30Rnd_45ACP_Mag_SMG_01")
         };
 
         Items[] = {
@@ -354,13 +354,13 @@ class CfgVehicles {
 
         magazines[] = {
             "SmokeShell",
-            MAG_3("CUP_7Rnd_50AE_Deagle"),
-            MAG_7("CUP_20Rnd_9x39_SP5_VSS_M")
+            MAG_4("CUP_7Rnd_50AE_Deagle"),
+            MAG_8("CUP_20Rnd_9x39_SP5_VSS_M")
         };
         respawnMagazines[] = {
             "SmokeShell",
-            MAG_3("CUP_7Rnd_50AE_Deagle"),
-            MAG_7("CUP_20Rnd_9x39_SP5_VSS_M")
+            MAG_4("CUP_7Rnd_50AE_Deagle"),
+            MAG_8("CUP_20Rnd_9x39_SP5_VSS_M")
         };
 
         Items[] = {
