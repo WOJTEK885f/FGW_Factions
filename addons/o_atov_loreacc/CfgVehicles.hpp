@@ -391,4 +391,116 @@ class CfgVehicles {
             "ItemRadio"
         };
     };
+
+    class FGW_O_Atov_Companion_Base: FGW_O_Atov_Base {
+        editorSubcategory = "gr7bow_fgw_factions_Subcat_Companions";
+    };
+
+    class FGW_O_Atov_Companion_Vitaly: FGW_O_Atov_Companion_Base {
+        _generalMacro = "FGW_O_Atov_Companion_Vitaly";
+        scope = 2;
+        scopeCurator = 2;
+
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Vitaly";
+
+        identityTypes[] = {"FGW_Identity_Atov_Companion_Vitaly"};
+
+        uniformClass = "CUP_U_B_USMC_FROG3_WMARPAT";
+        backpack = "";
+
+        weapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_4("CUP_17Rnd_9x19_glock17")
+        };
+        respawnMagazines[] = {
+            MAG_4("CUP_17Rnd_9x19_glock17")
+        };
+    };
+
+    class FGW_O_Atov_Companion_Kostyantin: FGW_O_Atov_Companion_Base {
+        _generalMacro = "FGW_O_Atov_Companion_Kostyantin";
+        scope = 2;
+        scopeCurator = 2;
+
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Kostyantin";
+
+        identityTypes[] = {"FGW_Identity_Atov_Companion_Kostyantin"};
+
+        uniformClass = "CUP_U_B_USMC_FROG3_WMARPAT";
+        backpack = "";
+
+        weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_5("CUP_8Rnd_9x18_Makarov_M")
+        };
+        respawnMagazines[] = {
+            MAG_5("CUP_8Rnd_9x18_Makarov_M")
+        };
+    };
+
+    class FGW_O_Atov_Companion_Oleg: FGW_O_Atov_Companion_Base {
+        _generalMacro = "FGW_O_Atov_Companion_Oleg";
+        scope = 2;
+        scopeCurator = 2;
+
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Oleg";
+
+        identityTypes[] = {"FGW_Identity_Atov_Companion_Oleg"};
+
+        uniformClass = "CUP_U_B_USMC_FROG3_WMARPAT";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_HK416_Black", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_HK416_Black", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+        respawnMagazines[] = {
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+
+        linkedItems[] = {
+            "CFP_Tactical1_M81",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CFP_Tactical1_M81",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGW_O_Atov_Companion_Dimitro: FGW_O_Atov_Companion_Base {
+        _generalMacro = "FGW_O_Atov_Companion_Dimitro";
+        scope = 2;
+        scopeCurator = 2;
+
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Dimitro";
+
+        identityTypes[] = {"FGW_Identity_Atov_Companion_Dimitro"};
+
+        uniformClass = "CUP_I_B_PMC_Unit_1";
+        backpack = "";
+
+        weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_5("CUP_8Rnd_9x18_Makarov_M")
+        };
+        respawnMagazines[] = {
+            MAG_5("CUP_8Rnd_9x18_Makarov_M")
+        };
+    };
+
 };

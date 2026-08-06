@@ -18,12 +18,18 @@ class CfgPatches {
             "CUP_Creatures_Military_USMC", // Commando: Vest
             "CUP_Creatures_Military_Russia", // Fighter: Balaclava
             "cfp_vests", // Fighter: Vest
-            "cfp_headgear" // Commando, Sniper Elite: Helmet
+            "cfp_headgear", // Commando, Sniper Elite: Helmet
+            "cfp_uniforms", // Denis: Uniform
+            "rhs_main" // Denis, Tatyana: Vest
         };
         units[] = {
             "FGW_B_Pozna_Fighter",
             "FGW_B_Pozna_Commando",
-            "FGW_B_Pozna_SniperElite"
+            "FGW_B_Pozna_SniperElite",
+            "FGW_B_Pozna_Companion_Roman",
+            "FGW_B_Pozna_Companion_Yuriy",
+            "FGW_B_Pozna_Companion_Denis",
+            "FGW_B_Pozna_Companion_Tatyana"
         };
         weapons[] = {};
         VERSION_CONFIG;

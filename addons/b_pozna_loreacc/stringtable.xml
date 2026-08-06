@@ -4,6 +4,18 @@
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Commando">
             <English>Pozna Commando</English>
         </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Denis">
+            <English>Denis</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Roman">
+            <English>Roman</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Tatyana">
+            <English>Tatyana</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Yuriy">
+            <English>Yuriy</English>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_FactionName">
             <English>F:GW Pozna Battalion</English>
         </Key>

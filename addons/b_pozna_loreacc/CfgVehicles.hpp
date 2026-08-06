@@ -155,4 +155,162 @@ class CfgVehicles {
         };
     };
 
+    class FGW_B_Pozna_Companion_Base: FGW_B_Pozna_Base {
+        editorSubcategory = "gr7bow_fgw_factions_Subcat_Companions";
+    };
+
+    class FGW_B_Pozna_Companion_Roman: FGW_B_Pozna_Companion_Base {
+        _generalMacro = "FGW_B_Pozna_Companion_Roman";
+        scope = 2;
+        scopeCurator = 2;
+
+        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Roman";
+
+        identityTypes[] = {"FGW_Identity_Pozna_Companion_Roman"};
+
+        uniformClass = "USP_RUGBY_G3C_RGR_AOR1";
+        backpack = "";
+
+        weapons[] = {"CUP_srifle_SVD_pso", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_srifle_SVD_pso", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("CUP_10Rnd_762x54_SVD_M")
+        };
+        respawnMagazines[] = {
+            MAG_8("CUP_10Rnd_762x54_SVD_M")
+        };
+
+        linkedItems[] = {
+            "SP_Tactical1_Tan",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "SP_Tactical1_Tan",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGW_B_Pozna_Companion_Yuriy: FGW_B_Pozna_Companion_Base {
+        _generalMacro = "FGW_B_Pozna_Companion_Yuriy";
+        scope = 2;
+        scopeCurator = 2;
+
+        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Yuriy";
+
+        identityTypes[] = {"FGW_Identity_Pozna_Companion_Yuriy"};
+
+        uniformClass = "CUP_U_B_USMC_MCCUU_MARPAT_M81";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_AKS74U_top_rail", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_AKS74U_top_rail", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("CUP_30Rnd_TE1_Green_Tracer_545x39_AK74M_M")
+        };
+        respawnMagazines[] = {
+            MAG_8("CUP_30Rnd_TE1_Green_Tracer_545x39_AK74M_M")
+        };
+
+        linkedItems[] = {
+            "CFP_Tactical1_M81",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CFP_Tactical1_M81",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGW_B_Pozna_Companion_Denis: FGW_B_Pozna_Companion_Base {
+        _generalMacro = "FGW_B_Pozna_Companion_Denis";
+        scope = 2;
+        scopeCurator = 2;
+
+        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Denis";
+
+        identityTypes[] = {"FGW_Identity_Pozna_Companion_Denis"};
+
+        uniformClass = "CFP_GUER_M81Tee";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_M16A4_Base", "CUP_hgun_M9A1", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base", "CUP_hgun_M9A1", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("CUP_30Rnd_556x45_Stanag"),
+            MAG_4("CUP_15Rnd_9x19_M9")
+        };
+        respawnMagazines[] = {
+            MAG_8("CUP_30Rnd_556x45_Stanag"),
+            MAG_4("CUP_15Rnd_9x19_M9")
+        };
+
+        linkedItems[] = {
+            "rhs_vydra_3m",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "rhs_vydra_3m",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGW_B_Pozna_Companion_Tatyana: FGW_B_Pozna_Companion_Base {
+        _generalMacro = "FGW_B_Pozna_Companion_Tatyana";
+        scope = 2;
+        scopeCurator = 2;
+
+        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Tatyana";
+
+        identityTypes[] = {"FGW_Identity_Pozna_Companion_Tatyana"};
+
+        uniformClass = "CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2";
+        backpack = "";
+
+        weapons[] = {"srifle_EBR_F", "Throw", "Put"};
+        respawnWeapons[] = {"srifle_EBR_F", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("CUP_20Rnd_TE1_Green_Tracer_762x51_DMR")
+        };
+        respawnMagazines[] = {
+            MAG_8("CUP_20Rnd_TE1_Green_Tracer_762x51_DMR")
+        };
+
+        linkedItems[] = {
+            "rhs_vydra_3m",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "rhs_vydra_3m",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
 };

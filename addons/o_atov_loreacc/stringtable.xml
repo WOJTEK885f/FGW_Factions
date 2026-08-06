@@ -7,6 +7,18 @@
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Commando">
             <English>Federal Commando</English>
         </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Dimitro">
+            <English>Dimitro</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Kostyantin">
+            <English>Kostyantin</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Oleg">
+            <English>Oleg</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Vitaly">
+            <English>Vitaly</English>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_FactionName">
             <English>F:GW Atov Federation</English>
         </Key>

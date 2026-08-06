@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="FGWF">
     <Package name="Main">
+        <Key ID="STR_gr7bow_fgw_factions_main_Subcat_Companions">
+            <English>Companions</English>
+            <Polish>Kompani</Polish>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_main_displayName">
             <English>Main</English>
         </Key>

@@ -31,7 +31,11 @@ class CfgPatches {
             "FGW_O_Atov_Scout",
             "FGW_O_Atov_Commando",
             "FGW_O_Atov_Sharpshooter",
-            "FGW_O_Atov_SpecialForce"
+            "FGW_O_Atov_SpecialForce",
+            "FGW_O_Atov_Companion_Vitaly",
+            "FGW_O_Atov_Companion_Kostyantin",
+            "FGW_O_Atov_Companion_Oleg",
+            "FGW_O_Atov_Companion_Dimitro"
         };
         weapons[] = {
             "FGW_U_O_USMC_FROG3_WMARPAT_ATOV",
