@@ -346,12 +346,12 @@ class CfgVehicles {
 
         magazines[] = {
             "SmokeShell",
-            MAG_3("CUP_7Rnd_50AE_Deagle")
+            MAG_3("CUP_7Rnd_50AE_Deagle"),
             MAG_7("CUP_20Rnd_9x39_SP5_VSS_M")
         };
         respawnMagazines[] = {
             "SmokeShell",
-            MAG_3("CUP_7Rnd_50AE_Deagle")
+            MAG_3("CUP_7Rnd_50AE_Deagle"),
             MAG_7("CUP_20Rnd_9x39_SP5_VSS_M")
         };
 
