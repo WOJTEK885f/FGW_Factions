@@ -137,16 +137,18 @@ class CfgVehicles {
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
 
-        weapons[] = {"CUP_sgun_SPAS12", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_sgun_SPAS12", "Throw", "Put"};
+        weapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_M17_Black", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_M17_Black", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
+            MAG_3("CUP_17Rnd_9x19_M17_Black"),
             MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck"),
             MAG_8("CUP_8Rnd_12Gauge_Slug")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
+            MAG_3("CUP_17Rnd_9x19_M17_Black"),
             MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck"),
             MAG_8("CUP_8Rnd_12Gauge_Slug")
         };
@@ -339,15 +341,17 @@ class CfgVehicles {
         uniformClass = "CFP_BDU_M81Iraq";
         backpack = "";
 
-        weapons[] = {"CUP_arifle_AS_VAL_pso", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_AS_VAL_pso", "Throw", "Put"};
+        weapons[] = {"CUP_arifle_AS_VAL_pso", "CUP_hgun_Deagle", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_AS_VAL_pso", "CUP_hgun_Deagle", "Throw", "Put"};
 
         magazines[] = {
             "SmokeShell",
+            MAG_3("CUP_7Rnd_50AE_Deagle")
             MAG_7("CUP_20Rnd_9x39_SP5_VSS_M")
         };
         respawnMagazines[] = {
             "SmokeShell",
+            MAG_3("CUP_7Rnd_50AE_Deagle")
             MAG_7("CUP_20Rnd_9x39_SP5_VSS_M")
         };
 
