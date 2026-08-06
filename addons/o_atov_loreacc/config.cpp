@@ -15,6 +15,7 @@ class CfgPatches {
             "CUP_Weapons_WeaponsCore",
             "CUP_Weapons_East_Attachments",
             "CUP_Weapons_NVG",
+            "rhsgref_c_weapons", // Panzerfaust 60
             "CUP_Creatures_Military_PMC", // Infantry: Vest, SpecialForce: Uniform(Custom)
             "CUP_Creatures_Military_USMC", // Infantry, Machinegunner: Uniform(Custom), SpecialForce: Vest, Sharpshooter: Headgear
             "CUP_Creatures_Military_Russia", // Infantry: Balaclava, Machinegunner: Helmet

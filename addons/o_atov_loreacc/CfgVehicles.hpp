@@ -137,17 +137,19 @@ class CfgVehicles {
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
 
-        weapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_M17_Black", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_M17_Black", "Throw", "Put"};
+        weapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
+            "rhs_panzerfaust60_mag",
             MAG_3("CUP_17Rnd_9x19_M17_Black"),
             MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck"),
             MAG_8("CUP_8Rnd_12Gauge_Slug")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
+            "rhs_panzerfaust60_mag",
             MAG_3("CUP_17Rnd_9x19_M17_Black"),
             MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck"),
             MAG_8("CUP_8Rnd_12Gauge_Slug")
@@ -191,16 +193,18 @@ class CfgVehicles {
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
 
-        weapons[] = {"sp_fwa_smg_thompson_m1a1", "CUP_hgun_M17_Black", "Throw", "Put"};
-        respawnWeapons[] = {"sp_fwa_smg_thompson_m1a1", "CUP_hgun_M17_Black", "Throw", "Put"};
+        weapons[] = {"sp_fwa_smg_thompson_m1a1", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        respawnWeapons[] = {"sp_fwa_smg_thompson_m1a1", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
+            "rhs_panzerfaust60_mag",
             MAG_3("CUP_17Rnd_9x19_M17_Black"),
             MAG_6("sp_fwa_30Rnd_45acp_thompson_m1a1")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
+            "rhs_panzerfaust60_mag",
             MAG_3("CUP_17Rnd_9x19_M17_Black"),
             MAG_6("sp_fwa_30Rnd_45acp_thompson_m1a1")
         };
@@ -243,15 +247,17 @@ class CfgVehicles {
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
 
-        weapons[] = {"CUP_arifle_M4A1_black", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_M4A1_black", "Throw", "Put"};
+        weapons[] = {"CUP_arifle_M4A1_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
+            "rhs_panzerfaust60_mag",
             MAG_5("CUP_30Rnd_556x45_Stanag")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
+            "rhs_panzerfaust60_mag",
             MAG_5("CUP_30Rnd_556x45_Stanag")
         };
 
@@ -293,13 +299,15 @@ class CfgVehicles {
         uniformClass = "FGW_U_O_PMC_Unit_35_ATOV";
         backpack = "";
 
-        weapons[] = {"SMG_01_F", "Throw", "Put"};
-        respawnWeapons[] = {"SMG_01_F", "Throw", "Put"};
+        weapons[] = {"SMG_01_F", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        respawnWeapons[] = {"SMG_01_F", "rhs_weap_panzerfaust60", "Throw", "Put"};
 
         magazines[] = {
+            "rhs_panzerfaust60_mag",
             MAG_7("30Rnd_45ACP_Mag_SMG_01")
         };
         respawnMagazines[] = {
+            "rhs_panzerfaust60_mag",
             MAG_7("30Rnd_45ACP_Mag_SMG_01")
         };
 
