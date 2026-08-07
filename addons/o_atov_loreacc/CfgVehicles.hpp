@@ -409,7 +409,9 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Vitaly";
 
-        identityTypes[] = {"FGW_Identity_Atov_Companion_Vitaly"};
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Vitaly'; };";
+        };
 
         uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
@@ -448,7 +450,9 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Kostyantin";
 
-        identityTypes[] = {"FGW_Identity_Atov_Companion_Kostyantin"};
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Kostyantin'; };";
+        };
 
         uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
@@ -487,7 +491,9 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Oleg";
 
-        identityTypes[] = {"FGW_Identity_Atov_Companion_Oleg"};
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Oleg'; };";
+        };
 
         uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
@@ -528,7 +534,9 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Dimitro";
 
-        identityTypes[] = {"FGW_Identity_Atov_Companion_Dimitro"};
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Dimitro'; };";
+        };
 
         uniformClass = "FGW_U_O_PMC_Unit_1_ATOV";
         backpack = "";

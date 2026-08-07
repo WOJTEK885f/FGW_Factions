@@ -166,7 +166,9 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Roman";
 
-        identityTypes[] = {"FGW_Identity_Pozna_Companion_Roman"};
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Roman'; };";
+        };
 
         uniformClass = "USP_RUGBY_G3C_RGR_AOR1";
         backpack = "";
@@ -207,7 +209,9 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Yuriy";
 
-        identityTypes[] = {"FGW_Identity_Pozna_Companion_Yuriy"};
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Yuriy'; };";
+        };
 
         uniformClass = "CUP_U_B_USMC_MCCUU_MARPAT_M81";
         backpack = "";
@@ -248,7 +252,9 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Denis";
 
-        identityTypes[] = {"FGW_Identity_Pozna_Companion_Denis"};
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Denis'; };";
+        };
 
         uniformClass = "CFP_GUER_M81Tee";
         backpack = "";
@@ -291,7 +297,9 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Tatyana";
 
-        identityTypes[] = {"FGW_Identity_Pozna_Companion_Tatyana"};
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Tatyana'; };";
+        };
 
         uniformClass = "CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2";
         backpack = "";
