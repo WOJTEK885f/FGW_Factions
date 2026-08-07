@@ -39,7 +39,8 @@ class CfgPatches {
         };
         weapons[] = {
             "FGW_U_O_USMC_FROG3_WMARPAT_ATOV",
-            "FGW_U_O_PMC_Unit_35_ATOV"
+            "FGW_U_O_PMC_Unit_35_ATOV",
+            "FGW_U_O_PMC_Unit_1_ATOV"
         };
         VERSION_CONFIG;
     };

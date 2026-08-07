@@ -15,8 +15,9 @@ class CfgWeapons {
         };
     };
 
-    // This one is done diffrently due to various no entry warnings
+    // These are done diffrently due to various no entry warnings
     class CUP_I_B_PMC_Unit_35; // Import the base uniform item from CUP
+    class CUP_I_B_PMC_Unit_1;
 
     class UniformItem; // Define the base uniform class from Arma 3 core to inherit proper item properties
 
@@ -29,6 +30,20 @@ class CfgWeapons {
         class ItemInfo: UniformItem {
             // Apply our unlocked dummy model instead of the restricted CUP one
             uniformClass = "FGW_O_Atov_Dummy_PMC35";
+
+            containerClass = "Supply60"; // Matched with original CUP capacity
+            mass = 20; // Matched with original CUP mass
+        };
+    };
+
+    class FGW_U_O_PMC_Unit_1_ATOV: CUP_I_B_PMC_Unit_1 {
+        author = AUTHOR;
+        displayName = "PMC Clothes Shirt/Jeans (Plaid/Blue) - Atov Federation";
+        scope = 2; // Available in Arsenal
+
+        class ItemInfo: UniformItem {
+            // Apply our unlocked dummy model instead of the restricted CUP one
+            uniformClass = "FGW_O_Atov_Dummy_PMC1";
 
             containerClass = "Supply60"; // Matched with original CUP capacity
             mass = 20; // Matched with original CUP mass
