@@ -36,9 +36,9 @@ class CfgIdentities {
     class FGW_Identity_Pozna_Companion_Tatyana {
         name = "Tatyana";
         nameSound = "Tatyana";
-        face = "WomanHead_A3";
+        face = "Default";
         glasses = "None";
-        speaker = "CUP_D_Female01_RU";
+        speaker = "CUP_D_Female01_EN";
         pitch = 1.0;
     };
 };
@@ -48,7 +48,7 @@ class Default;
 class WhiteHead_31;
 class LivonianHead_10;
 class LivonianHead_3;
-class WomanHead_A3;
+class WhiteHead_01;
 class LivonianHead_5;
 class LivonianHead_8;
 class WhiteHead_12;
@@ -69,7 +69,7 @@ class CfgFaces {
             displayName = "FGW Denis";
             identityTypes[] = {"FGW_Face_Denis_Tag"};
         };
-        class FGW_Face_Tatyana: WomanHead_A3 {
+        class FGW_Face_Tatyana: WhiteHead_01 {
             displayName = "FGW Tatyana";
             identityTypes[] = {"FGW_Face_Tatyana_Tag"};
         };
