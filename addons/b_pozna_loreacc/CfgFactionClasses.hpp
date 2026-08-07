@@ -42,3 +42,54 @@ class CfgIdentities {
         pitch = 1.0;
     };
 };
+
+// Forward declarations for CfgFaces parent classes (vanilla/DLC)
+class Default;
+class WhiteHead_31;
+class LivonianHead_10;
+class LivonianHead_3;
+class WomanHead_A3;
+class LivonianHead_5;
+class LivonianHead_8;
+class WhiteHead_12;
+class WhiteHead_21;
+
+class CfgFaces {
+    class Man_A3: Default {
+        // Pozna companions
+        class FGW_Face_Roman: WhiteHead_31 {
+            displayName = "FGW Roman";
+            identityTypes[] = {"FGW_Face_Roman_Tag"};
+        };
+        class FGW_Face_Yuriy: LivonianHead_10 {
+            displayName = "FGW Yuriy";
+            identityTypes[] = {"FGW_Face_Yuriy_Tag"};
+        };
+        class FGW_Face_Denis: LivonianHead_3 {
+            displayName = "FGW Denis";
+            identityTypes[] = {"FGW_Face_Denis_Tag"};
+        };
+        class FGW_Face_Tatyana: WomanHead_A3 {
+            displayName = "FGW Tatyana";
+            identityTypes[] = {"FGW_Face_Tatyana_Tag"};
+        };
+
+        // Atov companions
+        class FGW_Face_Vitaly: LivonianHead_5 {
+            displayName = "FGW Vitaly";
+            identityTypes[] = {"FGW_Face_Vitaly_Tag"};
+        };
+        class FGW_Face_Kostyantin: LivonianHead_8 {
+            displayName = "FGW Kostyantin";
+            identityTypes[] = {"FGW_Face_Kostyantin_Tag"};
+        };
+        class FGW_Face_Oleg: WhiteHead_12 {
+            displayName = "FGW Oleg";
+            identityTypes[] = {"FGW_Face_Oleg_Tag"};
+        };
+        class FGW_Face_Dimitro: WhiteHead_21 {
+            displayName = "FGW Dimitro";
+            identityTypes[] = {"FGW_Face_Dimitro_Tag"};
+        };
+    };
+};

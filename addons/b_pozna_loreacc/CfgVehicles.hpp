@@ -166,6 +166,8 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Roman";
 
+        identityTypes[] = {"FGW_Face_Roman_Tag"};
+
         class EventHandlers {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Roman'; };";
         };
@@ -188,6 +190,7 @@ class CfgVehicles {
 
         linkedItems[] = {
             "SP_Tactical1_Tan",
+            "USP_BEARD_BRN2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -195,6 +198,7 @@ class CfgVehicles {
         };
         respawnLinkedItems[] = {
             "SP_Tactical1_Tan",
+            "USP_BEARD_BRN2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -208,6 +212,8 @@ class CfgVehicles {
         scopeCurator = 2;
 
         displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Yuriy";
+
+        identityTypes[] = {"FGW_Face_Yuriy_Tag"};
 
         class EventHandlers {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Yuriy'; };";
@@ -231,6 +237,7 @@ class CfgVehicles {
 
         linkedItems[] = {
             "CFP_Tactical1_M81",
+            "USP_BEARD_CH_MS_BLK2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -238,6 +245,7 @@ class CfgVehicles {
         };
         respawnLinkedItems[] = {
             "CFP_Tactical1_M81",
+            "USP_BEARD_CH_MS_BLK2",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -251,6 +259,8 @@ class CfgVehicles {
         scopeCurator = 2;
 
         displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Denis";
+
+        identityTypes[] = {"FGW_Face_Denis_Tag"};
 
         class EventHandlers {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Denis'; };";
@@ -296,6 +306,8 @@ class CfgVehicles {
         scopeCurator = 2;
 
         displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Tatyana";
+
+        identityTypes[] = {"FGW_Face_Tatyana_Tag"};
 
         class EventHandlers {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Tatyana'; };";

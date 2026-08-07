@@ -10,6 +10,7 @@ class CfgPatches {
         requiredAddons[] = {
             "gr7bow_fgw_factions_main",
             "A3_Characters_F",
+            "A3_Characters_F_Enoch",
             "A3_Weapons_F",
             "CUP_Weapons_WeaponsCore",
             "CUP_Weapons_NVG",

@@ -34,7 +34,7 @@ class CfgVehicles {
         // Faction identity: Eastern Slavic appearance and Russian language
         identityTypes[] = {"LanguageRUS", "CUP_D_Language_RU", "Head_Russian", "Head_Euro"};
         genericNames = "RussianMen";
-    };
+        };
 
     class FGW_O_Atov_Infantry: FGW_O_Atov_Base {
         _generalMacro = "FGW_O_Atov_Infantry";
@@ -409,6 +409,8 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Vitaly";
 
+        identityTypes[] = {"FGW_Face_Vitaly_Tag"};
+
         class EventHandlers {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Vitaly'; };";
         };
@@ -450,6 +452,8 @@ class CfgVehicles {
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Kostyantin";
 
+        identityTypes[] = {"FGW_Face_Kostyantin_Tag"};
+
         class EventHandlers {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Kostyantin'; };";
         };
@@ -490,6 +494,8 @@ class CfgVehicles {
         scopeCurator = 2;
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Oleg";
+
+        identityTypes[] = {"FGW_Face_Oleg_Tag"};
 
         class EventHandlers {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Oleg'; };";
@@ -533,6 +539,8 @@ class CfgVehicles {
         scopeCurator = 2;
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Dimitro";
+
+        identityTypes[] = {"FGW_Face_Dimitro_Tag"};
 
         class EventHandlers {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Dimitro'; };";
