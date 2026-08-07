@@ -405,7 +405,7 @@ class CfgVehicles {
 
         identityTypes[] = {"FGW_Identity_Atov_Companion_Vitaly"};
 
-        uniformClass = "CUP_U_B_USMC_FROG3_WMARPAT";
+        uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
@@ -416,6 +416,22 @@ class CfgVehicles {
         };
         respawnMagazines[] = {
             MAG_4("CUP_17Rnd_9x19_glock17")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
@@ -428,7 +444,7 @@ class CfgVehicles {
 
         identityTypes[] = {"FGW_Identity_Atov_Companion_Kostyantin"};
 
-        uniformClass = "CUP_U_B_USMC_FROG3_WMARPAT";
+        uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
@@ -439,6 +455,22 @@ class CfgVehicles {
         };
         respawnMagazines[] = {
             MAG_5("CUP_8Rnd_9x18_Makarov_M")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
@@ -451,7 +483,7 @@ class CfgVehicles {
 
         identityTypes[] = {"FGW_Identity_Atov_Companion_Oleg"};
 
-        uniformClass = "CUP_U_B_USMC_FROG3_WMARPAT";
+        uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_arifle_HK416_Black", "Throw", "Put"};
@@ -463,6 +495,9 @@ class CfgVehicles {
         respawnMagazines[] = {
             MAG_8("CUP_30Rnd_556x45_Stanag")
         };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
             "CFP_Tactical1_M81",
@@ -489,7 +524,7 @@ class CfgVehicles {
 
         identityTypes[] = {"FGW_Identity_Atov_Companion_Dimitro"};
 
-        uniformClass = "CUP_I_B_PMC_Unit_1";
+        uniformClass = "FGW_U_O_PMC_Unit_1_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
@@ -500,6 +535,22 @@ class CfgVehicles {
         };
         respawnMagazines[] = {
             MAG_5("CUP_8Rnd_9x18_Makarov_M")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 

@@ -181,6 +181,9 @@ class CfgVehicles {
             MAG_8("CUP_10Rnd_762x54_SVD_M")
         };
 
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
         linkedItems[] = {
             "SP_Tactical1_Tan",
             "ItemMap",
@@ -218,6 +221,9 @@ class CfgVehicles {
         respawnMagazines[] = {
             MAG_8("CUP_30Rnd_TE1_Green_Tracer_545x39_AK74M_M")
         };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
             "CFP_Tactical1_M81",
@@ -259,6 +265,9 @@ class CfgVehicles {
             MAG_4("CUP_15Rnd_9x19_M9")
         };
 
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
         linkedItems[] = {
             "rhs_vydra_3m",
             "ItemMap",
@@ -296,6 +305,9 @@ class CfgVehicles {
         respawnMagazines[] = {
             MAG_8("CUP_20Rnd_TE1_Green_Tracer_762x51_DMR")
         };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
             "rhs_vydra_3m",
