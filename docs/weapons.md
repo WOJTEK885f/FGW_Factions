@@ -44,7 +44,7 @@ The table below contains the weapons featured in **Freeman: Guerrilla Warfare**,
 | ----------- | -------------------- | ------------------ | --- |
 | AWR | DTA SRS | | |
 | Mk14 | Springfield Armory M1A | M14 | CUP |
-| SKKS | Simonov SKS | SKS | CUP |
+| SKKS | Simonov SKS | Mk14 Mod 1 EBR | n/a |
 | SR100 | M40A5 | M40A3 | CUP |
 | SSG08 | Steyr SSG-08 | | |
 | SV98M | Izhmash SV-98 | | |
