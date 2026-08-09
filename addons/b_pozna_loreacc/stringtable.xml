@@ -25,11 +25,17 @@
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_GroupCategory_Infantry">
             <English>Infantry</English>
         </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_ReconPlatoon">
+            <English>Recon Team</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_RifleCompany">
+            <English>Rifle Company Detachment</English>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_MarksmanTeam">
-            <English>Pozna Marksman Team</English>
+            <English>Marksman Team</English>
         </Key>
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_RifleSquad">
-            <English>Pozna Rifle Squad</English>
+            <English>Rifle Squad</English>
         </Key>
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_SniperElite">
             <English>Pozna Sniper Elite</English>

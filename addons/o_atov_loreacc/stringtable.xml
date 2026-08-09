@@ -22,14 +22,29 @@
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_FactionName">
             <English>F:GW Atov Federation</English>
         </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_Fortified">
+            <English>Fortified Squad</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_Investigation">
+            <English>Investigation Team</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_NationalGuard">
+            <English>National Guard Squad</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SecurityPatrol">
+            <English>Security Patrol</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SpecialForce">
+            <English>Special Force Weapon Team</English>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_InfantryFireteam">
-            <English>Atov Infantry Fireteam</English>
+            <English>Infantry Fireteam</English>
         </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_SpecialForceTeam">
-            <English>Atov Special Force Team</English>
+            <English>Special Force Team</English>
         </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_WeaponTeam">
-            <English>Atov Weapon Team</English>
+            <English>Weapon Team</English>
         </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Infantry">
             <English>Federal Infantry</English>
