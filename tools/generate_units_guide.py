@@ -372,12 +372,41 @@ def units_by_faction_lines(tables: dict[str, dict]) -> list[str]:
 
     lines = ["# Units by Faction", ""]
     used_faction_soldiers = {}
+    faction_squads = {}
+    faction_armies = {}
     for faction_id in sorted(factions, key=int):
         used_faction_soldiers[faction_id] = faction_soldiers(factions[faction_id])
+        faction_squads[faction_id] = [s for s in squads.values() if squad_faction(s, factions, soldiers) == faction_id]
+        faction_armies[faction_id] = [a for a in armies.values() if fmt(a.get("ArmyFaction")) == faction_id]
+
+    no_faction_armies = [a for a in armies.values() if fmt(a.get("ArmyFaction")) == "0"]
+
+    lines.append("## Contents")
+    lines.append("")
+    for faction_id in sorted(factions, key=int):
+        name = factions[faction_id].get("Name", "")
+        lines.append(f"- [{name} (faction {faction_id})](#faction-{faction_id})")
+        if used_faction_soldiers[faction_id]:
+            lines.append(f"  - [Units](#units-{faction_id})")
+        if faction_squads[faction_id]:
+            lines.append(f"  - [Squads](#squads-{faction_id})")
+        if faction_armies[faction_id]:
+            lines.append(f"  - [Armies](#armies-{faction_id})")
+
+    no_faction_armies = [a for a in armies.values() if fmt(a.get("ArmyFaction")) == "0"]
+    if no_faction_armies:
+        lines.append("- [No faction (faction 0)](#faction-0)")
+        lines.append("  - [Armies](#armies-0)")
+    lines.append("- [Special Units](#special-units)")
+    lines.append("- [Trained Units](#trained-units)")
+    lines.append("- [Other Units](#other-units)")
+    lines.append("- [Heroes](#heroes)")
+    lines.append("")
 
     for faction_id in sorted(factions, key=int):
         faction = factions[faction_id]
         name = faction.get("Name", "")
+        lines.append(f'<a name="faction-{faction_id}"></a>')
         lines.append(f"## {name} (faction {faction_id})")
         lines.append("")
         lines.append(f"- **Relationship with player:** {fmt(faction.get('RelationshipWithPlayer'))}")
@@ -389,6 +418,7 @@ def units_by_faction_lines(tables: dict[str, dict]) -> list[str]:
 
         soldier_ids = used_faction_soldiers[faction_id]
         if soldier_ids:
+            lines.append(f'<a name="units-{faction_id}"></a>')
             lines.append(f"**Units ({len(soldier_ids)}):**")
             lines.append("")
             for soldier_id in soldier_ids:
@@ -397,27 +427,30 @@ def units_by_faction_lines(tables: dict[str, dict]) -> list[str]:
             lines.append("*No units defined in this faction's roster.*")
             lines.append("")
 
-        faction_squads = [s for s in squads.values() if squad_faction(s, factions, soldiers) == faction_id]
-        faction_squads.sort(key=lambda s: int(s["ID"]))
-        if faction_squads:
-            lines.append(f"**Squads ({len(faction_squads)}):**")
+        faction_squads_list = faction_squads[faction_id]
+        faction_squads_list.sort(key=lambda s: int(s["ID"]))
+        if faction_squads_list:
+            lines.append(f'<a name="squads-{faction_id}"></a>')
+            lines.append(f"**Squads ({len(faction_squads_list)}):**")
             lines.append("")
             lines.append("| Name | Composition |")
             lines.append("| --- | --- |")
-            for squad in faction_squads:
+            for squad in faction_squads_list:
                 members = [soldiers.get(str(m), {}).get("Name", str(m)) for m in squad.get("OriginalUnits", [])]
                 lines.append(f"| {squad.get('Name', '')} | {', '.join(members)} |")
             lines.append("")
 
-        faction_armies = [a for a in armies.values() if fmt(a.get("ArmyFaction")) == faction_id]
-        if faction_armies:
-            lines.extend(army_table(faction_armies))
+        faction_armies_list = faction_armies[faction_id]
+        if faction_armies_list:
+            lines.append(f'<a name="armies-{faction_id}"></a>')
+            lines.extend(army_table(faction_armies_list))
             lines.append("")
 
-    no_faction_armies = [a for a in armies.values() if fmt(a.get("ArmyFaction")) == "0"]
     if no_faction_armies:
+        lines.append('<a name="faction-0"></a>')
         lines.append("## No faction (faction 0)")
         lines.append("")
+        lines.append('<a name="armies-0"></a>')
         lines.extend(army_table(no_faction_armies))
         lines.append("")
     return lines

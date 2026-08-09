@@ -3,12 +3,75 @@
 
 # Units by Faction
 
+## Contents
+
+- [Player (faction 1)](#faction-1)
+  - [Units](#units-1)
+  - [Squads](#squads-1)
+- [REBEL (faction 2)](#faction-2)
+  - [Units](#units-2)
+  - [Squads](#squads-2)
+- [Terrorists (faction 3)](#faction-3)
+  - [Units](#units-3)
+  - [Squads](#squads-3)
+  - [Armies](#armies-3)
+- [Atov Revolution Forces (faction 4)](#faction-4)
+  - [Units](#units-4)
+  - [Squads](#squads-4)
+  - [Armies](#armies-4)
+- [Pozna Battalion (faction 5)](#faction-5)
+  - [Units](#units-5)
+  - [Squads](#squads-5)
+  - [Armies](#armies-5)
+- [Free Cossacks Army (faction 6)](#faction-6)
+  - [Units](#units-6)
+  - [Squads](#squads-6)
+  - [Armies](#armies-6)
+- [Uman Brotherhood (faction 7)](#faction-7)
+  - [Units](#units-7)
+  - [Armies](#armies-7)
+- [Valkerie Female Fighters (faction 8)](#faction-8)
+  - [Units](#units-8)
+  - [Squads](#squads-8)
+  - [Armies](#armies-8)
+- [Chernivkan Front (faction 9)](#faction-9)
+  - [Units](#units-9)
+  - [Armies](#armies-9)
+- [Desert Marauders (faction 10)](#faction-10)
+  - [Units](#units-10)
+  - [Squads](#squads-10)
+  - [Armies](#armies-10)
+- [Mountain Bandits (faction 11)](#faction-11)
+  - [Units](#units-11)
+  - [Armies](#armies-11)
+- [Pirates (faction 12)](#faction-12)
+  - [Units](#units-12)
+  - [Armies](#armies-12)
+- [Cossacks Rebels (faction 13)](#faction-13)
+  - [Units](#units-13)
+  - [Armies](#armies-13)
+- [Bandits (faction 14)](#faction-14)
+  - [Units](#units-14)
+  - [Squads](#squads-14)
+  - [Armies](#armies-14)
+- [Alpha Forces (faction 999)](#faction-999)
+  - [Units](#units-999)
+  - [Armies](#armies-999)
+- [No faction (faction 0)](#faction-0)
+  - [Armies](#armies-0)
+- [Special Units](#special-units)
+- [Trained Units](#trained-units)
+- [Other Units](#other-units)
+- [Heroes](#heroes)
+
+<a name="faction-1"></a>
 ## Player (faction 1)
 
 - **Relationship with player:** 0
 - **Enemy factions:** [2, 3, 7, 10, 11, 12, 13, 14]
 - **Init money:** 20000
 
+<a name="units-1"></a>
 **Units (7):**
 
 ### Armed Bodyguard (ID 101)
@@ -116,6 +179,7 @@
 - **Rifle:** Remington (2601)
 - **Misc:** none
 
+<a name="squads-1"></a>
 **Squads (3):**
 
 | Name | Composition |
@@ -124,12 +188,14 @@
 | Militia Sniper Team | Militia Sniper, Militia Sniper, Militia Sniper |
 | GSS Security Fireteam | Armed Bodyguard, Armed Bodyguard, Armed Bodyguard, Armed Bodyguard, Armed Bodyguard |
 
+<a name="faction-2"></a>
 ## REBEL (faction 2)
 
 - **Relationship with player:** 0
 - **Enemy factions:** [1]
 - **Init money:** 8000000
 
+<a name="units-2"></a>
 **Units (2):**
 
 ### Armed Bodyguard (ID 101)
@@ -162,18 +228,21 @@
 - **Rifle:** MPS5 (2206)
 - **Misc:** none
 
+<a name="squads-2"></a>
 **Squads (1):**
 
 | Name | Composition |
 | --- | --- |
 | Hitman Team | Gangster, Gangster, Gangster |
 
+<a name="faction-3"></a>
 ## Terrorists (faction 3)
 
 - **Relationship with player:** -50
 - **Enemy factions:** [1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 - **Init money:** 8000000
 
+<a name="units-3"></a>
 **Units (3):**
 
 ### Bandit (ID 2)
@@ -221,6 +290,7 @@
 - **Rifle:** PKM74 (2903)
 - **Misc:** RGD6 Grenade (508) · RGD6 Grenade (508)
 
+<a name="squads-3"></a>
 **Squads (3):**
 
 | Name | Composition |
@@ -229,6 +299,7 @@
 | Bandits Squad | Bandit, Bandit, Bandit, Bandit, Bandit |
 | Uman Terrorists Squad | Terrorist, Terrorist, Terrorist, Terrorist, Terrorist |
 
+<a name="armies-3"></a>
 **Armies (3):**
 
 | Name | Squad size | Composition |
@@ -237,12 +308,14 @@
 | ArmoredMarauders | 5–30 | Armored Marauder, Armored Marauder, Armored Marauder, Armored Marauder |
 | Terrorists | 10–40 | Terrorist, Terrorist, Terrorist, Armored Marauder |
 
+<a name="faction-4"></a>
 ## Atov Revolution Forces (faction 4)
 
 - **Relationship with player:** -30
 - **Enemy factions:** [5, 6, 9]
 - **Init money:** 13000000
 
+<a name="units-4"></a>
 **Units (7):**
 
 ### Federal Infantry (ID 301)
@@ -350,6 +423,7 @@
 - **Rifle:** Thompson (2209)
 - **Misc:** Night Vision Goggles (44) · RGD6 Grenade (508) · Grenade Launcher (515)
 
+<a name="squads-4"></a>
 **Squads (3):**
 
 | Name | Composition |
@@ -358,6 +432,7 @@
 | Atov Weapon Team | Federal Machinegunner, Federal Machinegunner, Federal Machinegunner |
 | Atov Special Force Team | Federal Special Force, Federal Special Force, Federal Special Force, Federal Special Force, Federal Special Force |
 
+<a name="armies-4"></a>
 **Armies (5):**
 
 | Name | Squad size | Composition |
@@ -368,12 +443,14 @@
 | Atov Investigation Company | 25–50 | Federal Scout, Federal Scout, Federal Scout, Federal Sharpshooter |
 | Atov Fortified Company | 25–45 | Federal Commando, Federal Commando, Federal Commando, Federal Infantry |
 
+<a name="faction-5"></a>
 ## Pozna Battalion (faction 5)
 
 - **Relationship with player:** 0
 - **Enemy factions:** [4, 7]
 - **Init money:** 6500000
 
+<a name="units-5"></a>
 **Units (3):**
 
 ### Pozna Fighter (ID 401)
@@ -421,6 +498,7 @@
 - **Rifle:** M4A (2015)
 - **Misc:** RGD6 Grenade (508) · RGD6 Grenade (508) · Night Vision Goggles (44)
 
+<a name="squads-5"></a>
 **Squads (2):**
 
 | Name | Composition |
@@ -428,6 +506,7 @@
 | Pozna Rifle Squad | Pozna Commando, Pozna Commando, Pozna Fighter, Pozna Fighter, Pozna Fighter, Pozna Fighter, Pozna Fighter |
 | Pozna Marksman Team | Pozna Sniper, Pozna Sniper, Pozna Sniper |
 
+<a name="armies-5"></a>
 **Armies (2):**
 
 | Name | Squad size | Composition |
@@ -435,12 +514,14 @@
 | Pozna Rifle Company | 25–75 | Pozna Fighter, Pozna Fighter, Pozna Fighter, Pozna Sniper |
 | Pozna Recon Platoon | 20–50 | Pozna Sniper, Pozna Sniper, Pozna Sniper, Pozna Commando |
 
+<a name="faction-6"></a>
 ## Free Cossacks Army (faction 6)
 
 - **Relationship with player:** 0
 - **Enemy factions:** [4]
 - **Init money:** 7800000
 
+<a name="units-6"></a>
 **Units (4):**
 
 ### FCA Militia (ID 201)
@@ -503,6 +584,7 @@
 - **Rifle:** HMG (2901)
 - **Misc:** RGD6 Grenade (508) · RGD6 Grenade (508) · RGD6 Grenade (508)
 
+<a name="squads-6"></a>
 **Squads (3):**
 
 | Name | Composition |
@@ -511,6 +593,7 @@
 | FCA Infantry Squad | FCA Grenadier, FCA Rifleman, FCA Grenadier, FCA Grenadier, FCA Rifleman, FCA Rifleman, FCA Rifleman |
 | FCA Shock Squad | FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Shock Troop |
 
+<a name="armies-6"></a>
 **Armies (5):**
 
 | Name | Squad size | Composition |
@@ -521,12 +604,14 @@
 | FCA Shock Battalion | 40–90 | FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Grenadier, FCA Rifleman, FCA Militia |
 | FCA Guard Grenadiers Army | 50–100 | FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Grenadier, FCA Rifleman, FCA Militia |
 
+<a name="faction-7"></a>
 ## Uman Brotherhood (faction 7)
 
 - **Relationship with player:** -10
 - **Enemy factions:** [5, 8, 9]
 - **Init money:** 5700000
 
+<a name="units-7"></a>
 **Units (2):**
 
 ### Uman Terrorist (ID 601)
@@ -559,6 +644,7 @@
 - **Rifle:** AK12 (2002) · AKM74 (2004)
 - **Misc:** SmokeGrenades (514)
 
+<a name="armies-7"></a>
 **Armies (2):**
 
 | Name | Squad size | Composition |
@@ -566,12 +652,14 @@
 | Uman Terrorists | 20–50 | Uman Terrorist |
 | Uman Armed Forces | 20–50 | Uman Militant, Uman Militant, Uman Militant, Uman Terrorist |
 
+<a name="faction-8"></a>
 ## Valkerie Female Fighters (faction 8)
 
 - **Relationship with player:** 0
 - **Enemy factions:** [7]
 - **Init money:** 5000000
 
+<a name="units-8"></a>
 **Units (5):**
 
 ### Female Civilian Fighter2 (ID 503)
@@ -649,12 +737,14 @@
 - **Rifle:** Striker12 (2603)
 - **Misc:** RGD6 Grenade (508)
 
+<a name="squads-8"></a>
 **Squads (1):**
 
 | Name | Composition |
 | --- | --- |
 | VFA Fighters | VFA Women Marine, VFA Women Marine, VFA Women Marine, VFA Women Marine, VFA Women Marine |
 
+<a name="armies-8"></a>
 **Armies (3):**
 
 | Name | Squad size | Composition |
@@ -663,12 +753,14 @@
 | VFA Women Marines | 25–50 | VFA Women Marine, VFA Women Marine, VFA Women Marine, VFA Fighter |
 | VFA WOMEN SPECIAL POLICES | 20–50 | VFA Women Special Police, VFA Women Special Police, VFA Women Special Police, VFA Fighter |
 
+<a name="faction-9"></a>
 ## Chernivkan Front (faction 9)
 
 - **Relationship with player:** 0
 - **Enemy factions:** [4, 7]
 - **Init money:** 2500000
 
+<a name="units-9"></a>
 **Units (3):**
 
 ### CFR Rebel Fighter (ID 701)
@@ -716,6 +808,7 @@
 - **Rifle:** SKKS (2402)
 - **Misc:** RGD6 Grenade (508) · Grenade Launcher (515)
 
+<a name="armies-9"></a>
 **Armies (2):**
 
 | Name | Squad size | Composition |
@@ -723,12 +816,14 @@
 | Chernivkan Militia Patrol | 10–40 | CFR Rebel Fighter, CFR Rebel Grenadier, CFR Rebel DM, Militia Rifleman, Militia SMG Fighter, Militia Sniper, Male Villager |
 | Chernivkan Defence Army | 25–80 | CFR Rebel Fighter, CFR Rebel Grenadier, CFR Rebel DM |
 
+<a name="faction-10"></a>
 ## Desert Marauders (faction 10)
 
 - **Relationship with player:** -50
 - **Enemy factions:** [1, 4, 5, 6, 7, 8, 9, 11, 12, 13]
 - **Init money:** 3700000
 
+<a name="units-10"></a>
 **Units (2):**
 
 ### Desert Bandit (ID 5)
@@ -761,12 +856,14 @@
 - **Rifle:** SCAR-L (2010)
 - **Misc:** SmokeGrenades (514)
 
+<a name="squads-10"></a>
 **Squads (1):**
 
 | Name | Composition |
 | --- | --- |
 | Terrorists | Desert Bandit, Desert Bandit, Desert Bandit, Desert Bandit, Desert Bandit |
 
+<a name="armies-10"></a>
 **Armies (2):**
 
 | Name | Squad size | Composition |
@@ -774,12 +871,14 @@
 | Desert Marauders | 5–30 | Desert Bandit |
 | Desert Armed Bandits | 5–30 | Desert Armed Bandit, Desert Armed Bandit, Desert Armed Bandit, Desert Bandit |
 
+<a name="faction-11"></a>
 ## Mountain Bandits (faction 11)
 
 - **Relationship with player:** -50
 - **Enemy factions:** [1, 4, 5, 6, 7, 8, 9, 10, 12, 13]
 - **Init money:** 2700000
 
+<a name="units-11"></a>
 **Units (3):**
 
 ### Mountain Bandit (ID 6)
@@ -827,18 +926,21 @@
 - **Rifle:** MK14 (2401)
 - **Misc:** none
 
+<a name="armies-11"></a>
 **Armies (1):**
 
 | Name | Squad size | Composition |
 | --- | --- | --- |
 | Mountain Bandits | 5–40 | Mountain Bandit |
 
+<a name="faction-12"></a>
 ## Pirates (faction 12)
 
 - **Relationship with player:** -50
 - **Enemy factions:** [1, 4, 5, 6, 7, 8, 9, 10, 11, 13]
 - **Init money:** 3500000
 
+<a name="units-12"></a>
 **Units (2):**
 
 ### Pirate (ID 7)
@@ -871,6 +973,7 @@
 - **Rifle:** AK12 (2002)
 - **Misc:** SmokeGrenades (514)
 
+<a name="armies-12"></a>
 **Armies (2):**
 
 | Name | Squad size | Composition |
@@ -878,12 +981,14 @@
 | Pirates | 5–30 | Pirate, Pirate, Pirate, Pirate Leader |
 | Pirate Leaders | 5–30 | Pirate Leader, Pirate Leader, Pirate Leader, Pirate |
 
+<a name="faction-13"></a>
 ## Cossacks Rebels (faction 13)
 
 - **Relationship with player:** -50
 - **Enemy factions:** [1, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 - **Init money:** 3500000
 
+<a name="units-13"></a>
 **Units (2):**
 
 ### Cossack Rebel Fighter (ID 8)
@@ -916,6 +1021,7 @@
 - **Rifle:** AWR (2406)
 - **Misc:** RGD6 Grenade (508)
 
+<a name="armies-13"></a>
 **Armies (2):**
 
 | Name | Squad size | Composition |
@@ -923,12 +1029,14 @@
 | Cossacks Rebels | 10–40 | Cossack Rebel Fighter |
 | Cossack Rebel Women Snipers | 10–40 | Cossack Rebel Women Sniper, Cossack Rebel Women Sniper, Cossack Rebel Women Sniper, Cossack Rebel Fighter |
 
+<a name="faction-14"></a>
 ## Bandits (faction 14)
 
 - **Relationship with player:** -50
 - **Enemy factions:** [1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 - **Init money:** 3500000
 
+<a name="units-14"></a>
 **Units (3):**
 
 ### Looter (ID 1)
@@ -976,24 +1084,28 @@
 - **Rifle:** MPS5 (2206) · UMP9 (2207)
 - **Misc:** none
 
+<a name="squads-14"></a>
 **Squads (1):**
 
 | Name | Composition |
 | --- | --- |
 | Looters Squad | Looter, Looter, Looter, Looter, Looter |
 
+<a name="armies-14"></a>
 **Armies (1):**
 
 | Name | Squad size | Composition |
 | --- | --- | --- |
 | Looters | 5–25 | Looter, Raider |
 
+<a name="faction-999"></a>
 ## Alpha Forces (faction 999)
 
 - **Relationship with player:** -999
 - **Enemy factions:** [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 - **Init money:** 60000000
 
+<a name="units-999"></a>
 **Units (4):**
 
 ### ALPHA SPECIAL FORCE (ID 901)
@@ -1056,6 +1168,7 @@
 - **Rifle:** VECTOR (2208)
 - **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
 
+<a name="armies-999"></a>
 **Armies (4):**
 
 | Name | Squad size | Composition |
@@ -1065,8 +1178,10 @@
 | ALPHA ADVANCE FORCES | 60–80 | ALPHA SPECIAL FORCE, ALPHA ELITE SNIPER, ALPHA ELITE STORMTROOPER, ALPHA ELITE SCOUTS |
 | ALPHA TRUMP FORCES | 60–80 | ALPHA SPECIAL FORCE, ALPHA ELITE SNIPER, ALPHA ELITE STORMTROOPER, ALPHA ELITE SCOUTS |
 
+<a name="faction-0"></a>
 ## No faction (faction 0)
 
+<a name="armies-0"></a>
 **Armies (1):**
 
 | Name | Squad size | Composition |
