@@ -467,10 +467,10 @@ class CfgVehicles {
         respawnWeapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
 
         magazines[] = {
-            MAG_5("CUP_8Rnd_9x18_Makarov_M")
+            MAG_4("CUP_8Rnd_9x18_Makarov_M")
         };
         respawnMagazines[] = {
-            MAG_5("CUP_8Rnd_9x18_Makarov_M")
+            MAG_4("CUP_8Rnd_9x18_Makarov_M")
         };
 
         Items[] = {"FirstAidKit"};
@@ -555,10 +555,10 @@ class CfgVehicles {
         respawnWeapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
 
         magazines[] = {
-            MAG_5("CUP_8Rnd_9x18_Makarov_M")
+            MAG_4("CUP_8Rnd_9x18_Makarov_M")
         };
         respawnMagazines[] = {
-            MAG_5("CUP_8Rnd_9x18_Makarov_M")
+            MAG_4("CUP_8Rnd_9x18_Makarov_M")
         };
 
         Items[] = {"FirstAidKit"};
