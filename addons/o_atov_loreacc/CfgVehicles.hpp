@@ -510,10 +510,10 @@ class CfgVehicles {
         respawnWeapons[] = {"CUP_arifle_HK416_Black", "Throw", "Put"};
 
         magazines[] = {
-            MAG_8("CUP_30Rnd_556x45_Stanag")
+            MAG_8("CUP_30Rnd_556x45_Stanag_Tracer_Green")
         };
         respawnMagazines[] = {
-            MAG_8("CUP_30Rnd_556x45_Stanag")
+            MAG_8("CUP_30Rnd_556x45_Stanag_Tracer_Green")
         };
 
         Items[] = {"FirstAidKit"};
