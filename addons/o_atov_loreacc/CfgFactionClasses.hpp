@@ -37,8 +37,36 @@ class CfgIdentities {
         name = "Vitaly";
         nameSound = "Vitaly";
         face = "LivonianHead_5";
-        glasses = "None";
+        glasses = "USP_BEARD_BRN5";
         speaker = "Male02RUS";
         pitch = 1.0;
+    };
+};
+
+// Forward declarations for CfgFaces parent classes
+class Default;
+class LivonianHead_5;
+class WhiteHead_27;
+class WhiteHead_01;
+class WhiteHead_04;
+
+class CfgFaces {
+    class Man_A3: Default {
+        class FGW_Face_Vitaly: LivonianHead_5 {
+            displayName = "FGW Vitaly";
+            identityTypes[] = {"FGW_Face_Vitaly_Tag"};
+        };
+        class FGW_Face_Kostyantin: WhiteHead_27 {
+            displayName = "FGW Kostyantin";
+            identityTypes[] = {"FGW_Face_Kostyantin_Tag"};
+        };
+        class FGW_Face_Oleg: WhiteHead_01 {
+            displayName = "FGW Oleg";
+            identityTypes[] = {"FGW_Face_Oleg_Tag"};
+        };
+        class FGW_Face_Dimitro: WhiteHead_04 {
+            displayName = "FGW Dimitro";
+            identityTypes[] = {"FGW_Face_Dimitro_Tag"};
+        };
     };
 };

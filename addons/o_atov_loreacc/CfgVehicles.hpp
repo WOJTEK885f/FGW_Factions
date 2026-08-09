@@ -432,12 +432,14 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
+            "USP_BEARD_BRN5",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
+            "USP_BEARD_BRN5",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
