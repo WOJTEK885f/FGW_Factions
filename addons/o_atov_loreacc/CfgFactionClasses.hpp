@@ -12,7 +12,7 @@ class CfgIdentities {
     class FGW_Identity_Atov_Companion_Dimitro {
         name = "Dimitro";
         nameSound = "Dimitro";
-        face = "WhiteHead_21";
+        face = "WhiteHead_04";
         glasses = "None";
         speaker = "Male02RUS";
         pitch = 1.0;
@@ -20,7 +20,7 @@ class CfgIdentities {
     class FGW_Identity_Atov_Companion_Kostyantin {
         name = "Kostyantin";
         nameSound = "Kostyantin";
-        face = "LivonianHead_8";
+        face = "WhiteHead_27";
         glasses = "None";
         speaker = "Male01RUS";
         pitch = 1.1;
@@ -28,7 +28,7 @@ class CfgIdentities {
     class FGW_Identity_Atov_Companion_Oleg {
         name = "Oleg";
         nameSound = "Oleg";
-        face = "WhiteHead_12";
+        face = "WhiteHead_01";
         glasses = "None";
         speaker = "Male03RUS";
         pitch = 0.9;
