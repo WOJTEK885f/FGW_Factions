@@ -67,7 +67,7 @@ def fmt(value) -> str:
 def load_tables(tables_dir: Path) -> dict[str, dict]:
     """Loads all game tables into a dict keyed by table name."""
     tables = {}
-    for filename in ("Soldier", "Weapon", "Clothes", "Item", "Faction", "Squad", "Hero"):
+    for filename in ("Soldier", "Weapon", "Clothes", "Item", "Faction", "Squad", "Hero", "MapArmy", "Loot"):
         path = tables_dir / f"{filename}.json"
         with open(path, encoding="utf-8-sig") as f:
             tables[filename] = json.load(f)
@@ -209,6 +209,48 @@ def squad_faction(squad: dict, factions: dict, soldiers: dict) -> str:
     return faction_id
 
 
+def army_section_lines(armies: dict, soldiers: dict, factions: dict, loot: dict) -> list[str]:
+    """Renders the campaign armies grouped by their army faction."""
+    lines = []
+    groups = {}
+    for army in armies.values():
+        groups.setdefault(fmt(army.get("ArmyFaction")), []).append(army)
+
+    def group_key(faction_id: str) -> tuple:
+        return (faction_id == "0", int(faction_id))
+
+    for faction_id in sorted(groups, key=group_key):
+        if faction_id == "0":
+            lines.append("### No faction (faction 0)")
+        else:
+            faction = factions.get(faction_id, {})
+            lines.append(f"### {faction.get('Name', faction_id)} (faction {faction_id})")
+        lines.append("")
+        for army in sorted(groups[faction_id], key=lambda a: int(a["ID"])):
+            lines.append(f"#### {army.get('Name', '')} (ID {army['ID']})")
+            lines.append("")
+            preset = loot.get(fmt(army.get("LootPreset")), {})
+            preset_name = preset.get("Desc", "")
+            preset_part = f"{preset_name} ({army.get('LootPreset')})" if preset_name else fmt(army.get("LootPreset"))
+            stats = [
+                f"AI: {fmt(army.get('AI'))}",
+                f"Loot preset: {preset_part}",
+                f"Squad size: {fmt(army.get('MinSoldiersCount'))}–{fmt(army.get('MaxSoldiersCount'))}",
+                f"Model: `{army.get('ModelName', '')}`",
+                f"Icon: `{army.get('Icon', '')}`",
+            ]
+            lines.append("  " + " · ".join(stats))
+            lines.append("")
+            members = []
+            for soldier_id in army.get("PossibleSoldier", []):
+                name = soldiers.get(str(soldier_id), {}).get("Name")
+                if name and name not in members:
+                    members.append(name)
+            lines.append(f"  Soldiers: `{', '.join(members)}`")
+            lines.append("")
+    return lines
+
+
 def weapon_section_lines(weapons: dict, item_table: dict) -> list[str]:
     """Renders the weapon catalog grouped by weapon type."""
     order = ["PISTOL", "SMG", "SHOTGUN", "RIFLE", "ASSAULTRIFLE", "MACHINEGUN", "LAUNCHER"]
@@ -316,6 +358,7 @@ def render_guide(tables: dict[str, dict]) -> str:
     lines.append("")
     lines.append(f"- **Units:** {len(soldiers)}")
     lines.append(f"- **Factions:** {len(factions)}")
+    lines.append(f"- **Armies:** {len(tables['MapArmy'])}")
     lines.append(f"- **Predefined squads:** {len(squads)}")
     lines.append(f"- **Heroes:** {len(heroes)}")
     lines.append(f"- **Weapons:** {len(weapons)}")
@@ -383,6 +426,12 @@ def render_guide(tables: dict[str, dict]) -> str:
                 members = [soldiers.get(str(m), {}).get("Name", str(m)) for m in squad.get("OriginalUnits", [])]
                 lines.append(f"| {squad.get('Name', '')} | {', '.join(members)} |")
             lines.append("")
+
+    lines.append("## Armies")
+    lines.append("")
+    lines.append("Campaign armies that patrol the map, grouped by their faction.")
+    lines.append("")
+    lines.extend(army_section_lines(tables["MapArmy"], soldiers, factions, tables["Loot"]))
 
     lines.append("## Special Units")
     lines.append("")
