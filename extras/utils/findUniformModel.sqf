@@ -4,11 +4,18 @@
     Author: WOJTEK885
     Description: Quickly checks what dummy unit (model) is assigned
                  to a specific uniform item in the config.
+
+    Usage:
+    1. Launch Eden Editor in Arma 3.
+    2. Open the Debug Console (ESC).
+    3. Paste this script.
+    4. Click "Local Execute".
+    5. The generated string will be copied to your clipboard and sent in the system chat.
     ====================================================================
 */
 
 // Enter the uniform class you want to check here
-private _uniformToCheck = "CUP_I_B_PMC_Unit_35";
+private _uniformToCheck = "UniformClassname";
 
 private _result = getText (configFile >> "CfgWeapons" >> _uniformToCheck >> "ItemInfo" >> "uniformClass");
 
