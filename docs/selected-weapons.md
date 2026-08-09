@@ -13,7 +13,7 @@ The table below contains the weapons featured in **Freeman: Guerrilla Warfare**,
 | Makarova | Walther PPK | Makarov PM | CUP | |
 | P1911 | M1911A1 | M1911 | CUP | |
 | P250 | SIG Sauer P250 | M17 (Black) | CUP | Closest match without adding dedicated mods |
-| R1895 | RSA Revolver | Taurus Tracker Model 455 | CUP | Revolver choice is very limited |
+| R1895 | RSA Revolver | Taurus Tracker Model 455 | CUP | Revolver choice is very limited across all mods |
 | TT56 | Tokarev TT-33 | TT-33 | CUP | |
 
 ## Submachine Guns
