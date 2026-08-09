@@ -386,18 +386,20 @@ def units_by_faction_lines(tables: dict[str, dict]) -> list[str]:
     lines.append("")
     for faction_id in sorted(factions, key=int):
         name = factions[faction_id].get("Name", "")
-        lines.append(f"- [{name} (faction {faction_id})](#faction-{faction_id})")
+        blocks = []
         if used_faction_soldiers[faction_id]:
-            lines.append(f"  - [Units](#units-{faction_id})")
+            blocks.append((f"units-{faction_id}", "Units"))
         if faction_squads[faction_id]:
-            lines.append(f"  - [Squads](#squads-{faction_id})")
+            blocks.append((f"squads-{faction_id}", "Squads"))
         if faction_armies[faction_id]:
-            lines.append(f"  - [Armies](#armies-{faction_id})")
+            blocks.append((f"armies-{faction_id}", "Armies"))
+        links = " | ".join(f"[{label}](#{anchor})" for anchor, label in blocks)
+        suffix = f": {links}" if links else ""
+        lines.append(f"- [{name} (faction {faction_id})](#faction-{faction_id}){suffix}")
 
     no_faction_armies = [a for a in armies.values() if fmt(a.get("ArmyFaction")) == "0"]
     if no_faction_armies:
-        lines.append("- [No faction (faction 0)](#faction-0)")
-        lines.append("  - [Armies](#armies-0)")
+        lines.append("- [No faction (faction 0)](#faction-0): [Armies](#armies-0)")
     lines.append("- [Special Units](#special-units)")
     lines.append("- [Trained Units](#trained-units)")
     lines.append("- [Other Units](#other-units)")
