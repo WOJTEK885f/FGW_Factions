@@ -35,7 +35,7 @@ class CfgVehicles {
         // Faction identity: Eastern Slavic appearance and Russian language
         identityTypes[] = {"LanguageRUS", "CUP_D_Language_RU", "Head_Russian", "Head_Euro"};
         genericNames = "RussianMen";
-        };
+    };
 
     class FGW_O_Atov_Infantry: FGW_O_Atov_Base {
         _generalMacro = "FGW_O_Atov_Infantry";
