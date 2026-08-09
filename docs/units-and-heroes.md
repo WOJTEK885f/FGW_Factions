@@ -1,5 +1,6 @@
 <!-- markdownlint-disable-file MD024 -->
 <!-- markdownlint-disable-file MD001 -->
+<!-- markdownlint-disable-file MD033 -->
 
 # Units by Faction
 
@@ -65,6 +66,7 @@
 - [Heroes](#heroes)
 
 <a name="faction-1"></a>
+
 ## Player (faction 1)
 
 - **Relationship with player:** 0
@@ -189,6 +191,7 @@
 | GSS Security Fireteam | Armed Bodyguard, Armed Bodyguard, Armed Bodyguard, Armed Bodyguard, Armed Bodyguard |
 
 <a name="faction-2"></a>
+
 ## REBEL (faction 2)
 
 - **Relationship with player:** 0
@@ -236,6 +239,7 @@
 | Hitman Team | Gangster, Gangster, Gangster |
 
 <a name="faction-3"></a>
+
 ## Terrorists (faction 3)
 
 - **Relationship with player:** -50
@@ -309,6 +313,7 @@
 | Terrorists | 10–40 | Terrorist, Terrorist, Terrorist, Armored Marauder |
 
 <a name="faction-4"></a>
+
 ## Atov Revolution Forces (faction 4)
 
 - **Relationship with player:** -30
@@ -444,6 +449,7 @@
 | Atov Fortified Company | 25–45 | Federal Commando, Federal Commando, Federal Commando, Federal Infantry |
 
 <a name="faction-5"></a>
+
 ## Pozna Battalion (faction 5)
 
 - **Relationship with player:** 0
@@ -515,6 +521,7 @@
 | Pozna Recon Platoon | 20–50 | Pozna Sniper, Pozna Sniper, Pozna Sniper, Pozna Commando |
 
 <a name="faction-6"></a>
+
 ## Free Cossacks Army (faction 6)
 
 - **Relationship with player:** 0
@@ -605,6 +612,7 @@
 | FCA Guard Grenadiers Army | 50–100 | FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Grenadier, FCA Rifleman, FCA Militia |
 
 <a name="faction-7"></a>
+
 ## Uman Brotherhood (faction 7)
 
 - **Relationship with player:** -10
@@ -653,6 +661,7 @@
 | Uman Armed Forces | 20–50 | Uman Militant, Uman Militant, Uman Militant, Uman Terrorist |
 
 <a name="faction-8"></a>
+
 ## Valkerie Female Fighters (faction 8)
 
 - **Relationship with player:** 0
@@ -754,6 +763,7 @@
 | VFA WOMEN SPECIAL POLICES | 20–50 | VFA Women Special Police, VFA Women Special Police, VFA Women Special Police, VFA Fighter |
 
 <a name="faction-9"></a>
+
 ## Chernivkan Front (faction 9)
 
 - **Relationship with player:** 0
@@ -817,6 +827,7 @@
 | Chernivkan Defence Army | 25–80 | CFR Rebel Fighter, CFR Rebel Grenadier, CFR Rebel DM |
 
 <a name="faction-10"></a>
+
 ## Desert Marauders (faction 10)
 
 - **Relationship with player:** -50
@@ -872,6 +883,7 @@
 | Desert Armed Bandits | 5–30 | Desert Armed Bandit, Desert Armed Bandit, Desert Armed Bandit, Desert Bandit |
 
 <a name="faction-11"></a>
+
 ## Mountain Bandits (faction 11)
 
 - **Relationship with player:** -50
@@ -934,6 +946,7 @@
 | Mountain Bandits | 5–40 | Mountain Bandit |
 
 <a name="faction-12"></a>
+
 ## Pirates (faction 12)
 
 - **Relationship with player:** -50
@@ -982,6 +995,7 @@
 | Pirate Leaders | 5–30 | Pirate Leader, Pirate Leader, Pirate Leader, Pirate |
 
 <a name="faction-13"></a>
+
 ## Cossacks Rebels (faction 13)
 
 - **Relationship with player:** -50
@@ -1030,6 +1044,7 @@
 | Cossack Rebel Women Snipers | 10–40 | Cossack Rebel Women Sniper, Cossack Rebel Women Sniper, Cossack Rebel Women Sniper, Cossack Rebel Fighter |
 
 <a name="faction-14"></a>
+
 ## Bandits (faction 14)
 
 - **Relationship with player:** -50
@@ -1099,6 +1114,7 @@
 | Looters | 5–25 | Looter, Raider |
 
 <a name="faction-999"></a>
+
 ## Alpha Forces (faction 999)
 
 - **Relationship with player:** -999
@@ -1179,6 +1195,7 @@
 | ALPHA TRUMP FORCES | 60–80 | ALPHA SPECIAL FORCE, ALPHA ELITE SNIPER, ALPHA ELITE STORMTROOPER, ALPHA ELITE SCOUTS |
 
 <a name="faction-0"></a>
+
 ## No faction (faction 0)
 
 <a name="armies-0"></a>

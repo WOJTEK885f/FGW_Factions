@@ -1,7 +1,8 @@
 <!-- markdownlint-disable-file MD024 -->
 <!-- markdownlint-disable-file MD001 -->
+<!-- markdownlint-disable-file MD033 -->
 
-## Clothing
+# Clothing
 
 ## Helmets
 

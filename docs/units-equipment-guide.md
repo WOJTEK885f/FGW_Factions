@@ -1,5 +1,6 @@
 <!-- markdownlint-disable-file MD024 -->
 <!-- markdownlint-disable-file MD001 -->
+<!-- markdownlint-disable-file MD033 -->
 
 # Freeman: Guerrilla Warfare – Units & Equipment Guide
 

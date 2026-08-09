@@ -60,6 +60,7 @@ FACTION_SQUAD_ORDER = [
 LINT_HEADER = [
     "<!-- markdownlint-disable-file MD024 -->",
     "<!-- markdownlint-disable-file MD001 -->",
+    "<!-- markdownlint-disable-file MD033 -->",
 ]
 
 DOC_TITLE = "# Freeman: Guerrilla Warfare – Units & Equipment Guide"
@@ -407,6 +408,7 @@ def units_by_faction_lines(tables: dict[str, dict]) -> list[str]:
         faction = factions[faction_id]
         name = faction.get("Name", "")
         lines.append(f'<a name="faction-{faction_id}"></a>')
+        lines.append("")
         lines.append(f"## {name} (faction {faction_id})")
         lines.append("")
         lines.append(f"- **Relationship with player:** {fmt(faction.get('RelationshipWithPlayer'))}")
@@ -448,6 +450,7 @@ def units_by_faction_lines(tables: dict[str, dict]) -> list[str]:
 
     if no_faction_armies:
         lines.append('<a name="faction-0"></a>')
+        lines.append("")
         lines.append("## No faction (faction 0)")
         lines.append("")
         lines.append('<a name="armies-0"></a>')
@@ -533,7 +536,7 @@ def heroes_lines(tables: dict[str, dict]) -> list[str]:
 
 def weapons_catalog_lines(tables: dict[str, dict]) -> list[str]:
     """Renders the weapon catalog."""
-    lines = ["## Weapons", ""]
+    lines = ["# Weapons", ""]
     lines.append("Fire modes: `Semi` = semi-automatic, `Burst` = burst fire, `Auto` = fully automatic.")
     lines.append("Ammo column shows the ammo type name and its catalog ID.")
     lines.append("")
@@ -543,14 +546,14 @@ def weapons_catalog_lines(tables: dict[str, dict]) -> list[str]:
 
 def clothing_catalog_lines(tables: dict[str, dict]) -> list[str]:
     """Renders the clothing catalog."""
-    lines = ["## Clothing", ""]
+    lines = ["# Clothing", ""]
     lines.extend(clothes_section_lines(tables["Clothes"], tables["Item"]))
     return lines
 
 
 def other_items_catalog_lines(tables: dict[str, dict]) -> list[str]:
     """Renders the non-clothing item catalog."""
-    lines = ["## Other Items", ""]
+    lines = ["# Other Items", ""]
     lines.extend(item_section_lines(tables["Item"]))
     return lines
 
