@@ -9,7 +9,8 @@ class CfgWeapons {
     // Custom unrestricted uniform class
     class FGW_U_O_USMC_FROG3_WMARPAT_ATOV: CUP_U_B_USMC_FROG3_WMARPAT {
         author = AUTHOR;
-        displayName = "USMC FROG Gear Ver. 3 (Woodland) - Atov Federation";
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_USMC_FROG3_WMARPAT_ATOV";
+        scope = 2; // Available in Arsenal
 
         class ItemInfo: ItemInfo {
             // Apply our unlocked dummy model instead of the restricted CUP one
@@ -17,14 +18,14 @@ class CfgWeapons {
         };
     };
 
-    // These are done diffrently due to various no entry warnings
+    // These are done differently due to various no entry warnings
     class CUP_I_B_PMC_Unit_35; // Import the base uniform item from CUP
     class CUP_I_B_PMC_Unit_1;
 
     // Custom unrestricted uniform class
     class FGW_U_O_PMC_Unit_35_ATOV: CUP_I_B_PMC_Unit_35 {
         author = AUTHOR;
-        displayName = "PMC Clothes T-Shirt/Tactical Pants (Black, UCP) - Atov Federation";
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_PMC_Unit_35_ATOV";
         scope = 2; // Available in Arsenal
 
         class ItemInfo: UniformItem {
@@ -38,7 +39,7 @@ class CfgWeapons {
 
     class FGW_U_O_PMC_Unit_1_ATOV: CUP_I_B_PMC_Unit_1 {
         author = AUTHOR;
-        displayName = "PMC Clothes Shirt/Jeans (Plaid/Blue) - Atov Federation";
+        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_PMC_Unit_1_ATOV";
         scope = 2; // Available in Arsenal
 
         class ItemInfo: UniformItem {
