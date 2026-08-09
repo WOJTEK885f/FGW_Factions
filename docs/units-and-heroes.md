@@ -229,6 +229,14 @@
 | Bandits Squad | Bandit, Bandit, Bandit, Bandit, Bandit |
 | Uman Terrorists Squad | Terrorist, Terrorist, Terrorist, Terrorist, Terrorist |
 
+**Armies (3):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| Bandits | 5–15 | Bandit, Bandit, Bandit, Looter, Raider |
+| ArmoredMarauders | 5–30 | Armored Marauder, Armored Marauder, Armored Marauder, Armored Marauder |
+| Terrorists | 10–40 | Terrorist, Terrorist, Terrorist, Armored Marauder |
+
 ## Atov Revolution Forces (faction 4)
 
 - **Relationship with player:** -30
@@ -350,6 +358,16 @@
 | Atov Weapon Team | Federal Machinegunner, Federal Machinegunner, Federal Machinegunner |
 | Atov Special Force Team | Federal Special Force, Federal Special Force, Federal Special Force, Federal Special Force, Federal Special Force |
 
+**Armies (5):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| Atov National Guard Company | 50–120 | Federal Infantry, Federal Machinegunner, Federal Sharpshooter, Federal Commando, Federal Scout |
+| Atov Special Force | 25–45 | Federal Special Force, Federal Special Force, Federal Special Force, Federal Machinegunner |
+| Atov Security Patrol | 25–50 | Federal Armed Police, Federal Armed Police, Federal Armed Police, Federal Infantry |
+| Atov Investigation Company | 25–50 | Federal Scout, Federal Scout, Federal Scout, Federal Sharpshooter |
+| Atov Fortified Company | 25–45 | Federal Commando, Federal Commando, Federal Commando, Federal Infantry |
+
 ## Pozna Battalion (faction 5)
 
 - **Relationship with player:** 0
@@ -409,6 +427,13 @@
 | --- | --- |
 | Pozna Rifle Squad | Pozna Commando, Pozna Commando, Pozna Fighter, Pozna Fighter, Pozna Fighter, Pozna Fighter, Pozna Fighter |
 | Pozna Marksman Team | Pozna Sniper, Pozna Sniper, Pozna Sniper |
+
+**Armies (2):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| Pozna Rifle Company | 25–75 | Pozna Fighter, Pozna Fighter, Pozna Fighter, Pozna Sniper |
+| Pozna Recon Platoon | 20–50 | Pozna Sniper, Pozna Sniper, Pozna Sniper, Pozna Commando |
 
 ## Free Cossacks Army (faction 6)
 
@@ -486,6 +511,16 @@
 | FCA Infantry Squad | FCA Grenadier, FCA Rifleman, FCA Grenadier, FCA Grenadier, FCA Rifleman, FCA Rifleman, FCA Rifleman |
 | FCA Shock Squad | FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Shock Troop |
 
+**Armies (5):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| FCA Field Patrol | 15–20 | FCA Militia, FCA Militia, FCA Militia, FCA Rifleman |
+| FCA Rifle Company | 25–50 | FCA Rifleman, FCA Rifleman, FCA Rifleman, FCA Grenadier |
+| FCA Grenadiers Company | 25–60 | FCA Grenadier, FCA Grenadier, FCA Grenadier, FCA Shock Troop |
+| FCA Shock Battalion | 40–90 | FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Grenadier, FCA Rifleman, FCA Militia |
+| FCA Guard Grenadiers Army | 50–100 | FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Shock Troop, FCA Grenadier, FCA Rifleman, FCA Militia |
+
 ## Uman Brotherhood (faction 7)
 
 - **Relationship with player:** -10
@@ -523,6 +558,13 @@
 - **Pistol:** P250 (2809) · none
 - **Rifle:** AK12 (2002) · AKM74 (2004)
 - **Misc:** SmokeGrenades (514)
+
+**Armies (2):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| Uman Terrorists | 20–50 | Uman Terrorist |
+| Uman Armed Forces | 20–50 | Uman Militant, Uman Militant, Uman Militant, Uman Terrorist |
 
 ## Valkerie Female Fighters (faction 8)
 
@@ -613,6 +655,14 @@
 | --- | --- |
 | VFA Fighters | VFA Women Marine, VFA Women Marine, VFA Women Marine, VFA Women Marine, VFA Women Marine |
 
+**Armies (3):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| VFA Combat Company | 20–50 | VFA Fighter |
+| VFA Women Marines | 25–50 | VFA Women Marine, VFA Women Marine, VFA Women Marine, VFA Fighter |
+| VFA WOMEN SPECIAL POLICES | 20–50 | VFA Women Special Police, VFA Women Special Police, VFA Women Special Police, VFA Fighter |
+
 ## Chernivkan Front (faction 9)
 
 - **Relationship with player:** 0
@@ -666,6 +716,13 @@
 - **Rifle:** SKKS (2402)
 - **Misc:** RGD6 Grenade (508) · Grenade Launcher (515)
 
+**Armies (2):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| Chernivkan Militia Patrol | 10–40 | CFR Rebel Fighter, CFR Rebel Grenadier, CFR Rebel DM, Militia Rifleman, Militia SMG Fighter, Militia Sniper, Male Villager |
+| Chernivkan Defence Army | 25–80 | CFR Rebel Fighter, CFR Rebel Grenadier, CFR Rebel DM |
+
 ## Desert Marauders (faction 10)
 
 - **Relationship with player:** -50
@@ -709,6 +766,13 @@
 | Name | Composition |
 | --- | --- |
 | Terrorists | Desert Bandit, Desert Bandit, Desert Bandit, Desert Bandit, Desert Bandit |
+
+**Armies (2):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| Desert Marauders | 5–30 | Desert Bandit |
+| Desert Armed Bandits | 5–30 | Desert Armed Bandit, Desert Armed Bandit, Desert Armed Bandit, Desert Bandit |
 
 ## Mountain Bandits (faction 11)
 
@@ -763,6 +827,12 @@
 - **Rifle:** MK14 (2401)
 - **Misc:** none
 
+**Armies (1):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| Mountain Bandits | 5–40 | Mountain Bandit |
+
 ## Pirates (faction 12)
 
 - **Relationship with player:** -50
@@ -801,6 +871,13 @@
 - **Rifle:** AK12 (2002)
 - **Misc:** SmokeGrenades (514)
 
+**Armies (2):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| Pirates | 5–30 | Pirate, Pirate, Pirate, Pirate Leader |
+| Pirate Leaders | 5–30 | Pirate Leader, Pirate Leader, Pirate Leader, Pirate |
+
 ## Cossacks Rebels (faction 13)
 
 - **Relationship with player:** -50
@@ -838,6 +915,13 @@
 - **Pistol:** TT56 (2808)
 - **Rifle:** AWR (2406)
 - **Misc:** RGD6 Grenade (508)
+
+**Armies (2):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| Cossacks Rebels | 10–40 | Cossack Rebel Fighter |
+| Cossack Rebel Women Snipers | 10–40 | Cossack Rebel Women Sniper, Cossack Rebel Women Sniper, Cossack Rebel Women Sniper, Cossack Rebel Fighter |
 
 ## Bandits (faction 14)
 
@@ -897,6 +981,12 @@
 | Name | Composition |
 | --- | --- |
 | Looters Squad | Looter, Looter, Looter, Looter, Looter |
+
+**Armies (1):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| Looters | 5–25 | Looter, Raider |
 
 ## Alpha Forces (faction 999)
 
@@ -965,6 +1055,23 @@
 - **Pistol:** none
 - **Rifle:** VECTOR (2208)
 - **Misc:** RGD6 Grenade (508) · First Aid Kit (13) · Grenade Launcher (515)
+
+**Armies (4):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| ALPHA SPECIAL FORCES | 60–80 | ALPHA SPECIAL FORCE, ALPHA ELITE SNIPER, ALPHA ELITE STORMTROOPER, ALPHA ELITE SCOUTS |
+| ALPHA FORTIFIED FORCES | 60–80 | ALPHA SPECIAL FORCE, ALPHA ELITE SNIPER, ALPHA ELITE STORMTROOPER, ALPHA ELITE SCOUTS |
+| ALPHA ADVANCE FORCES | 60–80 | ALPHA SPECIAL FORCE, ALPHA ELITE SNIPER, ALPHA ELITE STORMTROOPER, ALPHA ELITE SCOUTS |
+| ALPHA TRUMP FORCES | 60–80 | ALPHA SPECIAL FORCE, ALPHA ELITE SNIPER, ALPHA ELITE STORMTROOPER, ALPHA ELITE SCOUTS |
+
+## No faction (faction 0)
+
+**Armies (1):**
+
+| Name | Squad size | Composition |
+| --- | --- | --- |
+| Trading Convoy | 10–50 | Uman Terrorist |
 
 ## Special Units
 

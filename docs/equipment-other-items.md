@@ -1,7 +1,7 @@
 <!-- markdownlint-disable-file MD024 -->
 <!-- markdownlint-disable-file MD001 -->
 
-# Other Items
+## Other Items
 
 ## Ammunition & Explosives
 

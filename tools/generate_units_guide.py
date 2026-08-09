@@ -4,9 +4,9 @@ Author: WOJTEK885
 Description:
   Generates a Markdown guide listing every unit available in Freeman: Guerrilla
   Warfare together with their possible equipment, organised by faction, plus the
-  campaign armies. The guide is split into per-section files; the index page
-  (`--output`) holds the title, table of contents, and overview, while each
-  section is written to a sibling file in the same directory.
+  campaign armies listed per faction. The guide is split into per-section files;
+  the index page (`--output`) holds the title, table of contents, and overview,
+  while each section is written to a sibling file in the same directory.
   Source data comes from the game's JSON tables under:
     .../StreamingAssets/Native/Table
 
@@ -72,7 +72,6 @@ GENERATE_NOTE = (
 
 SECTION_TOC = [
     ("Units & Heroes", "units-and-heroes.md"),
-    ("Armies", "armies.md"),
     ("Equipment: Weapons", "equipment-weapons.md"),
     ("Equipment: Clothing", "equipment-clothing.md"),
     ("Equipment: Other Items", "equipment-other-items.md"),
@@ -91,7 +90,7 @@ def fmt(value) -> str:
 def load_tables(tables_dir: Path) -> dict[str, dict]:
     """Loads all game tables into a dict keyed by table name."""
     tables = {}
-    for filename in ("Soldier", "Weapon", "Clothes", "Item", "Faction", "Squad", "Hero", "MapArmy", "Loot"):
+    for filename in ("Soldier", "Weapon", "Clothes", "Item", "Faction", "Squad", "Hero", "MapArmy"):
         path = tables_dir / f"{filename}.json"
         with open(path, encoding="utf-8-sig") as f:
             tables[filename] = json.load(f)
@@ -166,7 +165,7 @@ def equipment_lines(soldier: dict, weapon_table: dict, clothes_table: dict, item
 
 def soldier_profile(soldier: dict, weapon_table: dict, clothes_table: dict, item_table: dict) -> list[str]:
     """Renders the full profile for one soldier/unit."""
-    lines = [f"#### {soldier['Name']} (ID {soldier['ID']})"]
+    lines = [f"### {soldier['Name']} (ID {soldier['ID']})"]
     stats = [
         f"Role: {ROLE_LABEL.get(soldier.get('Type', ''), soldier.get('Type', ''))}",
         f"Sex: {'Male' if soldier.get('Sex') == 'MALE' else 'Female'}",
@@ -233,48 +232,6 @@ def squad_faction(squad: dict, factions: dict, soldiers: dict) -> str:
     return faction_id
 
 
-def army_section_lines(armies: dict, soldiers: dict, factions: dict, loot: dict) -> list[str]:
-    """Renders the campaign armies grouped by their army faction."""
-    lines = []
-    groups = {}
-    for army in armies.values():
-        groups.setdefault(fmt(army.get("ArmyFaction")), []).append(army)
-
-    def group_key(faction_id: str) -> tuple:
-        return (faction_id == "0", int(faction_id))
-
-    for faction_id in sorted(groups, key=group_key):
-        if faction_id == "0":
-            lines.append("### No faction (faction 0)")
-        else:
-            faction = factions.get(faction_id, {})
-            lines.append(f"### {faction.get('Name', faction_id)} (faction {faction_id})")
-        lines.append("")
-        for army in sorted(groups[faction_id], key=lambda a: int(a["ID"])):
-            lines.append(f"#### {army.get('Name', '')} (ID {army['ID']})")
-            lines.append("")
-            preset = loot.get(fmt(army.get("LootPreset")), {})
-            preset_name = preset.get("Desc", "")
-            preset_part = f"{preset_name} ({army.get('LootPreset')})" if preset_name else fmt(army.get("LootPreset"))
-            stats = [
-                f"AI: {fmt(army.get('AI'))}",
-                f"Loot preset: {preset_part}",
-                f"Squad size: {fmt(army.get('MinSoldiersCount'))}–{fmt(army.get('MaxSoldiersCount'))}",
-                f"Model: `{army.get('ModelName', '')}`",
-                f"Icon: `{army.get('Icon', '')}`",
-            ]
-            lines.append("  " + " · ".join(stats))
-            lines.append("")
-            members = []
-            for soldier_id in army.get("PossibleSoldier", []):
-                name = soldiers.get(str(soldier_id), {}).get("Name")
-                if name and name not in members:
-                    members.append(name)
-            lines.append(f"  Soldiers: `{', '.join(members)}`")
-            lines.append("")
-    return lines
-
-
 def weapon_section_lines(weapons: dict, item_table: dict) -> list[str]:
     """Renders the weapon catalog grouped by weapon type."""
     order = ["PISTOL", "SMG", "SHOTGUN", "RIFLE", "ASSAULTRIFLE", "MACHINEGUN", "LAUNCHER"]
@@ -294,7 +251,7 @@ def weapon_section_lines(weapons: dict, item_table: dict) -> list[str]:
         if not entries:
             continue
         entries.sort(key=lambda w: int(w["ID"]))
-        lines.append(f"#### {labels[weapon_type]}")
+        lines.append(f"## {labels[weapon_type]}")
         lines.append("")
         lines.append("| ID | Name | Damage | Magazine | Ammo | Modes | Attachments |")
         lines.append("| --- | --- | --- | --- | --- | --- | --- |")
@@ -325,7 +282,7 @@ def clothes_section_lines(clothes: dict, item_table: dict) -> list[str]:
         if not entries:
             continue
         entries.sort(key=lambda e: int(e[0]))
-        lines.append(f"#### {slot_label[slot]}")
+        lines.append(f"## {slot_label[slot]}")
         lines.append("")
         lines.append("| ID | Name | Armor | Camouflage |")
         lines.append("| --- | --- | --- | --- |")
@@ -347,7 +304,7 @@ def item_section_lines(items: dict) -> list[str]:
         if not entries:
             continue
         entries.sort(key=lambda i: int(i["ID"]))
-        lines.append(f"#### {label[item_type]}")
+        lines.append(f"## {label[item_type]}")
         lines.append("")
         lines.append("| ID | Name | Slot | Cost |")
         lines.append("| --- | --- | --- | --- |")
@@ -400,12 +357,20 @@ def overview_lines(tables: dict[str, dict]) -> list[str]:
 
 
 def units_by_faction_lines(tables: dict[str, dict]) -> list[str]:
-    """Renders the units-by-faction roster with per-faction squads."""
+    """Renders the units-by-faction roster with per-faction squads and armies."""
     soldiers, weapons = tables["Soldier"], tables["Weapon"]
     clothes, items = tables["Clothes"], tables["Item"]
-    factions, squads = tables["Faction"], tables["Squad"]
+    factions, squads, armies = tables["Faction"], tables["Squad"], tables["MapArmy"]
 
-    lines = ["## Units by Faction", ""]
+    def army_table(army_list: list[dict]) -> list[str]:
+        out = [f"**Armies ({len(army_list)}):**", "", "| Name | Squad size | Composition |", "| --- | --- | --- |"]
+        for army in sorted(army_list, key=lambda a: int(a["ID"])):
+            members = [soldiers.get(str(m), {}).get("Name", str(m)) for m in army.get("PossibleSoldier", [])]
+            size = f"{fmt(army.get('MinSoldiersCount'))}–{fmt(army.get('MaxSoldiersCount'))}"
+            out.append(f"| {army.get('Name', '')} | {size} | {', '.join(members)} |")
+        return out
+
+    lines = ["# Units by Faction", ""]
     used_faction_soldiers = {}
     for faction_id in sorted(factions, key=int):
         used_faction_soldiers[faction_id] = faction_soldiers(factions[faction_id])
@@ -413,7 +378,7 @@ def units_by_faction_lines(tables: dict[str, dict]) -> list[str]:
     for faction_id in sorted(factions, key=int):
         faction = factions[faction_id]
         name = faction.get("Name", "")
-        lines.append(f"### {name} (faction {faction_id})")
+        lines.append(f"## {name} (faction {faction_id})")
         lines.append("")
         lines.append(f"- **Relationship with player:** {fmt(faction.get('RelationshipWithPlayer'))}")
         lines.append(f"- **Enemy factions:** {faction.get('EnemyFactions', '-')}")
@@ -443,15 +408,18 @@ def units_by_faction_lines(tables: dict[str, dict]) -> list[str]:
                 members = [soldiers.get(str(m), {}).get("Name", str(m)) for m in squad.get("OriginalUnits", [])]
                 lines.append(f"| {squad.get('Name', '')} | {', '.join(members)} |")
             lines.append("")
-    return lines
 
+        faction_armies = [a for a in armies.values() if fmt(a.get("ArmyFaction")) == faction_id]
+        if faction_armies:
+            lines.extend(army_table(faction_armies))
+            lines.append("")
 
-def armies_lines(tables: dict[str, dict]) -> list[str]:
-    """Renders the campaign armies grouped by their army faction."""
-    lines = ["## Armies", ""]
-    lines.append("Campaign armies that patrol the map, grouped by their faction.")
-    lines.append("")
-    lines.extend(army_section_lines(tables["MapArmy"], tables["Soldier"], tables["Faction"], tables["Loot"]))
+    no_faction_armies = [a for a in armies.values() if fmt(a.get("ArmyFaction")) == "0"]
+    if no_faction_armies:
+        lines.append("## No faction (faction 0)")
+        lines.append("")
+        lines.extend(army_table(no_faction_armies))
+        lines.append("")
     return lines
 
 
@@ -566,7 +534,6 @@ def units_and_heroes_lines(tables: dict[str, dict]) -> list[str]:
 
 SECTION_RENDERERS = {
     "units-and-heroes.md": units_and_heroes_lines,
-    "armies.md": armies_lines,
     "equipment-weapons.md": weapons_catalog_lines,
     "equipment-clothing.md": clothing_catalog_lines,
     "equipment-other-items.md": other_items_catalog_lines,

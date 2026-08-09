@@ -8,7 +8,6 @@ Automatically generated from the game data tables in `StreamingAssets/Native/Tab
 ## Sections
 
 - [Units & Heroes](units-and-heroes.md)
-- [Armies](armies.md)
 - [Equipment: Weapons](equipment-weapons.md)
 - [Equipment: Clothing](equipment-clothing.md)
 - [Equipment: Other Items](equipment-other-items.md)

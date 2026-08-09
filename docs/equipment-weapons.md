@@ -1,7 +1,7 @@
 <!-- markdownlint-disable-file MD024 -->
 <!-- markdownlint-disable-file MD001 -->
 
-# Weapons
+## Weapons
 
 Fire modes: `Semi` = semi-automatic, `Burst` = burst fire, `Auto` = fully automatic.
 Ammo column shows the ammo type name and its catalog ID.
