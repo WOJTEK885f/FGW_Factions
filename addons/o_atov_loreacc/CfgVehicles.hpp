@@ -26,6 +26,7 @@ class CfgVehicles {
         author = AUTHOR;
         scope = 0;         // Hidden in Editor
         scopeCurator = 0;  // Hidden in Zeus
+        editorPreview = "";
 
         // Common assignments
         faction = QGVAR(Atov);
