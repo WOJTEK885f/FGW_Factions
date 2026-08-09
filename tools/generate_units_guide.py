@@ -3,12 +3,15 @@
 Author: WOJTEK885
 Description:
   Generates a Markdown guide listing every unit available in Freeman: Guerrilla
-  Warfare together with their possible equipment, organised by faction.
+  Warfare together with their possible equipment, organised by faction, plus the
+  campaign armies. The guide is split into per-section files; the index page
+  (`--output`) holds the title, table of contents, and overview, while each
+  section is written to a sibling file in the same directory.
   Source data comes from the game's JSON tables under:
     .../StreamingAssets/Native/Table
 
   Usage:
-    python tools/generate_units_guide.py [--tables <dir>] [--output <path>]
+    python tools/generate_units_guide.py [--tables <dir>] [--output <index path>]
 """
 
 import json
@@ -52,6 +55,27 @@ SKILL_LEGEND = [
 
 FACTION_SQUAD_ORDER = [
     "1", "101", "102", "103", "104", "201", "202", "203", "301", "302", "303", "402", "403", "501",
+]
+
+LINT_HEADER = [
+    "<!-- markdownlint-disable-file MD024 -->",
+    "<!-- markdownlint-disable-file MD001 -->",
+]
+
+DOC_TITLE = "# Freeman: Guerrilla Warfare – Units & Equipment Guide"
+
+GENERATE_NOTE = (
+    "Automatically generated from the game data tables in "
+    "`StreamingAssets/Native/Table`. Regenerate with "
+    "`python tools/generate_units_guide.py`."
+)
+
+SECTION_TOC = [
+    ("Units & Heroes", "units-and-heroes.md"),
+    ("Armies", "armies.md"),
+    ("Equipment: Weapons", "equipment-weapons.md"),
+    ("Equipment: Clothing", "equipment-clothing.md"),
+    ("Equipment: Other Items", "equipment-other-items.md"),
 ]
 
 
@@ -335,27 +359,13 @@ def item_section_lines(items: dict) -> list[str]:
     return lines
 
 
-def render_guide(tables: dict[str, dict]) -> str:
-    """Renders the full guide document."""
+def overview_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders the overview (counts, roles, weapon skills, loadout slots)."""
     soldiers, weapons = tables["Soldier"], tables["Weapon"]
     clothes, items = tables["Clothes"], tables["Item"]
     factions, squads, heroes = tables["Faction"], tables["Squad"], tables["Hero"]
 
-    lines = []
-    lines.append("<!-- markdownlint-disable-file MD024 -->")
-    lines.append("<!-- markdownlint-disable-file MD001 -->")
-    lines.append("")
-    lines.append("# Freeman: Guerrilla Warfare – Units & Equipment Guide")
-    lines.append("")
-    lines.append(
-        "Automatically generated from the game data tables in "
-        "`StreamingAssets/Native/Table`. Regenerate with "
-        "`python tools/generate_units_guide.py`."
-    )
-    lines.append("")
-
-    lines.append("## Overview")
-    lines.append("")
+    lines = ["## Overview", ""]
     lines.append(f"- **Units:** {len(soldiers)}")
     lines.append(f"- **Factions:** {len(factions)}")
     lines.append(f"- **Armies:** {len(tables['MapArmy'])}")
@@ -382,17 +392,24 @@ def render_guide(tables: dict[str, dict]) -> str:
     lines.append("")
     lines.append(
         "The `Equipment` block lists every item the unit can spawn with. IDs in parentheses "
-        "match the catalog appendix at the bottom of this document. A trailing `· none` means "
-        "that slot may also be empty — the unit can spawn without that item."
+        "match the Equipment Catalog (`equipment-weapons.md`, `equipment-clothing.md`, "
+        "`equipment-other-items.md`). A trailing `· none` means that slot may also be "
+        "empty — the unit can spawn without that item."
     )
-    lines.append("")
+    return lines
 
+
+def units_by_faction_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders the units-by-faction roster with per-faction squads."""
+    soldiers, weapons = tables["Soldier"], tables["Weapon"]
+    clothes, items = tables["Clothes"], tables["Item"]
+    factions, squads = tables["Faction"], tables["Squad"]
+
+    lines = ["## Units by Faction", ""]
     used_faction_soldiers = {}
     for faction_id in sorted(factions, key=int):
         used_faction_soldiers[faction_id] = faction_soldiers(factions[faction_id])
 
-    lines.append("## Units by Faction")
-    lines.append("")
     for faction_id in sorted(factions, key=int):
         faction = factions[faction_id]
         name = faction.get("Name", "")
@@ -426,24 +443,46 @@ def render_guide(tables: dict[str, dict]) -> str:
                 members = [soldiers.get(str(m), {}).get("Name", str(m)) for m in squad.get("OriginalUnits", [])]
                 lines.append(f"| {squad.get('Name', '')} | {', '.join(members)} |")
             lines.append("")
+    return lines
 
-    lines.append("## Armies")
-    lines.append("")
+
+def armies_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders the campaign armies grouped by their army faction."""
+    lines = ["## Armies", ""]
     lines.append("Campaign armies that patrol the map, grouped by their faction.")
     lines.append("")
-    lines.extend(army_section_lines(tables["MapArmy"], soldiers, factions, tables["Loot"]))
+    lines.extend(army_section_lines(tables["MapArmy"], tables["Soldier"], tables["Faction"], tables["Loot"]))
+    return lines
 
-    lines.append("## Special Units")
-    lines.append("")
+
+def special_units_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders the special-unit profiles."""
+    soldiers, weapons = tables["Soldier"], tables["Weapon"]
+    clothes, items = tables["Clothes"], tables["Item"]
+    factions = tables["Faction"]
+    lines = ["## Special Units", ""]
     for soldier_id in sorted(soldiers, key=int):
         if not factions_for_soldier(soldier_id, factions) and 1001 <= int(soldier_id) <= 1008:
             lines.extend(soldier_profile(soldiers[soldier_id], weapons, clothes, items))
+    return lines
 
-    lines.append("## Trained Units")
-    lines.append("")
+
+def trained_units_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders the trained-unit profiles."""
+    soldiers, weapons = tables["Soldier"], tables["Weapon"]
+    clothes, items = tables["Clothes"], tables["Item"]
+    factions = tables["Faction"]
+    lines = ["## Trained Units", ""]
     for soldier_id in [s for s in sorted(soldiers, key=int) if not factions_for_soldier(s, factions) and 801 <= int(s) <= 803]:
         lines.extend(soldier_profile(soldiers[soldier_id], weapons, clothes, items))
+    return lines
 
+
+def other_units_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders the remaining (non-categorised) unit profiles."""
+    soldiers, weapons = tables["Soldier"], tables["Weapon"]
+    clothes, items = tables["Clothes"], tables["Item"]
+    factions = tables["Faction"]
     other_ids = [
         s for s in sorted(soldiers, key=int)
         if not factions_for_soldier(s, factions)
@@ -451,14 +490,20 @@ def render_guide(tables: dict[str, dict]) -> str:
         and not (801 <= int(s) <= 803)
         and int(s) < 10000
     ]
+    lines = []
     if other_ids:
-        lines.append("## Other Units")
-        lines.append("")
+        lines = ["## Other Units", ""]
         for soldier_id in other_ids:
             lines.extend(soldier_profile(soldiers[soldier_id], weapons, clothes, items))
+    return lines
 
-    lines.append("## Heroes")
-    lines.append("")
+
+def heroes_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders the hero summary table and full hero profiles."""
+    soldiers, weapons = tables["Soldier"], tables["Weapon"]
+    clothes, items = tables["Clothes"], tables["Item"]
+    factions, heroes = tables["Faction"], tables["Hero"]
+    lines = ["## Heroes", ""]
     hero_soldier_ids = [str(h["SoldierID"]) for h in heroes.values()]
     lines.append(f"{len(heroes)} recruitable characters. `Faction` is the faction they belong to (Independent = no faction).")
     lines.append("")
@@ -482,23 +527,77 @@ def render_guide(tables: dict[str, dict]) -> str:
     for soldier_id in hero_soldier_ids:
         if soldier_id in soldiers:
             lines.extend(soldier_profile(soldiers[soldier_id], weapons, clothes, items))
+    return lines
 
-    lines.append("## Equipment Catalog")
-    lines.append("")
-    lines.append("### Weapons")
-    lines.append("")
+
+def weapons_catalog_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders the weapon catalog."""
+    lines = ["## Weapons", ""]
     lines.append("Fire modes: `Semi` = semi-automatic, `Burst` = burst fire, `Auto` = fully automatic.")
     lines.append("Ammo column shows the ammo type name and its catalog ID.")
     lines.append("")
-    lines.extend(weapon_section_lines(weapons, items))
-    lines.append("### Clothing")
-    lines.append("")
-    lines.extend(clothes_section_lines(clothes, items))
-    lines.append("### Other Items")
-    lines.append("")
-    lines.extend(item_section_lines(items))
+    lines.extend(weapon_section_lines(tables["Weapon"], tables["Item"]))
+    return lines
 
-    return "\n".join(lines)
+
+def clothing_catalog_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders the clothing catalog."""
+    lines = ["## Clothing", ""]
+    lines.extend(clothes_section_lines(tables["Clothes"], tables["Item"]))
+    return lines
+
+
+def other_items_catalog_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders the non-clothing item catalog."""
+    lines = ["## Other Items", ""]
+    lines.extend(item_section_lines(tables["Item"]))
+    return lines
+
+
+def units_and_heroes_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders all unit rosters and hero profiles in a single document."""
+    lines = units_by_faction_lines(tables)
+    lines.extend(special_units_lines(tables))
+    lines.extend(trained_units_lines(tables))
+    lines.extend(other_units_lines(tables))
+    lines.extend(heroes_lines(tables))
+    return lines
+
+
+SECTION_RENDERERS = {
+    "units-and-heroes.md": units_and_heroes_lines,
+    "armies.md": armies_lines,
+    "equipment-weapons.md": weapons_catalog_lines,
+    "equipment-clothing.md": clothing_catalog_lines,
+    "equipment-other-items.md": other_items_catalog_lines,
+}
+
+
+def index_lines(tables: dict[str, dict]) -> list[str]:
+    """Renders the landing page: title, note, table of contents, and overview."""
+    lines = [DOC_TITLE, ""]
+    lines.append(GENERATE_NOTE)
+    lines.append("")
+    lines.append("## Sections")
+    lines.append("")
+    for label, rel in SECTION_TOC:
+        lines.append(f"- [{label}]({rel})")
+    lines.append("")
+    lines.extend(overview_lines(tables))
+    return lines
+
+
+def build_document(lines: list[str]) -> str:
+    """Prepends the markdownlint header and joins the lines into a document."""
+    return "\n".join([*LINT_HEADER, "", *lines])
+
+
+def write_document(path: Path, lines: list[str]) -> None:
+    """Writes a rendered document to disk."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(build_document(lines).rstrip())
+        f.write("\n")
 
 
 def main() -> None:
@@ -522,12 +621,9 @@ def main() -> None:
     tables = load_tables(tables_dir)
 
     logger.log(logger.LogLevel.INFO, "Rendering guide")
-    document = render_guide(tables)
-
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(document.rstrip())
-        f.write("\n")
+    write_document(output_path, index_lines(tables))
+    for rel, renderer in SECTION_RENDERERS.items():
+        write_document(output_path.parent / rel, renderer(tables))
     logger.log(logger.LogLevel.INFO, f"Guide written to {output_path}")
 
 
