@@ -6,7 +6,7 @@
 Fire modes: `Semi` = semi-automatic, `Burst` = burst fire, `Auto` = fully automatic.
 Ammo column shows the ammo type name and its catalog ID.
 
-### Pistols
+## Pistols
 
 | ID | Name | Damage | Magazine | Ammo | Modes | Attachments |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -22,7 +22,7 @@ Ammo column shows the ammo type name and its catalog ID.
 | 2809 | P250 | 44 | 8 | Tokarev (510) | Semi | Pistol Silencer (607) |
 | 2810 | UZI | 22 | 25 | 9mm (502) | Auto | none |
 
-### Submachine Guns
+## Submachine Guns
 
 | ID | Name | Damage | Magazine | Ammo | Modes | Attachments |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -35,7 +35,7 @@ Ammo column shows the ammo type name and its catalog ID.
 | 2208 | VECTOR | 27 | 25 | 45ACP (505) | Semi / Auto | SP133 Reddot Sight (601) · EOT52 Holographic Sight (602) · AMT Reddot Sight (603) · TAC 4x (604) · Rifle Silencer (608) |
 | 2209 | Thompson | 26 | 50 | 45ACP (505) | Semi / Auto | SP133 Reddot Sight (601) · EOT52 Holographic Sight (602) · AMT Reddot Sight (603) · TAC 4x (604) |
 
-### Shotguns
+## Shotguns
 
 | ID | Name | Damage | Magazine | Ammo | Modes | Attachments |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ Ammo column shows the ammo type name and its catalog ID.
 | 2602 | Shot12 | 40 | 10 | 12 Gauge (504) | Semi / Auto | none |
 | 2603 | Striker12 | 40 | 12 | 12 Gauge (504) | Semi / Auto | none |
 
-### Rifles
+## Rifles
 
 | ID | Name | Damage | Magazine | Ammo | Modes | Attachments |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -57,7 +57,7 @@ Ammo column shows the ammo type name and its catalog ID.
 | 2407 | SSG08 | 75 | 10 | 7.62mm (501) | Semi | Rifle Silencer (608) |
 | 2408 | SV98m | 95 | 10 | 7.62mm (501) | Semi | none |
 
-### Assault Rifles
+## Assault Rifles
 
 | ID | Name | Damage | Magazine | Ammo | Modes | Attachments |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ Ammo column shows the ammo type name and its catalog ID.
 | 2014 | ARX160 | 48 | 30 | 5.56mm (511) | Semi / Auto | SP133 Reddot Sight (601) · EOT52 Holographic Sight (602) · AMT Reddot Sight (603) · TAC 4x (604) · Spectre (605) · M145 (606) · Rifle Silencer (608) |
 | 2015 | M4A | 48 | 30 | 5.56mm (511) | Semi / Auto | SP133 Reddot Sight (601) · EOT52 Holographic Sight (602) · AMT Reddot Sight (603) · TAC 4x (604) · Spectre (605) · M145 (606) · Rifle Silencer (608) |
 
-### Machine Guns
+## Machine Guns
 
 | ID | Name | Damage | Magazine | Ammo | Modes | Attachments |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -83,7 +83,7 @@ Ammo column shows the ammo type name and its catalog ID.
 | 2902 | Mini24 | 42 | 100 | 5.56mm (511) | Auto | SP133 Reddot Sight (601) · EOT52 Holographic Sight (602) · AMT Reddot Sight (603) · TAC 4x (604) · M145 (606) |
 | 2903 | PKM74 | 58 | 45 | 7.62mm (501) | Auto | SP133 Reddot Sight (601) · EOT52 Holographic Sight (602) · AMT Reddot Sight (603) · TAC 4x (604) · M145 (606) |
 
-### Launchers
+## Launchers
 
 | ID | Name | Damage | Magazine | Ammo | Modes | Attachments |
 | --- | --- | --- | --- | --- | --- | --- |

@@ -1,9 +1,9 @@
 <!-- markdownlint-disable-file MD024 -->
 <!-- markdownlint-disable-file MD001 -->
 
-## Clothing
+# Clothing
 
-#### Helmets
+## Helmets
 
 | ID | Name | Armor | Camouflage |
 | --- | --- | --- | --- |
@@ -31,7 +31,7 @@
 | 1637 | Old Camo Helmet | 25 | 15 |
 | 1638 | MP Helmet | 32 | 0 |
 
-#### Shirts
+## Shirts
 
 | ID | Name | Armor | Camouflage |
 | --- | --- | --- | --- |
@@ -82,7 +82,7 @@
 | 1045 | White Hoodie | 5 | 0 |
 | 1046 | Sport Hoodie | 5 | 0 |
 
-#### Body Armor
+## Body Armor
 
 | ID | Name | Armor | Camouflage |
 | --- | --- | --- | --- |
@@ -104,7 +104,7 @@
 | 1416 | Light Black Vest | 30 | 15 |
 | 1417 | Desert Militia Vest | 24 | 17 |
 
-#### Pants
+## Pants
 
 | ID | Name | Armor | Camouflage |
 | --- | --- | --- | --- |
@@ -129,7 +129,7 @@
 | 1219 | Sand Combat Pants | 10 | 20 |
 | 1220 | Sand Skirt | 6 | 18 |
 
-#### Masks
+## Masks
 
 | ID | Name | Armor | Camouflage |
 | --- | --- | --- | --- |
