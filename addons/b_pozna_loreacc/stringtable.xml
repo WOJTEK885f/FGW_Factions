@@ -34,5 +34,9 @@
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_SniperElite">
             <English>Pozna Sniper Elite</English>
         </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_vydra_3m_flakvest">
+            <English>Vydra-3M - Flak Vest</English>
+            <Polish>Wydra-3M - Flak Vest</Polish>
+        </Key>
     </Package>
 </Project>
