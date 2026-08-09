@@ -66,7 +66,7 @@ The table below contains the weapons featured in **Freeman: Guerrilla Warfare**,
 | L85 | L85A2 TES + ACOG | L85A2 (RIS/Grip) + ACOG | CUP | RHS ACOG preferred due to better quality |
 | M16A5 | M16A4 | M16A4 | CUP | |
 | M416 | Heckler & Koch HK416 | HK416 | CUP | |
-| M4A | AR-15 | M4A1 (Grip) | CUP | Matched based on weapon parts to resemble the generic AR |
+| M4A | AR-15 | M4A1 (Grip) | CUP | Matched based on weapon parts to resemble the generic AR model from F:GW |
 | PDR | Magpul PDR | | | |
 | SCAR-L | FN SCAR-H STD | Mk 17 Standard | CUP | |
 | Groza | OTs-14-1A Groza + PO4x34 | OTs-15-1A-01 Groza + PO4x34 | CUP | |
