@@ -15,6 +15,7 @@ class CfgPatches {
             "CUP_Weapons_WeaponsCore",
             "CUP_Weapons_NVG",
             "USP_Gear_Body", // All units: Uniforms
+            "USP_Gear_Face", // Tatuana: Balaclava
             "CUP_Creatures_Military_CDF", // Sniper Elite: Vest
             "CUP_Creatures_Military_USMC", // Commando: Vest
             "CUP_Creatures_Military_Russia", // Fighter: Balaclava
