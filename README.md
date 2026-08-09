@@ -27,7 +27,7 @@
 
 ## Documentation
 
-- [Weapons](./docs/weapons.md) – F:GW arsenal, their real-world counterparts, and the corresponding Arma 3 weapons.
+- [Selected Weapons](./docs/selected-weapons.md) – F:GW arsenal, their real-world counterparts, and the corresponding Arma 3 weapons.
 - [Units & Equipment Guide](./docs/units-equipment-guide.md) – every unit in the game and the equipment they can use.
 
 ## Contributing
