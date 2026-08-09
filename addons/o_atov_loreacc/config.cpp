@@ -17,6 +17,7 @@ class CfgPatches {
             "CUP_Weapons_East_Attachments",
             "CUP_Weapons_NVG",
             "rhsgref_c_weapons", // Panzerfaust 60
+            "rhs_main", // Flak Vest (Custom)
             "CUP_Creatures_Military_PMC", // Infantry: Vest, SpecialForce: Uniform(Custom)
             "CUP_Creatures_Military_USMC", // Infantry, Machinegunner: Uniform(Custom), SpecialForce: Vest, Sharpshooter: Headgear
             "CUP_Creatures_Military_Russia", // Infantry: Balaclava, Machinegunner: Helmet
@@ -41,7 +42,8 @@ class CfgPatches {
         weapons[] = {
             "FGW_U_O_USMC_FROG3_WMARPAT_ATOV",
             "FGW_U_O_PMC_Unit_35_ATOV",
-            "FGW_U_O_PMC_Unit_1_ATOV"
+            "FGW_U_O_PMC_Unit_1_ATOV",
+            "FGW_V_O_Flak_Vest_Vydra_3M"
         };
         VERSION_CONFIG;
     };
