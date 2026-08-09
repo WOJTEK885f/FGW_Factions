@@ -32,7 +32,9 @@ class CfgPatches {
             "FGW_B_Pozna_Companion_Denis",
             "FGW_B_Pozna_Companion_Tatyana"
         };
-        weapons[] = {};
+        weapons[] = {
+            "FGW_V_B_Flak_Vest_Vydra_3M"
+        };
         VERSION_CONFIG;
     };
 };
