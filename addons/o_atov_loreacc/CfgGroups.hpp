@@ -112,6 +112,65 @@ class CfgGroups {
                     class Unit3 { side = 0; vehicle = "FGW_O_Atov_Sharpshooter"; rank = "PRIVATE";  position[] = {10,-10,0}; };
                 };
             };
+
+            class Infantry_CompanionLead {
+                name = "$STR_gr7bow_fgw_factions_main_Subcat_Infantry_CompanionLead";
+
+                class GVAR(Group_Army_Investigation_Kostyantin) {
+                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_Investigation_Kostyantin";
+                    side = 0;
+                    faction = QGVAR(Atov);
+                    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+
+                    class Unit0 { side = 0; vehicle = "FGW_O_Atov_Companion_Kostyantin"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 0; vehicle = "FGW_O_Atov_Scout";                rank = "SERGEANT";   position[] = {5,-5,0}; };
+                    class Unit2 { side = 0; vehicle = "FGW_O_Atov_Scout";                rank = "CORPORAL";   position[] = {-5,-5,0}; };
+                    class Unit3 { side = 0; vehicle = "FGW_O_Atov_Scout";                rank = "PRIVATE";    position[] = {10,-10,0}; };
+                    class Unit4 { side = 0; vehicle = "FGW_O_Atov_Sharpshooter";         rank = "PRIVATE";    position[] = {-10,-10,0}; };
+                };
+
+                class GVAR(Group_InfantryFireteam_Oleg) {
+                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_InfantryFireteam_Oleg";
+                    side = 0;
+                    faction = QGVAR(Atov);
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+
+                    class Unit0 { side = 0; vehicle = "FGW_O_Atov_Companion_Oleg";  rank = "LIEUTENANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 0; vehicle = "FGW_O_Atov_Infantry";        rank = "SERGEANT";   position[] = {5,-5,0}; };
+                    class Unit2 { side = 0; vehicle = "FGW_O_Atov_Machinegunner";   rank = "CORPORAL";   position[] = {-5,-5,0}; };
+                    class Unit3 { side = 0; vehicle = "FGW_O_Atov_Sharpshooter";    rank = "PRIVATE";    position[] = {10,-10,0}; };
+                    class Unit4 { side = 0; vehicle = "FGW_O_Atov_Infantry";        rank = "PRIVATE";    position[] = {-10,-10,0}; };
+                    class Unit5 { side = 0; vehicle = "FGW_O_Atov_Infantry";        rank = "PRIVATE";    position[] = {15,-15,0}; };
+                };
+
+                class GVAR(Group_NationalGuard_Dimitro) {
+                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_NationalGuard_Dimitro";
+                    side = 0;
+                    faction = QGVAR(Atov);
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+
+                    class Unit0 { side = 0; vehicle = "FGW_O_Atov_Companion_Dimitro"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 0; vehicle = "FGW_O_Atov_Machinegunner";     rank = "PRIVATE";    position[] = {5,-5,0}; };
+                    class Unit2 { side = 0; vehicle = "FGW_O_Atov_Sharpshooter";      rank = "PRIVATE";    position[] = {-5,-5,0}; };
+                    class Unit3 { side = 0; vehicle = "FGW_O_Atov_Commando";          rank = "CORPORAL";   position[] = {10,-10,0}; };
+                    class Unit4 { side = 0; vehicle = "FGW_O_Atov_Scout";             rank = "PRIVATE";    position[] = {-10,-10,0}; };
+                    class Unit5 { side = 0; vehicle = "FGW_O_Atov_Infantry";          rank = "PRIVATE";    position[] = {15,-15,0}; };
+                    class Unit6 { side = 0; vehicle = "FGW_O_Atov_Machinegunner";     rank = "PRIVATE";    position[] = {-15,-15,0}; };
+                };
+
+                class GVAR(Group_SecurityPatrol_Vitaly) {
+                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SecurityPatrol_Vitaly";
+                    side = 0;
+                    faction = QGVAR(Atov);
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+
+                    class Unit0 { side = 0; vehicle = "FGW_O_Atov_Companion_Vitaly"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 0; vehicle = "FGW_O_Atov_ArmedPolice";      rank = "SERGEANT";   position[] = {5,-5,0}; };
+                    class Unit2 { side = 0; vehicle = "FGW_O_Atov_ArmedPolice";      rank = "CORPORAL";   position[] = {-5,-5,0}; };
+                    class Unit3 { side = 0; vehicle = "FGW_O_Atov_ArmedPolice";      rank = "PRIVATE";    position[] = {10,-10,0}; };
+                    class Unit4 { side = 0; vehicle = "FGW_O_Atov_Infantry";         rank = "PRIVATE";    position[] = {-10,-10,0}; };
+                };
+            };
         };
     };
 };

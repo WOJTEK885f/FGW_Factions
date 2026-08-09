@@ -28,14 +28,26 @@
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_ReconPlatoon">
             <English>Recon Team</English>
         </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_ReconPlatoon_Tatyana">
+            <English>Recon Team (Tatyana)</English>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_RifleCompany">
             <English>Rifle Company Detachment</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_RifleCompany_Denis">
+            <English>Rifle Company Detachment (Denis)</English>
         </Key>
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_MarksmanTeam">
             <English>Marksman Team</English>
         </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_MarksmanTeam_Roman">
+            <English>Marksman Team (Roman)</English>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_RifleSquad">
             <English>Rifle Squad</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_RifleSquad_Yuriy">
+            <English>Rifle Squad (Yuriy)</English>
         </Key>
         <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_SniperElite">
             <English>Pozna Sniper Elite</English>

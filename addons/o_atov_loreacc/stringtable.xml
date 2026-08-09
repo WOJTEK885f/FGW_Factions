@@ -28,17 +28,29 @@
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_Investigation">
             <English>Investigation Team</English>
         </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_Investigation_Kostyantin">
+            <English>Investigation Team (Kostyantin)</English>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_NationalGuard">
             <English>National Guard Squad</English>
         </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_NationalGuard_Dimitro">
+            <English>National Guard Squad (Dimitro)</English>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SecurityPatrol">
             <English>Security Patrol</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SecurityPatrol_Vitaly">
+            <English>Security Patrol (Vitaly)</English>
         </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SpecialForce">
             <English>Special Force Weapon Team</English>
         </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_InfantryFireteam">
             <English>Infantry Fireteam</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_InfantryFireteam_Oleg">
+            <English>Infantry Fireteam (Oleg)</English>
         </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_SpecialForceTeam">
             <English>Special Force Team</English>
