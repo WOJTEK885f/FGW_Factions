@@ -41,7 +41,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Atov_Infantry";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "";
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Infantry.jpg";
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Infantry";
 
@@ -89,7 +89,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Atov_Machinegunner";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "";
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Machinegunner.jpg";
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Machinegunner";
 
@@ -137,7 +137,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Atov_ArmedPolice";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "";
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_ArmedPolice.jpg";
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_ArmedPolice";
 
@@ -193,7 +193,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Atov_Scout";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "";
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Scout.jpg";
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Scout";
 
@@ -247,7 +247,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Atov_Commando";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "";
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Commando.jpg";
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Commando";
 
@@ -299,7 +299,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Atov_SpecialForce";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "";
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_SpecialForce.jpg";
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_SpecialForce";
 
@@ -349,7 +349,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Atov_Sharpshooter";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "";
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Sharpshooter.jpg";
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Sharpshooter";
 
@@ -407,6 +407,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Atov_Companion_Vitaly";
         scope = 2;
         scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Vitaly.jpg";
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Vitaly";
 
@@ -452,6 +453,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Atov_Companion_Kostyantin";
         scope = 2;
         scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Kostyantin.jpg";
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Kostyantin";
 
@@ -495,6 +497,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Atov_Companion_Oleg";
         scope = 2;
         scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Oleg.jpg";
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Oleg";
 
@@ -540,6 +543,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Atov_Companion_Dimitro";
         scope = 2;
         scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Dimitro.jpg";
 
         displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Dimitro";
 
