@@ -4,7 +4,7 @@
 <h1 align="center">Freeman: Guerrilla Warfare Factions</h1>
 <p align="center">
     <a href="https://github.com/WOJTEK885f/FGW_Factions/releases/latest">
-        <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square" alt="Freeman: Guerrilla Warfare Factions Version">
+        <img src="https://img.shields.io/badge/Version-0.1.0-blue?style=flat-square" alt="Freeman: Guerrilla Warfare Factions Version">
     </a>
     <a href="https://github.com/WOJTEK885f/FGW_Factions/issues">
         <img src="https://img.shields.io/github/issues-raw/WOJTEK885f/FGW_Factions.svg?style=flat-square&label=Issues" alt="Freeman: Guerrilla Warfare Factions Issues">
@@ -27,7 +27,7 @@
 
 ## Documentation
 
-- [Weapons](./docs/weapons.md) – F:GW arsenal, their real-world counterparts, and the corresponding Arma 3 weapons.
+- [Selected Weapons](./docs/selected-weapons.md) – F:GW arsenal, their real-world counterparts, and the corresponding Arma 3 weapons.
 - [Units & Equipment Guide](./docs/units-equipment-guide.md) – every unit in the game and the equipment they can use.
 
 ## Contributing
