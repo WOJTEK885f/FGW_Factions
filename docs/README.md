@@ -31,39 +31,39 @@ This project intends to recreate the entire geopolitical conflict of the world o
 
 ## Key Features
 
-* **Authentic Units:** Based directly on F:GW, with matching loadouts and Cherniv-inspired name, face, and voice pools.
+* **Authentic Units:** Based directly on F:GW, with matching loadouts and game-inspired name, face, and voice pools.
 * **Companion System:** Unique named characters with persistent identities, custom gear, and predefined group roles.
 * **Faction-Based Groups:**
   * Eden and Zeus groups reflecting in-game predefined squads as well as map armies,
   * Unique companion-led variants, matching each character's playstyle and fighting capabilities.
-* **Custom Gear:** Hybrid gear combining existing visual assets with custom configs to match the in-game appearance.
+* **Custom Gear:** Hybrid gear combining existing assets with custom configs to match the in-game appearance.
 * **Modular Approach:** Optional dependencies let you unload mods required by factions you won't use.
 
 ### Major Factions
 
-- [ ] - [B] Player Faction
-- [x] - [O] Atov Federation
-- [x] - [B] Pozna Battalion
-- [ ] - [I] Free Cossaks Army
-- [ ] - [O] Uman Brotherhood
-- [ ] - [B] Valkyrie Female Fighters
-- [ ] - [I] Chernivkan Front
-- [ ] - [O] Alpha Forces
+* [ ] - [B] Player Faction
+* [x] - [O] Atov Federation
+* [x] - [B] Pozna Battalion
+* [ ] - [I] Free Cossaks Army
+* [ ] - [O] Uman Brotherhood
+* [ ] - [B] Valkyrie Female Fighters
+* [ ] - [I] Chernivkan Front
+* [ ] - [O] Alpha Forces
 
 ### Minor Factions
 
-- [ ] - [I] Rebels
-- [ ] - [I] Terrorists
-- [ ] - [I] Desert Marauders
-- [ ] - [I] Mountain Bandits
-- [ ] - [I] Pirates
-- [ ] - [I] Cossacks Rebels
-- [ ] - [I] Bandits
+* [ ] - [I] Rebels
+* [ ] - [I] Terrorists
+* [ ] - [I] Desert Marauders
+* [ ] - [I] Mountain Bandits
+* [ ] - [I] Pirates
+* [ ] - [I] Cossacks Rebels
+* [ ] - [I] Bandits
 
 ## Documentation
 
-- [Selected Weapons](./docs/selected-weapons.md) – F:GW arsenal, its real-world counterparts, and the corresponding Arma 3 weapons.
-- [Units & Equipment Guide](./docs/units-equipment-guide.md) – every unit in the game and the equipment they can use.
+* [Selected Weapons](./docs/selected-weapons.md) – F:GW arsenal, its real-world counterparts, and the corresponding Arma 3 weapons.
+* [Units & Equipment Guide](./docs/units-equipment-guide.md) – every unit in the game and the equipment they can use.
 
 ## Contributing
 
