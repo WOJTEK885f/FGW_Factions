@@ -31,15 +31,16 @@ This project intends to recreate the entire geopolitical conflict of the world o
 
 ## Key Features
 
-* **Authentic Units:** Based directly on the game, with matching loadouts and Cherniv-inspired name, face, and voice pools.
-* **Companion System:** Unique named characters with persistent identities, facial features, custom gear, and predefined group roles.
+* **Authentic Units:** Based directly on F:GW, with matching loadouts and Cherniv-inspired name, face, and voice pools.
+* **Companion System:** Unique named characters with persistent identities, custom gear, and predefined group roles.
 * **Faction-Based Groups:**
-  * Eden and Zeus groups reflecting F:GW predefined squads as well as map armies,
+  * Eden and Zeus groups reflecting in-game predefined squads as well as map armies,
   * Unique companion-led variants, matching each character's playstyle and fighting capabilities.
-* **Custom Gear:** Hybrid gear combining existing visual assets with custom configs to match the in-game equipment appearance.
-* **Modular Approach:** Optional dependencies let you unload mods required by factions you won't use without causing issues.
+* **Custom Gear:** Hybrid gear combining existing visual assets with custom configs to match the in-game appearance.
+* **Modular Approach:** Optional dependencies let you unload mods required by factions you won't use.
 
 ### Major Factions
+
 - [ ] - [B] Player Faction
 - [x] - [O] Atov Federation
 - [x] - [B] Pozna Battalion
@@ -50,6 +51,7 @@ This project intends to recreate the entire geopolitical conflict of the world o
 - [ ] - [O] Alpha Forces
 
 ### Minor Factions
+
 - [ ] - [I] Rebels
 - [ ] - [I] Terrorists
 - [ ] - [I] Desert Marauders
