@@ -61,7 +61,7 @@ class CfgGroups {
             };
 
             class Infantry_CompanionLead {
-                name = "$STR_gr7bow_fgw_factions_main_Subcat_Infantry_CompanionLead";
+                name = "$STR_gr7bow_fgw_factions_main_Subcat_Infantry_CompanionLed";
 
                 class GVAR(Group_RifleSquad_Yuriy) {
                     name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_RifleSquad_Yuriy";
