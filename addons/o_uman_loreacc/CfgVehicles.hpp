@@ -1,6 +1,15 @@
 class CfgVehicles {
     class O_Soldier_F; // Forward declaration
 
+    // Import the original carrier from CUP
+    class CUP_B_USMC_Soldier_MCCUU_M81_MARPAT_roll_2;
+
+    // Create a hidden dummy unit for Uman to bypass faction side restrictions
+    class FGW_O_Uman_Dummy_MCCUU: CUP_B_USMC_Soldier_MCCUU_M81_MARPAT_roll_2 {
+        scope = 1; // Hidden in Eden Editor
+        modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allow all sides to use this model
+    };
+
     class FGW_O_Uman_Base: O_Soldier_F {
         author = AUTHOR;
         scope = 0;         // Hidden in Editor
@@ -286,7 +295,7 @@ class CfgVehicles {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Uman_Companion_Haaken'; };";
         };
 
-        uniformClass = "CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2";
+        uniformClass = "FGW_U_O_USMC_MCCUU_M81_MARPAT_roll_2_UMAN";
         backpack = "";
 
         weapons[] = {"srifle_EBR_F", "Throw", "Put"};
