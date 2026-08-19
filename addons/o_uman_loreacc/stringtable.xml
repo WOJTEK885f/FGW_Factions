@@ -4,5 +4,23 @@
         <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_FactionName">
             <English>F:GW Uman Brotherhood</English>
         </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Group_ArmedForcesGroup">
+            <English>Armed Forces Group</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Group_TerroristGroup">
+            <English>Terrorist Group</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Militant_AK12">
+            <English>Uman Militant (AK-12)</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Militant_AK74M">
+            <English>Uman Militant (AK-74M)</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Terrorist_AK74M">
+            <English>Uman Terrorist (AK-74M)</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Terrorist_AKS74U">
+            <English>Uman Terrorist (AKS-74U)</English>
+        </Key>
     </Package>
 </Project>

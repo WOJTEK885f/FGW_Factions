@@ -1,0 +1,35 @@
+class CfgGroups {
+    class East {
+        class GVAR(Uman) {
+            name = "$STR_gr7bow_fgw_factions_o_uman_loreacc_FactionName";
+
+            class Infantry {
+                name = "$STR_A3_CfgGroups_West_BLU_F_Infantry0";
+
+                class GVAR(Group_TerroristGroup) {
+                    name = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Group_TerroristGroup";
+                    side = 0;
+                    faction = QGVAR(Uman);
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+
+                    class Unit0 { side = 0; vehicle = "FGW_O_Uman_Terrorist_AK74M";  rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 0; vehicle = "FGW_O_Uman_Terrorist_AKS74U"; rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 0; vehicle = "FGW_O_Uman_Terrorist_AK74M";  rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit3 { side = 0; vehicle = "FGW_O_Uman_Terrorist_AKS74U"; rank = "PRIVATE";  position[] = {10,-10,0}; };
+                };
+
+                class GVAR(Group_ArmedForcesGroup) {
+                    name = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Group_ArmedForcesGroup";
+                    side = 0;
+                    faction = QGVAR(Uman);
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+
+                    class Unit0 { side = 0; vehicle = "FGW_O_Uman_Militant_AK12";  rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 0; vehicle = "FGW_O_Uman_Militant_AK74M"; rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 0; vehicle = "FGW_O_Uman_Militant_AK12";  rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit3 { side = 0; vehicle = "FGW_O_Uman_Terrorist_AK74M"; rank = "PRIVATE";  position[] = {10,-10,0}; };
+                };
+            };
+        };
+    };
+};
