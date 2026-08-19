@@ -9,8 +9,8 @@
     <a href="https://github.com/WOJTEK885f/FGW_Factions/issues">
         <img src="https://img.shields.io/github/issues-raw/WOJTEK885f/FGW_Factions.svg?style=flat-square&label=Issues" alt="Freeman: Guerrilla Warfare Factions Issues">
     </a>
-    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=MOD_ID">
-        <img src="https://img.shields.io/steam/downloads/MOD_ID.svg?style=flat-square&label=Downloads" alt="Freeman: Guerrilla Warfare Factions Downloads">
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3782242873">
+        <img src="https://img.shields.io/steam/downloads/3782242873.svg?style=flat-square&label=Downloads" alt="Freeman: Guerrilla Warfare Factions Downloads">
     </a>
     <a href="https://github.com/WOJTEK885f/FGW_Factions/blob/master/LICENSE.md">
         <img src="https://img.shields.io/badge/License-APL ND-red?style=flat-square" alt="Freeman: Guerrilla Warfare Factions License">
