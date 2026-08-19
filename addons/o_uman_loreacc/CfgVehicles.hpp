@@ -219,4 +219,102 @@ class CfgVehicles {
             "ItemRadio"
         };
     };
+
+    class FGW_O_Uman_Companion_Base: FGW_O_Uman_Base {
+        editorSubcategory = "gr7bow_fgw_factions_Subcat_Companions";
+    };
+
+    class FGW_O_Uman_Companion_Finn: FGW_O_Uman_Companion_Base {
+        _generalMacro = "FGW_O_Uman_Companion_Finn";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Companion_Finn.jpg";
+
+        displayName = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Companion_Finn";
+
+        identityTypes[] = {"FGW_Face_Finn_Tag"};
+
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Uman_Companion_Finn'; };";
+        };
+
+        uniformClass = "CFP_GUER_M81Tee";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_M16A4_Base", "CUP_hgun_M9A1", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base", "CUP_hgun_M9A1", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("CUP_30Rnd_556x45_Stanag"),
+            MAG_4("CUP_15Rnd_9x19_M9")
+        };
+        respawnMagazines[] = {
+            MAG_8("CUP_30Rnd_556x45_Stanag"),
+            MAG_4("CUP_15Rnd_9x19_M9")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "FGW_V_B_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "FGW_V_B_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGW_O_Uman_Companion_Haaken: FGW_O_Uman_Companion_Base {
+        _generalMacro = "FGW_O_Uman_Companion_Haaken";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Companion_Haaken.jpg";
+
+        displayName = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Companion_Haaken";
+
+        identityTypes[] = {"FGW_Face_Haaken_Tag"};
+
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Uman_Companion_Haaken'; };";
+        };
+
+        uniformClass = "CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2";
+        backpack = "";
+
+        weapons[] = {"srifle_EBR_F", "Throw", "Put"};
+        respawnWeapons[] = {"srifle_EBR_F", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("CUP_20Rnd_TE1_Green_Tracer_762x51_DMR")
+        };
+        respawnMagazines[] = {
+            MAG_8("CUP_20Rnd_TE1_Green_Tracer_762x51_DMR")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "FGW_V_B_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "FGW_V_B_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
 };
