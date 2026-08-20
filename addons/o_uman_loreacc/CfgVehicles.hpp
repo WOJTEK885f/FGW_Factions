@@ -21,7 +21,7 @@ class CfgVehicles {
         editorSubcategory = "EdSubcat_Personnel";
 
         // Faction identity: Middle Eastern appearance and language
-        identityTypes[] = {"LanguagePER_F", "CUP_D_Language_TK", "Language_Ackbar", "Head_TK"};
+        identityTypes[] = {"LanguagePER_F", "CUP_D_Language_TK", "Language_Ackbar", "Head_TK", "Head_Greek"};
         genericNames = "TakistaniMen";
     };
 
