@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class GVAR(Example) {
-        displayName = "$STR_gr7bow_fgw_factions_b_example_faction_FactionName";
+        displayName = CSTRING(FactionName);
         priority = 1;
         side = 1;
         icon = "\a3\Data_f\cfgFactionClasses_BLU_ca.paa";

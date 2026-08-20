@@ -21,7 +21,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "";
 
-        displayName = "$STR_gr7bow_fgw_factions_b_example_faction_Unit";
+        displayName = CSTRING(UnitName);
 
         uniformClass = "";
         backpack = "";
