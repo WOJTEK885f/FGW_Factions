@@ -24,9 +24,9 @@ class CfgGroups {
                     faction = QGVAR(Uman);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 
-                    class Unit0 { side = 0; vehicle = "FGW_O_Uman_Militant_AK12";  rank = "SERGEANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 0; vehicle = "FGW_O_Uman_Militant_AK74M"; rank = "CORPORAL"; position[] = {5,-5,0}; };
-                    class Unit2 { side = 0; vehicle = "FGW_O_Uman_Militant_AK12";  rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit0 { side = 0; vehicle = "FGW_O_Uman_Militant_AK12";   rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 0; vehicle = "FGW_O_Uman_Militant_AK74M";  rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 0; vehicle = "FGW_O_Uman_Militant_AK12";   rank = "PRIVATE";  position[] = {-5,-5,0}; };
                     class Unit3 { side = 0; vehicle = "FGW_O_Uman_Terrorist_AK74M"; rank = "PRIVATE";  position[] = {10,-10,0}; };
                 };
             };
