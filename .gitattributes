@@ -1,13 +1,12 @@
-# Sources
-*.cpp text diff=cpp linguist-language=cpp
-*.hpp text diff=cpp linguist-language=cpp
-*.rhai text diff=rust linguist-language=rust
+* text=auto
 
 *.png binary
 *.jpg binary
 *.paa binary
 
-# Linguistics
-# Exclude included files and examples from stats
-include/* linguist-vendored
-extra/* linguist-vendored
+# Change GitHub language categorization
+addons/**/*.cpp linguist-language=SQF
+addons/**/*.hpp linguist-language=SQF
+
+# Do not count hemtt includes in language usage stats
+include/** linguist-vendored
