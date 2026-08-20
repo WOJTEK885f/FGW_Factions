@@ -31,7 +31,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Militant_AK12.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Militant_AK12";
+        displayName = CSTRING(Militant_AK12);
 
         uniformClass = "U_C_Uniform_Scientist_02_formal_F";
         backpack = "";
@@ -81,7 +81,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Militant_AK74M.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Militant_AK74M";
+        displayName = CSTRING(Militant_AK74M);
 
         uniformClass = "U_C_Uniform_Scientist_02_formal_F";
         backpack = "";
@@ -131,7 +131,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Terrorist_AK74M.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Terrorist_AK74M";
+        displayName = CSTRING(Terrorist_AK74M);
 
         uniformClass = "U_C_Uniform_Scientist_02_formal_F";
         backpack = "";
@@ -183,7 +183,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Terrorist_AKS74U.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Terrorist_AKS74U";
+        displayName = CSTRING(Terrorist_AKS74U);
 
         uniformClass = "U_C_Uniform_Scientist_02_formal_F";
         backpack = "";
@@ -239,7 +239,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Companion_Finn.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Companion_Finn";
+        displayName = CSTRING(Companion_Finn);
 
         identityTypes[] = {"FGW_Face_Finn_Tag"};
 
@@ -287,7 +287,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Companion_Haaken.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Companion_Haaken";
+        displayName = CSTRING(Companion_Haaken);
 
         identityTypes[] = {"FGW_Face_Haaken_Tag"};
 

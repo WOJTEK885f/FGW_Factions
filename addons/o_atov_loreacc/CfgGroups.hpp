@@ -1,13 +1,13 @@
 class CfgGroups {
     class East {
         class GVAR(Atov) {
-            name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_FactionName";
+            name = CSTRING(FactionName);
 
             class Infantry {
                 name = "$STR_A3_CfgGroups_West_BLU_F_Infantry0";
 
                 class GVAR(Group_InfantryFireteam) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_InfantryFireteam";
+                    name = CSTRING(Group_InfantryFireteam);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -20,7 +20,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_WeaponTeam) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_WeaponTeam";
+                    name = CSTRING(Group_WeaponTeam);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -31,7 +31,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_Army_NationalGuard) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_NationalGuard";
+                    name = CSTRING(Group_Army_NationalGuard);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -46,7 +46,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_Army_SecurityPatrol) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SecurityPatrol";
+                    name = CSTRING(Group_Army_SecurityPatrol);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -58,7 +58,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_Army_Fortified) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_Fortified";
+                    name = CSTRING(Group_Army_Fortified);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -75,7 +75,7 @@ class CfgGroups {
                 name = "$STR_A3_CfgGroups_West_BLU_F_SpecOps0";
 
                 class GVAR(Group_SpecialForceTeam) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_SpecialForceTeam";
+                    name = CSTRING(Group_SpecialForceTeam);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
@@ -88,7 +88,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_Army_SpecialForce) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SpecialForce";
+                    name = CSTRING(Group_Army_SpecialForce);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
@@ -101,7 +101,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_Army_Investigation) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_Investigation";
+                    name = CSTRING(Group_Army_Investigation);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
@@ -117,7 +117,7 @@ class CfgGroups {
                 name = "$STR_gr7bow_fgw_factions_main_Subcat_Infantry_CompanionLed";
 
                 class GVAR(Group_Army_Investigation_Kostyantin) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_Investigation_Kostyantin";
+                    name = CSTRING(Group_Army_Investigation_Kostyantin);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
@@ -130,7 +130,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_InfantryFireteam_Oleg) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_InfantryFireteam_Oleg";
+                    name = CSTRING(Group_InfantryFireteam_Oleg);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -144,7 +144,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_NationalGuard_Dimitro) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_NationalGuard_Dimitro";
+                    name = CSTRING(Group_Army_NationalGuard_Dimitro);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -159,7 +159,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_SecurityPatrol_Vitaly) {
-                    name = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SecurityPatrol_Vitaly";
+                    name = CSTRING(Group_Army_SecurityPatrol_Vitaly);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";

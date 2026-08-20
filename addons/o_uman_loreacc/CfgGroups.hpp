@@ -1,13 +1,13 @@
 class CfgGroups {
     class East {
         class GVAR(Uman) {
-            name = "$STR_gr7bow_fgw_factions_o_uman_loreacc_FactionName";
+            name = CSTRING(FactionName);
 
             class Infantry {
                 name = "$STR_A3_CfgGroups_West_BLU_F_Infantry0";
 
                 class GVAR(Group_TerroristGroup) {
-                    name = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Group_TerroristGroup";
+                    name = CSTRING(Group_TerroristGroup);
                     side = 0;
                     faction = QGVAR(Uman);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -19,7 +19,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_ArmedForcesGroup) {
-                    name = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Group_ArmedForcesGroup";
+                    name = CSTRING(Group_ArmedForcesGroup);
                     side = 0;
                     faction = QGVAR(Uman);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -35,7 +35,7 @@ class CfgGroups {
                 name = "$STR_gr7bow_fgw_factions_main_Subcat_Infantry_CompanionLed";
 
                 class GVAR(Group_TerroristGroup) {
-                    name = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Group_TerroristGroup_Finn";
+                    name = CSTRING(Group_TerroristGroup_Finn);
                     side = 0;
                     faction = QGVAR(Uman);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -48,7 +48,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_ArmedForcesGroup) {
-                    name = "$STR_gr7bow_fgw_factions_o_uman_loreacc_Group_ArmedForcesGroup_Haaken";
+                    name = CSTRING(Group_ArmedForcesGroup_Haaken);
                     side = 0;
                     faction = QGVAR(Uman);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";

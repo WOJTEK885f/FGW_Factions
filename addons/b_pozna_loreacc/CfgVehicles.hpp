@@ -22,7 +22,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Fighter.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Fighter";
+        displayName = CSTRING(Fighter);
 
         uniformClass = "USP_G3F_AOR1";
         backpack = "";
@@ -66,7 +66,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Commando.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Commando";
+        displayName = CSTRING(Commando);
 
         uniformClass = "USP_RUGBY_G3C_RGR_AOR1";
         backpack = "";
@@ -112,7 +112,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_SniperElite.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_SniperElite";
+        displayName = CSTRING(SniperElite);
 
         uniformClass = "USP_G3F_AOR1";
         backpack = "";
@@ -166,7 +166,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Roman.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Roman";
+        displayName = CSTRING(Companion_Roman);
 
         identityTypes[] = {"FGW_Face_Roman_Tag"};
 
@@ -214,7 +214,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Yuriy.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Yuriy";
+        displayName = CSTRING(Companion_Yuriy);
 
         identityTypes[] = {"FGW_Face_Yuriy_Tag"};
 
@@ -262,7 +262,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Denis.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Denis";
+        displayName = CSTRING(Companion_Denis);
 
         identityTypes[] = {"FGW_Face_Denis_Tag"};
 
@@ -310,7 +310,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Tatyana.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Tatyana";
+        displayName = CSTRING(Companion_Tatyana);
 
         identityTypes[] = {"FGW_Face_Tatyana_Tag"};
 

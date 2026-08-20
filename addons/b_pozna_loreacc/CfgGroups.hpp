@@ -1,13 +1,13 @@
 class CfgGroups {
     class West {
         class GVAR(Pozna) {
-            name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_FactionName";
+            name = CSTRING(FactionName);
 
             class Infantry {
                 name = "$STR_A3_CfgGroups_West_BLU_F_Infantry0";
 
                 class GVAR(Group_RifleSquad) {
-                    name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_RifleSquad";
+                    name = CSTRING(Group_RifleSquad);
                     side = 1;
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -22,7 +22,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_MarksmanTeam) {
-                    name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_MarksmanTeam";
+                    name = CSTRING(Group_MarksmanTeam);
                     side = 1;
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
@@ -33,7 +33,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_Army_RifleCompany) {
-                    name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_RifleCompany";
+                    name = CSTRING(Group_Army_RifleCompany);
                     side = 1;
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -48,7 +48,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_Army_ReconPlatoon) {
-                    name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_ReconPlatoon";
+                    name = CSTRING(Group_Army_ReconPlatoon);
                     side = 1;
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
@@ -64,7 +64,7 @@ class CfgGroups {
                 name = "$STR_gr7bow_fgw_factions_main_Subcat_Infantry_CompanionLed";
 
                 class GVAR(Group_RifleSquad_Yuriy) {
-                    name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_RifleSquad_Yuriy";
+                    name = CSTRING(Group_RifleSquad_Yuriy);
                     side = 1;
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -79,7 +79,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_MarksmanTeam_Roman) {
-                    name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_MarksmanTeam_Roman";
+                    name = CSTRING(Group_MarksmanTeam_Roman);
                     side = 1;
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
@@ -91,7 +91,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_Army_RifleCompany_Denis) {
-                    name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_RifleCompany_Denis";
+                    name = CSTRING(Group_Army_RifleCompany_Denis);
                     side = 1;
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -106,7 +106,7 @@ class CfgGroups {
                 };
 
                 class GVAR(Group_Army_ReconPlatoon_Tatyana) {
-                    name = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_ReconPlatoon_Tatyana";
+                    name = CSTRING(Group_Army_ReconPlatoon_Tatyana);
                     side = 1;
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";

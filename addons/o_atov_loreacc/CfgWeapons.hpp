@@ -9,7 +9,7 @@ class CfgWeapons {
     // Custom unrestricted uniform class
     class FGW_U_O_USMC_FROG3_WMARPAT_ATOV: CUP_U_B_USMC_FROG3_WMARPAT {
         author = AUTHOR;
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_USMC_FROG3_WMARPAT_ATOV";
+        displayName = CSTRING(USMC_FROG3_WMARPAT_ATOV);
         scope = 2; // Available in Arsenal
 
         class ItemInfo: ItemInfo {
@@ -25,7 +25,7 @@ class CfgWeapons {
     // Custom unrestricted uniform class
     class FGW_U_O_PMC_Unit_35_ATOV: CUP_I_B_PMC_Unit_35 {
         author = AUTHOR;
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_PMC_Unit_35_ATOV";
+        displayName = CSTRING(PMC_Unit_35_ATOV);
         scope = 2; // Available in Arsenal
 
         class ItemInfo: UniformItem {
@@ -39,7 +39,7 @@ class CfgWeapons {
 
     class FGW_U_O_PMC_Unit_1_ATOV: CUP_I_B_PMC_Unit_1 {
         author = AUTHOR;
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_PMC_Unit_1_ATOV";
+        displayName = CSTRING(PMC_Unit_1_ATOV);
         scope = 2; // Available in Arsenal
 
         class ItemInfo: UniformItem {

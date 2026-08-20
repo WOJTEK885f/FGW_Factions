@@ -43,7 +43,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Infantry.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Infantry";
+        displayName = CSTRING(Infantry);
 
         uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
@@ -91,7 +91,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Machinegunner.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Machinegunner";
+        displayName = CSTRING(Machinegunner);
 
         uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
@@ -139,7 +139,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_ArmedPolice.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_ArmedPolice";
+        displayName = CSTRING(ArmedPolice);
 
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
@@ -195,7 +195,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Scout.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Scout";
+        displayName = CSTRING(Scout);
 
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
@@ -249,7 +249,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Commando.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Commando";
+        displayName = CSTRING(Commando);
 
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
@@ -301,7 +301,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_SpecialForce.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_SpecialForce";
+        displayName = CSTRING(SpecialForce);
 
         uniformClass = "FGW_U_O_PMC_Unit_35_ATOV";
         backpack = "";
@@ -351,7 +351,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Sharpshooter.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Sharpshooter";
+        displayName = CSTRING(Sharpshooter);
 
         uniformClass = "CFP_BDU_M81Iraq";
         backpack = "";
@@ -409,7 +409,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Vitaly.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Vitaly";
+        displayName = CSTRING(Companion_Vitaly);
 
         identityTypes[] = {"FGW_Face_Vitaly_Tag"};
 
@@ -455,7 +455,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Kostyantin.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Kostyantin";
+        displayName = CSTRING(Companion_Kostyantin);
 
         identityTypes[] = {"FGW_Face_Kostyantin_Tag"};
 
@@ -499,7 +499,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Oleg.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Oleg";
+        displayName = CSTRING(Companion_Oleg);
 
         identityTypes[] = {"FGW_Face_Oleg_Tag"};
 
@@ -545,7 +545,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgw_factions\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Dimitro.jpg";
 
-        displayName = "$STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Dimitro";
+        displayName = CSTRING(Companion_Dimitro);
 
         identityTypes[] = {"FGW_Face_Dimitro_Tag"};
 

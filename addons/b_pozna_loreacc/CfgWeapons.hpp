@@ -6,7 +6,7 @@ class CfgWeapons {
     // Custom Vydra-3M vest class with added armor
     class FGW_V_B_Flak_Vest_Vydra_3M: rhs_vydra_3m {
         author = AUTHOR;
-        displayName = "$STR_gr7bow_fgw_factions_b_pozna_loreacc_vydra_3m_flakvest";
+        displayName = CSTRING(vydra_3m_flakvest);
         scope = 2; // Available in Arsenal
 
         class ItemInfo: VestItem {
