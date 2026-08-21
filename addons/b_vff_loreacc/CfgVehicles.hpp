@@ -14,6 +14,11 @@ class CfgVehicles {
         // Faction identity: Female slavic appearance (placeholder) and female voice (only English language works)
         identityTypes[] = {"CUP_D_Language_W_EN"};
         genericNames = "RussianWomen";
+
+        // Female voice for all units in this faction (identityTypes seems not to work in this case)
+        class EventHandlers {
+            init = "(_this select 0) setSpeaker 'CUP_D_Female01_EN';";
+        };
     };
 
     class FGW_B_VFF_CivilianFighter: FGW_B_VFF_Base {
