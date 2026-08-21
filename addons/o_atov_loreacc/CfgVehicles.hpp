@@ -1,27 +1,6 @@
 class CfgVehicles {
     class O_Soldier_F; // Forward declaration
 
-    // Import the original carriers from CUP
-    class CUP_B_USMC_Soldier_14;
-    class CUP_I_PMC_Soldier_35;
-    class CUP_I_PMC_Soldier_01;
-
-    // Create a hidden dummy unit for Atov to bypass faction side restrictions
-    class FGW_O_Atov_Dummy_FROG3: CUP_B_USMC_Soldier_14 {
-        scope = 1; // Hidden in Eden Editor
-        modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allow all sides to use this model
-    };
-
-    class FGW_O_Atov_Dummy_PMC35: CUP_I_PMC_Soldier_35 {
-        scope = 1; // Hidden in Eden Editor
-        modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allows all sides to wear this model
-    };
-
-    class FGW_O_Atov_Dummy_PMC1: CUP_I_PMC_Soldier_01 {
-        scope = 1; // Hidden in Eden Editor
-        modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allows all sides to wear this model
-    };
-
     class FGW_O_Atov_Base: O_Soldier_F {
         author = AUTHOR;
         scope = 0;         // Hidden in Editor
