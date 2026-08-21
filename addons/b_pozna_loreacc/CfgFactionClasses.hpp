@@ -38,7 +38,7 @@ class CfgIdentities {
         nameSound = "Tatyana";
         face = "Default";
         glasses = "USP_BALACLAVA_ADV2_BLK";
-        speaker = "CUP_D_Female01_EN";
+        speaker = "rhs_Female01ENG";
         pitch = 1.0;
     };
 };

@@ -14,7 +14,7 @@ class CfgIdentities {
         nameSound = "Victoria";
         face = "WhiteHead_01";
         glasses = "USP_BALACLAVA_ADV2_BLK";
-        speaker = "CUP_D_Female01_EN";
+        speaker = "rhs_Female01ENG";
         pitch = 1.0;
     };
     class FGW_Identity_VFF_Companion_Oksana {
@@ -22,7 +22,7 @@ class CfgIdentities {
         nameSound = "Oksana";
         face = "WhiteHead_01";
         glasses = "USP_BALACLAVA_ADV2_BLK";
-        speaker = "CUP_D_Female01_EN";
+        speaker = "rhs_Female01ENG";
         pitch = 0.95;
     };
 };
