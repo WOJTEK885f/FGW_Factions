@@ -64,12 +64,6 @@
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Machinegunner">
             <English>Federal Machinegunner</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_PMC_Unit_1_ATOV">
-            <English>PMC Clothes Shirt/Jeans (Plaid/Blue) - Atov Federation</English>
-        </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_PMC_Unit_35_ATOV">
-            <English>PMC Clothes T-Shirt/Tactical Pants (Black, UCP) - Atov Federation</English>
-        </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Scout">
             <English>Federal Scout</English>
         </Key>
@@ -78,9 +72,6 @@
         </Key>
         <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_SpecialForce">
             <English>Federal Special Force</English>
-        </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_USMC_FROG3_WMARPAT_ATOV">
-            <English>USMC FROG Gear Ver. 3 (Woodland) - Atov Federation</English>
         </Key>
     </Package>
 </Project>
