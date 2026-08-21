@@ -39,16 +39,11 @@ class CfgPatches {
             "FGW_O_Atov_Companion_Oleg",
             "FGW_O_Atov_Companion_Dimitro"
         };
-        weapons[] = {
-            "FGW_U_O_USMC_FROG3_WMARPAT_ATOV",
-            "FGW_U_O_PMC_Unit_35_ATOV",
-            "FGW_U_O_PMC_Unit_1_ATOV"
-        };
+        weapons[] = {};
         VERSION_CONFIG;
     };
 };
 
 #include "CfgFactionClasses.hpp"
-#include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgGroups.hpp"

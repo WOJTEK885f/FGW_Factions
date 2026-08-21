@@ -24,14 +24,11 @@ class CfgPatches {
             "FGW_O_Uman_Terrorist_AK74M",
             "FGW_O_Uman_Terrorist_AKS74U"
         };
-        weapons[] = {
-            "FGW_U_O_USMC_MCCUU_M81_MARPAT_roll_2_UMAN"
-        };
+        weapons[] = {};
         VERSION_CONFIG;
     };
 };
 
 #include "CfgFactionClasses.hpp"
-#include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgGroups.hpp"
