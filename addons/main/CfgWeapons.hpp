@@ -13,16 +13,13 @@ class CfgWeapons {
         scope = 2; // Available in Arsenal
 
         class ItemInfo: ItemInfo {
-            // Apply our unlocked dummy model instead of the restricted CUP one
-            uniformClass = "FGW_Dummy_USMC14";
+            uniformClass = "FGW_Dummy_USMC14"; // Apply unlocked dummy model instead of the restricted CUP one
         };
     };
 
-    // These are done differently due to various no entry warnings
-    class CUP_I_B_PMC_Unit_35; // Import the base uniform item from CUP
-    class CUP_I_B_PMC_Unit_1;
+    // These below are done differently due to various no entry warnings
 
-    // Custom unrestricted uniform class
+    class CUP_I_B_PMC_Unit_35; // Import the base uniform item from CUP
     class FGW_U_PMC_Unit_35: CUP_I_B_PMC_Unit_35 {
         author = AUTHOR;
         displayName = CSTRING(PMC_Unit_35);
@@ -37,6 +34,7 @@ class CfgWeapons {
         };
     };
 
+    class CUP_I_B_PMC_Unit_1; // Import the base uniform item from CUP
     class FGW_U_PMC_Unit_1: CUP_I_B_PMC_Unit_1 {
         author = AUTHOR;
         displayName = CSTRING(PMC_Unit_1);
@@ -51,10 +49,7 @@ class CfgWeapons {
         };
     };
 
-    // These are done differently due to various no entry warnings
     class CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2; // Import the base uniform item from CUP
-
-    // Custom unrestricted uniform class
     class FGW_U_USMC_MCCUU_M81_MARPAT_roll_2: CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2 {
         author = AUTHOR;
         displayName = CSTRING(MCCUU_M81_MARPAT_roll_2);
@@ -72,7 +67,6 @@ class CfgWeapons {
     class VestItem; // Define the base vest class from Arma 3 core to inherit proper item properties
 
     class rhs_vydra_3m; // Import the base uniform class from RHS to use as a parent for custom vest
-
     // Custom Vydra-3M vest class with added armor
     class FGW_V_Flak_Vest_Vydra_3M: rhs_vydra_3m {
         author = AUTHOR;
