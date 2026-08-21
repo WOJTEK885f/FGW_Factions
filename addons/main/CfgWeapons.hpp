@@ -7,9 +7,9 @@ class CfgWeapons {
     };
 
     // Custom unrestricted uniform class
-    class FGW_U_O_USMC_FROG3_WMARPAT_ATOV: CUP_U_B_USMC_FROG3_WMARPAT {
+    class FGW_U_USMC_FROG3_WMARPAT: CUP_U_B_USMC_FROG3_WMARPAT {
         author = AUTHOR;
-        displayName = CSTRING(USMC_FROG3_WMARPAT_ATOV);
+        displayName = CSTRING(USMC_FROG3_WMARPAT);
         scope = 2; // Available in Arsenal
 
         class ItemInfo: ItemInfo {
@@ -23,9 +23,9 @@ class CfgWeapons {
     class CUP_I_B_PMC_Unit_1;
 
     // Custom unrestricted uniform class
-    class FGW_U_O_PMC_Unit_35_ATOV: CUP_I_B_PMC_Unit_35 {
+    class FGW_U_PMC_Unit_35: CUP_I_B_PMC_Unit_35 {
         author = AUTHOR;
-        displayName = CSTRING(PMC_Unit_35_ATOV);
+        displayName = CSTRING(PMC_Unit_35);
         scope = 2; // Available in Arsenal
 
         class ItemInfo: UniformItem {
@@ -37,9 +37,9 @@ class CfgWeapons {
         };
     };
 
-    class FGW_U_O_PMC_Unit_1_ATOV: CUP_I_B_PMC_Unit_1 {
+    class FGW_U_PMC_Unit_1: CUP_I_B_PMC_Unit_1 {
         author = AUTHOR;
-        displayName = CSTRING(PMC_Unit_1_ATOV);
+        displayName = CSTRING(PMC_Unit_1);
         scope = 2; // Available in Arsenal
 
         class ItemInfo: UniformItem {
@@ -55,9 +55,9 @@ class CfgWeapons {
     class CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2; // Import the base uniform item from CUP
 
     // Custom unrestricted uniform class
-    class FGW_U_O_USMC_MCCUU_M81_MARPAT_roll_2_UMAN: CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2 {
+    class FGW_U_USMC_MCCUU_M81_MARPAT_roll_2: CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2 {
         author = AUTHOR;
-        displayName = CSTRING(MCCUU_M81_MARPAT_roll_2_UMAN);
+        displayName = CSTRING(MCCUU_M81_MARPAT_roll_2);
         scope = 2; // Available in Arsenal
 
         class ItemInfo: UniformItem {
@@ -74,7 +74,7 @@ class CfgWeapons {
     class rhs_vydra_3m; // Import the base uniform class from RHS to use as a parent for custom vest
 
     // Custom Vydra-3M vest class with added armor
-    class FGW_V_B_Flak_Vest_Vydra_3M: rhs_vydra_3m {
+    class FGW_V_Flak_Vest_Vydra_3M: rhs_vydra_3m {
         author = AUTHOR;
         displayName = CSTRING(vydra_3m_flakvest);
         scope = 2; // Available in Arsenal
