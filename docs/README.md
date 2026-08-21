@@ -45,8 +45,8 @@ This project intends to recreate the entire geopolitical conflict of the world o
 * [x] - [O] Atov Federation
 * [x] - [B] Pozna Battalion
 * [ ] - [I] Free Cossaks Army
-* [ ] - [O] Uman Brotherhood
-* [ ] - [B] Valkyrie Female Fighters
+* [x] - [O] Uman Brotherhood
+* [x] - [B] Valkyrie Female Fighters
 * [ ] - [I] Chernivkan Front
 * [ ] - [O] Alpha Forces
 
