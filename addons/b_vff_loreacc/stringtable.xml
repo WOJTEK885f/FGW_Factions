@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="FGWF">
     <Package name="B_VFF_Loreacc">
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_CivilianFighter">
+            <English>Female Civilian Fighter</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_CivilianFighterCaptain">
+            <English>Female Civilian Fighter Captain</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_Companion_Oksana">
+            <English>Oksana</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_Companion_Victoria">
+            <English>Victoria</English>
+        </Key>
         <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_FactionName">
             <English>F:GW Valkyrie Female Fighters</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_Fighter">
+            <English>VFA Fighter</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_Group_CombatCompanyDetatchment">
+            <English>Combat Company Detachment</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_Group_FightersSquad">
+            <English>Fighters Squad</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_Group_FightersSquad_Oksana">
+            <English>Fighters Squad (Oksana)</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_Group_MarineSquad">
+            <English>Marine Squad</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_Group_MarineSquad_Victoria">
+            <English>Marine Squad (Victoria)</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_Group_SpecialPoliceGroup">
+            <English>Special Police Group</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_Marine">
+            <English>VFA Women Marine</English>
+        </Key>
+        <Key ID="STR_gr7bow_fgw_factions_b_vff_loreacc_SpecialPolice">
+            <English>VFA Women Special Police</English>
         </Key>
     </Package>
 </Project>

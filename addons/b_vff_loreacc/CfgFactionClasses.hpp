@@ -7,3 +7,41 @@ class CfgFactionClasses {
         flag = "data\flags\flag_ValkyrieFemaleFighters_co.paa";
     };
 };
+
+class CfgIdentities {
+    class FGW_Identity_VFF_Companion_Victoria {
+        name = "Victoria";
+        nameSound = "Victoria";
+        face = "WhiteHead_01";
+        glasses = "USP_BALACLAVA_ADV2_BLK";
+        speaker = "CUP_D_Female01_EN";
+        pitch = 1.0;
+    };
+    class FGW_Identity_VFF_Companion_Oksana {
+        name = "Oksana";
+        nameSound = "Oksana";
+        face = "WhiteHead_01";
+        glasses = "USP_BALACLAVA_ADV2_BLK";
+        speaker = "CUP_D_Female01_EN";
+        pitch = 0.95;
+    };
+};
+
+// Forward declarations for CfgFaces parent classes
+class Default;
+class WhiteHead_01;
+
+class CfgFaces {
+    class Man_A3: Default {
+        class FGW_Face_Victoria: WhiteHead_01 {
+            disabled = 1;
+            displayName = "FGW Victoria";
+            identityTypes[] = {"FGW_Face_Victoria_Tag"};
+        };
+        class FGW_Face_Oksana: WhiteHead_01 {
+            disabled = 1;
+            displayName = "FGW Oksana";
+            identityTypes[] = {"FGW_Face_Oksana_Tag"};
+        };
+    };
+};
