@@ -14,7 +14,7 @@ class CfgWeapons {
 
         class ItemInfo: ItemInfo {
             // Apply our unlocked dummy model instead of the restricted CUP one
-            uniformClass = "FGW_O_Atov_Dummy_FROG3";
+            uniformClass = "FGW_Dummy_USMC14";
         };
     };
 
@@ -30,7 +30,7 @@ class CfgWeapons {
 
         class ItemInfo: UniformItem {
             // Apply our unlocked dummy model instead of the restricted CUP one
-            uniformClass = "FGW_O_Atov_Dummy_PMC35";
+            uniformClass = "FGW_Dummy_PMC35";
 
             containerClass = "Supply60"; // Matched with original CUP capacity
             mass = 20; // Matched with original CUP mass
@@ -44,7 +44,7 @@ class CfgWeapons {
 
         class ItemInfo: UniformItem {
             // Apply our unlocked dummy model instead of the restricted CUP one
-            uniformClass = "FGW_O_Atov_Dummy_PMC1";
+            uniformClass = "FGW_Dummy_PMC1";
 
             containerClass = "Supply60"; // Matched with original CUP capacity
             mass = 20; // Matched with original CUP mass
@@ -62,7 +62,7 @@ class CfgWeapons {
 
         class ItemInfo: UniformItem {
             // Apply our unlocked dummy model instead of the restricted CUP one
-            uniformClass = "FGW_O_Uman_Dummy_MCCUU";
+            uniformClass = "FGW_Dummy_MCCUU2";
 
             containerClass = "Supply60"; // Matched with original CUP capacity
             mass = 20; // Matched with original CUP mass
