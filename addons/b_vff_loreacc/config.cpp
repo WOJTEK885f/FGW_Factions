@@ -21,7 +21,8 @@ class CfgPatches {
             "cfp_uniforms",                      // CFP M81Tee, TanTee
             "cfp_vests",                         // CFP Tactical vest
             "cfp_headgear",                      // CFP PASGT helmet
-            "gr7bow_fgw_factions_b_pozna_loreacc" // FGW_V_B_Flak_Vest_Vydra_3M
+            "gr7bow_fgw_factions_b_pozna_loreacc", // FGW_V_B_Flak_Vest_Vydra_3M
+            "gr7bow_fgw_factions_main" // Female faces
         };
         units[] = {
             "FGW_B_VFF_CivilianFighter",

@@ -12,7 +12,7 @@ class CfgVehicles {
         editorSubcategory = "EdSubcat_Personnel";
 
         // Faction identity: Female slavic appearance (placeholder) and female voice (only English language works)
-        identityTypes[] = {"Head_Female"}; // Uses RHS Female voice, CUP_D_Female01_EN did not work with identityTypes for unknown reason
+        identityTypes[] = {"Head_Female", "FGW_Female_Faces_NoHair"}; // Uses RHS Female voice, CUP_D_Female01_EN did not work with identityTypes for unknown reason
         genericNames = "RussianWomen";
     };
 
@@ -137,7 +137,6 @@ class CfgVehicles {
         linkedItems[] = {
             "CUP_V_B_Interceptor_Rifleman_M81",
             "CFP_PASGTHelmet_M812",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -146,7 +145,6 @@ class CfgVehicles {
         respawnLinkedItems[] = {
             "CUP_V_B_Interceptor_Rifleman_M81",
             "CFP_PASGTHelmet_M812",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -183,7 +181,6 @@ class CfgVehicles {
         linkedItems[] = {
             "CUP_V_B_Interceptor_Base_Coyote",
             "CUP_H_RUS_Altyn_Shield_Up_black",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -192,7 +189,6 @@ class CfgVehicles {
         respawnLinkedItems[] = {
             "CUP_V_B_Interceptor_Base_Coyote",
             "CUP_H_RUS_Altyn_Shield_Up_black",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -233,7 +229,6 @@ class CfgVehicles {
         linkedItems[] = {
             "CFP_Tactical1_M81",
             "CUP_H_USArmy_Helmet_M1_plain_M81",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -242,7 +237,6 @@ class CfgVehicles {
         respawnLinkedItems[] = {
             "CFP_Tactical1_M81",
             "CUP_H_USArmy_Helmet_M1_plain_M81",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -288,7 +282,6 @@ class CfgVehicles {
 
         linkedItems[] = {
             "rhs_vydra_3m",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -296,7 +289,6 @@ class CfgVehicles {
         };
         respawnLinkedItems[] = {
             "rhs_vydra_3m",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -336,7 +328,6 @@ class CfgVehicles {
 
         linkedItems[] = {
             "rhs_vydra_3m",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -344,7 +335,6 @@ class CfgVehicles {
         };
         respawnLinkedItems[] = {
             "rhs_vydra_3m",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",

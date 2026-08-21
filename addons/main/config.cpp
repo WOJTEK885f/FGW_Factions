@@ -18,3 +18,4 @@ class CfgPatches {
 
 #include "CfgSettings.hpp"
 #include "CfgEditorSubcategories.hpp"
+#include "CfgFaces.hpp"

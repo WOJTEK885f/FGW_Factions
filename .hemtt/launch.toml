@@ -17,6 +17,7 @@ workshop = [
     "843425103",  # RHSAFRF
     "843577117",  # RHSUSAF
     "843593391",  # RHSGREF
+    "374775446",  # FSOF
 ]
 presets = []
 dlc = []

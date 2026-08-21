@@ -336,7 +336,6 @@ class CfgVehicles {
 
         linkedItems[] = {
             "FGW_V_B_Flak_Vest_Vydra_3M",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -344,7 +343,6 @@ class CfgVehicles {
         };
         respawnLinkedItems[] = {
             "FGW_V_B_Flak_Vest_Vydra_3M",
-            "USP_BALACLAVA_ADV2_BLK",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
