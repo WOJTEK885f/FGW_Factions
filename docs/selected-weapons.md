@@ -34,9 +34,9 @@ The table below contains the weapons featured in **Freeman: Guerrilla Warfare**,
 
 | F:GW Weapon | Real-Life Equivalent | Selected A3 Weapon | Mod | Comments |
 | ----------- | -------------------- | ------------------ | --- | --- |
-| Remington | Remington Model 870 | | | |
+| Remington | Remington Model 870 | M590A1 (Short) | RHS | Closest match without adding dedicated mods |
 | Shot12 | Franchi SPAS-12 | SPAS-12 | CUP | |
-| Striker12 | SWD/Cobray Street Sweeper | | | |
+| Striker12 | SWD/Cobray Street Sweeper | AA-12 | CUP | The only drum fed shotgun available |
 
 ## Rifles
 
