@@ -43,7 +43,7 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "FGW_V_B_Flak_Vest_Vydra_3M",
+            "FGW_V_Flak_Vest_Vydra_3M",
             "H_Bandanna_sgg",
             "ItemMap",
             "ItemCompass",
@@ -51,7 +51,7 @@ class CfgVehicles {
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "FGW_V_B_Flak_Vest_Vydra_3M",
+            "FGW_V_Flak_Vest_Vydra_3M",
             "H_Bandanna_sgg",
             "ItemMap",
             "ItemCompass",
@@ -281,14 +281,14 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "rhs_vydra_3m",
+            "FGW_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "rhs_vydra_3m",
+            "FGW_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -327,14 +327,14 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "rhs_vydra_3m",
+            "FGW_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "rhs_vydra_3m",
+            "FGW_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
