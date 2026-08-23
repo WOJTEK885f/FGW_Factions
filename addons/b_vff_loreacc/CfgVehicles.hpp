@@ -11,8 +11,8 @@ class CfgVehicles {
         faction = QGVAR(VFF);
         editorSubcategory = "EdSubcat_Personnel";
 
-        // Faction identity: Female slavic appearance (placeholder) and female voice (only English language works)
-        identityTypes[] = {"Head_Female", "FGW_Female_Faces_NoHair"}; // Head_Female uses RHS Female voice, CUP_D_Female01_EN did not work with identityTypes for unknown reason
+        // Faction identity: Female slavic appearance (placeholder when no FSOF) and female voice (only English language works)
+        identityTypes[] = {"Head_Female"}; // Head_Female for RHS Female voice
         genericNames = "RussianWomen";
     };
 
