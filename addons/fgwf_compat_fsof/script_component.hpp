@@ -1,4 +1,4 @@
-#define COMPONENT compat_fsof
+#define COMPONENT fgwf_compat_fsof
 #define COMPONENT_BEAUTIFIED FGWF - FSOF Compatibility
 #include "\z\gr7bow_fgw_factions\addons\main\script_mod.hpp"
 
