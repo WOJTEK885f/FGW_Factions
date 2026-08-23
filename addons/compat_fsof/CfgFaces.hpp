@@ -1,6 +1,34 @@
+class CfgIdentities {
+    // Face parameter overrides
+    class FGW_Identity_Pozna_Companion_Tatyana {
+        face = "fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair";
+    };
+    class FGW_Identity_VFF_Companion_Victoria {
+        face = "fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair";
+    };
+    class FGW_Identity_VFF_Companion_Oksana {
+        face = "fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair";
+    };
+};
+
 class CfgFaces {
     class Default;
     class Man_A3: Default {
+        // Config overrides for female companion faces
+        class fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair;
+        class fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair;
+        class fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair;
+
+        class FGW_Face_Tatyana: fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair {
+            identityTypes[] = {"FGW_Face_Tatyana_Tag"};
+        };
+        class FGW_Face_Victoria: fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair {
+            identityTypes[] = {"FGW_Face_Victoria_Tag"};
+        };
+        class FGW_Face_Oksana: fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair {
+            identityTypes[] = {"FGW_Face_Oksana_Tag"};
+        };
+
         // Config overrides appending FGW_Female_Faces_NoHair alongside G_CIVIL_female
         class fsof_femaleCauc01_BlueEyes_NoHair { identityTypes[] = {"G_CIVIL_female", "FGW_Female_Faces_NoHair"}; };
         class fsof_femaleCauc01_BrownEyes_NoHair { identityTypes[] = {"G_CIVIL_female", "FGW_Female_Faces_NoHair"}; };

@@ -12,7 +12,7 @@ class CfgIdentities {
     class FGW_Identity_VFF_Companion_Victoria {
         name = "Victoria";
         nameSound = "Victoria";
-        face = "fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair";
+        face = "WhiteHead_01";
         glasses = "None";
         speaker = "rhs_Female01ENG";
         pitch = 1.0;
@@ -20,7 +20,7 @@ class CfgIdentities {
     class FGW_Identity_VFF_Companion_Oksana {
         name = "Oksana";
         nameSound = "Oksana";
-        face = "fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair";
+        face = "WhiteHead_01";
         glasses = "None";
         speaker = "rhs_Female01ENG";
         pitch = 0.95;
@@ -29,17 +29,16 @@ class CfgIdentities {
 
 // Forward declarations for CfgFaces parent classes
 class Default;
-class fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair;
-class fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair;
+class WhiteHead_01;
 
 class CfgFaces {
     class Man_A3: Default {
-        class FGW_Face_Victoria: fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair {
+        class FGW_Face_Victoria: WhiteHead_01 {
             disabled = 1;
             displayName = "FGW Victoria";
             identityTypes[] = {"FGW_Face_Victoria_Tag"};
         };
-        class FGW_Face_Oksana: fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair {
+        class FGW_Face_Oksana: WhiteHead_01 {
             disabled = 1;
             displayName = "FGW Oksana";
             identityTypes[] = {"FGW_Face_Oksana_Tag"};
