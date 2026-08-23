@@ -131,8 +131,8 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_556x45_Stanag")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {"CUP_NVG_PVS7", "FirstAidKit"};
+        RespawnItems[] = {"CUP_NVG_PVS7", "FirstAidKit"};
 
         linkedItems[] = {
             "CUP_V_B_Interceptor_Rifleman_M81",
