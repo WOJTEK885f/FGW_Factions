@@ -20,3 +20,6 @@ class CfgPatches {
         skipWhenMissingDependencies = 1;
     };
 };
+
+#include "CfgFaces.hpp"
+#include "CfgVehicles.hpp"
