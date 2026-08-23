@@ -205,22 +205,22 @@ class CfgVehicles {
         displayName = CSTRING(SpecialPolice);
 
         uniformClass = "CFP_GUER_M81Tee";
-        backpack = "CUP_B_ACRScout_m95";
+        backpack = "";
 
         weapons[] = {"CUP_sgun_AA12", "CUP_hgun_Colt1911", "Throw", "Put"};
         respawnWeapons[] = {"CUP_sgun_AA12", "CUP_hgun_Colt1911", "Throw", "Put"};
 
         magazines[] = {
-            "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_7Rnd_45ACP_1911"),
-            MAG_8("CUP_20Rnd_B_AA12_Buck_00"),
-            MAG_8("CUP_20Rnd_B_AA12_Slug")
+            MAG_3("CUP_20Rnd_B_AA12_Buck_00"),
+            MAG_3("CUP_20Rnd_B_AA12_Slug"),
+            MAG_3("CUP_7Rnd_45ACP_1911"), // Only 3 due to weight limitations
+            "CUP_HandGrenade_RGD5"
         };
         respawnMagazines[] = {
-            "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_7Rnd_45ACP_1911"),
-            MAG_8("CUP_20Rnd_B_AA12_Buck_00"),
-            MAG_8("CUP_20Rnd_B_AA12_Slug")
+            MAG_3("CUP_20Rnd_B_AA12_Buck_00"),
+            MAG_3("CUP_20Rnd_B_AA12_Slug"),
+            MAG_3("CUP_7Rnd_45ACP_1911"),
+            "CUP_HandGrenade_RGD5"
         };
 
         Items[] = {"FirstAidKit"};
