@@ -22,5 +22,6 @@ class CfgPatches {
     };
 };
 
+#include "CfgIdentities.hpp"
 #include "CfgFaces.hpp"
 #include "CfgVehicles.hpp"
