@@ -37,5 +37,9 @@ class CfgPatches {
 };
 
 #include "CfgFactionClasses.hpp"
+
+#include "CfgIdentities.hpp"
+#include "CfgFaces.hpp"
+
 #include "CfgVehicles.hpp"
 #include "CfgGroups.hpp"
