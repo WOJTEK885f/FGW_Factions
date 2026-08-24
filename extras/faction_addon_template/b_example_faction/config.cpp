@@ -12,7 +12,7 @@ class CfgPatches {
             "A3_Characters_F"
         };
         units[] = {
-            "FGW_B_Example_Unit"
+            "FGWF_B_Example_Unit"
         };
         weapons[] = {};
         VERSION_CONFIG;

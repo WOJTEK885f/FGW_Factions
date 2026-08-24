@@ -23,13 +23,13 @@ class CfgPatches {
             "cfp_headgear"                        // CFP PASGT helmet
         };
         units[] = {
-            "FGW_B_VFF_CivilianFighter",
-            "FGW_B_VFF_CivilianFighterCaptain",
-            "FGW_B_VFF_Fighter",
-            "FGW_B_VFF_Marine",
-            "FGW_B_VFF_SpecialPolice",
-            "FGW_B_VFF_Companion_Victoria",
-            "FGW_B_VFF_Companion_Oksana"
+            "FGWF_B_VFF_CivilianFighter",
+            "FGWF_B_VFF_CivilianFighterCaptain",
+            "FGWF_B_VFF_Fighter",
+            "FGWF_B_VFF_Marine",
+            "FGWF_B_VFF_SpecialPolice",
+            "FGWF_B_VFF_Companion_Victoria",
+            "FGWF_B_VFF_Companion_Oksana"
         };
         weapons[] = {};
         VERSION_CONFIG;

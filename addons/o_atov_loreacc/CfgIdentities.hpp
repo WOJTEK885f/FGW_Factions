@@ -1,5 +1,5 @@
 class CfgIdentities {
-    class FGW_Identity_Atov_Companion_Dimitro {
+    class FGWF_Identity_Atov_Companion_Dimitro {
         name = "Dimitro";
         nameSound = "Dimitro";
         face = "WhiteHead_04";
@@ -7,7 +7,7 @@ class CfgIdentities {
         speaker = "Male02RUS";
         pitch = 1.0;
     };
-    class FGW_Identity_Atov_Companion_Kostyantin {
+    class FGWF_Identity_Atov_Companion_Kostyantin {
         name = "Kostyantin";
         nameSound = "Kostyantin";
         face = "WhiteHead_27";
@@ -15,7 +15,7 @@ class CfgIdentities {
         speaker = "Male01RUS";
         pitch = 1.1;
     };
-    class FGW_Identity_Atov_Companion_Oleg {
+    class FGWF_Identity_Atov_Companion_Oleg {
         name = "Oleg";
         nameSound = "Oleg";
         face = "WhiteHead_01";
@@ -23,7 +23,7 @@ class CfgIdentities {
         speaker = "Male03RUS";
         pitch = 0.9;
     };
-    class FGW_Identity_Atov_Companion_Vitaly {
+    class FGWF_Identity_Atov_Companion_Vitaly {
         name = "Vitaly";
         nameSound = "Vitaly";
         face = "LivonianHead_5";

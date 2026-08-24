@@ -19,10 +19,10 @@ class CfgPatches {
             "CUP_Creatures_Military_Russia" // Scarf
         };
         units[] = {
-            "FGW_O_Uman_Militant_AK12",
-            "FGW_O_Uman_Militant_AK74M",
-            "FGW_O_Uman_Terrorist_AK74M",
-            "FGW_O_Uman_Terrorist_AKS74U"
+            "FGWF_O_Uman_Militant_AK12",
+            "FGWF_O_Uman_Militant_AK74M",
+            "FGWF_O_Uman_Terrorist_AK74M",
+            "FGWF_O_Uman_Terrorist_AKS74U"
         };
         weapons[] = {};
         VERSION_CONFIG;

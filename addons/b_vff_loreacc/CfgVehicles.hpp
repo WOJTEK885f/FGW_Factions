@@ -1,7 +1,7 @@
 class CfgVehicles {
     class B_Soldier_F; // Forward declaration
 
-    class FGW_B_VFF_Base: B_Soldier_F {
+    class FGWF_B_VFF_Base: B_Soldier_F {
         author = AUTHOR;
         scope = 0;         // Hidden in Editor
         scopeCurator = 0;  // Hidden in Zeus
@@ -16,11 +16,11 @@ class CfgVehicles {
         genericNames = "RussianWomen";
     };
 
-    class FGW_B_VFF_CivilianFighter: FGW_B_VFF_Base {
-        _generalMacro = "FGW_B_VFF_CivilianFighter";
+    class FGWF_B_VFF_CivilianFighter: FGWF_B_VFF_Base {
+        _generalMacro = "FGWF_B_VFF_CivilianFighter";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_CivilianFighter.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGWF_B_VFF_CivilianFighter.jpg";
 
         displayName = CSTRING(CivilianFighter);
 
@@ -43,7 +43,7 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "H_Bandanna_sgg",
             "ItemMap",
             "ItemCompass",
@@ -51,7 +51,7 @@ class CfgVehicles {
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "H_Bandanna_sgg",
             "ItemMap",
             "ItemCompass",
@@ -60,11 +60,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_VFF_CivilianFighterCaptain: FGW_B_VFF_Base {
-        _generalMacro = "FGW_B_VFF_CivilianFighterCaptain";
+    class FGWF_B_VFF_CivilianFighterCaptain: FGWF_B_VFF_Base {
+        _generalMacro = "FGWF_B_VFF_CivilianFighterCaptain";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_CivilianFighterCaptain.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGWF_B_VFF_CivilianFighterCaptain.jpg";
 
         displayName = CSTRING(CivilianFighterCaptain);
 
@@ -106,11 +106,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_VFF_Fighter: FGW_B_VFF_Base {
-        _generalMacro = "FGW_B_VFF_Fighter";
+    class FGWF_B_VFF_Fighter: FGWF_B_VFF_Base {
+        _generalMacro = "FGWF_B_VFF_Fighter";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Fighter.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGWF_B_VFF_Fighter.jpg";
 
         displayName = CSTRING(Fighter);
 
@@ -152,11 +152,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_VFF_Marine: FGW_B_VFF_Base {
-        _generalMacro = "FGW_B_VFF_Marine";
+    class FGWF_B_VFF_Marine: FGWF_B_VFF_Base {
+        _generalMacro = "FGWF_B_VFF_Marine";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Marine.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGWF_B_VFF_Marine.jpg";
 
         displayName = CSTRING(Marine);
 
@@ -196,11 +196,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_VFF_SpecialPolice: FGW_B_VFF_Base {
-        _generalMacro = "FGW_B_VFF_SpecialPolice";
+    class FGWF_B_VFF_SpecialPolice: FGWF_B_VFF_Base {
+        _generalMacro = "FGWF_B_VFF_SpecialPolice";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_SpecialPolice.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGWF_B_VFF_SpecialPolice.jpg";
 
         displayName = CSTRING(SpecialPolice);
 
@@ -244,22 +244,22 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_VFF_Companion_Base: FGW_B_VFF_Base {
+    class FGWF_B_VFF_Companion_Base: FGWF_B_VFF_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
     };
 
-    class FGW_B_VFF_Companion_Victoria: FGW_B_VFF_Companion_Base {
-        _generalMacro = "FGW_B_VFF_Companion_Victoria";
+    class FGWF_B_VFF_Companion_Victoria: FGWF_B_VFF_Companion_Base {
+        _generalMacro = "FGWF_B_VFF_Companion_Victoria";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Companion_Victoria.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGWF_B_VFF_Companion_Victoria.jpg";
 
         displayName = CSTRING(Companion_Victoria);
 
-        identityTypes[] = {"FGW_Face_Victoria_Tag"};
+        identityTypes[] = {"FGWF_Face_Victoria_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_VFF_Companion_Victoria'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_VFF_Companion_Victoria'; };";
         };
 
         uniformClass = "CFP_GUER_M81Tee";
@@ -281,14 +281,14 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -296,18 +296,18 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_VFF_Companion_Oksana: FGW_B_VFF_Companion_Base {
-        _generalMacro = "FGW_B_VFF_Companion_Oksana";
+    class FGWF_B_VFF_Companion_Oksana: FGWF_B_VFF_Companion_Base {
+        _generalMacro = "FGWF_B_VFF_Companion_Oksana";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Companion_Oksana.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGWF_B_VFF_Companion_Oksana.jpg";
 
         displayName = CSTRING(Companion_Oksana);
 
-        identityTypes[] = {"FGW_Face_Oksana_Tag"};
+        identityTypes[] = {"FGWF_Face_Oksana_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_VFF_Companion_Oksana'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_VFF_Companion_Oksana'; };";
         };
 
         uniformClass = "CFP_GUER_TanTee";
@@ -327,14 +327,14 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",

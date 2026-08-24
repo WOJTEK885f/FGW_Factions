@@ -12,11 +12,11 @@ class CfgPatches {
         };
         units[] = {};
         weapons[] = {
-            "FGW_U_USMC_FROG3_WMARPAT",
-            "FGW_U_PMC_Unit_35",
-            "FGW_U_PMC_Unit_1",
-            "FGW_U_USMC_MCCUU_M81_MARPAT_roll_2",
-            "FGW_V_Flak_Vest_Vydra_3M"
+            "FGWF_U_USMC_FROG3_WMARPAT",
+            "FGWF_U_PMC_Unit_35",
+            "FGWF_U_PMC_Unit_1",
+            "FGWF_U_USMC_MCCUU_M81_MARPAT_roll_2",
+            "FGWF_V_Flak_Vest_Vydra_3M"
         };
         VERSION_CONFIG;
     };

@@ -1,5 +1,5 @@
 class CfgIdentities {
-    class FGW_Identity_Pozna_Companion_Roman {
+    class FGWF_Identity_Pozna_Companion_Roman {
         name = "Roman";
         nameSound = "Roman";
         face = "WhiteHead_31";
@@ -7,7 +7,7 @@ class CfgIdentities {
         speaker = "Male03RUS";
         pitch = 1.0;
     };
-    class FGW_Identity_Pozna_Companion_Yuriy {
+    class FGWF_Identity_Pozna_Companion_Yuriy {
         name = "Yuriy";
         nameSound = "Yuriy";
         face = "LivonianHead_10";
@@ -15,7 +15,7 @@ class CfgIdentities {
         speaker = "Male02RUS";
         pitch = 0.9;
     };
-    class FGW_Identity_Pozna_Companion_Denis {
+    class FGWF_Identity_Pozna_Companion_Denis {
         name = "Denis";
         nameSound = "Denis";
         face = "LivonianHead_3";
@@ -23,7 +23,7 @@ class CfgIdentities {
         speaker = "Male01RUS";
         pitch = 1.1;
     };
-    class FGW_Identity_Pozna_Companion_Tatyana {
+    class FGWF_Identity_Pozna_Companion_Tatyana {
         name = "Tatyana";
         nameSound = "Tatyana";
         face = "WhiteHead_01";

@@ -1,7 +1,7 @@
 class CfgVehicles {
     class O_Soldier_F; // Forward declaration
 
-    class FGW_O_Uman_Base: O_Soldier_F {
+    class FGWF_O_Uman_Base: O_Soldier_F {
         author = AUTHOR;
         scope = 0;         // Hidden in Editor
         scopeCurator = 0;  // Hidden in Zeus
@@ -16,11 +16,11 @@ class CfgVehicles {
         genericNames = "TakistaniMen";
     };
 
-    class FGW_O_Uman_Militant_AK12: FGW_O_Uman_Base {
-        _generalMacro = "FGW_O_Uman_Militant_AK12";
+    class FGWF_O_Uman_Militant_AK12: FGWF_O_Uman_Base {
+        _generalMacro = "FGWF_O_Uman_Militant_AK12";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Militant_AK12.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Militant_AK12.jpg";
 
         displayName = CSTRING(Militant_AK12);
 
@@ -66,11 +66,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Uman_Militant_AK74M: FGW_O_Uman_Base {
-        _generalMacro = "FGW_O_Uman_Militant_AK74M";
+    class FGWF_O_Uman_Militant_AK74M: FGWF_O_Uman_Base {
+        _generalMacro = "FGWF_O_Uman_Militant_AK74M";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Militant_AK74M.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Militant_AK74M.jpg";
 
         displayName = CSTRING(Militant_AK74M);
 
@@ -116,11 +116,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Uman_Terrorist_AK74M: FGW_O_Uman_Base {
-        _generalMacro = "FGW_O_Uman_Terrorist_AK74M";
+    class FGWF_O_Uman_Terrorist_AK74M: FGWF_O_Uman_Base {
+        _generalMacro = "FGWF_O_Uman_Terrorist_AK74M";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Terrorist_AK74M.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Terrorist_AK74M.jpg";
 
         displayName = CSTRING(Terrorist_AK74M);
 
@@ -168,11 +168,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Uman_Terrorist_AKS74U: FGW_O_Uman_Base {
-        _generalMacro = "FGW_O_Uman_Terrorist_AKS74U";
+    class FGWF_O_Uman_Terrorist_AKS74U: FGWF_O_Uman_Base {
+        _generalMacro = "FGWF_O_Uman_Terrorist_AKS74U";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Terrorist_AKS74U.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Terrorist_AKS74U.jpg";
 
         displayName = CSTRING(Terrorist_AKS74U);
 
@@ -220,22 +220,22 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Uman_Companion_Base: FGW_O_Uman_Base {
+    class FGWF_O_Uman_Companion_Base: FGWF_O_Uman_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
     };
 
-    class FGW_O_Uman_Companion_Finn: FGW_O_Uman_Companion_Base {
-        _generalMacro = "FGW_O_Uman_Companion_Finn";
+    class FGWF_O_Uman_Companion_Finn: FGWF_O_Uman_Companion_Base {
+        _generalMacro = "FGWF_O_Uman_Companion_Finn";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Companion_Finn.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Companion_Finn.jpg";
 
         displayName = CSTRING(Companion_Finn);
 
-        identityTypes[] = {"FGW_Face_Finn_Tag"};
+        identityTypes[] = {"FGWF_Face_Finn_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Uman_Companion_Finn'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Uman_Companion_Finn'; };";
         };
 
         uniformClass = "CFP_GUER_M81Tee";
@@ -257,14 +257,14 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -272,21 +272,21 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Uman_Companion_Haaken: FGW_O_Uman_Companion_Base {
-        _generalMacro = "FGW_O_Uman_Companion_Haaken";
+    class FGWF_O_Uman_Companion_Haaken: FGWF_O_Uman_Companion_Base {
+        _generalMacro = "FGWF_O_Uman_Companion_Haaken";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Companion_Haaken.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Companion_Haaken.jpg";
 
         displayName = CSTRING(Companion_Haaken);
 
-        identityTypes[] = {"FGW_Face_Haaken_Tag"};
+        identityTypes[] = {"FGWF_Face_Haaken_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Uman_Companion_Haaken'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Uman_Companion_Haaken'; };";
         };
 
-        uniformClass = "FGW_U_O_USMC_MCCUU_M81_MARPAT_roll_2_UMAN";
+        uniformClass = "FGWF_U_O_USMC_MCCUU_M81_MARPAT_roll_2_UMAN";
         backpack = "";
 
         weapons[] = {"srifle_EBR_F", "Throw", "Put"};
@@ -303,14 +303,14 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",

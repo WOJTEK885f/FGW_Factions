@@ -1,7 +1,7 @@
 class CfgVehicles {
     class B_Soldier_F; // Forward declaration
 
-    class FGW_B_Pozna_Base: B_Soldier_F {
+    class FGWF_B_Pozna_Base: B_Soldier_F {
         author = AUTHOR;
         scope = 0;         // Hidden in Editor
         scopeCurator = 0;  // Hidden in Zeus
@@ -16,11 +16,11 @@ class CfgVehicles {
         genericNames = "RussianMen";
     };
 
-    class FGW_B_Pozna_Fighter: FGW_B_Pozna_Base {
-        _generalMacro = "FGW_B_Pozna_Fighter";
+    class FGWF_B_Pozna_Fighter: FGWF_B_Pozna_Base {
+        _generalMacro = "FGWF_B_Pozna_Fighter";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Fighter.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGWF_B_Pozna_Fighter.jpg";
 
         displayName = CSTRING(Fighter);
 
@@ -60,11 +60,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_Pozna_Commando: FGW_B_Pozna_Base {
-        _generalMacro = "FGW_B_Pozna_Commando";
+    class FGWF_B_Pozna_Commando: FGWF_B_Pozna_Base {
+        _generalMacro = "FGWF_B_Pozna_Commando";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Commando.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGWF_B_Pozna_Commando.jpg";
 
         displayName = CSTRING(Commando);
 
@@ -106,11 +106,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_Pozna_SniperElite: FGW_B_Pozna_Base {
-        _generalMacro = "FGW_B_Pozna_SniperElite";
+    class FGWF_B_Pozna_SniperElite: FGWF_B_Pozna_Base {
+        _generalMacro = "FGWF_B_Pozna_SniperElite";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_SniperElite.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGWF_B_Pozna_SniperElite.jpg";
 
         displayName = CSTRING(SniperElite);
 
@@ -156,22 +156,22 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_Pozna_Companion_Base: FGW_B_Pozna_Base {
+    class FGWF_B_Pozna_Companion_Base: FGWF_B_Pozna_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
     };
 
-    class FGW_B_Pozna_Companion_Roman: FGW_B_Pozna_Companion_Base {
-        _generalMacro = "FGW_B_Pozna_Companion_Roman";
+    class FGWF_B_Pozna_Companion_Roman: FGWF_B_Pozna_Companion_Base {
+        _generalMacro = "FGWF_B_Pozna_Companion_Roman";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Roman.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGWF_B_Pozna_Companion_Roman.jpg";
 
         displayName = CSTRING(Companion_Roman);
 
-        identityTypes[] = {"FGW_Face_Roman_Tag"};
+        identityTypes[] = {"FGWF_Face_Roman_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Roman'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Pozna_Companion_Roman'; };";
         };
 
         uniformClass = "USP_RUGBY_G3C_RGR_AOR1";
@@ -208,18 +208,18 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_Pozna_Companion_Yuriy: FGW_B_Pozna_Companion_Base {
-        _generalMacro = "FGW_B_Pozna_Companion_Yuriy";
+    class FGWF_B_Pozna_Companion_Yuriy: FGWF_B_Pozna_Companion_Base {
+        _generalMacro = "FGWF_B_Pozna_Companion_Yuriy";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Yuriy.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGWF_B_Pozna_Companion_Yuriy.jpg";
 
         displayName = CSTRING(Companion_Yuriy);
 
-        identityTypes[] = {"FGW_Face_Yuriy_Tag"};
+        identityTypes[] = {"FGWF_Face_Yuriy_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Yuriy'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Pozna_Companion_Yuriy'; };";
         };
 
         uniformClass = "CUP_U_B_USMC_MCCUU_MARPAT_M81";
@@ -256,18 +256,18 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_Pozna_Companion_Denis: FGW_B_Pozna_Companion_Base {
-        _generalMacro = "FGW_B_Pozna_Companion_Denis";
+    class FGWF_B_Pozna_Companion_Denis: FGWF_B_Pozna_Companion_Base {
+        _generalMacro = "FGWF_B_Pozna_Companion_Denis";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Denis.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGWF_B_Pozna_Companion_Denis.jpg";
 
         displayName = CSTRING(Companion_Denis);
 
-        identityTypes[] = {"FGW_Face_Denis_Tag"};
+        identityTypes[] = {"FGWF_Face_Denis_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Denis'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Pozna_Companion_Denis'; };";
         };
 
         uniformClass = "CFP_GUER_M81Tee";
@@ -289,14 +289,14 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -304,18 +304,18 @@ class CfgVehicles {
         };
     };
 
-    class FGW_B_Pozna_Companion_Tatyana: FGW_B_Pozna_Companion_Base {
-        _generalMacro = "FGW_B_Pozna_Companion_Tatyana";
+    class FGWF_B_Pozna_Companion_Tatyana: FGWF_B_Pozna_Companion_Base {
+        _generalMacro = "FGWF_B_Pozna_Companion_Tatyana";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Tatyana.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGWF_B_Pozna_Companion_Tatyana.jpg";
 
         displayName = CSTRING(Companion_Tatyana);
 
-        identityTypes[] = {"FGW_Face_Tatyana_Tag"};
+        identityTypes[] = {"FGWF_Face_Tatyana_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Pozna_Companion_Tatyana'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Pozna_Companion_Tatyana'; };";
         };
 
         uniformClass = "CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2";
@@ -335,14 +335,14 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "FGW_V_Flak_Vest_Vydra_3M",
+            "FGWF_V_Flak_Vest_Vydra_3M",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",

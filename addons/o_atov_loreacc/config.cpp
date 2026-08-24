@@ -27,17 +27,17 @@ class CfgPatches {
             "cfp_headgear" // Scout, ArmedPolice, Commando, SpecialForce: Helmet
         };
         units[] = {
-            "FGW_O_Atov_Infantry",
-            "FGW_O_Atov_Machinegunner",
-            "FGW_O_Atov_ArmedPolice",
-            "FGW_O_Atov_Scout",
-            "FGW_O_Atov_Commando",
-            "FGW_O_Atov_Sharpshooter",
-            "FGW_O_Atov_SpecialForce",
-            "FGW_O_Atov_Companion_Vitaly",
-            "FGW_O_Atov_Companion_Kostyantin",
-            "FGW_O_Atov_Companion_Oleg",
-            "FGW_O_Atov_Companion_Dimitro"
+            "FGWF_O_Atov_Infantry",
+            "FGWF_O_Atov_Machinegunner",
+            "FGWF_O_Atov_ArmedPolice",
+            "FGWF_O_Atov_Scout",
+            "FGWF_O_Atov_Commando",
+            "FGWF_O_Atov_Sharpshooter",
+            "FGWF_O_Atov_SpecialForce",
+            "FGWF_O_Atov_Companion_Vitaly",
+            "FGWF_O_Atov_Companion_Kostyantin",
+            "FGWF_O_Atov_Companion_Oleg",
+            "FGWF_O_Atov_Companion_Dimitro"
         };
         weapons[] = {};
         VERSION_CONFIG;

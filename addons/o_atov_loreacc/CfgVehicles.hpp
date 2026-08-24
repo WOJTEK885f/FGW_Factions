@@ -1,7 +1,7 @@
 class CfgVehicles {
     class O_Soldier_F; // Forward declaration
 
-    class FGW_O_Atov_Base: O_Soldier_F {
+    class FGWF_O_Atov_Base: O_Soldier_F {
         author = AUTHOR;
         scope = 0;         // Hidden in Editor
         scopeCurator = 0;  // Hidden in Zeus
@@ -16,15 +16,15 @@ class CfgVehicles {
         genericNames = "RussianMen";
     };
 
-    class FGW_O_Atov_Infantry: FGW_O_Atov_Base {
-        _generalMacro = "FGW_O_Atov_Infantry";
+    class FGWF_O_Atov_Infantry: FGWF_O_Atov_Base {
+        _generalMacro = "FGWF_O_Atov_Infantry";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Infantry.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Infantry.jpg";
 
         displayName = CSTRING(Infantry);
 
-        uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
+        uniformClass = "FGWF_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_arifle_M16A4_Base", "Throw", "Put"};
@@ -64,15 +64,15 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Atov_Machinegunner: FGW_O_Atov_Base {
-        _generalMacro = "FGW_O_Atov_Machinegunner";
+    class FGWF_O_Atov_Machinegunner: FGWF_O_Atov_Base {
+        _generalMacro = "FGWF_O_Atov_Machinegunner";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Machinegunner.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Machinegunner.jpg";
 
         displayName = CSTRING(Machinegunner);
 
-        uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
+        uniformClass = "FGWF_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_lmg_M249_E2", "Throw", "Put"};
@@ -112,11 +112,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Atov_ArmedPolice: FGW_O_Atov_Base {
-        _generalMacro = "FGW_O_Atov_ArmedPolice";
+    class FGWF_O_Atov_ArmedPolice: FGWF_O_Atov_Base {
+        _generalMacro = "FGWF_O_Atov_ArmedPolice";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGW_O_Atov_ArmedPolice.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_ArmedPolice.jpg";
 
         displayName = CSTRING(ArmedPolice);
 
@@ -168,11 +168,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Atov_Scout: FGW_O_Atov_Base {
-        _generalMacro = "FGW_O_Atov_Scout";
+    class FGWF_O_Atov_Scout: FGWF_O_Atov_Base {
+        _generalMacro = "FGWF_O_Atov_Scout";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Scout.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Scout.jpg";
 
         displayName = CSTRING(Scout);
 
@@ -222,11 +222,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Atov_Commando: FGW_O_Atov_Base {
-        _generalMacro = "FGW_O_Atov_Commando";
+    class FGWF_O_Atov_Commando: FGWF_O_Atov_Base {
+        _generalMacro = "FGWF_O_Atov_Commando";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Commando.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Commando.jpg";
 
         displayName = CSTRING(Commando);
 
@@ -274,15 +274,15 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Atov_SpecialForce: FGW_O_Atov_Base {
-        _generalMacro = "FGW_O_Atov_SpecialForce";
+    class FGWF_O_Atov_SpecialForce: FGWF_O_Atov_Base {
+        _generalMacro = "FGWF_O_Atov_SpecialForce";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGW_O_Atov_SpecialForce.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_SpecialForce.jpg";
 
         displayName = CSTRING(SpecialForce);
 
-        uniformClass = "FGW_U_O_PMC_Unit_35_ATOV";
+        uniformClass = "FGWF_U_O_PMC_Unit_35_ATOV";
         backpack = "";
 
         weapons[] = {"SMG_01_F", "rhs_weap_panzerfaust60", "Throw", "Put"};
@@ -324,11 +324,11 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Atov_Sharpshooter: FGW_O_Atov_Base {
-        _generalMacro = "FGW_O_Atov_Sharpshooter";
+    class FGWF_O_Atov_Sharpshooter: FGWF_O_Atov_Base {
+        _generalMacro = "FGWF_O_Atov_Sharpshooter";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Sharpshooter.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Sharpshooter.jpg";
 
         displayName = CSTRING(Sharpshooter);
 
@@ -378,25 +378,25 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Atov_Companion_Base: FGW_O_Atov_Base {
+    class FGWF_O_Atov_Companion_Base: FGWF_O_Atov_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
     };
 
-    class FGW_O_Atov_Companion_Vitaly: FGW_O_Atov_Companion_Base {
-        _generalMacro = "FGW_O_Atov_Companion_Vitaly";
+    class FGWF_O_Atov_Companion_Vitaly: FGWF_O_Atov_Companion_Base {
+        _generalMacro = "FGWF_O_Atov_Companion_Vitaly";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Vitaly.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Companion_Vitaly.jpg";
 
         displayName = CSTRING(Companion_Vitaly);
 
-        identityTypes[] = {"FGW_Face_Vitaly_Tag"};
+        identityTypes[] = {"FGWF_Face_Vitaly_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Vitaly'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Vitaly'; };";
         };
 
-        uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
+        uniformClass = "FGWF_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
@@ -428,21 +428,21 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Atov_Companion_Kostyantin: FGW_O_Atov_Companion_Base {
-        _generalMacro = "FGW_O_Atov_Companion_Kostyantin";
+    class FGWF_O_Atov_Companion_Kostyantin: FGWF_O_Atov_Companion_Base {
+        _generalMacro = "FGWF_O_Atov_Companion_Kostyantin";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Kostyantin.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Companion_Kostyantin.jpg";
 
         displayName = CSTRING(Companion_Kostyantin);
 
-        identityTypes[] = {"FGW_Face_Kostyantin_Tag"};
+        identityTypes[] = {"FGWF_Face_Kostyantin_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Kostyantin'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Kostyantin'; };";
         };
 
-        uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
+        uniformClass = "FGWF_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
@@ -472,21 +472,21 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Atov_Companion_Oleg: FGW_O_Atov_Companion_Base {
-        _generalMacro = "FGW_O_Atov_Companion_Oleg";
+    class FGWF_O_Atov_Companion_Oleg: FGWF_O_Atov_Companion_Base {
+        _generalMacro = "FGWF_O_Atov_Companion_Oleg";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Oleg.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Companion_Oleg.jpg";
 
         displayName = CSTRING(Companion_Oleg);
 
-        identityTypes[] = {"FGW_Face_Oleg_Tag"};
+        identityTypes[] = {"FGWF_Face_Oleg_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Oleg'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Oleg'; };";
         };
 
-        uniformClass = "FGW_U_O_USMC_FROG3_WMARPAT_ATOV";
+        uniformClass = "FGWF_U_O_USMC_FROG3_WMARPAT_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_arifle_HK416_Black", "Throw", "Put"};
@@ -518,21 +518,21 @@ class CfgVehicles {
         };
     };
 
-    class FGW_O_Atov_Companion_Dimitro: FGW_O_Atov_Companion_Base {
-        _generalMacro = "FGW_O_Atov_Companion_Dimitro";
+    class FGWF_O_Atov_Companion_Dimitro: FGWF_O_Atov_Companion_Base {
+        _generalMacro = "FGWF_O_Atov_Companion_Dimitro";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGW_O_Atov_Companion_Dimitro.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Companion_Dimitro.jpg";
 
         displayName = CSTRING(Companion_Dimitro);
 
-        identityTypes[] = {"FGW_Face_Dimitro_Tag"};
+        identityTypes[] = {"FGWF_Face_Dimitro_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGW_Identity_Atov_Companion_Dimitro'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Dimitro'; };";
         };
 
-        uniformClass = "FGW_U_O_PMC_Unit_1_ATOV";
+        uniformClass = "FGWF_U_O_PMC_Unit_1_ATOV";
         backpack = "";
 
         weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};

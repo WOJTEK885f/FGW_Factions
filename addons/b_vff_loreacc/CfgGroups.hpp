@@ -12,11 +12,11 @@ class CfgGroups {
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_VFF_Marine"; rank = "SERGEANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_VFF_Marine"; rank = "CORPORAL"; position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_VFF_Marine"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_VFF_Marine"; rank = "PRIVATE";  position[] = {10,-10,0}; };
-                    class Unit4 { side = 1; vehicle = "FGW_B_VFF_Marine"; rank = "PRIVATE";  position[] = {-10,-10,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_VFF_Marine"; rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_VFF_Marine"; rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_VFF_Marine"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_VFF_Marine"; rank = "PRIVATE";  position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_VFF_Marine"; rank = "PRIVATE";  position[] = {-10,-10,0}; };
                 };
 
                 class GVAR(Group_FightersSquad) {
@@ -25,11 +25,11 @@ class CfgGroups {
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_VFF_Fighter"; rank = "SERGEANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_VFF_Fighter"; rank = "CORPORAL"; position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {10,-10,0}; };
-                    class Unit4 { side = 1; vehicle = "FGW_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {-10,-10,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_VFF_Fighter"; rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_VFF_Fighter"; rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {-10,-10,0}; };
                 };
 
                 class GVAR(Group_CombatCompanyDetatchment) {
@@ -38,13 +38,13 @@ class CfgGroups {
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_VFF_Marine";  rank = "SERGEANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_VFF_Marine";  rank = "CORPORAL"; position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_VFF_Marine";  rank = "PRIVATE";  position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {10,-10,0}; };
-                    class Unit4 { side = 1; vehicle = "FGW_B_VFF_Marine";  rank = "PRIVATE";  position[] = {-10,-10,0}; };
-                    class Unit5 { side = 1; vehicle = "FGW_B_VFF_Marine";  rank = "PRIVATE";  position[] = {15,-15,0}; };
-                    class Unit6 { side = 1; vehicle = "FGW_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {-15,-15,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_VFF_Marine";  rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_VFF_Marine";  rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_VFF_Marine";  rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_VFF_Marine";  rank = "PRIVATE";  position[] = {-10,-10,0}; };
+                    class Unit5 { side = 1; vehicle = "FGWF_B_VFF_Marine";  rank = "PRIVATE";  position[] = {15,-15,0}; };
+                    class Unit6 { side = 1; vehicle = "FGWF_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {-15,-15,0}; };
                 };
 
                 class GVAR(Group_SpecialPoliceGroup) {
@@ -53,10 +53,10 @@ class CfgGroups {
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_VFF_SpecialPolice"; rank = "SERGEANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_VFF_SpecialPolice"; rank = "CORPORAL"; position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_VFF_SpecialPolice"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_VFF_Fighter";       rank = "PRIVATE";  position[] = {10,-10,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_VFF_SpecialPolice"; rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_VFF_SpecialPolice"; rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_VFF_SpecialPolice"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_VFF_Fighter";       rank = "PRIVATE";  position[] = {10,-10,0}; };
                 };
             };
 
@@ -69,12 +69,12 @@ class CfgGroups {
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_VFF_Companion_Victoria"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_VFF_Marine";             rank = "SERGEANT";   position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_VFF_Marine";             rank = "CORPORAL";   position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_VFF_Marine";             rank = "PRIVATE";    position[] = {10,-10,0}; };
-                    class Unit4 { side = 1; vehicle = "FGW_B_VFF_Marine";             rank = "PRIVATE";    position[] = {-10,-10,0}; };
-                    class Unit5 { side = 1; vehicle = "FGW_B_VFF_Marine";             rank = "PRIVATE";    position[] = {15,-15,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_VFF_Companion_Victoria"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_VFF_Marine";             rank = "SERGEANT";   position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_VFF_Marine";             rank = "CORPORAL";   position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_VFF_Marine";             rank = "PRIVATE";    position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_VFF_Marine";             rank = "PRIVATE";    position[] = {-10,-10,0}; };
+                    class Unit5 { side = 1; vehicle = "FGWF_B_VFF_Marine";             rank = "PRIVATE";    position[] = {15,-15,0}; };
                 };
 
                 class GVAR(Group_FightersSquad_Oksana) {
@@ -83,12 +83,12 @@ class CfgGroups {
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_VFF_Companion_Oksana"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_VFF_Fighter";          rank = "SERGEANT";   position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_VFF_Fighter";          rank = "CORPORAL";   position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_VFF_Fighter";          rank = "PRIVATE";    position[] = {10,-10,0}; };
-                    class Unit4 { side = 1; vehicle = "FGW_B_VFF_Fighter";          rank = "PRIVATE";    position[] = {-10,-10,0}; };
-                    class Unit5 { side = 1; vehicle = "FGW_B_VFF_Fighter";          rank = "PRIVATE";    position[] = {15,-15,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_VFF_Companion_Oksana"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_VFF_Fighter";          rank = "SERGEANT";   position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_VFF_Fighter";          rank = "CORPORAL";   position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_VFF_Fighter";          rank = "PRIVATE";    position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_VFF_Fighter";          rank = "PRIVATE";    position[] = {-10,-10,0}; };
+                    class Unit5 { side = 1; vehicle = "FGWF_B_VFF_Fighter";          rank = "PRIVATE";    position[] = {15,-15,0}; };
                 };
             };
         };

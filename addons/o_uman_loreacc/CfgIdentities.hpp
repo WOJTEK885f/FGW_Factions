@@ -1,5 +1,5 @@
 class CfgIdentities {
-    class FGW_Identity_Uman_Companion_Finn {
+    class FGWF_Identity_Uman_Companion_Finn {
         name = "Finn";
         nameSound = "Finn";
         face = "Ioannou";
@@ -7,7 +7,7 @@ class CfgIdentities {
         speaker = "Male04ENGB";
         pitch = 1.0;
     };
-    class FGW_Identity_Uman_Companion_Haaken {
+    class FGWF_Identity_Uman_Companion_Haaken {
         name = "Haaken";
         nameSound = "Haaken";
         face = "RussianHead_3";

@@ -5,15 +5,15 @@ class RussianHead_3;
 
 class CfgFaces {
     class Man_A3: Default {
-        class FGW_Face_Finn: Ioannou {
+        class FGWF_Face_Finn: Ioannou {
             disabled = 1;
             displayName = "FGW Finn";
-            identityTypes[] = {"FGW_Face_Finn_Tag"};
+            identityTypes[] = {"FGWF_Face_Finn_Tag"};
         };
-        class FGW_Face_Haaken: RussianHead_3 {
+        class FGWF_Face_Haaken: RussianHead_3 {
             disabled = 1;
             displayName = "FGW Haaken";
-            identityTypes[] = {"FGW_Face_Haaken_Tag"};
+            identityTypes[] = {"FGWF_Face_Haaken_Tag"};
         };
     };
 };

@@ -12,13 +12,13 @@ class CfgGroups {
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_Pozna_Commando"; rank = "SERGEANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_Pozna_Commando"; rank = "CORPORAL"; position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_Pozna_Fighter";  rank = "PRIVATE";  position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_Pozna_Fighter";  rank = "PRIVATE";  position[] = {10,-10,0}; };
-                    class Unit4 { side = 1; vehicle = "FGW_B_Pozna_Fighter";  rank = "PRIVATE";  position[] = {-10,-10,0}; };
-                    class Unit5 { side = 1; vehicle = "FGW_B_Pozna_Fighter";  rank = "PRIVATE";  position[] = {15,-15,0}; };
-                    class Unit6 { side = 1; vehicle = "FGW_B_Pozna_Fighter";  rank = "PRIVATE";  position[] = {-15,-15,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_Pozna_Commando"; rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_Pozna_Commando"; rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";  rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";  rank = "PRIVATE";  position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";  rank = "PRIVATE";  position[] = {-10,-10,0}; };
+                    class Unit5 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";  rank = "PRIVATE";  position[] = {15,-15,0}; };
+                    class Unit6 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";  rank = "PRIVATE";  position[] = {-15,-15,0}; };
                 };
 
                 class GVAR(Group_MarksmanTeam) {
@@ -27,9 +27,9 @@ class CfgGroups {
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_Pozna_SniperElite"; rank = "CORPORAL"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite"; rank = "CORPORAL"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
                 };
 
                 class GVAR(Group_Army_RifleCompany) {
@@ -38,13 +38,13 @@ class CfgGroups {
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_Pozna_Fighter";     rank = "SERGEANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_Pozna_Fighter";     rank = "CORPORAL"; position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_Pozna_Fighter";     rank = "PRIVATE";  position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_Pozna_Fighter";     rank = "PRIVATE";  position[] = {10,-10,0}; };
-                    class Unit4 { side = 1; vehicle = "FGW_B_Pozna_Fighter";     rank = "PRIVATE";  position[] = {-10,-10,0}; };
-                    class Unit5 { side = 1; vehicle = "FGW_B_Pozna_Fighter";     rank = "PRIVATE";  position[] = {15,-15,0}; };
-                    class Unit6 { side = 1; vehicle = "FGW_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {-15,-15,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";     rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";     rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";     rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";     rank = "PRIVATE";  position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";     rank = "PRIVATE";  position[] = {-10,-10,0}; };
+                    class Unit5 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";     rank = "PRIVATE";  position[] = {15,-15,0}; };
+                    class Unit6 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {-15,-15,0}; };
                 };
 
                 class GVAR(Group_Army_ReconPlatoon) {
@@ -53,10 +53,10 @@ class CfgGroups {
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_Pozna_Commando";    rank = "SERGEANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_Pozna_SniperElite"; rank = "CORPORAL"; position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {10,-10,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_Pozna_Commando";    rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite"; rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite"; rank = "PRIVATE";  position[] = {10,-10,0}; };
                 };
             };
 
@@ -69,13 +69,13 @@ class CfgGroups {
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_Pozna_Companion_Yuriy"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_Pozna_Commando";        rank = "SERGEANT";   position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_Pozna_Commando";        rank = "CORPORAL";   position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {10,-10,0}; };
-                    class Unit4 { side = 1; vehicle = "FGW_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {-10,-10,0}; };
-                    class Unit5 { side = 1; vehicle = "FGW_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {15,-15,0}; };
-                    class Unit6 { side = 1; vehicle = "FGW_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {-15,-15,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_Pozna_Companion_Yuriy"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_Pozna_Commando";        rank = "SERGEANT";   position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_Pozna_Commando";        rank = "CORPORAL";   position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {-10,-10,0}; };
+                    class Unit5 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {15,-15,0}; };
+                    class Unit6 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {-15,-15,0}; };
                 };
 
                 class GVAR(Group_MarksmanTeam_Roman) {
@@ -84,10 +84,10 @@ class CfgGroups {
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_Pozna_Companion_Roman"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_Pozna_SniperElite";     rank = "CORPORAL";   position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_Pozna_SniperElite";     rank = "PRIVATE";    position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_Pozna_SniperElite";     rank = "PRIVATE";    position[] = {10,-10,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_Pozna_Companion_Roman"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite";     rank = "CORPORAL";   position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite";     rank = "PRIVATE";    position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite";     rank = "PRIVATE";    position[] = {10,-10,0}; };
                 };
 
                 class GVAR(Group_Army_RifleCompany_Denis) {
@@ -96,13 +96,13 @@ class CfgGroups {
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_Pozna_Companion_Denis"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_Pozna_Fighter";         rank = "SERGEANT";   position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_Pozna_Fighter";         rank = "CORPORAL";   position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {10,-10,0}; };
-                    class Unit4 { side = 1; vehicle = "FGW_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {-10,-10,0}; };
-                    class Unit5 { side = 1; vehicle = "FGW_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {15,-15,0}; };
-                    class Unit6 { side = 1; vehicle = "FGW_B_Pozna_SniperElite";     rank = "PRIVATE";    position[] = {-15,-15,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_Pozna_Companion_Denis"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";         rank = "SERGEANT";   position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";         rank = "CORPORAL";   position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {-10,-10,0}; };
+                    class Unit5 { side = 1; vehicle = "FGWF_B_Pozna_Fighter";         rank = "PRIVATE";    position[] = {15,-15,0}; };
+                    class Unit6 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite";     rank = "PRIVATE";    position[] = {-15,-15,0}; };
                 };
 
                 class GVAR(Group_Army_ReconPlatoon_Tatyana) {
@@ -111,11 +111,11 @@ class CfgGroups {
                     faction = QGVAR(Pozna);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGW_B_Pozna_Companion_Tatyana"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGW_B_Pozna_Commando";          rank = "SERGEANT";   position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGW_B_Pozna_SniperElite";       rank = "CORPORAL";   position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGW_B_Pozna_SniperElite";       rank = "PRIVATE";    position[] = {10,-10,0}; };
-                    class Unit4 { side = 1; vehicle = "FGW_B_Pozna_SniperElite";       rank = "PRIVATE";    position[] = {-10,-10,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_Pozna_Companion_Tatyana"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_Pozna_Commando";          rank = "SERGEANT";   position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite";       rank = "CORPORAL";   position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite";       rank = "PRIVATE";    position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_Pozna_SniperElite";       rank = "PRIVATE";    position[] = {-10,-10,0}; };
                 };
             };
         };

@@ -1,7 +1,7 @@
 class CfgVehicles {
     class B_Soldier_F; // Forward declaration
 
-    class FGW_B_Example_Base: B_Soldier_F {
+    class FGWF_B_Example_Base: B_Soldier_F {
         author = AUTHOR;
         scope = 0;         // Hidden in Editor
         scopeCurator = 0;  // Hidden in Zeus
@@ -15,8 +15,8 @@ class CfgVehicles {
         genericNames = "RussianMen";
     };
 
-    class FGW_B_Example_Unit: FGW_B_Example_Base {
-        _generalMacro = "FGW_B_Example_Unit";
+    class FGWF_B_Example_Unit: FGWF_B_Example_Base {
+        _generalMacro = "FGWF_B_Example_Unit";
         scope = 2;
         scopeCurator = 2;
         editorPreview = "";

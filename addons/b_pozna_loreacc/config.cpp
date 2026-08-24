@@ -25,13 +25,13 @@ class CfgPatches {
             "rhs_main" // Denis, Tatyana: Vest
         };
         units[] = {
-            "FGW_B_Pozna_Fighter",
-            "FGW_B_Pozna_Commando",
-            "FGW_B_Pozna_SniperElite",
-            "FGW_B_Pozna_Companion_Roman",
-            "FGW_B_Pozna_Companion_Yuriy",
-            "FGW_B_Pozna_Companion_Denis",
-            "FGW_B_Pozna_Companion_Tatyana"
+            "FGWF_B_Pozna_Fighter",
+            "FGWF_B_Pozna_Commando",
+            "FGWF_B_Pozna_SniperElite",
+            "FGWF_B_Pozna_Companion_Roman",
+            "FGWF_B_Pozna_Companion_Yuriy",
+            "FGWF_B_Pozna_Companion_Denis",
+            "FGWF_B_Pozna_Companion_Tatyana"
         };
         weapons[] = {};
         VERSION_CONFIG;
