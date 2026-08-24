@@ -12,11 +12,10 @@ class CfgPatches {
             "A3_Characters_F",
             "A3_Characters_F_Enoch",
             "A3_Weapons_F",
-            "sp_fwa_thompson",
             "CUP_Weapons_WeaponsCore",
             "CUP_Weapons_East_Attachments",
             "CUP_Weapons_NVG",
-            "rhsgref_c_weapons", // Panzerfaust 60
+            "rhsgref_c_weapons", // Panzerfaust 60, M3A1
             "rhs_main", // Flak Vest (Custom)
             "CUP_Creatures_Military_PMC", // Infantry: Vest, SpecialForce: Uniform(Custom)
             "CUP_Creatures_Military_USMC", // Infantry, Machinegunner: Uniform(Custom), SpecialForce: Vest, Sharpshooter: Headgear
