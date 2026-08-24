@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="FGWF">
     <Package name="B_Pozna_Loreacc">
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Commando">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Commando">
             <English>Pozna Commando</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Denis">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Companion_Denis">
             <English>Denis</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Roman">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Companion_Roman">
             <English>Roman</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Tatyana">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Companion_Tatyana">
             <English>Tatyana</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Companion_Yuriy">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Companion_Yuriy">
             <English>Yuriy</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_FactionName">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_FactionName">
             <English>F:GW Pozna Battalion</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Fighter">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Fighter">
             <English>Pozna Fighter</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_GroupCategory_Infantry">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_GroupCategory_Infantry">
             <English>Infantry</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_ReconPlatoon">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Group_Army_ReconPlatoon">
             <English>Recon Team</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_ReconPlatoon_Tatyana">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Group_Army_ReconPlatoon_Tatyana">
             <English>Recon Team (Tatyana)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_RifleCompany">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Group_Army_RifleCompany">
             <English>Rifle Company Detachment</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_Army_RifleCompany_Denis">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Group_Army_RifleCompany_Denis">
             <English>Rifle Company Detachment (Denis)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_MarksmanTeam">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Group_MarksmanTeam">
             <English>Marksman Team</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_MarksmanTeam_Roman">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Group_MarksmanTeam_Roman">
             <English>Marksman Team (Roman)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_RifleSquad">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Group_RifleSquad">
             <English>Rifle Squad</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_Group_RifleSquad_Yuriy">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_Group_RifleSquad_Yuriy">
             <English>Rifle Squad (Yuriy)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_b_pozna_loreacc_SniperElite">
+        <Key ID="STR_gr7bow_fgwf_b_pozna_loreacc_SniperElite">
             <English>Pozna Sniper Elite</English>
         </Key>
     </Package>

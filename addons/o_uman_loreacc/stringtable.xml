@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="FGWF">
     <Package name="O_Uman_Loreacc">
-        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Companion_Finn">
+        <Key ID="STR_gr7bow_fgwf_o_uman_loreacc_Companion_Finn">
             <English>Finn</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Companion_Haaken">
+        <Key ID="STR_gr7bow_fgwf_o_uman_loreacc_Companion_Haaken">
             <English>Haaken</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_FactionName">
+        <Key ID="STR_gr7bow_fgwf_o_uman_loreacc_FactionName">
             <English>F:GW Uman Brotherhood</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Group_ArmedForcesGroup">
+        <Key ID="STR_gr7bow_fgwf_o_uman_loreacc_Group_ArmedForcesGroup">
             <English>Armed Forces Group</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Group_ArmedForcesGroup_Haaken">
+        <Key ID="STR_gr7bow_fgwf_o_uman_loreacc_Group_ArmedForcesGroup_Haaken">
             <English>Armed Forces Group (Haaken)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Group_TerroristGroup">
+        <Key ID="STR_gr7bow_fgwf_o_uman_loreacc_Group_TerroristGroup">
             <English>Terrorist Group</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Group_TerroristGroup_Finn">
+        <Key ID="STR_gr7bow_fgwf_o_uman_loreacc_Group_TerroristGroup_Finn">
             <English>Terrorist Group (Finn)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Militant_AK12">
+        <Key ID="STR_gr7bow_fgwf_o_uman_loreacc_Militant_AK12">
             <English>Uman Militant (AK-12)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Militant_AK74M">
+        <Key ID="STR_gr7bow_fgwf_o_uman_loreacc_Militant_AK74M">
             <English>Uman Militant (AK-74M)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Terrorist_AK74M">
+        <Key ID="STR_gr7bow_fgwf_o_uman_loreacc_Terrorist_AK74M">
             <English>Uman Terrorist (AK-74M)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_uman_loreacc_Terrorist_AKS74U">
+        <Key ID="STR_gr7bow_fgwf_o_uman_loreacc_Terrorist_AKS74U">
             <English>Uman Terrorist (AKS-74U)</English>
         </Key>
     </Package>

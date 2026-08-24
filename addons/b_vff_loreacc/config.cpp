@@ -8,7 +8,7 @@ class CfgPatches {
         name = QUOTE(COMPONENT);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "gr7bow_fgw_factions_main",
+            "gr7bow_fgwf_main",
             "A3_Characters_F",
             "A3_Weapons_F",
             "CUP_Weapons_WeaponsCore",            // HK416, M16A4, AA12, Colt1911, M9A1

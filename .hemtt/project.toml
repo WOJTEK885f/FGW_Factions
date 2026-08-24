@@ -1,6 +1,6 @@
 name = "Freeman: Guerrilla Warfare Factions"
 author = "WOJTEK885"
-prefix = "gr7bow_fgw_factions"
+prefix = "gr7bow_fgwf"
 mainprefix = "z"
 
 [version]
@@ -11,10 +11,10 @@ git_hash = 0
 include = [
     "mod.cpp",
     "meta.cpp",
-    "logo_gr7bow_fgw_factions.png",
-    "logo_gr7bow_fgw_factions_over.png",
-    "logo_gr7bow_fgw_factions_ca.paa",
-    "logo_gr7bow_fgw_factions_over_ca.paa",
+    "logo_gr7bow_fgwf.png",
+    "logo_gr7bow_fgwf_over.png",
+    "logo_gr7bow_fgwf_ca.paa",
+    "logo_gr7bow_fgwf_over_ca.paa",
     "LICENSE.md",
     "README.md",
 ]

@@ -20,7 +20,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_VFF_CivilianFighter";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_vff_loreacc\data\previews\FGW_B_VFF_CivilianFighter.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_CivilianFighter.jpg";
 
         displayName = CSTRING(CivilianFighter);
 
@@ -64,7 +64,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_VFF_CivilianFighterCaptain";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_vff_loreacc\data\previews\FGW_B_VFF_CivilianFighterCaptain.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_CivilianFighterCaptain.jpg";
 
         displayName = CSTRING(CivilianFighterCaptain);
 
@@ -110,7 +110,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_VFF_Fighter";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Fighter.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Fighter.jpg";
 
         displayName = CSTRING(Fighter);
 
@@ -156,7 +156,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_VFF_Marine";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Marine.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Marine.jpg";
 
         displayName = CSTRING(Marine);
 
@@ -200,7 +200,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_VFF_SpecialPolice";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_vff_loreacc\data\previews\FGW_B_VFF_SpecialPolice.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_SpecialPolice.jpg";
 
         displayName = CSTRING(SpecialPolice);
 
@@ -245,14 +245,14 @@ class CfgVehicles {
     };
 
     class FGW_B_VFF_Companion_Base: FGW_B_VFF_Base {
-        editorSubcategory = "gr7bow_fgw_factions_Subcat_Companions";
+        editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
     };
 
     class FGW_B_VFF_Companion_Victoria: FGW_B_VFF_Companion_Base {
         _generalMacro = "FGW_B_VFF_Companion_Victoria";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Companion_Victoria.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Companion_Victoria.jpg";
 
         displayName = CSTRING(Companion_Victoria);
 
@@ -300,7 +300,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_VFF_Companion_Oksana";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Companion_Oksana.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGW_B_VFF_Companion_Oksana.jpg";
 
         displayName = CSTRING(Companion_Oksana);
 

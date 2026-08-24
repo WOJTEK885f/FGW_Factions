@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class GVAR(Alpha) {
-        displayName = "$STR_gr7bow_fgw_factions_o_alpha_loreacc_FactionName";
+        displayName = "$STR_gr7bow_fgwf_o_alpha_loreacc_FactionName";
         priority = 1;
         side = 0;
         icon = "\a3\Data_f\cfgFactionClasses_OPF_ca.paa";

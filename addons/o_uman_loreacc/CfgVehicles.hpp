@@ -20,7 +20,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Uman_Militant_AK12";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Militant_AK12.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Militant_AK12.jpg";
 
         displayName = CSTRING(Militant_AK12);
 
@@ -70,7 +70,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Uman_Militant_AK74M";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Militant_AK74M.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Militant_AK74M.jpg";
 
         displayName = CSTRING(Militant_AK74M);
 
@@ -120,7 +120,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Uman_Terrorist_AK74M";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Terrorist_AK74M.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Terrorist_AK74M.jpg";
 
         displayName = CSTRING(Terrorist_AK74M);
 
@@ -172,7 +172,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Uman_Terrorist_AKS74U";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Terrorist_AKS74U.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Terrorist_AKS74U.jpg";
 
         displayName = CSTRING(Terrorist_AKS74U);
 
@@ -221,14 +221,14 @@ class CfgVehicles {
     };
 
     class FGW_O_Uman_Companion_Base: FGW_O_Uman_Base {
-        editorSubcategory = "gr7bow_fgw_factions_Subcat_Companions";
+        editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
     };
 
     class FGW_O_Uman_Companion_Finn: FGW_O_Uman_Companion_Base {
         _generalMacro = "FGW_O_Uman_Companion_Finn";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Companion_Finn.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Companion_Finn.jpg";
 
         displayName = CSTRING(Companion_Finn);
 
@@ -276,7 +276,7 @@ class CfgVehicles {
         _generalMacro = "FGW_O_Uman_Companion_Haaken";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Companion_Haaken.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGW_O_Uman_Companion_Haaken.jpg";
 
         displayName = CSTRING(Companion_Haaken);
 

@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="FGWF">
     <Package name="Main">
-        <Key ID="STR_gr7bow_fgw_factions_main_MCCUU_M81_MARPAT_roll_2">
+        <Key ID="STR_gr7bow_fgwf_main_MCCUU_M81_MARPAT_roll_2">
             <English>USMC FR MCCUU (M81/MARPAT, High Roll) - FGW Factions</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_main_PMC_Unit_1">
+        <Key ID="STR_gr7bow_fgwf_main_PMC_Unit_1">
             <English>PMC Clothes Shirt/Jeans (Plaid/Blue) - FGW Factions</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_main_PMC_Unit_35">
+        <Key ID="STR_gr7bow_fgwf_main_PMC_Unit_35">
             <English>PMC Clothes T-Shirt/Tactical Pants (Black, UCP) - FGW Factions</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_main_Subcat_Companions">
+        <Key ID="STR_gr7bow_fgwf_main_Subcat_Companions">
             <English>Companions</English>
             <Polish>Kompani</Polish>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_main_Subcat_Infantry_CompanionLed">
+        <Key ID="STR_gr7bow_fgwf_main_Subcat_Infantry_CompanionLed">
             <English>Infantry (Companion-led)</English>
             <Polish>Piechota (Kompani)</Polish>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_main_USMC_FROG3_WMARPAT">
+        <Key ID="STR_gr7bow_fgwf_main_USMC_FROG3_WMARPAT">
             <English>USMC FROG Gear Ver. 3 (Woodland) - FGW Factions</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_main_displayName">
+        <Key ID="STR_gr7bow_fgwf_main_displayName">
             <English>Main</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_main_url">
+        <Key ID="STR_gr7bow_fgwf_main_url">
             <English>https://github.com/WOJTEK885f/FGW_Factions</English>
             <Polish>https://github.com/WOJTEK885f/FGW_Factions</Polish>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_main_vydra_3m_flakvest">
+        <Key ID="STR_gr7bow_fgwf_main_vydra_3m_flakvest">
             <English>Vydra-3M - Flak Vest</English>
             <Polish>Wydra-3M - Flak Vest</Polish>
         </Key>

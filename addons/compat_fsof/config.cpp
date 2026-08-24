@@ -8,8 +8,8 @@ class CfgPatches {
         name = QUOTE(COMPONENT);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "gr7bow_fgw_factions_main",
-            "gr7bow_fgw_factions_b_vff_loreacc",
+            "gr7bow_fgwf_main",
+            "gr7bow_fgwf_b_vff_loreacc",
             "A3_Characters_F",
             "A3_Weapons_F",
             "zee_FiftyShadesOfFemale"

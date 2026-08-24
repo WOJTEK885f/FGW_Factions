@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="FGWF">
     <Package name="O_Atov_Loreacc">
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_ArmedPolice">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_ArmedPolice">
             <English>Federal Armed Police</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Commando">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Commando">
             <English>Federal Commando</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Dimitro">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Companion_Dimitro">
             <English>Dimitro</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Kostyantin">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Companion_Kostyantin">
             <English>Kostyantin</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Oleg">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Companion_Oleg">
             <English>Oleg</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Companion_Vitaly">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Companion_Vitaly">
             <English>Vitaly</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_FactionName">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_FactionName">
             <English>F:GW Atov Federation</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_Fortified">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_Army_Fortified">
             <English>Fortified Squad</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_Investigation">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_Army_Investigation">
             <English>Investigation Team</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_Investigation_Kostyantin">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_Army_Investigation_Kostyantin">
             <English>Investigation Team (Kostyantin)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_NationalGuard">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_Army_NationalGuard">
             <English>National Guard Squad</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_NationalGuard_Dimitro">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_Army_NationalGuard_Dimitro">
             <English>National Guard Squad (Dimitro)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SecurityPatrol">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_Army_SecurityPatrol">
             <English>Security Patrol</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SecurityPatrol_Vitaly">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_Army_SecurityPatrol_Vitaly">
             <English>Security Patrol (Vitaly)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_Army_SpecialForce">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_Army_SpecialForce">
             <English>Special Force Weapon Team</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_InfantryFireteam">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_InfantryFireteam">
             <English>Infantry Fireteam</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_InfantryFireteam_Oleg">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_InfantryFireteam_Oleg">
             <English>Infantry Fireteam (Oleg)</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_SpecialForceTeam">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_SpecialForceTeam">
             <English>Special Force Team</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Group_WeaponTeam">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Group_WeaponTeam">
             <English>Weapon Team</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Infantry">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Infantry">
             <English>Federal Infantry</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Machinegunner">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Machinegunner">
             <English>Federal Machinegunner</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Scout">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Scout">
             <English>Federal Scout</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_Sharpshooter">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_Sharpshooter">
             <English>Federal Sharpshooter</English>
         </Key>
-        <Key ID="STR_gr7bow_fgw_factions_o_atov_loreacc_SpecialForce">
+        <Key ID="STR_gr7bow_fgwf_o_atov_loreacc_SpecialForce">
             <English>Federal Special Force</English>
         </Key>
     </Package>

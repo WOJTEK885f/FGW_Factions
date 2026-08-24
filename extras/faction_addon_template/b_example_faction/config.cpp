@@ -8,7 +8,7 @@ class CfgPatches {
         name = QUOTE(COMPONENT);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "gr7bow_fgw_factions_main",
+            "gr7bow_fgwf_main",
             "A3_Characters_F"
         };
         units[] = {

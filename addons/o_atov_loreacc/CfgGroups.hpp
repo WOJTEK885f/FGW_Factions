@@ -114,7 +114,7 @@ class CfgGroups {
             };
 
             class Infantry_CompanionLed {
-                name = "$STR_gr7bow_fgw_factions_main_Subcat_Infantry_CompanionLed";
+                name = "$STR_gr7bow_fgwf_main_Subcat_Infantry_CompanionLed";
 
                 class GVAR(Group_Army_Investigation_Kostyantin) {
                     name = CSTRING(Group_Army_Investigation_Kostyantin);

@@ -20,7 +20,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_Pozna_Fighter";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Fighter.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Fighter.jpg";
 
         displayName = CSTRING(Fighter);
 
@@ -64,7 +64,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_Pozna_Commando";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Commando.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Commando.jpg";
 
         displayName = CSTRING(Commando);
 
@@ -110,7 +110,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_Pozna_SniperElite";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_SniperElite.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_SniperElite.jpg";
 
         displayName = CSTRING(SniperElite);
 
@@ -157,14 +157,14 @@ class CfgVehicles {
     };
 
     class FGW_B_Pozna_Companion_Base: FGW_B_Pozna_Base {
-        editorSubcategory = "gr7bow_fgw_factions_Subcat_Companions";
+        editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
     };
 
     class FGW_B_Pozna_Companion_Roman: FGW_B_Pozna_Companion_Base {
         _generalMacro = "FGW_B_Pozna_Companion_Roman";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Roman.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Roman.jpg";
 
         displayName = CSTRING(Companion_Roman);
 
@@ -212,7 +212,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_Pozna_Companion_Yuriy";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Yuriy.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Yuriy.jpg";
 
         displayName = CSTRING(Companion_Yuriy);
 
@@ -260,7 +260,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_Pozna_Companion_Denis";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Denis.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Denis.jpg";
 
         displayName = CSTRING(Companion_Denis);
 
@@ -308,7 +308,7 @@ class CfgVehicles {
         _generalMacro = "FGW_B_Pozna_Companion_Tatyana";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgw_factions\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Tatyana.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGW_B_Pozna_Companion_Tatyana.jpg";
 
         displayName = CSTRING(Companion_Tatyana);
 
