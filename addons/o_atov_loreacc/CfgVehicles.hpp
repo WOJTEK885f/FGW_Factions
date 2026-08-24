@@ -179,20 +179,21 @@ class CfgVehicles {
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
 
-        weapons[] = {"sp_fwa_smg_thompson_m1a1", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
-        respawnWeapons[] = {"sp_fwa_smg_thompson_m1a1", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        // Weapon placeholder - M3A1 Grease Gun replaced with Thompson M1A1 via compat_fwa addon
+        weapons[] = {"rhs_weap_m3a1", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        respawnWeapons[] = {"rhs_weap_m3a1", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
             "rhs_panzerfaust60_mag",
             MAG_4("CUP_17Rnd_9x19_M17_Black"),
-            MAG_8("sp_fwa_30Rnd_45acp_thompson_m1a1")
+            MAG_8("rhsgref_30rnd_1143x23_M1911B_SMG")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
             "rhs_panzerfaust60_mag",
             MAG_4("CUP_17Rnd_9x19_M17_Black"),
-            MAG_8("sp_fwa_30Rnd_45acp_thompson_m1a1")
+            MAG_8("rhsgref_30rnd_1143x23_M1911B_SMG")
         };
 
         Items[] = {
