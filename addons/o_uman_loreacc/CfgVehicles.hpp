@@ -286,7 +286,7 @@ class CfgVehicles {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Uman_Companion_Haaken'; };";
         };
 
-        uniformClass = "FGWF_U_O_USMC_MCCUU_M81_MARPAT_roll_2_UMAN";
+        uniformClass = "FGWF_U_USMC_MCCUU_M81_MARPAT_roll_2";
         backpack = "";
 
         weapons[] = {"srifle_EBR_F", "Throw", "Put"};

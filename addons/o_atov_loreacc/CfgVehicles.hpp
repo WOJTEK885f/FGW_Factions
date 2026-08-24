@@ -397,7 +397,7 @@ class CfgVehicles {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Vitaly'; };";
         };
 
-        uniformClass = "FGWF_U_O_USMC_FROG3_WMARPAT_ATOV";
+        uniformClass = "FGWF_U_USMC_FROG3_WMARPAT";
         backpack = "";
 
         weapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
@@ -443,7 +443,7 @@ class CfgVehicles {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Kostyantin'; };";
         };
 
-        uniformClass = "FGWF_U_O_USMC_FROG3_WMARPAT_ATOV";
+        uniformClass = "FGWF_U_USMC_FROG3_WMARPAT";
         backpack = "";
 
         weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
@@ -487,7 +487,7 @@ class CfgVehicles {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Oleg'; };";
         };
 
-        uniformClass = "FGWF_U_O_USMC_FROG3_WMARPAT_ATOV";
+        uniformClass = "FGWF_U_USMC_FROG3_WMARPAT";
         backpack = "";
 
         weapons[] = {"CUP_arifle_HK416_Black", "Throw", "Put"};
@@ -533,7 +533,7 @@ class CfgVehicles {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Dimitro'; };";
         };
 
-        uniformClass = "FGWF_U_O_PMC_Unit_1_ATOV";
+        uniformClass = "FGWF_U_PMC_Unit_1";
         backpack = "";
 
         weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
