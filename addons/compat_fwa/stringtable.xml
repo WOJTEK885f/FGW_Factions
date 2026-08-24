@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FGWF">
+    <Package name="FGWF Compat FWA">
+        <Key ID="STR_gr7bow_fgwf_compat_fwa_displayName">
+            <English>FGWF - FWA Compatibility</English>
+        </Key>
+    </Package>
+</Project>
