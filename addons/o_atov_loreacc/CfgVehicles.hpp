@@ -24,7 +24,7 @@ class CfgVehicles {
 
         displayName = CSTRING(Infantry);
 
-        uniformClass = "FGWF_U_O_USMC_FROG3_WMARPAT_ATOV";
+        uniformClass = "FGWF_U_USMC_FROG3_WMARPAT";
         backpack = "";
 
         weapons[] = {"CUP_arifle_M16A4_Base", "Throw", "Put"};
@@ -72,7 +72,7 @@ class CfgVehicles {
 
         displayName = CSTRING(Machinegunner);
 
-        uniformClass = "FGWF_U_O_USMC_FROG3_WMARPAT_ATOV";
+        uniformClass = "FGWF_U_USMC_FROG3_WMARPAT";
         backpack = "";
 
         weapons[] = {"CUP_lmg_M249_E2", "Throw", "Put"};
@@ -283,7 +283,7 @@ class CfgVehicles {
 
         displayName = CSTRING(SpecialForce);
 
-        uniformClass = "FGWF_U_O_PMC_Unit_35_ATOV";
+        uniformClass = "FGWF_U_PMC_Unit_35";
         backpack = "";
 
         weapons[] = {"SMG_01_F", "rhs_weap_panzerfaust60", "Throw", "Put"};
