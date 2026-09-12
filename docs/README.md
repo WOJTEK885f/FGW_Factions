@@ -1,10 +1,9 @@
-<!-- If you want to make changes to this README, you need to also modify the README.md in the docs folder as well -->
 <!-- markdownlint-disable MD033 -->
 
 <h1 align="center">Freeman: Guerrilla Warfare Factions</h1>
 <p align="center">
     <a href="https://github.com/WOJTEK885f/FGW_Factions/releases/latest">
-        <img src="https://img.shields.io/badge/Version-0.2.1-blue?style=flat-square" alt="Freeman: Guerrilla Warfare Factions Version">
+        <img src="https://img.shields.io/badge/Version-TMP_VERSION-blue?style=flat-square" alt="Freeman: Guerrilla Warfare Factions Version">
     </a>
     <a href="https://github.com/WOJTEK885f/FGW_Factions/issues">
         <img src="https://img.shields.io/github/issues-raw/WOJTEK885f/FGW_Factions.svg?style=flat-square&label=Issues" alt="Freeman: Guerrilla Warfare Factions Issues">
@@ -13,12 +12,11 @@
         <img src="https://img.shields.io/steam/downloads/3782242873.svg?style=flat-square&label=Downloads" alt="Freeman: Guerrilla Warfare Factions Downloads">
     </a>
     <a href="https://github.com/WOJTEK885f/FGW_Factions/blob/master/LICENSE.md">
-        <img src="https://img.shields.io/badge/License-APL ND-red?style=flat-square" alt="Freeman: Guerrilla Warfare Factions License">
+        <img src="https://img.shields.io/badge/License-APL-ND-red?style=flat-square" alt="Freeman: Guerrilla Warfare Factions License">
     </a>
     <br>
-    <img src="https://img.shields.io/github/actions/workflow/status/WOJTEK885f/FGW_Factions/hemtt.yml?style=flat-square&label=HEMTT" alt="HEMTT">
-    <img src="https://img.shields.io/github/actions/workflow/status/WOJTEK885f/FGW_Factions/validate.yml?style=flat-square&label=Validate" alt="Validate">
-
+    <img src="https://img.shields.io/github/actions/workflow/status/WOJTEK885f/FGW_Factions/hemtt.yml?style=flat-square&label=HEMTT" alt="HEMTT check">
+    <img src="https://img.shields.io/github/actions/workflow/status/WOJTEK885f/FGW_Factions/style-check.yml?style=flat-square&label=Validate" alt="Validate tools">
 </p>
 
 <p align="center">

@@ -1,28 +1,27 @@
 #!/usr/bin/env python3
 """
 Author: thojkooi
+Modified by: WOJTEK885
+  - Fixed a crash when a curly-brace imbalance was detected.
+  - Corrected the "round bracket" error message wording.
+  - Removed dead pushClosing/popClosing stubs.
 Description:
   Modified from https://github.com/acemod/ACE3/blob/master/tools/config_style_checker.py
   Validates that cpp, hpp, rvmat, and cfg files match the style guide.
+License:
+  Licensed under the GPLv2 (GNU General Public License version 2), as
+  distributed by the ACE3 project. See https://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
 """
 
 import fnmatch
 import os
 import re
 import sys
-import argparse
 import logger
 
 
 def check_config_style(filepath):
     bad_count_file = 0
-
-    def pushClosing(t):
-        closingStack.append(closing.expr)
-        closing << Literal(closingFor[t[0]])
-
-    def popClosing():
-        closing << closingStack.pop()
 
     reIsClass = re.compile(r'^\s*class(.*)')
     reIsClassInherit = re.compile(r'^\s*class(.*):')
@@ -140,10 +139,10 @@ def check_config_style(filepath):
             logger.log(logger.LogLevel.ERROR, f"A possible missing square bracket [ or ] in file {filepath} [ = {brackets_list.count('[')} ] = {brackets_list.count(']')}")
             bad_count_file += 1
         if brackets_list.count('(') != brackets_list.count(')'):
-            logger.log(logger.LogLevel.ERROR, f"A possible missing square bracket ( or ) in file {filepath} [ = {brackets_list.count('(')} ] = {brackets_list.count(')')}")
+            logger.log(logger.LogLevel.ERROR, f"A possible missing round bracket ( or ) in file {filepath} ( = {brackets_list.count('(')} ) = {brackets_list.count(')')}")
             bad_count_file += 1
         if brackets_list.count('{') != brackets_list.count('}'):
-            logger.log("A possible missing curly brace {{ or }} in file {0} {{ = {1} }} = {2}".format(filepath,brackets_list.count('{'),brackets_list.count('}')))
+            logger.log(logger.LogLevel.ERROR, "A possible missing curly brace {{ or }} in file {0} {{ = {1} }} = {2}".format(filepath,brackets_list.count('{'),brackets_list.count('}')))
             bad_count_file += 1
 
         file.seek(0)
