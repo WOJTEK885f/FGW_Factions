@@ -504,14 +504,14 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "CFP_Tactical1_M81",
+            "CFP_V_O_RUMVD_SURPAT",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "CFP_Tactical1_M81",
+            "CFP_V_O_RUMVD_SURPAT",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
