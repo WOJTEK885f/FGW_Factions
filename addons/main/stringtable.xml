@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="GR7BOW_FGWF">
     <Package name="Main">
+        <Key ID="STR_GR7BOW_FGWF_Main_DisplayName">
+            <English>Main</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_Main_MCCUU_M81_MARPAT_roll_2">
             <English>USMC FR MCCUU (M81/MARPAT, High Roll) - FGW Factions</English>
         </Key>
@@ -20,9 +23,6 @@
         </Key>
         <Key ID="STR_GR7BOW_FGWF_Main_USMC_FROG3_WMARPAT">
             <English>USMC FROG Gear Ver. 3 (Woodland) - FGW Factions</English>
-        </Key>
-        <Key ID="STR_GR7BOW_FGWF_Main_DisplayName">
-            <English>Main</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_Main_url">
             <English>https://github.com/WOJTEK885f/FGW_Factions</English>
