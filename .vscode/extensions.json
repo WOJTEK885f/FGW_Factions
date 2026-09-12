@@ -1,7 +1,8 @@
 {
     "recommendations": [
-        "brettmayson.hemtt",
         "editorconfig.editorconfig",
-        "DartRuffian.LazyArmaDev"
+        "Armitxes.sqf",
+        "brettmayson.hemtt",
+        "DartRuffian.lazyarmadev"
     ]
 }
