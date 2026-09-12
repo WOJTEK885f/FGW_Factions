@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="FGWF">
+<Project name="GR7BOW_FGWF">
     <Package name="B_Example_Faction">
-        <Key ID="STR_gr7bow_fgwf_b_example_faction_FactionName">
+        <Key ID="STR_GR7BOW_FGWF_B_Example_Faction_FactionName">
             <English>Example Faction</English>
         </Key>
-        <Key ID="STR_gr7bow_fgwf_b_example_faction_UnitName">
+        <Key ID="STR_GR7BOW_FGWF_B_Example_Faction_UnitName">
             <English>Example Unit</English>
         </Key>
     </Package>

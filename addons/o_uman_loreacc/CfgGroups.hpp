@@ -32,7 +32,7 @@ class CfgGroups {
             };
 
             class Infantry_CompanionLed {
-                name = "$STR_gr7bow_fgwf_main_Subcat_Infantry_CompanionLed";
+                name = "$STR_GR7BOW_FGWF_Main_Subcat_Infantry_CompanionLed";
 
                 class GVAR(Group_TerroristGroup) {
                     name = CSTRING(Group_TerroristGroup_Finn);
