@@ -6,14 +6,8 @@ hemtt.exe
 releases/
 
 # Arma
-ArmaScriptCompiler.exe
 *.pbo
 *.sqfc
-
-# Textures
-*.spp
-*.spp.painter_lock
-*.psd
 
 # Tools
 __pycache__
