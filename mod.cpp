@@ -1,8 +1,13 @@
 author = "WOJTEK885";
 name = "Freeman: Guerrilla Warfare Factions";
-description = "Freeman: Guerrilla Warfare Factions - Version 0.0.0";
+description = "Freeman: Guerrilla Warfare Factions - Version TMP_VERSION";
 overview = "Freeman: Guerrilla Warfare Factions is a 7BOW Group mod that adds factions based on the F:GW game.";
 overviewPicture = "logo_gr7bow_fgwf_ca.paa";
 picture = "logo_gr7bow_fgwf_ca.paa";
 logo = "logo_gr7bow_fgwf_ca.paa";
 logoOver = "logo_gr7bow_fgwf_ca.paa";
+logoSmall = "logo_gr7bow_fgwf_ca.paa";
+tooltip = "Freeman: Guerrilla Warfare Factions";
+tooltipOwned = "Freeman: Guerrilla Warfare Factions Owned";
+actionName = "GitHub";
+action = "https://github.com/WOJTEK885f/FGW_Factions";
