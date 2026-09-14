@@ -12,7 +12,7 @@ class CfgVehicles {
         editorSubcategory = "EdSubcat_Personnel";
 
         // Faction identity: Slavic appearance and Russian language
-        identityTypes[] = {"LanguageRUS", "CUP_D_Language_RU", "Head_Russian", "Head_Euro"};
+        identityTypes[] = {"LanguageRUS", "CUP_D_Language_RU", "Head_Russian", "Head_Euro", "Head_Enoch"};
         genericNames = "RussianMen";
     };
 
