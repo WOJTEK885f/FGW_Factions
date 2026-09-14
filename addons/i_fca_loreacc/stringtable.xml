@@ -19,6 +19,9 @@
         <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_FieldPatrol">
             <English>Field Patrol</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_FieldPatrol_Stepan">
+            <English>Field Patrol (Stepan)</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_GrenadiersCompany">
             <English>Grenadiers Detachment</English>
         </Key>
@@ -45,9 +48,6 @@
         </Key>
         <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_ShockSquad">
             <English>Shock Squad</English>
-        </Key>
-        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_FieldPatrol_Stepan">
-            <English>Field Patrol (Stepan)</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Militia">
             <English>Cossack Militia</English>
