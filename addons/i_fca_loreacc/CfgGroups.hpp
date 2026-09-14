@@ -111,7 +111,7 @@ class CfgGroups {
                     class Unit0 { side = 2; vehicle = "FGWF_I_FCA_Grenadier";  rank = "SERGEANT"; position[] = {0,0,0}; };
                     class Unit1 { side = 2; vehicle = "FGWF_I_FCA_Grenadier";  rank = "CORPORAL"; position[] = {5,-5,0}; };
                     class Unit2 { side = 2; vehicle = "FGWF_I_FCA_Militia";    rank = "PRIVATE";  position[] = {-5,-5,0}; };
-                    class Unit3 { side = 2; vehicle = "FGWF_I_FCA_ShockTroop"  rank = "PRIVATE";  position[] = {10,-10,0}; };
+                    class Unit3 { side = 2; vehicle = "FGWF_I_FCA_ShockTroop"; rank = "PRIVATE";  position[] = {10,-10,0}; };
                     class Unit4 { side = 2; vehicle = "FGWF_I_FCA_ShockTroop"; rank = "PRIVATE";  position[] = {-10,-10,0}; };
                     class Unit5 { side = 2; vehicle = "FGWF_I_FCA_ShockTroop"; rank = "PRIVATE";  position[] = {15,-15,0}; };
                     class Unit6 { side = 2; vehicle = "FGWF_I_FCA_ShockTroop"; rank = "PRIVATE";  position[] = {-15,-15,0}; };
