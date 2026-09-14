@@ -40,14 +40,14 @@
         <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_MilitiaSquad">
             <English>Militia Squad</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_MilitiaSquad_Ostap">
-            <English>Militia Squad (Ostap)</English>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_MilitiaSquad_Bohdan">
+            <English>Militia Squad (Bohdan)</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_ShockSquad">
             <English>Shock Squad</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_ShockSquad_Bohdan">
-            <English>Shock Squad (Bohdan)</English>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_FieldPatrol_Stepan">
+            <English>Field Patrol (Stepan)</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Militia">
             <English>Cossack Militia</English>
