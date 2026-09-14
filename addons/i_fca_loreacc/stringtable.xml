@@ -16,6 +16,39 @@
         <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Grenadier">
             <English>Cossack Grenadier</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_FieldPatrol">
+            <English>Field Patrol</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_GrenadiersCompany">
+            <English>Grenadiers Detachment</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_GuardGrenadiers">
+            <English>Guard Grenadiers Detachment</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_RifleCompany">
+            <English>Rifle Detachment</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_ShockBattalion">
+            <English>Shock Battalion Detachment</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_InfantrySquad">
+            <English>Infantry Squad</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_InfantrySquad_Stepan">
+            <English>Infantry Squad (Stepan)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_MilitiaSquad">
+            <English>Militia Squad</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_MilitiaSquad_Ostap">
+            <English>Militia Squad (Ostap)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_ShockSquad">
+            <English>Shock Squad</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_ShockSquad_Bohdan">
+            <English>Shock Squad (Bohdan)</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Militia">
             <English>Cossack Militia</English>
         </Key>
