@@ -1,8 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="GR7BOW_FGWF">
     <Package name="I_FCA_Loreacc">
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Companion_Bohdan">
+            <English>Bohdan</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Companion_Ostap">
+            <English>Ostap</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Companion_Stepan">
+            <English>Stepan</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_FactionName">
             <English>F:GW Free Cossacks Army</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Grenadier">
+            <English>Cossack Grenadier</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_FieldPatrol">
+            <English>Field Patrol</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_FieldPatrol_Stepan">
+            <English>Field Patrol (Stepan)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_GrenadiersCompany">
+            <English>Grenadiers Detachment</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_GuardGrenadiers">
+            <English>Guard Grenadiers Detachment</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_RifleCompany">
+            <English>Rifle Detachment</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_Army_ShockBattalion">
+            <English>Shock Battalion Detachment</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_InfantrySquad">
+            <English>Infantry Squad</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_InfantrySquad_Ostap">
+            <English>Infantry Squad (Ostap)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_MilitiaSquad">
+            <English>Militia Squad</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_MilitiaSquad_Bohdan">
+            <English>Militia Squad (Bohdan)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Group_ShockSquad">
+            <English>Shock Squad</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Militia">
+            <English>Cossack Militia</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_Rifleman">
+            <English>Cossack Rifleman</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_FCA_Loreacc_ShockTroop">
+            <English>Cossack Shock Troop</English>
         </Key>
     </Package>
 </Project>
