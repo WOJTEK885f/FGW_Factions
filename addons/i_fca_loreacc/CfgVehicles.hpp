@@ -80,11 +80,11 @@ class CfgVehicles {
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_8("20Rnd_762x51_Mag")
+            MAG_8("CUP_20Rnd_762x51_DMR")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_8("20Rnd_762x51_Mag")
+            MAG_8("CUP_20Rnd_762x51_DMR")
         };
 
         Items[] = {
@@ -287,12 +287,12 @@ class CfgVehicles {
         respawnWeapons[] = {"CUP_sgun_SPAS12", "Throw", "Put"};
 
         magazines[] = {
-            MAG_9("CUP_8Rnd_12Gauge_Pellets_No00_Buck"),
-            MAG_8("CUP_8Rnd_12Gauge_Slug")
+            MAG_8("CUP_8Rnd_12Gauge_Slug"),
+            MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
         };
         respawnMagazines[] = {
-            MAG_9("CUP_8Rnd_12Gauge_Pellets_No00_Buck"),
-            MAG_8("CUP_8Rnd_12Gauge_Slug")
+            MAG_8("CUP_8Rnd_12Gauge_Slug"),
+            MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
         };
 
         Items[] = {"FirstAidKit"};
