@@ -314,7 +314,7 @@ class CfgVehicles {
 
         displayName = ECSTRING(B_Player_Loreacc,MilitiaSMGFighter);
 
-        uniformClass = "CUP_U_B_USMC_MCCUU_MARPAT_M81";
+        uniformClass = "FGWF_U_USMC_MCCUU_MARPAT_M81";
         backpack = "";
 
         weapons[] = {"CUP_smg_EVO", "Throw", "Put"};
@@ -418,7 +418,7 @@ class CfgVehicles {
 
         displayName = ECSTRING(B_Player_Loreacc,MaleVillager);
 
-        uniformClass = "CUP_U_C_Worker_02";
+        uniformClass = "FGWF_U_C_Worker_02";
         backpack = "";
 
         weapons[] = {"CUP_srifle_M14", "Throw", "Put"};

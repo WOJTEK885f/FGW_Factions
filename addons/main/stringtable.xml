@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="GR7BOW_FGWF">
     <Package name="Main">
+        <Key ID="STR_GR7BOW_FGWF_Main_C_Worker_02">
+            <English>Worker Clothes (Green) - FGW Factions</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_Main_DisplayName">
             <English>Main</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_Main_MCCUU_M81_MARPAT_roll_2">
             <English>USMC FR MCCUU (M81/MARPAT, High Roll) - FGW Factions</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_Main_MCCUU_MARPAT_M81">
+            <English>USMC FR MCCUU (MARPAT/M81) - FGW Factions</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_Main_PMC_Unit_1">
             <English>PMC Clothes Shirt/Jeans (Plaid/Blue) - FGW Factions</English>

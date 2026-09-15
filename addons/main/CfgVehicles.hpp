@@ -24,4 +24,16 @@ class CfgVehicles {
         scope = 1; // Hidden in Eden Editor
         modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allow all sides to use this model
     };
+
+    class CUP_B_USMC_Soldier_MCCUU_MARPAT_M81; // Original carrier from CUP forward declaration
+    class FGWF_Dummy_MCCUU_MARPAT_M81: CUP_B_USMC_Soldier_MCCUU_MARPAT_M81 {
+        scope = 1; // Hidden in Eden Editor
+        modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allow all sides to use this model
+    };
+
+    class CUP_C_C_Worker_02; // Original carrier from CUP forward declaration
+    class FGWF_Dummy_C_Worker_02: CUP_C_C_Worker_02 {
+        scope = 1; // Hidden in Eden Editor
+        modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allow all sides to use this model
+    };
 };
