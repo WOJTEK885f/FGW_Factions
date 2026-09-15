@@ -24,7 +24,7 @@ class CfgVehicles {
 
         displayName = CSTRING(MilitiaRifleman);
 
-        uniformClass = "U_C_WorkerCoveralls";
+        uniformClass = "CUP_I_B_PMC_Unit_43";
         backpack = "";
 
         weapons[] = {"CUP_srifle_M14", "Throw", "Put"};
@@ -42,7 +42,6 @@ class CfgVehicles {
 
         linkedItems[] = {
             "FGWF_V_Flak_Vest_Vydra_3M",
-            "CUP_H_USArmy_Helmet_M1_plain_M81",
             "G_Bandanna_blk",
             "ItemMap",
             "ItemCompass",
@@ -89,8 +88,8 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "CUP_V_O_SLA_Flak_Vest01",
-            "CUP_H_FR_BoonieMARPAT",
+            "CUP_V_PMC_CIRAS_Coyote_Empty",
+            "CFP_BoonieHat_M81",
             "G_Bandanna_khk",
             "ItemMap",
             "ItemCompass",
@@ -98,8 +97,8 @@ class CfgVehicles {
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "CUP_V_O_SLA_Flak_Vest01",
-            "CUP_H_FR_BoonieMARPAT",
+            "CUP_V_PMC_CIRAS_Coyote_Empty",
+            "CFP_BoonieHat_M81",
             "G_Bandanna_khk",
             "ItemMap",
             "ItemCompass",
@@ -116,7 +115,7 @@ class CfgVehicles {
 
         displayName = CSTRING(MilitiaSMGFighter);
 
-        uniformClass = "CFP_GUER_M81";
+        uniformClass = "CUP_U_B_USMC_MCCUU_MARPAT_M81";
         backpack = "";
 
         weapons[] = {"CUP_smg_EVO", "Throw", "Put"};
@@ -135,18 +134,18 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "CUP_V_CPC_Fastbelt_rngr",
-            "CUP_H_FR_BandanaWdl",
-            "G_Bandanna_khk",
+            "CFP_RAV_Empty_Green",
+            "SP_Bandana_Black",
+            "G_Bandanna_oli",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "CUP_V_CPC_Fastbelt_rngr",
-            "CUP_H_FR_BandanaWdl",
-            "G_Bandanna_khk",
+            "CFP_RAV_Empty_Green",
+            "SP_Bandana_Black",
+            "G_Bandanna_oli",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -162,7 +161,7 @@ class CfgVehicles {
 
         displayName = CSTRING(MaleVillager);
 
-        uniformClass = "CUP_U_C_Villager_03";
+        uniformClass = "CUP_U_C_Worker_02";
         backpack = "";
 
         weapons[] = {"CUP_srifle_M14", "Throw", "Put"};
@@ -179,14 +178,16 @@ class CfgVehicles {
         RespawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {
-            "CUP_H_USArmy_Boonie",
+            "CUP_V_C_Police_Holster",
+            "SP_BoonieHat_Tan",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "CUP_H_USArmy_Boonie",
+            "CUP_V_C_Police_Holster",
+            "SP_BoonieHat_Tan",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
