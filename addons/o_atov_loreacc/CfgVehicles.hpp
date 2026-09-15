@@ -95,7 +95,7 @@ class CfgVehicles {
         };
 
         linkedItems[] = {
-            "CUP_V_C_Police_Holster",
+            "CUP_V_B_Interceptor_Base_Coyote",
             "CUP_H_RUS_Altyn_Shield_Up_black",
             "ItemMap",
             "ItemCompass",
@@ -103,7 +103,7 @@ class CfgVehicles {
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "CUP_V_C_Police_Holster",
+            "CUP_V_B_Interceptor_Base_Coyote",
             "CUP_H_RUS_Altyn_Shield_Up_black",
             "ItemMap",
             "ItemCompass",

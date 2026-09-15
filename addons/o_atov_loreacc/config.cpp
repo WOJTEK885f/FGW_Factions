@@ -19,8 +19,8 @@ class CfgPatches {
             "rhs_main", // Flak Vest (Custom)
             "CUP_Creatures_Military_PMC", // Infantry: Vest, SpecialForce: Uniform(Custom)
             "CUP_Creatures_Military_USMC", // Infantry, Machinegunner: Uniform(Custom), SpecialForce: Vest, Sharpshooter: Headgear
+            "CUP_Creatures_Military_USArmy", // Machinegunner: Vest
             "CUP_Creatures_Military_Russia", // Infantry: Balaclava, Machinegunner: Helmet
-            "CUP_Creatures_People_Civil_Chernarus", // Machinegunner: Vest
             "cfp_uniforms", // Scout, ArmedPolice, Commando, Sharpshooter: Uniform
             "cfp_vests", // Scout, ArmedPolice, Commando, Sharpshooter: Vest
             "cfp_headgear" // Scout, ArmedPolice, Commando, SpecialForce: Helmet
