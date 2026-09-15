@@ -174,7 +174,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_Light.jpg";
 
-        displayName = CSTRING(MilitiaRifleman_Light);
+        displayName = ECSTRING(B_Player_Loreacc,MilitiaRifleman_Light);
 
         uniformClass = "CUP_I_B_PMC_Unit_11";
         backpack = "";
@@ -220,7 +220,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_OldHelmet.jpg";
 
-        displayName = CSTRING(MilitiaRifleman_OldHelmet);
+        displayName = ECSTRING(B_Player_Loreacc,MilitiaRifleman_OldHelmet);
 
         uniformClass = "CUP_I_B_PMC_Unit_2";
 
@@ -250,7 +250,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_SteelHelmet.jpg";
 
-        displayName = CSTRING(MilitiaRifleman_SteelHelmet);
+        displayName = ECSTRING(B_Player_Loreacc,MilitiaRifleman_SteelHelmet);
 
         uniformClass = "CUP_I_B_PMC_Unit_43";
 
@@ -280,7 +280,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_BikeHelmet.jpg";
 
-        displayName = CSTRING(MilitiaRifleman_BikeHelmet);
+        displayName = ECSTRING(B_Player_Loreacc,MilitiaRifleman_BikeHelmet);
 
         uniformClass = "CUP_I_B_PMC_Unit_15";
 
@@ -310,7 +310,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaSMGFighter.jpg";
 
-        displayName = CSTRING(MilitiaSMGFighter);
+        displayName = ECSTRING(B_Player_Loreacc,MilitiaSMGFighter);
 
         uniformClass = "CUP_U_B_USMC_MCCUU_MARPAT_M81";
         backpack = "";
@@ -360,7 +360,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaSniper.jpg";
 
-        displayName = CSTRING(MilitiaSniper);
+        displayName = ECSTRING(B_Player_Loreacc,MilitiaSniper);
 
         uniformClass = "CFP_GUER_M81";
         backpack = "";
@@ -412,7 +412,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MaleVillager.jpg";
 
-        displayName = CSTRING(MaleVillager);
+        displayName = ECSTRING(B_Player_Loreacc,MaleVillager);
 
         uniformClass = "CUP_U_C_Worker_02";
         backpack = "";
