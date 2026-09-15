@@ -496,12 +496,14 @@ class CfgVehicles {
         };
 
         linkedItems[] = {
+            "CUP_V_C_Police_Holster",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
+            "CUP_V_C_Police_Holster",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",

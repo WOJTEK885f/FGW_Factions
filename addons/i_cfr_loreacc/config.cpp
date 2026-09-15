@@ -20,7 +20,7 @@ class CfgPatches {
             "CUP_Creatures_Military_SLA",  // SLA helmet (Old Helmet)
             "CUP_Creatures_Military_Russia", // K6-3 (Steel Helmet)
             "CUP_Creatures_Military_PMC",  // PMC uniforms (Riflemen/SMG), CIRAS vest (Sniper)
-            "CUP_Creatures_People_Civil_Chernarus", // Worker_02 uniform, Police_Holster vest (Villager)
+            "CUP_Creatures_People_Civil_Chernarus", // Worker_02 uniform, Police_Holster vest (Villager, Olga)
             "cfp_uniforms",              // CFP_GUER_M81, CFP_GUER_M81Tee
             "cfp_vests"                  // CFP_Tactical1_M81
         };
