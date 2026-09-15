@@ -16,15 +16,15 @@ class CfgVehicles {
         genericNames = "RussianMen";
     };
 
-    class FGWF_B_Player_MilitiaRifleman: FGWF_B_Player_Base {
-        _generalMacro = "FGWF_B_Player_MilitiaRifleman";
+    class FGWF_B_Player_MilitiaRifleman_Light: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_MilitiaRifleman_Light";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_Light.jpg";
 
-        displayName = CSTRING(MilitiaRifleman);
+        displayName = CSTRING(MilitiaRifleman_Light);
 
-        uniformClass = "CUP_I_B_PMC_Unit_43";
+        uniformClass = "CUP_I_B_PMC_Unit_11";
         backpack = "";
 
         weapons[] = {"CUP_srifle_M14", "Throw", "Put"};
@@ -42,7 +42,6 @@ class CfgVehicles {
 
         linkedItems[] = {
             "FGWF_V_Flak_Vest_Vydra_3M",
-            "CUP_H_USArmy_Helmet_M1_plain_M81",
             "G_Bandanna_blk",
             "ItemMap",
             "ItemCompass",
@@ -51,7 +50,96 @@ class CfgVehicles {
         };
         respawnLinkedItems[] = {
             "FGWF_V_Flak_Vest_Vydra_3M",
-            "CUP_H_USArmy_Helmet_M1_plain_M81",
+            "G_Bandanna_blk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_MilitiaRifleman_OldHelmet: FGWF_B_Player_MilitiaRifleman_Light {
+        _generalMacro = "FGWF_B_Player_MilitiaRifleman_OldHelmet";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_OldHelmet.jpg";
+
+        displayName = CSTRING(MilitiaRifleman_OldHelmet);
+
+        uniformClass = "CUP_I_B_PMC_Unit_2";
+
+        linkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "CUP_H_SLA_Helmet_URB_worn",
+            "G_Bandanna_blk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "CUP_H_SLA_Helmet_URB_worn",
+            "G_Bandanna_blk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_MilitiaRifleman_SteelHelmet: FGWF_B_Player_MilitiaRifleman_Light {
+        _generalMacro = "FGWF_B_Player_MilitiaRifleman_SteelHelmet";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_SteelHelmet.jpg";
+
+        displayName = CSTRING(MilitiaRifleman_SteelHelmet);
+
+        uniformClass = "CUP_I_B_PMC_Unit_43";
+
+        linkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "CUP_H_RUS_K6_3",
+            "G_Bandanna_blk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "CUP_H_RUS_K6_3",
+            "G_Bandanna_blk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_MilitiaRifleman_BikeHelmet: FGWF_B_Player_MilitiaRifleman_Light {
+        _generalMacro = "FGWF_B_Player_MilitiaRifleman_BikeHelmet";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_BikeHelmet.jpg";
+
+        displayName = CSTRING(MilitiaRifleman_BikeHelmet);
+
+        uniformClass = "CUP_I_B_PMC_Unit_15";
+
+        linkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "CUP_H_USArmy_Helmet_Protec",
+            "G_Bandanna_blk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "CUP_H_USArmy_Helmet_Protec",
             "G_Bandanna_blk",
             "ItemMap",
             "ItemCompass",

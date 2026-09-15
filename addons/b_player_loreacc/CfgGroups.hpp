@@ -12,11 +12,11 @@ class CfgGroups {
                     faction = QGVAR(Player);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 
-                    class Unit0 { side = 1; vehicle = "FGWF_B_Player_MilitiaRifleman"; rank = "SERGEANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 1; vehicle = "FGWF_B_Player_MilitiaRifleman"; rank = "CORPORAL"; position[] = {5,-5,0}; };
-                    class Unit2 { side = 1; vehicle = "FGWF_B_Player_MilitiaRifleman"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
-                    class Unit3 { side = 1; vehicle = "FGWF_B_Player_MilitiaRifleman"; rank = "PRIVATE";  position[] = {10,-10,0}; };
-                    class Unit4 { side = 1; vehicle = "FGWF_B_Player_MilitiaRifleman"; rank = "PRIVATE";  position[] = {-10,-10,0}; };
+                    class Unit0 { side = 1; vehicle = "FGWF_B_Player_MilitiaRifleman_SteelHelmet"; rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_Player_MilitiaRifleman_Light";       rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_Player_MilitiaRifleman_OldHelmet";   rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_Player_MilitiaRifleman_SteelHelmet"; rank = "PRIVATE";  position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_Player_MilitiaRifleman_BikeHelmet";  rank = "PRIVATE";  position[] = {-10,-10,0}; };
                 };
 
                 class GVAR(Group_MilitiaSniperTeam) {

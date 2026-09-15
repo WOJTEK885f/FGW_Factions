@@ -13,13 +13,17 @@ class CfgPatches {
             "A3_Weapons_F",
             "CUP_Weapons_WeaponsCore",   // M14, Scorpion EVO
             "CUP_Weapons_Grenades",      // RGD5 grenades
-            "CUP_Creatures_Military_USMC", // Interceptor vest
+            "CUP_Creatures_Military_USMC", // Interceptor vest, Protec helmet (Bike Helmet)
             "CUP_Creatures_Military_SLA",  // Old Helmet
+            "CUP_Creatures_Military_Russia", // K6-3 helmet (Steel Helmet)
             "cfp_uniforms",              // CFP_GUER_M81, CFP_GUER_M81Tee
             "cfp_vests"                  // CFP_Tactical1_M81
         };
         units[] = {
-            "FGWF_B_Player_MilitiaRifleman",
+            "FGWF_B_Player_MilitiaRifleman_Light",
+            "FGWF_B_Player_MilitiaRifleman_OldHelmet",
+            "FGWF_B_Player_MilitiaRifleman_SteelHelmet",
+            "FGWF_B_Player_MilitiaRifleman_BikeHelmet",
             "FGWF_B_Player_MilitiaSniper",
             "FGWF_B_Player_MilitiaSMGFighter",
             "FGWF_B_Player_MaleVillager"
