@@ -20,6 +20,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_MilitiaRifleman_Light";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_Light.jpg";
 
         displayName = CSTRING(MilitiaRifleman_Light);
@@ -62,6 +63,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_MilitiaRifleman_OldHelmet";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_OldHelmet.jpg";
 
         displayName = CSTRING(MilitiaRifleman_OldHelmet);
@@ -92,6 +94,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_MilitiaRifleman_SteelHelmet";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_SteelHelmet.jpg";
 
         displayName = CSTRING(MilitiaRifleman_SteelHelmet);
@@ -122,6 +125,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_MilitiaRifleman_BikeHelmet";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_BikeHelmet.jpg";
 
         displayName = CSTRING(MilitiaRifleman_BikeHelmet);
@@ -152,6 +156,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_MilitiaSniper";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaSniper.jpg";
 
         displayName = CSTRING(MilitiaSniper);
@@ -200,6 +205,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_MilitiaSMGFighter";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaSMGFighter.jpg";
 
         displayName = CSTRING(MilitiaSMGFighter);
@@ -246,6 +252,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_MaleVillager";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MaleVillager.jpg";
 
         displayName = CSTRING(MaleVillager);

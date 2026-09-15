@@ -17,6 +17,10 @@
             <English>Companions</English>
             <Polish>Kompani</Polish>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_Main_Subcat_Guerrilla">
+            <English>Men (Guerrilla)</English>
+            <Polish>Ludzie (partyzantka)</Polish>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_Main_Subcat_Infantry_CompanionLed">
             <English>Infantry (Companion-led)</English>
             <Polish>Piechota (Kompani)</Polish>

@@ -172,6 +172,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_I_CFR_MilitiaRifleman_Light";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_Light.jpg";
 
         displayName = ECSTRING(B_Player_Loreacc,MilitiaRifleman_Light);
@@ -308,6 +309,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_I_CFR_MilitiaSMGFighter";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaSMGFighter.jpg";
 
         displayName = ECSTRING(B_Player_Loreacc,MilitiaSMGFighter);
@@ -358,6 +360,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_I_CFR_MilitiaSniper";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaSniper.jpg";
 
         displayName = ECSTRING(B_Player_Loreacc,MilitiaSniper);
@@ -410,6 +413,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_I_CFR_MaleVillager";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MaleVillager.jpg";
 
         displayName = ECSTRING(B_Player_Loreacc,MaleVillager);
