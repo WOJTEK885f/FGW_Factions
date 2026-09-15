@@ -25,5 +25,26 @@
         <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_Group_ChernivkanMilitiaPatrol_Olga">
             <English>Militia Patrol (Olga)</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_MaleVillager">
+            <English>CFR Male Villager</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_MilitiaRifleman_BikeHelmet">
+            <English>CFR Militia Rifleman (Bike Helmet)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_MilitiaRifleman_Light">
+            <English>CFR Militia Rifleman (Light)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_MilitiaRifleman_OldHelmet">
+            <English>CFR Militia Rifleman (Old Helmet)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_MilitiaRifleman_SteelHelmet">
+            <English>CFR Militia Rifleman (Steel Helmet)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_MilitiaSMGFighter">
+            <English>CFR Militia SMG Fighter</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_MilitiaSniper">
+            <English>CFR Militia Sniper</English>
+        </Key>
     </Package>
 </Project>
