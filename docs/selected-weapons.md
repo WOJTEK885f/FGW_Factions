@@ -20,7 +20,7 @@ The table below contains the weapons featured in **Freeman: Guerrilla Warfare**,
 
 | F:GW Weapon | Real-Life Equivalent | Selected A3 Weapon | Mod | Comments |
 | ----------- | -------------------- | ------------------ | --- | --- |
-| Coral | Brügger & Thomet P26 | | | |
+| Coral | Brügger & Thomet P26 | M3A1 SMG (Black) | CUP | Matching F:GW ammo and capacity |
 | CQRifle | - | | | |
 | Gustiv SMG | Carl Gustav M/45 | Carl Gustav M/45 | FWA | |
 | MAC | MAC-11 | MAC-10 (folded Stock) | CUP | Sidearm slot matching F:GW |
