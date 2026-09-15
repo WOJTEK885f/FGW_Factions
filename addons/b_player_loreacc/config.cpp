@@ -16,6 +16,7 @@ class CfgPatches {
             "CUP_Creatures_Military_USMC", // Interceptor vest, Protec helmet (Bike Helmet)
             "CUP_Creatures_Military_SLA",  // Old Helmet
             "CUP_Creatures_Military_Russia", // K6-3 helmet (Steel Helmet)
+            "CUP_Creatures_Military_PMC",   // PMC uniforms, CIRAS vest
             "cfp_uniforms",              // CFP_GUER_M81, CFP_GUER_M81Tee
             "cfp_vests"                  // CFP_Tactical1_M81
         };
