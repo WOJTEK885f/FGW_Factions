@@ -9,6 +9,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "gr7bow_fgwf_main",
+            "gr7bow_fgwf_i_cfr_loreacc",
             "gr7bow_fgwf_b_vff_loreacc",
             "gr7bow_fgwf_b_pozna_loreacc",
             "A3_Characters_F",

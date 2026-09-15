@@ -3,6 +3,9 @@ class CfgIdentities {
     class FGWF_Identity_Pozna_Companion_Tatyana {
         face = "fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair";
     };
+    class FGWF_Identity_CFR_Companion_Olga {
+        face = "fsof_femaleCauc02t4_HazelEyes_Bun_BlondeHair";
+    };
     class FGWF_Identity_VFF_Companion_Victoria {
         face = "fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair";
     };

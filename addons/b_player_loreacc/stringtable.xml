@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="GR7BOW_FGWF">
+    <Package name="B_Player_Loreacc">
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FactionName">
+            <English>F:GW Player Faction</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_MilitiaInfantrySquad">
+            <English>Militia Infantry Squad</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_MilitiaSniperTeam">
+            <English>Militia Sniper Team</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_MaleVillager">
+            <English>Male Villager</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_MilitiaRifleman_BikeHelmet">
+            <English>Militia Rifleman (Biker)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_MilitiaRifleman_Light">
+            <English>Militia Rifleman (Light)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_MilitiaRifleman_OldHelmet">
+            <English>Militia Rifleman (Poor)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_MilitiaRifleman_SteelHelmet">
+            <English>Militia Rifleman</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_MilitiaSMGFighter">
+            <English>Militia SMG Fighter</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_MilitiaSniper">
+            <English>Militia Sniper</English>
+        </Key>
+    </Package>
+</Project>

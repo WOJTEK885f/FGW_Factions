@@ -64,6 +64,36 @@ class CfgWeapons {
         };
     };
 
+    class CUP_U_B_USMC_MCCUU_MARPAT_M81; // Import the base uniform item from CUP
+    class FGWF_U_USMC_MCCUU_MARPAT_M81: CUP_U_B_USMC_MCCUU_MARPAT_M81 {
+        author = AUTHOR;
+        displayName = CSTRING(MCCUU_MARPAT_M81);
+        scope = 2; // Available in Arsenal
+
+        class ItemInfo: UniformItem {
+            // Apply our unlocked dummy model instead of the restricted CUP one
+            uniformClass = "FGWF_Dummy_MCCUU_MARPAT_M81";
+
+            containerClass = "Supply60"; // Matched with original CUP capacity
+            mass = 20; // Matched with original CUP mass
+        };
+    };
+
+    class CUP_U_C_Worker_02; // Import the base uniform item from CUP
+    class FGWF_U_C_Worker_02: CUP_U_C_Worker_02 {
+        author = AUTHOR;
+        displayName = CSTRING(C_Worker_02);
+        scope = 2; // Available in Arsenal
+
+        class ItemInfo: UniformItem {
+            // Apply our unlocked dummy model instead of the restricted CUP one
+            uniformClass = "FGWF_Dummy_C_Worker_02";
+
+            containerClass = "Supply40"; // Matched with original CUP capacity
+            mass = 20; // Matched with original CUP mass
+        };
+    };
+
     class VestItem; // Define the base vest class from Arma 3 core to inherit proper item properties
 
     class rhs_vydra_3m; // Import the base uniform class from RHS to use as a parent for custom vest

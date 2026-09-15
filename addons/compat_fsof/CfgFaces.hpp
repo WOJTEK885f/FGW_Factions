@@ -5,9 +5,13 @@ class CfgFaces {
         class fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair;
         class fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair;
         class fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair;
+        class fsof_femaleCauc02t4_HazelEyes_Bun_BlondeHair;
 
         class FGWF_Face_Tatyana: fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair {
             identityTypes[] = {"FGWF_Face_Tatyana_Tag"};
+        };
+        class FGWF_Face_Olga: fsof_femaleCauc02t4_HazelEyes_Bun_BlondeHair {
+            identityTypes[] = {"FGWF_Face_Olga_Tag"};
         };
         class FGWF_Face_Victoria: fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair {
             identityTypes[] = {"FGWF_Face_Victoria_Tag"};
