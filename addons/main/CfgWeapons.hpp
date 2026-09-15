@@ -89,7 +89,7 @@ class CfgWeapons {
             // Apply our unlocked dummy model instead of the restricted CUP one
             uniformClass = "FGWF_Dummy_C_Worker_02";
 
-            containerClass = "Supply60"; // Matched with original CUP capacity
+            containerClass = "Supply40"; // Matched with original CUP capacity
             mass = 20; // Matched with original CUP mass
         };
     };
