@@ -42,6 +42,7 @@ class CfgVehicles {
 
         linkedItems[] = {
             "FGWF_V_Flak_Vest_Vydra_3M",
+            "CUP_H_USArmy_Helmet_M1_plain_M81",
             "G_Bandanna_blk",
             "ItemMap",
             "ItemCompass",
