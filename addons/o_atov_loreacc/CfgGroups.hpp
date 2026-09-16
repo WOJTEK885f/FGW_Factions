@@ -30,8 +30,8 @@ class CfgGroups {
                     class Unit2 { side = 0; vehicle = "FGWF_O_Atov_Machinegunner"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
                 };
 
-                class GVAR(Group_Army_NationalGuard) {
-                    name = CSTRING(Group_Army_NationalGuard);
+                class GVAR(Group_Army_NationalGuardCompany) {
+                    name = CSTRING(Group_Army_NationalGuardCompany);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -57,8 +57,8 @@ class CfgGroups {
                     class Unit3 { side = 0; vehicle = "FGWF_O_Atov_Infantry";    rank = "PRIVATE";  position[] = {10,-10,0}; };
                 };
 
-                class GVAR(Group_Army_Fortified) {
-                    name = CSTRING(Group_Army_Fortified);
+                class GVAR(Group_Army_FortifiedCompany) {
+                    name = CSTRING(Group_Army_FortifiedCompany);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -100,8 +100,8 @@ class CfgGroups {
                     class Unit4 { side = 0; vehicle = "FGWF_O_Atov_SpecialForce";  rank = "PRIVATE";  position[] = {-10,-10,0}; };
                 };
 
-                class GVAR(Group_Army_Investigation) {
-                    name = CSTRING(Group_Army_Investigation);
+                class GVAR(Group_Army_InvestigationCompany) {
+                    name = CSTRING(Group_Army_InvestigationCompany);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
@@ -116,8 +116,8 @@ class CfgGroups {
             class Infantry_CompanionLed {
                 name = "$STR_GR7BOW_FGWF_Main_Subcat_Infantry_CompanionLed";
 
-                class GVAR(Group_Army_Investigation_Kostyantin) {
-                    name = CSTRING(Group_Army_Investigation_Kostyantin);
+                class GVAR(Group_Army_InvestigationCompany_Kostyantin) {
+                    name = CSTRING(Group_Army_InvestigationCompany_Kostyantin);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
@@ -143,8 +143,8 @@ class CfgGroups {
                     class Unit5 { side = 0; vehicle = "FGWF_O_Atov_Infantry";        rank = "PRIVATE";    position[] = {15,-15,0}; };
                 };
 
-                class GVAR(Group_NationalGuard_Dimitro) {
-                    name = CSTRING(Group_Army_NationalGuard_Dimitro);
+                class GVAR(Group_Army_NationalGuardCompany_Dimitro) {
+                    name = CSTRING(Group_Army_NationalGuardCompany_Dimitro);
                     side = 0;
                     faction = QGVAR(Atov);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -158,7 +158,7 @@ class CfgGroups {
                     class Unit6 { side = 0; vehicle = "FGWF_O_Atov_Machinegunner";     rank = "PRIVATE";    position[] = {-15,-15,0}; };
                 };
 
-                class GVAR(Group_SecurityPatrol_Vitaly) {
+                class GVAR(Group_Army_SecurityPatrol_Vitaly) {
                     name = CSTRING(Group_Army_SecurityPatrol_Vitaly);
                     side = 0;
                     faction = QGVAR(Atov);

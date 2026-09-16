@@ -19,23 +19,23 @@
         <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Fighter">
             <English>VFA Fighter</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_CombatCompanyDetatchment">
-            <English>Combat Company Detachment</English>
-        </Key>
-        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_FightersSquad">
+        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_Army_CombatCompany">
             <English>Fighters Squad</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_FightersSquad_Oksana">
+        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_Army_CombatCompany_Oksana">
             <English>Fighters Squad (Oksana)</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_MarineSquad">
+        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_Army_WomenMarines">
+            <English>Combat Company Detachment</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_Army_WomenSpecialPolice">
+            <English>Special Police Group</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_Fighters">
             <English>Marine Squad</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_MarineSquad_Victoria">
+        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_Fighters_Victoria">
             <English>Marine Squad (Victoria)</English>
-        </Key>
-        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Group_SpecialPoliceGroup">
-            <English>Special Police Group</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Marine">
             <English>VFA Women Marine</English>

@@ -102,8 +102,8 @@ class CfgGroups {
                     class Unit6 { side = 2; vehicle = "FGWF_I_FCA_Militia";    rank = "PRIVATE";  position[] = {-15,-15,0}; };
                 };
 
-                class GVAR(Group_Army_GuardGrenadiers) {
-                    name = CSTRING(Group_Army_GuardGrenadiers);
+                class GVAR(Group_Army_GuardGrenadiersArmy) {
+                    name = CSTRING(Group_Army_GuardGrenadiersArmy);
                     side = 2;
                     faction = QGVAR(FCA);
                     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";

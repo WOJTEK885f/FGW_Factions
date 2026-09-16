@@ -6,8 +6,8 @@ class CfgGroups {
             class Infantry {
                 name = "$STR_A3_CfgGroups_West_BLU_F_Infantry0";
 
-                class GVAR(Group_TerroristGroup) {
-                    name = CSTRING(Group_TerroristGroup);
+                class GVAR(Group_Army_Terrorists) {
+                    name = CSTRING(Group_Army_Terrorists);
                     side = 0;
                     faction = QGVAR(Uman);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -18,8 +18,8 @@ class CfgGroups {
                     class Unit3 { side = 0; vehicle = "FGWF_O_Uman_Terrorist_AKS74U"; rank = "PRIVATE";  position[] = {10,-10,0}; };
                 };
 
-                class GVAR(Group_ArmedForcesGroup) {
-                    name = CSTRING(Group_ArmedForcesGroup);
+                class GVAR(Group_Army_ArmedForces) {
+                    name = CSTRING(Group_Army_ArmedForces);
                     side = 0;
                     faction = QGVAR(Uman);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -34,8 +34,8 @@ class CfgGroups {
             class Infantry_CompanionLed {
                 name = "$STR_GR7BOW_FGWF_Main_Subcat_Infantry_CompanionLed";
 
-                class GVAR(Group_TerroristGroup) {
-                    name = CSTRING(Group_TerroristGroup_Finn);
+                class GVAR(Group_Army_Terrorists_Finn) {
+                    name = CSTRING(Group_Army_Terrorists_Finn);
                     side = 0;
                     faction = QGVAR(Uman);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -47,8 +47,8 @@ class CfgGroups {
                     class Unit4 { side = 0; vehicle = "FGWF_O_Uman_Terrorist_AKS74U"; rank = "PRIVATE";    position[] = {-10,-10,0}; };
                 };
 
-                class GVAR(Group_ArmedForcesGroup) {
-                    name = CSTRING(Group_ArmedForcesGroup_Haaken);
+                class GVAR(Group_Army_ArmedForces_Haaken) {
+                    name = CSTRING(Group_Army_ArmedForces_Haaken);
                     side = 0;
                     faction = QGVAR(Uman);
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";

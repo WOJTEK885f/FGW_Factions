@@ -6,8 +6,8 @@ class CfgGroups {
             class Infantry {
                 name = "$STR_A3_CfgGroups_West_BLU_F_Infantry0";
 
-                class GVAR(Group_MarineSquad) {
-                    name = CSTRING(Group_MarineSquad);
+                class GVAR(Group_Fighters) {
+                    name = CSTRING(Group_Fighters);
                     side = 1;
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -19,8 +19,8 @@ class CfgGroups {
                     class Unit4 { side = 1; vehicle = "FGWF_B_VFF_Marine"; rank = "PRIVATE";  position[] = {-10,-10,0}; };
                 };
 
-                class GVAR(Group_FightersSquad) {
-                    name = CSTRING(Group_FightersSquad);
+                class GVAR(Group_Army_CombatCompany) {
+                    name = CSTRING(Group_Army_CombatCompany);
                     side = 1;
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -32,8 +32,8 @@ class CfgGroups {
                     class Unit4 { side = 1; vehicle = "FGWF_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {-10,-10,0}; };
                 };
 
-                class GVAR(Group_CombatCompanyDetatchment) {
-                    name = CSTRING(Group_CombatCompanyDetatchment);
+                class GVAR(Group_Army_WomenMarines) {
+                    name = CSTRING(Group_Army_WomenMarines);
                     side = 1;
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -47,8 +47,8 @@ class CfgGroups {
                     class Unit6 { side = 1; vehicle = "FGWF_B_VFF_Fighter"; rank = "PRIVATE";  position[] = {-15,-15,0}; };
                 };
 
-                class GVAR(Group_SpecialPoliceGroup) {
-                    name = CSTRING(Group_SpecialPoliceGroup);
+                class GVAR(Group_Army_WomenSpecialPolice) {
+                    name = CSTRING(Group_Army_WomenSpecialPolice);
                     side = 1;
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -63,8 +63,8 @@ class CfgGroups {
             class Infantry_CompanionLed {
                 name = "$STR_GR7BOW_FGWF_Main_Subcat_Infantry_CompanionLed";
 
-                class GVAR(Group_MarineSquad_Victoria) {
-                    name = CSTRING(Group_MarineSquad_Victoria);
+                class GVAR(Group_Fighters_Victoria) {
+                    name = CSTRING(Group_Fighters_Victoria);
                     side = 1;
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -77,8 +77,8 @@ class CfgGroups {
                     class Unit5 { side = 1; vehicle = "FGWF_B_VFF_Marine";             rank = "PRIVATE";    position[] = {15,-15,0}; };
                 };
 
-                class GVAR(Group_FightersSquad_Oksana) {
-                    name = CSTRING(Group_FightersSquad_Oksana);
+                class GVAR(Group_Army_CombatCompany_Oksana) {
+                    name = CSTRING(Group_Army_CombatCompany_Oksana);
                     side = 1;
                     faction = QGVAR(VFF);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";

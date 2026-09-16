@@ -6,8 +6,8 @@ class CfgGroups {
             class Infantry {
                 name = "$STR_A3_CfgGroups_West_BLU_F_Infantry0";
 
-                class GVAR(Group_ChernivkanMilitiaPatrol) {
-                    name = CSTRING(Group_ChernivkanMilitiaPatrol);
+                class GVAR(Group_Army_MilitiaPatrol) {
+                    name = CSTRING(Group_Army_MilitiaPatrol);
                     side = 2;
                     faction = QGVAR(CFR);
                     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
@@ -21,8 +21,8 @@ class CfgGroups {
                     class Unit6 { side = 2; vehicle = "FGWF_I_CFR_MaleVillager";                rank = "PRIVATE";    position[] = {-15,-15,0}; };
                 };
 
-                class GVAR(Group_ChernivkanDefenceArmy) {
-                    name = CSTRING(Group_ChernivkanDefenceArmy);
+                class GVAR(Group_Army_DefenceArmy) {
+                    name = CSTRING(Group_Army_DefenceArmy);
                     side = 2;
                     faction = QGVAR(CFR);
                     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
@@ -40,8 +40,8 @@ class CfgGroups {
             class Infantry_CompanionLed {
                 name = "$STR_GR7BOW_FGWF_Main_Subcat_Infantry_CompanionLed";
 
-                class GVAR(Group_ChernivkanMilitiaPatrol_Olga) {
-                    name = CSTRING(Group_ChernivkanMilitiaPatrol_Olga);
+                class GVAR(Group_Army_MilitiaPatrol_Olga) {
+                    name = CSTRING(Group_Army_MilitiaPatrol_Olga);
                     side = 2;
                     faction = QGVAR(CFR);
                     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";

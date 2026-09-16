@@ -16,13 +16,13 @@
         <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_Grenadier">
             <English>CFR Rebel Grenadier</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_Group_ChernivkanDefenceArmy">
+        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_Group_Army_DefenceArmy">
             <English>Defence Army Detachment</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_Group_ChernivkanMilitiaPatrol">
+        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_Group_Army_MilitiaPatrol">
             <English>Militia Patrol</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_Group_ChernivkanMilitiaPatrol_Olga">
+        <Key ID="STR_GR7BOW_FGWF_I_CFR_Loreacc_Group_Army_MilitiaPatrol_Olga">
             <English>Militia Patrol (Olga)</English>
         </Key>
     </Package>
