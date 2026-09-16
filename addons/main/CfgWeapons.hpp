@@ -1,6 +1,4 @@
 class CfgWeapons {
-    class UniformItem; // Define the base uniform class from Arma 3 core to inherit proper item properties
-
     // Import the base uniform class from CUP to use as a parent for custom uniform
     class CUP_U_B_USMC_FROG3_WMARPAT {
         class ItemInfo;
@@ -17,80 +15,83 @@ class CfgWeapons {
         };
     };
 
-    // These below are done differently due to various no entry warnings
+    // Import the base uniform class from CUP to use as a parent for custom uniform
+    class CUP_I_B_PMC_Unit_35 {
+        class ItemInfo;
+    };
 
-    class CUP_I_B_PMC_Unit_35; // Import the base uniform item from CUP
     class FGWF_U_PMC_Unit_35: CUP_I_B_PMC_Unit_35 {
         author = AUTHOR;
         displayName = CSTRING(PMC_Unit_35);
         scope = 2; // Available in Arsenal
 
-        class ItemInfo: UniformItem {
+        class ItemInfo: ItemInfo {
             // Apply our unlocked dummy model instead of the restricted CUP one
             uniformClass = "FGWF_Dummy_PMC35";
-
-            containerClass = "Supply60"; // Matched with original CUP capacity
-            mass = 20; // Matched with original CUP mass
         };
     };
 
-    class CUP_I_B_PMC_Unit_1; // Import the base uniform item from CUP
+    // Import the base uniform class from CUP to use as a parent for custom uniform
+    class CUP_I_B_PMC_Unit_1 {
+        class ItemInfo;
+    };
+
     class FGWF_U_PMC_Unit_1: CUP_I_B_PMC_Unit_1 {
         author = AUTHOR;
         displayName = CSTRING(PMC_Unit_1);
         scope = 2; // Available in Arsenal
 
-        class ItemInfo: UniformItem {
+        class ItemInfo: ItemInfo {
             // Apply our unlocked dummy model instead of the restricted CUP one
             uniformClass = "FGWF_Dummy_PMC1";
-
-            containerClass = "Supply60"; // Matched with original CUP capacity
-            mass = 20; // Matched with original CUP mass
         };
     };
 
-    class CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2; // Import the base uniform item from CUP
+    // Import the base uniform class from CUP to use as a parent for custom uniform
+    class CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2 {
+        class ItemInfo;
+    };
+
     class FGWF_U_USMC_MCCUU_M81_MARPAT_roll_2: CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2 {
         author = AUTHOR;
         displayName = CSTRING(MCCUU_M81_MARPAT_roll_2);
         scope = 2; // Available in Arsenal
 
-        class ItemInfo: UniformItem {
+        class ItemInfo: ItemInfo {
             // Apply our unlocked dummy model instead of the restricted CUP one
             uniformClass = "FGWF_Dummy_MCCUU2";
-
-            containerClass = "Supply60"; // Matched with original CUP capacity
-            mass = 20; // Matched with original CUP mass
         };
     };
 
-    class CUP_U_B_USMC_MCCUU_MARPAT_M81; // Import the base uniform item from CUP
+    // Import the base uniform class from CUP to use as a parent for custom uniform
+    class CUP_U_B_USMC_MCCUU_MARPAT_M81 {
+        class ItemInfo;
+    };
+
     class FGWF_U_USMC_MCCUU_MARPAT_M81: CUP_U_B_USMC_MCCUU_MARPAT_M81 {
         author = AUTHOR;
         displayName = CSTRING(MCCUU_MARPAT_M81);
         scope = 2; // Available in Arsenal
 
-        class ItemInfo: UniformItem {
+        class ItemInfo: ItemInfo {
             // Apply our unlocked dummy model instead of the restricted CUP one
             uniformClass = "FGWF_Dummy_MCCUU_MARPAT_M81";
-
-            containerClass = "Supply60"; // Matched with original CUP capacity
-            mass = 20; // Matched with original CUP mass
         };
     };
 
-    class CUP_U_C_Worker_02; // Import the base uniform item from CUP
+    // Import the base uniform class from CUP to use as a parent for custom uniform
+    class CUP_U_C_Worker_02 {
+        class ItemInfo;
+    };
+
     class FGWF_U_C_Worker_02: CUP_U_C_Worker_02 {
         author = AUTHOR;
         displayName = CSTRING(C_Worker_02);
         scope = 2; // Available in Arsenal
 
-        class ItemInfo: UniformItem {
+        class ItemInfo: ItemInfo {
             // Apply our unlocked dummy model instead of the restricted CUP one
             uniformClass = "FGWF_Dummy_C_Worker_02";
-
-            containerClass = "Supply40"; // Matched with original CUP capacity
-            mass = 20; // Matched with original CUP mass
         };
     };
 
