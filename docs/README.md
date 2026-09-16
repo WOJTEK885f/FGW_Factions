@@ -12,7 +12,7 @@
         <img src="https://img.shields.io/steam/downloads/3782242873.svg?style=flat-square&label=Downloads" alt="Freeman: Guerrilla Warfare Factions Downloads">
     </a>
     <a href="https://github.com/WOJTEK885f/FGW_Factions/blob/master/LICENSE.md">
-        <img src="https://img.shields.io/badge/License-APL-ND-red?style=flat-square" alt="Freeman: Guerrilla Warfare Factions License">
+        <img src="https://img.shields.io/badge/License-APL ND-red?style=flat-square" alt="Freeman: Guerrilla Warfare Factions License">
     </a>
     <br>
     <img src="https://img.shields.io/github/actions/workflow/status/WOJTEK885f/FGW_Factions/hemtt.yml?style=flat-square&label=HEMTT" alt="HEMTT check">
