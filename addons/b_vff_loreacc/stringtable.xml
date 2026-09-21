@@ -10,12 +10,6 @@
         <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_FactionName">
             <English>F:GW Valkyrie Female Fighters</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_FemaleCivilianFighter">
-            <English>Female Civilian Fighter</English>
-        </Key>
-        <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_FemaleCivilianFighterCaptain">
-            <English>Female Civilian Fighter Captain</English>
-        </Key>
         <Key ID="STR_GR7BOW_FGWF_B_VFF_Loreacc_Fighter">
             <English>VFA Fighter</English>
         </Key>

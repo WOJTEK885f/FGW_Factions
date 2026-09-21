@@ -20,9 +20,9 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_VFF_FemaleCivilianFighter";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGWF_B_VFF_FemaleCivilianFighter.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleCivilianFighter.jpg";
 
-        displayName = CSTRING(FemaleCivilianFighter);
+        displayName = ECSTRING(B_Player_Loreacc,FemaleCivilianFighter);
 
         uniformClass = "CUP_I_B_PMC_Unit_1";
         backpack = "";
@@ -64,9 +64,9 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_VFF_FemaleCivilianFighterCaptain";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGWF_B_VFF_FemaleCivilianFighterCaptain.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleCivilianFighterCaptain.jpg";
 
-        displayName = CSTRING(FemaleCivilianFighterCaptain);
+        displayName = ECSTRING(B_Player_Loreacc,FemaleCivilianFighterCaptain);
 
         uniformClass = "CUP_I_B_PMC_Unit_1";
         backpack = "";
