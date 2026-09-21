@@ -32,8 +32,8 @@ class CfgPatches {
             "FGWF_B_Player_ArmedBodyguard",
             "FGWF_B_Player_FemaleMilitia_TT33",
             "FGWF_B_Player_FemaleMilitia_M1911",
-            "FGWF_B_Player_FemaleCivilianFighter2",
-            "FGWF_B_Player_FemaleCivilianFighter3"
+            "FGWF_B_Player_FemaleCivilianFighter",
+            "FGWF_B_Player_FemaleCivilianFighterCaptain"
         };
         weapons[] = {};
         VERSION_CONFIG;

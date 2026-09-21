@@ -23,8 +23,8 @@ class CfgPatches {
             "cfp_headgear"                        // CFP PASGT helmet
         };
         units[] = {
-            "FGWF_B_VFF_CivilianFighter",
-            "FGWF_B_VFF_CivilianFighterCaptain",
+            "FGWF_B_VFF_FemaleCivilianFighter",
+            "FGWF_B_VFF_FemaleCivilianFighterCaptain",
             "FGWF_B_VFF_Fighter",
             "FGWF_B_VFF_Marine",
             "FGWF_B_VFF_SpecialPolice",

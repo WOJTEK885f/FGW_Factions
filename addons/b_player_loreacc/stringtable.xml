@@ -7,11 +7,11 @@
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FactionName">
             <English>Freeman Coalition</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleCivilianFighter2">
-            <English>Female Civilian Fighter2</English>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleCivilianFighter">
+            <English>Female Civilian Fighter</English>
         </Key>
-        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleCivilianFighter3">
-            <English>Female Civilian Fighter3</English>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleCivilianFighterCaptain">
+            <English>Female Civilian Fighter Captain</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleMilitia_M1911">
             <English>Female Militia (M1911)</English>
