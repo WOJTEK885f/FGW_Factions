@@ -12,6 +12,7 @@ class CfgPatches {
             "gr7bow_fgwf_i_cfr_loreacc",
             "gr7bow_fgwf_b_vff_loreacc",
             "gr7bow_fgwf_b_pozna_loreacc",
+            "gr7bow_fgwf_b_player_loreacc",
             "A3_Characters_F",
             "A3_Weapons_F",
             "zee_FiftyShadesOfFemale"
