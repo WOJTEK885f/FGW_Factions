@@ -1,12 +1,168 @@
 class CfgFaces {
     class Default;
     class Man_A3: Default {
-        // Config overrides for female companion faces
-        class fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair;
-        class fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair;
-        class fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair;
-        class fsof_femaleCauc02t4_HazelEyes_Bun_BlondeHair;
+        // Config overrides appending FGWF_Female_Faces_Hair alongside G_CIVIL_female (for units with no headgear)
+        class fsof_femaleCauc01_BlueEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_BlueEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_BlueEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_BlueEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
 
+        class fsof_femaleCauc01_BrownEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_BrownEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_BrownEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_BrownEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc01_GreenEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_GreenEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_GreenEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_GreenEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc01_HazelEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_HazelEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_HazelEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc01_HazelEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t2_BlueEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_BlueEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_BlueEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_BlueEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t2_BrownEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_BrownEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_BrownEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_BrownEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t2_GreenEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_GreenEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_GreenEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t2_HazelEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_HazelEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_HazelEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t2_HazelEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t3_BlueEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_BlueEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_BlueEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_BlueEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t3_BrownEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_BrownEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_BrownEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t3_GreenEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_GreenEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_GreenEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_GreenEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t3_HazelEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_HazelEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_HazelEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t3_HazelEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t4_BlueEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_BlueEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_BlueEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_BlueEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t4_BrownEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_BrownEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_BrownEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_BrownEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t4_GreenEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_GreenEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_GreenEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_GreenEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_FemaleCauc01t4_HazelEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_HazelEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_HazelEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_FemaleCauc01t4_HazelEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02_BlueEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_BlueEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_BlueEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_BlueEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02_BrownEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_BrownEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_BrownEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_BrownEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02_GreenEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_GreenEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_GreenEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_GreenEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02_HazelEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_HazelEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_HazelEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02_HazelEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t2_BlueEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_BlueEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_BlueEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_BlueEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t2_BrownEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_BrownEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_BrownEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_BrownEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t2_GreenEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_GreenEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_GreenEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_GreenEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t2_HazelEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_HazelEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_HazelEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t2_HazelEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t3_BlueEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_BlueEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_BlueEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_BlueEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t3_BrownEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_BrownEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_BrownEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_BrownEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t3_GreenEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_GreenEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_GreenEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_GreenEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t3_HazelEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_HazelEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_HazelEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t3_HazelEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t4_BlueEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_BlueEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_BlueEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_BlueEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t4_BrownEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_BrownEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_BrownEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_BrownEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t4_GreenEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_GreenEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_GreenEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        class fsof_femaleCauc02t4_HazelEyes_Bun_BlackHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_HazelEyes_Bun_BlondeHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_HazelEyes_Bun_BrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+        class fsof_femaleCauc02t4_HazelEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
+
+        // Config overrides for female companion faces
         class FGWF_Face_Tatyana: fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair {
             identityTypes[] = {"FGWF_Face_Tatyana_Tag"};
         };

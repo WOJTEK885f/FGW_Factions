@@ -11,4 +11,9 @@ class CfgVehicles {
         // Faction identity: Female slavic appearance and female voice (only English language works)
         identityTypes[] = {"Head_Female", "FGWF_Female_Faces_NoHair"}; // Head_Female for RHS Female voice + FSOF female faces as override
     };
+
+    class FGWF_B_Player_FemaleVillager: FGWF_B_Player_Base {
+        // Female Villager has no headgear - FSOF hair faces don't clip; all other female units stay NoHair
+        identityTypes[] = {"Head_Female", "FGWF_Female_Faces_Hair"};
+    };
 };
