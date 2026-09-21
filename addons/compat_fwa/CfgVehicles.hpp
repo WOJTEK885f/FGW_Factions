@@ -22,7 +22,7 @@ class CfgVehicles {
     };
 
     // Weapon override from M3A1 Grease Gun placeholder to Thompson M1A1
-    class FGWF_B_Player_ArmedEscortGuard_Thompson: FGWF_B_Player_Base {
+    class FGWF_B_Player_ArmedEscortGuard_M1A1: FGWF_B_Player_Base {
         weapons[] = {"sp_fwa_smg_thompson_m1a1", "CUP_hgun_TaurusTracker455", "Throw", "Put"};
         respawnWeapons[] = {"sp_fwa_smg_thompson_m1a1", "CUP_hgun_TaurusTracker455", "Throw", "Put"};
 

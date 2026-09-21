@@ -342,14 +342,14 @@ class CfgVehicles {
         genericNames = "RussianWomen";
     };
 
-    class FGWF_B_Player_ArmedEscortGuard_Thompson: FGWF_B_Player_Base {
-        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_Thompson";
+    class FGWF_B_Player_ArmedEscortGuard_M1A1: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_M1A1";
         scope = 2;
         scopeCurator = 2;
         editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
-        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_Thompson.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_M1A1.jpg";
 
-        displayName = CSTRING(ArmedEscortGuard_Thompson);
+        displayName = CSTRING(ArmedEscortGuard_M1A1);
 
         uniformClass = "USP_PCU_G3C";
         backpack = "";
@@ -390,7 +390,7 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_B_Player_ArmedEscortGuard_UMP9: FGWF_B_Player_ArmedEscortGuard_Thompson {
+    class FGWF_B_Player_ArmedEscortGuard_MP5: FGWF_B_Player_ArmedEscortGuard_M1A1 {
         weapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_G17_Black", "Throw", "Put"};
         respawnWeapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_G17_Black", "Throw", "Put"};
 
@@ -405,12 +405,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_9x19_MP5")
         };
 
-        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_UMP9";
-        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_UMP9.jpg";
-        displayName = CSTRING(ArmedEscortGuard_UMP9);
+        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_MP5";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_MP5.jpg";
+        displayName = CSTRING(ArmedEscortGuard_MP5);
     };
 
-    class FGWF_B_Player_ArmedEscortGuard_Shot12: FGWF_B_Player_ArmedEscortGuard_Thompson {
+    class FGWF_B_Player_ArmedEscortGuard_SPAS12: FGWF_B_Player_ArmedEscortGuard_M1A1 {
         weapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_G17_Black", "Throw", "Put"};
         respawnWeapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_G17_Black", "Throw", "Put"};
 
@@ -427,9 +427,9 @@ class CfgVehicles {
             MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
         };
 
-        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_Shot12";
-        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_Shot12.jpg";
-        displayName = CSTRING(ArmedEscortGuard_Shot12);
+        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_SPAS12";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_SPAS12.jpg";
+        displayName = CSTRING(ArmedEscortGuard_SPAS12);
     };
 
     class FGWF_B_Player_FemaleMilitia_TT33: FGWF_B_Player_FemaleBase {
