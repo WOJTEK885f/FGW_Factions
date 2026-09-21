@@ -10,6 +10,7 @@ class CfgPatches {
         requiredAddons[] = {
             "gr7bow_fgwf_main",
             "gr7bow_fgwf_o_atov_loreacc",
+            "gr7bow_fgwf_b_player_loreacc",
             "A3_Characters_F",
             "A3_Weapons_F",
             "sp_fwa_thompson"
