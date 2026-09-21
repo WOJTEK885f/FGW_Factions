@@ -300,7 +300,7 @@ class CfgVehicles {
 
         displayName = CSTRING(ArmedBodyguard);
 
-        uniformClass = "U_Marshal";
+        uniformClass = "FGWF_U_Marshal";
         backpack = "";
 
         weapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_Makarov", "Throw", "Put"};
