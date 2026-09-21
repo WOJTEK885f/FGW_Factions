@@ -16,4 +16,9 @@ class CfgVehicles {
         // Female Villager has no headgear - FSOF hair faces don't clip; all other female units stay NoHair
         identityTypes[] = {"Head_Female", "FGWF_Female_Faces_Hair"};
     };
+
+    class FGWF_B_Player_FemaleMilitia_TT33: FGWF_B_Player_Base {
+        // Female Militia has no headgear (included via M1911 variant) - FSOF hair faces don't clip
+        identityTypes[] = {"Head_Female", "FGWF_Female_Faces_Hair"};
+    };
 };
