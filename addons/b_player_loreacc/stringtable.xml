@@ -4,6 +4,15 @@
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_ArmedBodyguard">
             <English>Armed Bodyguard</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_ArmedEscortGuard_Shot12">
+            <English>Armed Escort Guard (SPAS-12)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_ArmedEscortGuard_Thompson">
+            <English>Armed Escort Guard (Thompson)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_ArmedEscortGuard_UMP9">
+            <English>Armed Escort Guard (UMP-9)</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FactionName">
             <English>Freeman Coalition</English>
         </Key>
@@ -18,6 +27,9 @@
         </Key>
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleMilitia_TT33">
             <English>Female Militia (TT-33)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleVillager">
+            <English>Female Villager</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_GSSSecurityFireteam">
             <English>GSS Security Fireteam</English>

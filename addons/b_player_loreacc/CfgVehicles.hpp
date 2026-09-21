@@ -342,6 +342,96 @@ class CfgVehicles {
         genericNames = "RussianWomen";
     };
 
+    class FGWF_B_Player_ArmedEscortGuard_Thompson: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_Thompson";
+        scope = 2;
+        scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_Thompson.jpg";
+
+        displayName = CSTRING(ArmedEscortGuard_Thompson);
+
+        uniformClass = "USP_PCU_G3C";
+        backpack = "";
+
+        // Weapon placeholder - M3A1 Grease Gun replaced with Thompson M1A1 via compat_fwa addon
+        weapons[] = {"rhs_weap_m3a1", "CUP_hgun_TaurusTracker455", "Throw", "Put"};
+        respawnWeapons[] = {"rhs_weap_m3a1", "CUP_hgun_TaurusTracker455", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_4("CUP_6Rnd_45ACP_M"),
+            MAG_8("rhsgref_30rnd_1143x23_M1911B_SMG")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_4("CUP_6Rnd_45ACP_M"),
+            MAG_8("rhsgref_30rnd_1143x23_M1911B_SMG")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "CUP_V_PMC_CIRAS_Black_Empty",
+            "SP_M1Helmet_MPBlack",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_PMC_CIRAS_Black_Empty",
+            "SP_M1Helmet_MPBlack",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_ArmedEscortGuard_UMP9: FGWF_B_Player_ArmedEscortGuard_Thompson {
+        weapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_G17_Black", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_G17_Black", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_4("CUP_17Rnd_9x19_G17"),
+            MAG_8("CUP_30Rnd_9x19_MP5")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_4("CUP_17Rnd_9x19_G17"),
+            MAG_8("CUP_30Rnd_9x19_MP5")
+        };
+
+        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_UMP9";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_UMP9.jpg";
+        displayName = CSTRING(ArmedEscortGuard_UMP9);
+    };
+
+    class FGWF_B_Player_ArmedEscortGuard_Shot12: FGWF_B_Player_ArmedEscortGuard_Thompson {
+        weapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_G17_Black", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_G17_Black", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_4("CUP_17Rnd_9x19_G17"),
+            MAG_8("CUP_8Rnd_12Gauge_Slug"),
+            MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_4("CUP_17Rnd_9x19_G17"),
+            MAG_8("CUP_8Rnd_12Gauge_Slug"),
+            MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
+        };
+
+        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_Shot12";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_Shot12.jpg";
+        displayName = CSTRING(ArmedEscortGuard_Shot12);
+    };
+
     class FGWF_B_Player_FemaleMilitia_TT33: FGWF_B_Player_FemaleBase {
         _generalMacro = "FGWF_B_Player_FemaleMilitia_TT33";
         scope = 2;
@@ -403,6 +493,45 @@ class CfgVehicles {
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
             MAG_4("CUP_7Rnd_45ACP_1911")
+        };
+    };
+
+    class FGWF_B_Player_FemaleVillager: FGWF_B_Player_FemaleBase {
+        _generalMacro = "FGWF_B_Player_FemaleVillager";
+        scope = 2;
+        scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleVillager.jpg";
+
+        displayName = CSTRING(FemaleVillager);
+
+        uniformClass = "CFP_U_KhetPartug_Long_Brown";
+        backpack = "";
+
+        weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_4("CUP_8Rnd_9x18_Makarov_M")
+        };
+        respawnMagazines[] = {
+            MAG_4("CUP_8Rnd_9x18_Makarov_M")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
         };
     };
 
