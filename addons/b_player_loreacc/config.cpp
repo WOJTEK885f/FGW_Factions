@@ -17,6 +17,7 @@ class CfgPatches {
             "CUP_Creatures_Military_SLA",  // Old Helmet
             "CUP_Creatures_Military_Russia", // K6-3 helmet (Steel Helmet)
             "CUP_Creatures_Military_PMC",   // PMC uniforms, CIRAS vest
+            "rhs_main",                  // M590 shotgun
             "cfp_uniforms",              // CFP_GUER_M81, CFP_GUER_M81Tee
             "cfp_vests"                  // CFP_Tactical1_M81
         };
@@ -27,7 +28,12 @@ class CfgPatches {
             "FGWF_B_Player_MilitiaRifleman_BikeHelmet",
             "FGWF_B_Player_MilitiaSniper",
             "FGWF_B_Player_MilitiaSMGFighter",
-            "FGWF_B_Player_MaleVillager"
+            "FGWF_B_Player_MaleVillager",
+            "FGWF_B_Player_ArmedBodyguard",
+            "FGWF_B_Player_FemaleMilitia_TT33",
+            "FGWF_B_Player_FemaleMilitia_M1911",
+            "FGWF_B_Player_FemaleCivilianFighter2",
+            "FGWF_B_Player_FemaleCivilianFighter3"
         };
         weapons[] = {};
         VERSION_CONFIG;

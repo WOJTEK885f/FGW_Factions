@@ -290,4 +290,211 @@ class CfgVehicles {
             "ItemRadio"
         };
     };
+
+    class FGWF_B_Player_ArmedBodyguard: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_ArmedBodyguard";
+        scope = 2;
+        scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedBodyguard.jpg";
+
+        displayName = CSTRING(ArmedBodyguard);
+
+        uniformClass = "U_Marshal";
+        backpack = "";
+
+        weapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_Makarov", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_Makarov", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_4("CUP_8Rnd_9x18_Makarov_M"),
+            MAG_8("CUP_30Rnd_9x19_MP5")
+        };
+        respawnMagazines[] = {
+            MAG_4("CUP_8Rnd_9x18_Makarov_M"),
+            MAG_8("CUP_30Rnd_9x19_MP5")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "CUP_V_PMC_IOTV_Black_Empty",
+            "G_Sport_Blackred",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_PMC_IOTV_Black_Empty",
+            "G_Sport_Blackred",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_FemaleBase: FGWF_B_Player_Base {
+        // Faction identity: Female slavic appearance (placeholder when no FSOF) and female voice (only English language works)
+        identityTypes[] = {"Head_Female"}; // Head_Female for RHS Female voice
+        genericNames = "RussianWomen";
+    };
+
+    class FGWF_B_Player_FemaleMilitia_TT33: FGWF_B_Player_FemaleBase {
+        _generalMacro = "FGWF_B_Player_FemaleMilitia_TT33";
+        scope = 2;
+        scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleMilitia_TT33.jpg";
+
+        displayName = CSTRING(FemaleMilitia_TT33);
+
+        uniformClass = "CUP_U_B_USMC_MCCUU_MARPAT_M81";
+        backpack = "";
+
+        weapons[] = {"CUP_hgun_TT", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_hgun_TT", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_4("CUP_8Rnd_762x25_TT")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_4("CUP_8Rnd_762x25_TT")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_FemaleMilitia_M1911: FGWF_B_Player_FemaleMilitia_TT33 {
+        _generalMacro = "FGWF_B_Player_FemaleMilitia_M1911";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleMilitia_M1911.jpg";
+
+        displayName = CSTRING(FemaleMilitia_M1911);
+
+        weapons[] = {"CUP_hgun_Colt1911", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_hgun_Colt1911", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_4("CUP_7Rnd_45ACP_1911")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_4("CUP_7Rnd_45ACP_1911")
+        };
+    };
+
+    class FGWF_B_Player_FemaleCivilianFighter2: FGWF_B_Player_FemaleBase {
+        _generalMacro = "FGWF_B_Player_FemaleCivilianFighter2";
+        scope = 2;
+        scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleCivilianFighter2.jpg";
+
+        displayName = CSTRING(FemaleCivilianFighter2);
+
+        uniformClass = "CUP_I_B_PMC_Unit_1";
+        backpack = "";
+
+        weapons[] = {"rhs_weap_M590_5RD", "Throw", "Put"};
+        respawnWeapons[] = {"rhs_weap_M590_5RD", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("rhsusf_5Rnd_00Buck"),
+            MAG_8("rhsusf_5Rnd_Slug")
+        };
+        respawnMagazines[] = {
+            MAG_8("rhsusf_5Rnd_00Buck"),
+            MAG_8("rhsusf_5Rnd_Slug")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "H_Bandanna_sgg",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "H_Bandanna_sgg",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_FemaleCivilianFighter3: FGWF_B_Player_FemaleBase {
+        _generalMacro = "FGWF_B_Player_FemaleCivilianFighter3";
+        scope = 2;
+        scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleCivilianFighter3.jpg";
+
+        displayName = CSTRING(FemaleCivilianFighter3);
+
+        uniformClass = "CUP_I_B_PMC_Unit_1";
+        backpack = "";
+
+        weapons[] = {"rhs_weap_M590_5RD", "CUP_hgun_Colt1911", "Throw", "Put"};
+        respawnWeapons[] = {"rhs_weap_M590_5RD", "CUP_hgun_Colt1911", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_4("CUP_7Rnd_45ACP_1911"),
+            MAG_8("rhsusf_5Rnd_00Buck"),
+            MAG_8("rhsusf_5Rnd_Slug")
+        };
+        respawnMagazines[] = {
+            MAG_4("CUP_7Rnd_45ACP_1911"),
+            MAG_8("rhsusf_5Rnd_00Buck"),
+            MAG_8("rhsusf_5Rnd_Slug")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "CUP_V_PMC_CIRAS_Black_Empty",
+            "CUP_H_RUS_K6_3",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_PMC_CIRAS_Black_Empty",
+            "CUP_H_RUS_K6_3",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
 };
