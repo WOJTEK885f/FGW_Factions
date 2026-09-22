@@ -95,9 +95,16 @@ class CfgWeapons {
         };
     };
 
+    // Import parent classes for U_Marshal
+    class Default;
+    class ItemCore: Default {};
+    class Uniform_Base: ItemCore {};
+    class InventoryItem_Base_F;
+    class UniformItem: InventoryItem_Base_F {};
+
     // Import the base uniform class from A3 to use as a parent for custom uniform
-    class U_Marshal {
-        class ItemInfo;
+    class U_Marshal: Uniform_Base {
+        class ItemInfo: UniformItem {};
     };
 
     class FGWF_U_Marshal: U_Marshal {
