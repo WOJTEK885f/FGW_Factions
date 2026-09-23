@@ -389,6 +389,11 @@ class CfgVehicles {
     };
 
     class FGWF_B_Player_ArmedEscortGuard_MP5: FGWF_B_Player_ArmedEscortGuard_M1A1 {
+        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_MP5";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_MP5.jpg";
+
+        displayName = CSTRING(ArmedEscortGuard_MP5);
+
         weapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_Glock17_blk", "Throw", "Put"};
         respawnWeapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_Glock17_blk", "Throw", "Put"};
 
@@ -402,13 +407,14 @@ class CfgVehicles {
             MAG_2("CUP_17Rnd_9x19_glock17"),
             MAG_8("CUP_30Rnd_9x19_MP5")
         };
-
-        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_MP5";
-        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_MP5.jpg";
-        displayName = CSTRING(ArmedEscortGuard_MP5);
     };
 
     class FGWF_B_Player_ArmedEscortGuard_SPAS12: FGWF_B_Player_ArmedEscortGuard_M1A1 {
+        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_SPAS12";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_SPAS12.jpg";
+
+        displayName = CSTRING(ArmedEscortGuard_SPAS12);
+
         weapons[] = {"CUP_sgun_SPAS12", "Throw", "Put"};
         respawnWeapons[] = {"CUP_sgun_SPAS12", "Throw", "Put"};
 
@@ -422,10 +428,6 @@ class CfgVehicles {
             MAG_8("CUP_8Rnd_12Gauge_Slug"),
             MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
         };
-
-        _generalMacro = "FGWF_B_Player_ArmedEscortGuard_SPAS12";
-        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_SPAS12.jpg";
-        displayName = CSTRING(ArmedEscortGuard_SPAS12);
     };
 
     class FGWF_B_Player_FemaleMilitia_TT33: FGWF_B_Player_FemaleBase {
