@@ -391,17 +391,17 @@ class CfgVehicles {
     };
 
     class FGWF_B_Player_ArmedEscortGuard_MP5: FGWF_B_Player_ArmedEscortGuard_M1A1 {
-        weapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_G17_Black", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_G17_Black", "Throw", "Put"};
+        weapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_Glock17_blk", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_Glock17_blk", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_17Rnd_9x19_G17"),
+            MAG_4("CUP_17Rnd_9x19_glock17"),
             MAG_8("CUP_30Rnd_9x19_MP5")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_17Rnd_9x19_G17"),
+            MAG_4("CUP_17Rnd_9x19_glock17"),
             MAG_8("CUP_30Rnd_9x19_MP5")
         };
 
@@ -411,18 +411,18 @@ class CfgVehicles {
     };
 
     class FGWF_B_Player_ArmedEscortGuard_SPAS12: FGWF_B_Player_ArmedEscortGuard_M1A1 {
-        weapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_G17_Black", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_G17_Black", "Throw", "Put"};
+        weapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_Glock17_blk", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_Glock17_blk", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_17Rnd_9x19_G17"),
+            MAG_4("CUP_17Rnd_9x19_glock17"),
             MAG_8("CUP_8Rnd_12Gauge_Slug"),
             MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_17Rnd_9x19_G17"),
+            MAG_4("CUP_17Rnd_9x19_glock17"),
             MAG_8("CUP_8Rnd_12Gauge_Slug"),
             MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
         };
