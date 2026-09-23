@@ -13,6 +13,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {
             "FGWF_U_C_Worker_02",
+            "FGWF_U_Marshal",
             "FGWF_U_PMC_Unit_1",
             "FGWF_U_PMC_Unit_35",
             "FGWF_U_USMC_FROG3_WMARPAT",

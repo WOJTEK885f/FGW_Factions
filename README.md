@@ -39,7 +39,7 @@ This project intends to recreate the entire geopolitical conflict of the world o
 
 ### Major Factions
 
-* [ ] - [B] Player Faction
+* [x] - [B] Player Faction
 * [x] - [O] Atov Federation
 * [x] - [B] Pozna Battalion
 * [x] - [I] Free Cossacks Army

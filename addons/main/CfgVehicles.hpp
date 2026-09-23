@@ -36,4 +36,10 @@ class CfgVehicles {
         scope = 1; // Hidden in Eden Editor
         modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allow all sides to use this model
     };
+
+    class C_Marshal_F; // Original carrier from A3 forward declaration
+    class FGWF_Dummy_Marshal: C_Marshal_F {
+        scope = 1; // Hidden in Eden Editor
+        modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allow all sides to use this model
+    };
 };

@@ -29,6 +29,19 @@ class CfgGroups {
                     class Unit1 { side = 1; vehicle = "FGWF_B_Player_MilitiaSniper"; rank = "PRIVATE";  position[] = {5,-5,0}; };
                     class Unit2 { side = 1; vehicle = "FGWF_B_Player_MilitiaSniper"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
                 };
+
+                class GVAR(Group_GSSSecurityFireteam) {
+                    name = CSTRING(Group_GSSSecurityFireteam);
+                    side = 1;
+                    faction = QGVAR(Player);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+
+                    class Unit0 { side = 1; vehicle = "FGWF_B_Player_ArmedBodyguard"; rank = "SERGEANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 1; vehicle = "FGWF_B_Player_ArmedBodyguard"; rank = "CORPORAL"; position[] = {5,-5,0}; };
+                    class Unit2 { side = 1; vehicle = "FGWF_B_Player_ArmedBodyguard"; rank = "PRIVATE";  position[] = {-5,-5,0}; };
+                    class Unit3 { side = 1; vehicle = "FGWF_B_Player_ArmedBodyguard"; rank = "PRIVATE";  position[] = {10,-10,0}; };
+                    class Unit4 { side = 1; vehicle = "FGWF_B_Player_ArmedBodyguard"; rank = "PRIVATE";  position[] = {-10,-10,0}; };
+                };
             };
         };
     };

@@ -95,6 +95,29 @@ class CfgWeapons {
         };
     };
 
+    // Import parent classes for U_Marshal
+    class Default;
+    class ItemCore: Default {};
+    class Uniform_Base: ItemCore {};
+    class InventoryItem_Base_F;
+    class UniformItem: InventoryItem_Base_F {};
+
+    // Import the base uniform class from A3 to use as a parent for custom uniform
+    class U_Marshal: Uniform_Base {
+        class ItemInfo: UniformItem {};
+    };
+
+    class FGWF_U_Marshal: U_Marshal {
+        author = AUTHOR;
+        displayName = CSTRING(Marshal);
+        scope = 2; // Available in Arsenal
+
+        class ItemInfo: ItemInfo {
+            // Apply unlocked dummy model instead of the restricted C_Marshal_F
+            uniformClass = "FGWF_Dummy_Marshal";
+        };
+    };
+
     class VestItem; // Define the base vest class from Arma 3 core to inherit proper item properties
 
     class rhs_vydra_3m; // Import the base uniform class from RHS to use as a parent for custom vest

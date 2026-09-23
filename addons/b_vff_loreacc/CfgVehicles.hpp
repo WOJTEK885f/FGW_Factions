@@ -16,13 +16,13 @@ class CfgVehicles {
         genericNames = "RussianWomen";
     };
 
-    class FGWF_B_VFF_CivilianFighter: FGWF_B_VFF_Base {
-        _generalMacro = "FGWF_B_VFF_CivilianFighter";
+    class FGWF_B_VFF_FemaleCivilianFighter: FGWF_B_VFF_Base {
+        _generalMacro = "FGWF_B_VFF_FemaleCivilianFighter";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGWF_B_VFF_CivilianFighter.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleCivilianFighter.jpg";
 
-        displayName = CSTRING(CivilianFighter);
+        displayName = ECSTRING(B_Player_Loreacc,FemaleCivilianFighter);
 
         uniformClass = "CUP_I_B_PMC_Unit_1";
         backpack = "";
@@ -60,13 +60,13 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_B_VFF_CivilianFighterCaptain: FGWF_B_VFF_Base {
-        _generalMacro = "FGWF_B_VFF_CivilianFighterCaptain";
+    class FGWF_B_VFF_FemaleCivilianFighterCaptain: FGWF_B_VFF_Base {
+        _generalMacro = "FGWF_B_VFF_FemaleCivilianFighterCaptain";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_vff_loreacc\data\previews\FGWF_B_VFF_CivilianFighterCaptain.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleCivilianFighterCaptain.jpg";
 
-        displayName = CSTRING(CivilianFighterCaptain);
+        displayName = ECSTRING(B_Player_Loreacc,FemaleCivilianFighterCaptain);
 
         uniformClass = "CUP_I_B_PMC_Unit_1";
         backpack = "";

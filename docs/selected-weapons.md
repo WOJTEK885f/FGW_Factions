@@ -26,7 +26,7 @@ The table below contains the weapons featured in **Freeman: Guerrilla Warfare**,
 | MAC | MAC-11 | MAC-10 (folded Stock) | CUP | Sidearm slot matching F:GW |
 | MPS5 | Heckler & Koch MP5A2 | MP5A5 | CUP | |
 | Thompson | M1A1 Thompson | Auto Ordnance M1A1 Thompson | FWA | |
-| UMP9 | Heckler & Koch UMP45 | | | |
+| UMP9 | Heckler & Koch UMP45 | MP5A5 (Rail + VFG) | CUP | No match without dedicated mods |
 | UZI | IMI Uzi | UZI (handgun) | CUP | Sidearm slot matching F:GW |
 | Vector | TDI Vector | Vector SMG | n/a | |
 

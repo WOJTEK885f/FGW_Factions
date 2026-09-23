@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="GR7BOW_FGWF">
     <Package name="B_Player_Loreacc">
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_ArmedBodyguard">
+            <English>Armed Bodyguard</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_ArmedEscortGuard_M1A1">
+            <English>Armed Escort Guard (M1A1)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_ArmedEscortGuard_MP5">
+            <English>Armed Escort Guard (MP5)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_ArmedEscortGuard_SPAS12">
+            <English>Armed Escort Guard (SPAS-12)</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FactionName">
-            <English>F:GW Player Faction</English>
+            <English>F:GW Freeman Coalition</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleCivilianFighter">
+            <English>Female Civilian Fighter</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleCivilianFighterCaptain">
+            <English>Female Civilian Fighter Captain</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleMilitia_M1911">
+            <English>Female Militia (M1911)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleMilitia_TT33">
+            <English>Female Militia (TT-33)</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleVillager">
+            <English>Female Villager</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_GSSSecurityFireteam">
+            <English>GSS Security Fireteam</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_MilitiaInfantrySquad">
             <English>Militia Infantry Squad</English>
