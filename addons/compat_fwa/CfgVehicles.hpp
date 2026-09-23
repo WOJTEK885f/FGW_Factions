@@ -28,12 +28,12 @@ class CfgVehicles {
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_6Rnd_45ACP_M"),
+            MAG_2("CUP_6Rnd_45ACP_M"),
             MAG_8("sp_fwa_30Rnd_45acp_thompson_m1a1")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_6Rnd_45ACP_M"),
+            MAG_2("CUP_6Rnd_45ACP_M"),
             MAG_8("sp_fwa_30Rnd_45acp_thompson_m1a1")
         };
     };

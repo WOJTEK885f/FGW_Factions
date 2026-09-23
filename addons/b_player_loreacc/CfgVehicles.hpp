@@ -301,7 +301,6 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_ArmedBodyguard";
         scope = 2;
         scopeCurator = 2;
-        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedBodyguard.jpg";
 
         displayName = CSTRING(ArmedBodyguard);
@@ -346,7 +345,6 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_ArmedEscortGuard_M1A1";
         scope = 2;
         scopeCurator = 2;
-        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_ArmedEscortGuard_M1A1.jpg";
 
         displayName = CSTRING(ArmedEscortGuard_M1A1);
@@ -360,12 +358,12 @@ class CfgVehicles {
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_6Rnd_45ACP_M"),
+            MAG_2("CUP_6Rnd_45ACP_M"),
             MAG_8("rhsgref_30rnd_1143x23_M1911B_SMG")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_6Rnd_45ACP_M"),
+            MAG_2("CUP_6Rnd_45ACP_M"),
             MAG_8("rhsgref_30rnd_1143x23_M1911B_SMG")
         };
 
@@ -396,12 +394,12 @@ class CfgVehicles {
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_17Rnd_9x19_glock17"),
+            MAG_2("CUP_17Rnd_9x19_glock17"),
             MAG_8("CUP_30Rnd_9x19_MP5")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_17Rnd_9x19_glock17"),
+            MAG_2("CUP_17Rnd_9x19_glock17"),
             MAG_8("CUP_30Rnd_9x19_MP5")
         };
 
@@ -411,18 +409,16 @@ class CfgVehicles {
     };
 
     class FGWF_B_Player_ArmedEscortGuard_SPAS12: FGWF_B_Player_ArmedEscortGuard_M1A1 {
-        weapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_Glock17_blk", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_sgun_SPAS12", "CUP_hgun_Glock17_blk", "Throw", "Put"};
+        weapons[] = {"CUP_sgun_SPAS12", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_sgun_SPAS12", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_17Rnd_9x19_glock17"),
             MAG_8("CUP_8Rnd_12Gauge_Slug"),
             MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
-            MAG_4("CUP_17Rnd_9x19_glock17"),
             MAG_8("CUP_8Rnd_12Gauge_Slug"),
             MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
         };
