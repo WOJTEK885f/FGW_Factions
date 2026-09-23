@@ -11,8 +11,8 @@ class CfgVehicles {
         faction = QGVAR(Player);
         editorSubcategory = "EdSubcat_Personnel";
 
-        // Faction identity: Slavic appearance and Russian language (Placeholder, TODO)
-        identityTypes[] = {"LanguageRUS", "CUP_D_Language_RU", "Head_Russian", "Head_Euro", "Head_Enoch"};
+        // Faction identity: European appearance and English language with mixed accents
+        identityTypes[] = {"LanguageENG_F", "LanguageENGB_F", "LanguageENGFRE_F", "Head_Russian", "Head_Euro", "Head_Enoch"};
         genericNames = "RussianMen";
     };
 
@@ -22,11 +22,22 @@ class CfgVehicles {
         genericNames = "RussianWomen";
     };
 
-    class FGWF_B_Player_MilitiaRifleman_Light: FGWF_B_Player_Base {
+    class FGWF_B_Player_GuerBase: FGWF_B_Player_Base {
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
+
+        // Faction identity: Slavic appearance and Russian language (locals)
+        identityTypes[] = {"LanguageRUS", "CUP_D_Language_RU", "Head_Russian", "Head_Euro", "Head_Enoch"};
+        genericNames = "RussianMen";
+    };
+
+    class FGWF_B_Player_GuerFemaleBase: FGWF_B_Player_FemaleBase {
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
+    };
+
+    class FGWF_B_Player_MilitiaRifleman_Light: FGWF_B_Player_GuerBase {
         _generalMacro = "FGWF_B_Player_MilitiaRifleman_Light";
         scope = 2;
         scopeCurator = 2;
-        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaRifleman_Light.jpg";
 
         displayName = CSTRING(MilitiaRifleman_Light);
@@ -158,11 +169,10 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_B_Player_MilitiaSniper: FGWF_B_Player_Base {
+    class FGWF_B_Player_MilitiaSniper: FGWF_B_Player_GuerBase {
         _generalMacro = "FGWF_B_Player_MilitiaSniper";
         scope = 2;
         scopeCurator = 2;
-        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaSniper.jpg";
 
         displayName = CSTRING(MilitiaSniper);
@@ -207,11 +217,10 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_B_Player_MilitiaSMGFighter: FGWF_B_Player_Base {
+    class FGWF_B_Player_MilitiaSMGFighter: FGWF_B_Player_GuerBase {
         _generalMacro = "FGWF_B_Player_MilitiaSMGFighter";
         scope = 2;
         scopeCurator = 2;
-        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaSMGFighter.jpg";
 
         displayName = CSTRING(MilitiaSMGFighter);
@@ -254,11 +263,10 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_B_Player_MaleVillager: FGWF_B_Player_Base {
+    class FGWF_B_Player_MaleVillager: FGWF_B_Player_GuerBase {
         _generalMacro = "FGWF_B_Player_MaleVillager";
         scope = 2;
         scopeCurator = 2;
-        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MaleVillager.jpg";
 
         displayName = CSTRING(MaleVillager);
@@ -430,11 +438,10 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_B_Player_FemaleMilitia_TT33: FGWF_B_Player_FemaleBase {
+    class FGWF_B_Player_FemaleMilitia_TT33: FGWF_B_Player_GuerFemaleBase {
         _generalMacro = "FGWF_B_Player_FemaleMilitia_TT33";
         scope = 2;
         scopeCurator = 2;
-        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleMilitia_TT33.jpg";
 
         displayName = CSTRING(FemaleMilitia_TT33);
@@ -494,16 +501,15 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_B_Player_FemaleVillager: FGWF_B_Player_FemaleBase {
+    class FGWF_B_Player_FemaleVillager: FGWF_B_Player_GuerFemaleBase {
         _generalMacro = "FGWF_B_Player_FemaleVillager";
         scope = 2;
         scopeCurator = 2;
-        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleVillager.jpg";
 
         displayName = CSTRING(FemaleVillager);
 
-        uniformClass = "CFP_U_KhetPartug_Long_Brown";
+        uniformClass = "CFP_U_KhetPartug_Short_Brown";
         backpack = "";
 
         weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
@@ -533,11 +539,10 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_B_Player_FemaleCivilianFighter: FGWF_B_Player_FemaleBase {
+    class FGWF_B_Player_FemaleCivilianFighter: FGWF_B_Player_GuerFemaleBase {
         _generalMacro = "FGWF_B_Player_FemaleCivilianFighter";
         scope = 2;
         scopeCurator = 2;
-        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleCivilianFighter.jpg";
 
         displayName = CSTRING(FemaleCivilianFighter);
@@ -578,11 +583,10 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_B_Player_FemaleCivilianFighterCaptain: FGWF_B_Player_FemaleBase {
+    class FGWF_B_Player_FemaleCivilianFighterCaptain: FGWF_B_Player_GuerFemaleBase {
         _generalMacro = "FGWF_B_Player_FemaleCivilianFighterCaptain";
         scope = 2;
         scopeCurator = 2;
-        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_FemaleCivilianFighterCaptain.jpg";
 
         displayName = CSTRING(FemaleCivilianFighterCaptain);
