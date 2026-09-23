@@ -16,6 +16,12 @@ class CfgVehicles {
         genericNames = "RussianMen";
     };
 
+    class FGWF_B_Player_FemaleBase: FGWF_B_Player_Base {
+        // Faction identity: Female slavic appearance (placeholder when no FSOF) and female voice (only English language works)
+        identityTypes[] = {"Head_Female"}; // Head_Female for RHS Female voice
+        genericNames = "RussianWomen";
+    };
+
     class FGWF_B_Player_MilitiaRifleman_Light: FGWF_B_Player_Base {
         _generalMacro = "FGWF_B_Player_MilitiaRifleman_Light";
         scope = 2;
@@ -334,12 +340,6 @@ class CfgVehicles {
             "ItemWatch",
             "ItemRadio"
         };
-    };
-
-    class FGWF_B_Player_FemaleBase: FGWF_B_Player_Base {
-        // Faction identity: Female slavic appearance (placeholder when no FSOF) and female voice (only English language works)
-        identityTypes[] = {"Head_Female"}; // Head_Female for RHS Female voice
-        genericNames = "RussianWomen";
     };
 
     class FGWF_B_Player_ArmedEscortGuard_M1A1: FGWF_B_Player_Base {
