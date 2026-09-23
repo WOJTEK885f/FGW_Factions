@@ -1,6 +1,7 @@
 class CfgVehicles {
     class B_Soldier_F; // Forward declaration
     class FGWF_B_Player_Base; // Forward declaration
+    class FGWF_B_Player_GuerFemaleBase; // Forward declaration
 
     class FGWF_B_VFF_Base: B_Soldier_F {
         // Faction identity: Female slavic appearance and female voice (only English language works)
@@ -12,12 +13,12 @@ class CfgVehicles {
         identityTypes[] = {"Head_Female", "FGWF_Female_Faces_NoHair"}; // Head_Female for RHS Female voice + FSOF female faces as override
     };
 
-    class FGWF_B_Player_FemaleVillager: FGWF_B_Player_Base {
+    class FGWF_B_Player_FemaleVillager: FGWF_B_Player_GuerFemaleBase {
         // Female Villager has no headgear - FSOF hair faces don't clip; all other female units stay NoHair
         identityTypes[] = {"Head_Female", "FGWF_Female_Faces_Hair"};
     };
 
-    class FGWF_B_Player_FemaleMilitia_TT33: FGWF_B_Player_Base {
+    class FGWF_B_Player_FemaleMilitia_TT33: FGWF_B_Player_GuerFemaleBase {
         // Female Militia has no headgear (included via M1911 variant) - FSOF hair faces don't clip
         identityTypes[] = {"Head_Female", "FGWF_Female_Faces_Hair"};
     };
