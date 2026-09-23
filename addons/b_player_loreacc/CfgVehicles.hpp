@@ -57,8 +57,12 @@ class CfgVehicles {
             MAG_8("CUP_20Rnd_762x51_DMR")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "FGWF_V_Flak_Vest_Vydra_3M",
@@ -196,8 +200,12 @@ class CfgVehicles {
             MAG_8("CUP_20Rnd_762x51_DMR")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_PMC_CIRAS_Coyote_Empty",
@@ -242,8 +250,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_9x19_EVO")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CFP_RAV_Empty_Green",
@@ -286,8 +298,12 @@ class CfgVehicles {
             MAG_8("CUP_20Rnd_762x51_DMR")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_C_Police_Holster",
@@ -330,8 +346,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_9x19_MP5")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_PMC_IOTV_Black_Empty",
@@ -377,8 +397,12 @@ class CfgVehicles {
             MAG_8("rhsgref_30rnd_1143x23_M1911B_SMG")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_PMC_CIRAS_Black_Empty",
@@ -463,8 +487,12 @@ class CfgVehicles {
             MAG_4("CUP_8Rnd_762x25_TT")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "FGWF_V_Flak_Vest_Vydra_3M",
@@ -524,8 +552,12 @@ class CfgVehicles {
             MAG_4("CUP_8Rnd_9x18_Makarov_M")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "ItemMap",
@@ -564,8 +596,12 @@ class CfgVehicles {
             MAG_8("rhsusf_5Rnd_Slug")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "FGWF_V_Flak_Vest_Vydra_3M",
@@ -610,8 +646,12 @@ class CfgVehicles {
             MAG_8("rhsusf_5Rnd_Slug")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_PMC_CIRAS_Black_Empty",
@@ -656,8 +696,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_556x45_Stanag")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_B_Interceptor_Rifleman_M81",
@@ -706,8 +750,12 @@ class CfgVehicles {
             MAG_8("CUP_5Rnd_86x70_L115A1")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CFP_V_O_RUMVD_SURPAT",
@@ -754,8 +802,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_556x45_Stanag")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_B_JPC_Black_Light",
@@ -803,8 +855,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_556x45_Stanag")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_PMC_CIRAS_Winter_Empty",
@@ -901,8 +957,12 @@ class CfgVehicles {
             MAG_3("CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CFP_RAV_Empty_Green",
@@ -950,8 +1010,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_556x45_Stanag")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_B_Interceptor_Base_Coyote",
@@ -999,8 +1063,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_556x45_AUG")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CFP_V_O_RUMVD_SURPAT",
@@ -1048,8 +1116,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_9x19_MP5")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "SP_Tactical1_Black",
@@ -1150,8 +1222,12 @@ class CfgVehicles {
             MAG_8("rhsusf_5Rnd_Slug")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "SP_Tactical1_Black",
