@@ -777,6 +777,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_SpecialSealion";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "EdSubcat_Personnel_SpecialForces";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialSealion.jpg";
 
         displayName = CSTRING(SpecialSealion);
@@ -823,6 +824,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_SpecialOwl";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "EdSubcat_Personnel_SpecialForces";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialOwl.jpg";
 
         displayName = CSTRING(SpecialOwl);
@@ -871,6 +873,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_SpecialRattlesnake";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "EdSubcat_Personnel_SpecialForces";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialRattlesnake.jpg";
 
         displayName = CSTRING(SpecialRattlesnake);
@@ -917,6 +920,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_SpecialScorpion";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "EdSubcat_Personnel_SpecialForces";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialScorpion.jpg";
 
         displayName = CSTRING(SpecialScorpion);
@@ -963,6 +967,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_SpecialCheetah";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "EdSubcat_Personnel_SpecialForces";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialCheetah.jpg";
 
         displayName = CSTRING(SpecialCheetah);
@@ -1009,6 +1014,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_SpecialWolf";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "EdSubcat_Personnel_SpecialForces";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialWolf.jpg";
 
         displayName = CSTRING(SpecialWolf);
@@ -1057,6 +1063,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_SpecialSnowfox";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "EdSubcat_Personnel_SpecialForces";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialSnowfox.jpg";
 
         displayName = CSTRING(SpecialSnowfox);
@@ -1105,6 +1112,7 @@ class CfgVehicles {
         _generalMacro = "FGWF_B_Player_SpecialVulture";
         scope = 2;
         scopeCurator = 2;
+        editorSubcategory = "EdSubcat_Personnel_SpecialForces";
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialVulture.jpg";
 
         displayName = CSTRING(SpecialVulture);
