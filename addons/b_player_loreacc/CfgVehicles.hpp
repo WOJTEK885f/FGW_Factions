@@ -839,7 +839,7 @@ class CfgVehicles {
         backpack = "";
 
         weapons[] = {"CUP_srifle_SVD_pso", "CUP_hgun_Glock17_blk", "rhs_weap_panzerfaust60", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_srifle_SVD_pso", "CUP_hgun_Glock17_blk", "rhs_weap_panzerfaust60", "Throw", "Put"}; //add nvg
+        respawnWeapons[] = {"CUP_srifle_SVD_pso", "CUP_hgun_Glock17_blk", "rhs_weap_panzerfaust60", "Throw", "Put"};
 
         magazines[] = {
             "rhs_panzerfaust60_mag",
@@ -854,8 +854,8 @@ class CfgVehicles {
             MAG_8("CUP_10Rnd_762x54_SVD_M")
         };
 
-        Items[] = {"FirstAidKit", "CUP_NVG_PVS7"};
-        RespawnItems[] = {"FirstAidKit", "CUP_NVG_PVS7"};
+        Items[] = {"CUP_NVG_PVS7", "FirstAidKit"};
+        RespawnItems[] = {"CUP_NVG_PVS7", "FirstAidKit"};
 
         linkedItems[] = {
             "SP_Tactical1_Black",
@@ -1084,7 +1084,7 @@ class CfgVehicles {
         backpack = "";
 
         weapons[] = {"CUP_arifle_SAIGA_MK03", "CUP_hgun_TaurusTracker455", "rhs_weap_panzerfaust60", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_SAIGA_MK03", "CUP_hgun_TaurusTracker455", "rhs_weap_panzerfaust60", "Throw", "Put"}; //add nvg
+        respawnWeapons[] = {"CUP_arifle_SAIGA_MK03", "CUP_hgun_TaurusTracker455", "rhs_weap_panzerfaust60", "Throw", "Put"};
 
         magazines[] = {
             "rhs_panzerfaust60_mag",
@@ -1099,8 +1099,8 @@ class CfgVehicles {
             MAG_16("CUP_10Rnd_762x39_SaigaMk03_M")
         };
 
-        Items[] = {"FirstAidKit", "CUP_NVG_PVS7"};
-        RespawnItems[] = {"FirstAidKit", "CUP_NVG_PVS7"};
+        Items[] = {"CUP_NVG_PVS7", "FirstAidKit"};
+        RespawnItems[] = {"CUP_NVG_PVS7", "FirstAidKit"};
 
         linkedItems[] = {
             "FGWF_V_Flak_Vest_Vydra_3M",
