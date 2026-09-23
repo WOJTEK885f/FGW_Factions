@@ -61,5 +61,38 @@
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_MilitiaSniper">
             <English>Militia Sniper</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_SpecialCheetah">
+            <English>Cheetah Assault</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_SpecialOwl">
+            <English>Owl Special Sniper</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_SpecialRattlesnake">
+            <English>Rattlesnake Special Soldier</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_SpecialScorpion">
+            <English>Scorpion Assault</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_SpecialSealion">
+            <English>Sea Lion Special Soldier</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_SpecialSnowfox">
+            <English>Snow Fox Special Sniper</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_SpecialVulture">
+            <English>Vulture Special Forces</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_SpecialWolf">
+            <English>Solitary Wolf Scout</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Spetsnaz">
+            <English>Spetsnaz</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_TrainedInfantry">
+            <English>Trained Infantry</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_TrainedMarksman">
+            <English>Trained Marksman</English>
+        </Key>
     </Package>
 </Project>

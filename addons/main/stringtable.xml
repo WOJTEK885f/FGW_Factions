@@ -37,6 +37,9 @@
         <Key ID="STR_GR7BOW_FGWF_Main_USMC_FROG3_WMARPAT">
             <English>USMC FROG Gear Ver. 3 (Woodland) - FGW Factions</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_Main_srifle_AWM_blk_sd">
+            <English>L115A3 LRR (Black) + L115A3 Silencer</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_Main_url">
             <English>https://github.com/WOJTEK885f/FGW_Factions</English>
             <Polish>https://github.com/WOJTEK885f/FGW_Factions</Polish>

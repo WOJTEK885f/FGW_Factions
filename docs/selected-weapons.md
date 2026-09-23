@@ -42,7 +42,7 @@ The table below contains the weapons featured in **Freeman: Guerrilla Warfare**,
 
 | F:GW Weapon | Real-Life Equivalent | Selected A3 Weapon | Mod | Comments |
 | ----------- | -------------------- | ------------------ | --- | --- |
-| AWR | DTA SRS | | | |
+| AWR | DTA SRS | L115A3 LRR | CUP | Same caliber and similar role, using custom suppressed variant |
 | Mk14 | Springfield Armory M1A | M14 | CUP | |
 | SKKS | Simonov SKS | Mk14 Mod 1 EBR | n/a | Closest visually as there is no Simonov SKS |
 | SR100 | M40A5 | M40A3 | CUP | |
