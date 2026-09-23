@@ -140,9 +140,11 @@ class CfgVehicles {
         };
 
         Items[] = {
+            "CUP_NVG_PVS7",
             "FirstAidKit"
         };
         RespawnItems[] = {
+            "CUP_NVG_PVS7",
             "FirstAidKit"
         };
 
