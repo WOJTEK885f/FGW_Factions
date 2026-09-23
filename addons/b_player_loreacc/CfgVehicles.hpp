@@ -910,8 +910,14 @@ class CfgVehicles {
             MAG_8("CUP_10Rnd_762x54_SVD_M")
         };
 
-        Items[] = {"CUP_NVG_PVS7", "FirstAidKit"};
-        RespawnItems[] = {"CUP_NVG_PVS7", "FirstAidKit"};
+        Items[] = {
+            "CUP_NVG_PVS7",
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "CUP_NVG_PVS7",
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "SP_Tactical1_Black",
@@ -1171,8 +1177,14 @@ class CfgVehicles {
             MAG_16("CUP_10Rnd_762x39_SaigaMk03_M")
         };
 
-        Items[] = {"CUP_NVG_PVS7", "FirstAidKit"};
-        RespawnItems[] = {"CUP_NVG_PVS7", "FirstAidKit"};
+        Items[] = {
+            "CUP_NVG_PVS7",
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "CUP_NVG_PVS7",
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "FGWF_V_Flak_Vest_Vydra_3M",
