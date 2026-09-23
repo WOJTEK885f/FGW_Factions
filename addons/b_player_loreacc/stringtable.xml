@@ -31,6 +31,9 @@
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FemaleVillager">
             <English>Female Villager</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_Army_Convoy">
+            <English>Convoy Escort Squad</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_GSSSecurityFireteam">
             <English>GSS Security Fireteam</English>
         </Key>
