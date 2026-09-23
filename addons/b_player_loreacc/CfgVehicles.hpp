@@ -312,11 +312,11 @@ class CfgVehicles {
         respawnWeapons[] = {"CUP_smg_MP5A5_Rail_VFG", "CUP_hgun_Makarov", "Throw", "Put"};
 
         magazines[] = {
-            MAG_4("CUP_8Rnd_9x18_Makarov_M"),
+            MAG_2("CUP_8Rnd_9x18_Makarov_M"),
             MAG_8("CUP_30Rnd_9x19_MP5")
         };
         respawnMagazines[] = {
-            MAG_4("CUP_8Rnd_9x18_Makarov_M"),
+            MAG_2("CUP_8Rnd_9x18_Makarov_M"),
             MAG_8("CUP_30Rnd_9x19_MP5")
         };
 
