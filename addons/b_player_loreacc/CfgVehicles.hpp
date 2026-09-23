@@ -13,13 +13,13 @@ class CfgVehicles {
 
         // Faction identity: European appearance and English language with mixed accents
         identityTypes[] = {"LanguageENG_F", "LanguageENGB_F", "LanguageENGFRE_F", "Head_Russian", "Head_Euro", "Head_Enoch"};
-        genericNames = "RussianMen";
+        genericNames = "NATOMen";
     };
 
     class FGWF_B_Player_FemaleBase: FGWF_B_Player_Base {
         // Faction identity: Female slavic appearance (placeholder when no FSOF) and female voice (only English language works)
         identityTypes[] = {"Head_Female"}; // Head_Female for RHS Female voice
-        genericNames = "RussianWomen";
+        genericNames = "CivWomen";
     };
 
     class FGWF_B_Player_GuerBase: FGWF_B_Player_Base {
@@ -32,6 +32,8 @@ class CfgVehicles {
 
     class FGWF_B_Player_GuerFemaleBase: FGWF_B_Player_FemaleBase {
         editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
+
+        genericNames = "RussianWomen";
     };
 
     class FGWF_B_Player_MilitiaRifleman_Light: FGWF_B_Player_GuerBase {
