@@ -34,8 +34,12 @@ class CfgVehicles {
         respawnMagazines[] = {
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "ItemMap",

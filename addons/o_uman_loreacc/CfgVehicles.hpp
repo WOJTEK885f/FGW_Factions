@@ -253,8 +253,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_556x45_Stanag")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "FGWF_V_Flak_Vest_Vydra_3M",
@@ -299,8 +303,12 @@ class CfgVehicles {
             MAG_8("CUP_20Rnd_TE1_Green_Tracer_762x51_DMR")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "FGWF_V_Flak_Vest_Vydra_3M",

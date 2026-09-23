@@ -247,8 +247,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_TE1_Green_Tracer_762x39_AK47_M")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_B_Interceptor_Rifleman_M81",
@@ -297,8 +301,12 @@ class CfgVehicles {
             MAG_8("CUP_8Rnd_12Gauge_Pellets_No00_Buck")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_B_Interceptor_Base_M81",
@@ -343,8 +351,12 @@ class CfgVehicles {
             MAG_8("CUP_30Rnd_TE1_Green_Tracer_545x39_AK74M_M")
         };
 
-        Items[] = {"FirstAidKit"};
-        RespawnItems[] = {"FirstAidKit"};
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
 
         linkedItems[] = {
             "CUP_V_B_Interceptor_Base_Coyote",
