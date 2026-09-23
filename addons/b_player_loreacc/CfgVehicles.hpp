@@ -690,8 +690,8 @@ class CfgVehicles {
         uniformClass = "USP_G3C_CU_AOR2";
         backpack = "";
 
-        weapons[] = {"CUP_srifle_AWM_blk", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_srifle_AWM_blk", "Throw", "Put"};
+        weapons[] = {"FGWF_srifle_AWM_blk_sd", "Throw", "Put"};
+        respawnWeapons[] = {"FGWF_srifle_AWM_blk_sd", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
