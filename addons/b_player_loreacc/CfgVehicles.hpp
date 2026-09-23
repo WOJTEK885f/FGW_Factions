@@ -630,4 +630,520 @@ class CfgVehicles {
             "ItemRadio"
         };
     };
+
+    class FGWF_B_Player_TrainedInfantry: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_TrainedInfantry";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_TrainedInfantry.jpg";
+
+        displayName = CSTRING(TrainedInfantry);
+
+        uniformClass = "USP_G3C_CU_AOR2";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_M4A1_black", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_black", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            "SmokeShell",
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            "SmokeShell",
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "CUP_V_B_Interceptor_Rifleman_M81",
+            "CFP_PASGTHelmet_M812",
+            "CFP_Neck_Plain2",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_B_Interceptor_Rifleman_M81",
+            "CFP_PASGTHelmet_M812",
+            "CFP_Neck_Plain2",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_TrainedMarksman: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_TrainedMarksman";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_TrainedMarksman.jpg";
+
+        displayName = CSTRING(TrainedMarksman);
+
+        uniformClass = "USP_G3C_CU_AOR2";
+        backpack = "";
+
+        weapons[] = {"CUP_srifle_AWM_blk", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_srifle_AWM_blk", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            "SmokeShell",
+            MAG_8("CUP_5Rnd_86x70_L115A1")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            "SmokeShell",
+            MAG_8("CUP_5Rnd_86x70_L115A1")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "CFP_V_O_RUMVD_SURPAT",
+            "rhsgref_patrolcap_specter",
+            "CFP_Neck_Plain2",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CFP_V_O_RUMVD_SURPAT",
+            "rhsgref_patrolcap_specter",
+            "CFP_Neck_Plain2",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_Spetsnaz: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_Spetsnaz";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_Spetsnaz.jpg";
+
+        displayName = CSTRING(Spetsnaz);
+
+        uniformClass = "CFP_U_WorkUniform_SudanPolice2";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_HK416_Black", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_HK416_Black", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "CUP_V_B_JPC_Black_Light",
+            "SP_PASGTHelmet_Black1",
+            "USP_FM12_BLK2",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_B_JPC_Black_Light",
+            "SP_PASGTHelmet_Black1",
+            "USP_FM12_BLK2",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_SpecialSealion: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_SpecialSealion";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialSealion.jpg";
+
+        displayName = CSTRING(SpecialSealion);
+
+        uniformClass = "CFP_FieldUniform_police_sudan_SS";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_M16A4_Base", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "CUP_V_PMC_CIRAS_Winter_Empty",
+            "CFP_OPS2017_Helmet_Grey",
+            "USP_SOTR",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_PMC_CIRAS_Winter_Empty",
+            "CFP_OPS2017_Helmet_Grey",
+            "USP_SOTR",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_SpecialOwl: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_SpecialOwl";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialOwl.jpg";
+
+        displayName = CSTRING(SpecialOwl);
+
+        uniformClass = "USP_PCU_G3C";
+        backpack = "";
+
+        weapons[] = {"CUP_srifle_SVD_pso", "CUP_hgun_Glock17_blk", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_srifle_SVD_pso", "CUP_hgun_Glock17_blk", "Throw", "Put"};
+
+        magazines[] = {
+            "SmokeShell",
+            MAG_2("CUP_17Rnd_9x19_glock17"),
+            MAG_8("CUP_10Rnd_762x54_SVD_M")
+        };
+        respawnMagazines[] = {
+            "SmokeShell",
+            MAG_2("CUP_17Rnd_9x19_glock17"),
+            MAG_8("CUP_10Rnd_762x54_SVD_M")
+        };
+
+        Items[] = {"FirstAidKit", "CUP_NVG_PVS7"};
+        RespawnItems[] = {"FirstAidKit", "CUP_NVG_PVS7"};
+
+        linkedItems[] = {
+            "SP_Tactical1_Black",
+            "SP_PASGTHelmet_Black1",
+            "USP_OAKLEY_SI2_YEL",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "SP_Tactical1_Black",
+            "SP_PASGTHelmet_Black1",
+            "USP_OAKLEY_SI2_YEL",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_SpecialRattlesnake: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_SpecialRattlesnake";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialRattlesnake.jpg";
+
+        displayName = CSTRING(SpecialRattlesnake);
+
+        uniformClass = "USP_RUGBY_G3C_CBR_AOR1";
+        backpack = "";
+
+        weapons[] = {"CUP_lmg_FNMAG_RIS_modern", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_lmg_FNMAG_RIS_modern", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_2("CUP_HandGrenade_RGD5"),
+            MAG_3("CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M")
+        };
+        respawnMagazines[] = {
+            MAG_2("CUP_HandGrenade_RGD5"),
+            MAG_3("CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "CFP_RAV_Empty_Green",
+            "CUP_H_USArmy_Helmet_Protec",
+            "G_Bandanna_blk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CFP_RAV_Empty_Green",
+            "CUP_H_USArmy_Helmet_Protec",
+            "G_Bandanna_blk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_SpecialScorpion: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_SpecialScorpion";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialScorpion.jpg";
+
+        displayName = CSTRING(SpecialScorpion);
+
+        uniformClass = "CFP_GUER_PolyDesTee";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_M4A1_black", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_black", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "CUP_V_B_Interceptor_Base_Coyote",
+            "CFP_OPS2017_Helmet_Grey",
+            "G_Bandanna_tan",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_B_Interceptor_Base_Coyote",
+            "CFP_OPS2017_Helmet_Grey",
+            "G_Bandanna_tan",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_SpecialCheetah: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_SpecialCheetah";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialCheetah.jpg";
+
+        displayName = CSTRING(SpecialCheetah);
+
+        uniformClass = "USP_RUGBY_G3C_RGR_MPW";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_AUG_A1", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_AUG_A1", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("CUP_30Rnd_556x45_AUG")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("CUP_30Rnd_556x45_AUG")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "CFP_V_O_RUMVD_SURPAT",
+            "CUP_H_USArmy_Helmet_M1_plain_M81",
+            "G_Bandanna_khk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CFP_V_O_RUMVD_SURPAT",
+            "CUP_H_USArmy_Helmet_M1_plain_M81",
+            "G_Bandanna_khk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_SpecialWolf: FGWF_B_Player_Base {
+        _generalMacro = "FGWF_B_Player_SpecialWolf";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialWolf.jpg";
+
+        displayName = CSTRING(SpecialWolf);
+
+        uniformClass = "USP_PCU_G3C_BLK_MTN";
+        backpack = "";
+
+        weapons[] = {"CUP_smg_MP5A5_Rail_VFG", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_smg_MP5A5_Rail_VFG", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            "SmokeShell",
+            MAG_8("CUP_30Rnd_9x19_MP5")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            "SmokeShell",
+            MAG_8("CUP_30Rnd_9x19_MP5")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "SP_Tactical1_Black",
+            "SP_PASGTHelmet_Black1",
+            "USP_SHEMAGH_HEAD_BLK",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "SP_Tactical1_Black",
+            "SP_PASGTHelmet_Black1",
+            "USP_SHEMAGH_HEAD_BLK",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_SpecialSnowfox: FGWF_B_Player_FemaleBase {
+        _generalMacro = "FGWF_B_Player_SpecialSnowfox";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialSnowfox.jpg";
+
+        displayName = CSTRING(SpecialSnowfox);
+
+        uniformClass = "CUP_I_B_PMC_Unit_19";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_SAIGA_MK03", "CUP_hgun_TaurusTracker455", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_SAIGA_MK03", "CUP_hgun_TaurusTracker455", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_2("CUP_6Rnd_45ACP_M"),
+            MAG_16("CUP_10Rnd_762x39_SaigaMk03_M")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_2("CUP_6Rnd_45ACP_M"),
+            MAG_16("CUP_10Rnd_762x39_SaigaMk03_M")
+        };
+
+        Items[] = {"FirstAidKit", "CUP_NVG_PVS7"};
+        RespawnItems[] = {"FirstAidKit", "CUP_NVG_PVS7"};
+
+        linkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "CFP_OPS2017_Helmet_Grey",
+            "G_Sport_Blackred",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "CFP_OPS2017_Helmet_Grey",
+            "G_Sport_Blackred",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_SpecialVulture: FGWF_B_Player_FemaleBase {
+        _generalMacro = "FGWF_B_Player_SpecialVulture";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialVulture.jpg";
+
+        displayName = CSTRING(SpecialVulture);
+
+        uniformClass = "CUP_I_B_PMC_Unit_1";
+        backpack = "";
+
+        weapons[] = {"rhs_weap_M590_5RD", "Throw", "Put"};
+        respawnWeapons[] = {"rhs_weap_M590_5RD", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("rhsusf_5Rnd_00Buck"),
+            MAG_8("rhsusf_5Rnd_Slug")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("rhsusf_5Rnd_00Buck"),
+            MAG_8("rhsusf_5Rnd_Slug")
+        };
+
+        Items[] = {"FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit"};
+
+        linkedItems[] = {
+            "SP_Tactical1_Black",
+            "CUP_H_RUS_Altyn_Shield_Up_black",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "SP_Tactical1_Black",
+            "CUP_H_RUS_Altyn_Shield_Up_black",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
 };
