@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project name="GR7BOW_FGWF">
-    <Package name="Compat_FSOF">
-        <Key ID="STR_GR7BOW_FGWF_Compat_FSOF_DisplayName">
-            <English>FGWF - FSOF Compatibility</English>
-        </Key>
-    </Package>
-</Project>
