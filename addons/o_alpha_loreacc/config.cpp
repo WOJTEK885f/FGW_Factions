@@ -1,0 +1,44 @@
+#include "script_component.hpp"
+
+class CfgPatches {
+    class ADDON {
+        author = AUTHOR;
+        authors[] = {"WOJTEK885"};
+        url = ECSTRING(main,url);
+        name = QUOTE(COMPONENT);
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {
+            "gr7bow_fgwf_main",
+            "A3_Characters_F",
+            "A3_Characters_F_Enoch",
+            "A3_Weapons_F",            // Binocular, Vector, Stanag mags, SmokeShell
+            "CUP_Weapons_WeaponsCore", // HK416, Desert Eagle, Leupold Mk4, Stanag mags
+            "CUP_Weapons_SniperRifles", // G22 (Elite Sniper)
+            "CUP_Weapons_AWM",         // AWM silencer (Elite Sniper)
+            "CUP_Weapons_M240",        // FN MAG (Elite Stormtrooper)
+            "CUP_Weapons_Grenades",    // RGD5 grenades
+            "CUP_Weapons_NVG",         // NVGs (all units)
+            "rhsgref_c_weapons",       // Panzerfaust 60 (Elite Scouts)
+            "CUP_Creatures_Military_SLA",  // Old Helmet (Elite Sniper)
+            "CUP_Creatures_Military_USArmy", // Bike Helmet (Elite Scouts)
+            "CUP_Creatures_Military_USMC",  // Interceptor helmet (Elite Scouts)
+            "CUP_Creatures_Military_Russia", // 6B3-4 vest (Elite Stormtrooper)
+            "cfp_uniforms",            // Poly Desert uniform (all units)
+            "cfp_vests",               // RAV vest, M81 tactical vest, heavy tactical vest
+            "cfp_headgear"             // OPS 2017 helmet, PASGT helmet
+        };
+        units[] = {
+            "FGWF_O_Alpha_EliteScout",
+            "FGWF_O_Alpha_EliteSniper",
+            "FGWF_O_Alpha_EliteStormtrooper",
+            "FGWF_O_Alpha_SpecialForce"
+        };
+        weapons[] = {};
+        VERSION_CONFIG;
+    };
+};
+
+#include "CfgFactionClasses.hpp"
+
+#include "CfgVehicles.hpp"
+#include "CfgGroups.hpp"
