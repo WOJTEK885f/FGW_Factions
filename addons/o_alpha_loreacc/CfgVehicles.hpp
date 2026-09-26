@@ -156,6 +156,7 @@ class CfgVehicles {
         linkedItems[] = {
             "CUP_V_RUS_6B3_4",
             "CFP_OPS2017_Helmet_Grey",
+            "USP_SOTR",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -164,6 +165,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {
             "CUP_V_RUS_6B3_4",
             "CFP_OPS2017_Helmet_Grey",
+            "USP_SOTR",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
