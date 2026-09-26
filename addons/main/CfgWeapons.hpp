@@ -194,7 +194,7 @@ class CfgWeapons {
                 item = "CUP_muzzle_snds_AWM";
             };
             class LinkedItemsOptic {
-                slot = "OpticSlot";
+                slot = "CUP_PicatinnyTopMountAWM";
                 item = "CUP_optic_LeupoldMk4";
             };
         };
