@@ -13,8 +13,7 @@ class CfgPatches {
             "A3_Characters_F_Enoch",
             "A3_Weapons_F",            // Binocular, Vector, Stanag mags, SmokeShell
             "CUP_Weapons_WeaponsCore", // HK416, Desert Eagle, Leupold Mk4, Stanag mags
-            "CUP_Weapons_SniperRifles", // G22 (Elite Sniper)
-            "CUP_Weapons_AWM",         // AWM silencer (Elite Sniper)
+            "CUP_Weapons_AWM",         // G22, AWM silencer (Elite Sniper)
             "CUP_Weapons_M240",        // FN MAG (Elite Stormtrooper)
             "CUP_Weapons_Grenades",    // RGD5 grenades
             "CUP_Weapons_NVG",         // NVGs (all units)
