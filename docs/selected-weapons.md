@@ -47,7 +47,7 @@ The table below contains the weapons featured in **Freeman: Guerrilla Warfare**,
 | SKKS | Simonov SKS | Mk14 Mod 1 EBR | n/a | Closest visually as there is no Simonov SKS |
 | SR100 | M40A5 | M40A3 | CUP | |
 | SSG08 | Steyr SSG-08 | | | |
-| SV98M | Izhmash SV-98 | | | |
+| SV98M | Izhmash SV-98 | G22 (Woodland) + Leupold Mk4 + Suppressor | CUP | Closest bolt-action available, using custom suppressed scoped variant |
 | SVD | SVD Dragunov + PSO | SVD + PSO-1 | CUP | |
 | VA VAL | AS Val + PSO | AS Val + PSO-1 | CUP | |
 | VT-14 | Saiga 7.62×39 | Saiga MK03 (RIS mount) | CUP | Closest match available |

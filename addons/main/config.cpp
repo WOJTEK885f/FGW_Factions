@@ -19,7 +19,8 @@ class CfgPatches {
             "FGWF_U_USMC_FROG3_WMARPAT",
             "FGWF_U_USMC_MCCUU_M81_MARPAT_roll_2",
             "FGWF_U_USMC_MCCUU_MARPAT_M81",
-            "FGWF_V_Flak_Vest_Vydra_3M"
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "FGWF_srifle_G22_wdl_sd_lmk4"
         };
         VERSION_CONFIG;
     };
