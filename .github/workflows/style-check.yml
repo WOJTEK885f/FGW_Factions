@@ -23,6 +23,9 @@ jobs:
       - name: Validate stringtables
         run: python tools/stringtable_validator.py
 
+      - name: Validate addon registration
+        run: python tools/registration_validator.py
+
       - name: Check for BOM
         uses: arma-actions/bom-check@master
         with:

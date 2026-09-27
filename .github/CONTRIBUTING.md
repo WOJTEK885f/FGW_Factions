@@ -36,6 +36,7 @@ Run the same checks as the CI pipelines before opening a pull request:
 hemtt check --error-on-all --pedantic
 python tools/config_style_checker.py
 python tools/stringtable_validator.py
+python tools/registration_validator.py
 ```
 
 ## Coding Guidelines
