@@ -475,7 +475,7 @@ class CfgVehicles {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_CFR_Companion_Olga'; };";
         };
 
-        uniformClass = "CFP_GUER_M81Tee";
+        uniformClass = "USP_RUGBY_G3C_RGR_MPW";
         backpack = "";
 
         weapons[] = {"CUP_arifle_SAIGA_MK03", "Throw", "Put"};
