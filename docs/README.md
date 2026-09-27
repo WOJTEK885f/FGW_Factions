@@ -46,7 +46,7 @@ This project intends to recreate the entire geopolitical conflict of the world o
 * [x] - [O] Uman Brotherhood
 * [x] - [B] Valkyrie Female Fighters
 * [x] - [I] Chernivkan Front
-* [ ] - [O] Alpha Forces
+* [x] - [O] Alpha Forces
 
 ### Minor Factions
 
