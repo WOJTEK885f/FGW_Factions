@@ -17,8 +17,8 @@ Description:
   a config may live in config.cpp itself or in any other header the addon
   includes, and an addon may open more than one CfgVehicles block since Arma
   merges them. Includes that do not resolve to a local file are skipped, because
-  the macro chain uses absolute PBO paths such as \x\cba\addons\main that only
-  exist in a built mod and never contain config classes.
+  the macro chain uses absolute PBO paths (the CBA and A3 script macro headers)
+  that only exist in a built mod and never contain config classes.
   Import/abstract declarations (external parents and empty base classes) are
   skipped, and addons that only re-open other addons' classes (the compat
   addons) require no registration of their own.
