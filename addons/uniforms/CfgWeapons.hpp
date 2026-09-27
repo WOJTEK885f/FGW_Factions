@@ -1,5 +1,5 @@
 class CfgWeapons {
-    // Import parent classes for U_Marshal
+    // Import parent classes
     class Default;
     class ItemCore: Default {};
     class Uniform_Base: ItemCore {};
@@ -22,8 +22,8 @@ class CfgWeapons {
     };
 
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_U_B_USMC_FROG3_WMARPAT {
-        class ItemInfo;
+    class CUP_U_B_USMC_FROG3_WMARPAT: ItemCore {
+        class ItemInfo: UniformItem {};
     };
 
     // Custom unrestricted uniform class
@@ -37,9 +37,17 @@ class CfgWeapons {
         };
     };
 
+    class CUP_U_B_USMC_MCCUU: ItemCore {
+        class ItemInfo: UniformItem {};
+    };
+
+    class CUP_U_B_USMC_MCCUU_M81_MARPAT: CUP_U_B_USMC_MCCUU {
+        class ItemInfo: ItemInfo {};
+    };
+
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2 {
-        class ItemInfo;
+    class CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2: CUP_U_B_USMC_MCCUU_M81_MARPAT {
+        class ItemInfo: ItemInfo {};
     };
 
     class FGWF_U_USMC_MCCUU_M81_MARPAT_roll_2: CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2 {
@@ -54,8 +62,8 @@ class CfgWeapons {
     };
 
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_U_B_USMC_MCCUU_MARPAT_M81 {
-        class ItemInfo;
+    class CUP_U_B_USMC_MCCUU_MARPAT_M81: CUP_U_B_USMC_MCCUU {
+        class ItemInfo: ItemInfo     {};
     };
 
     class FGWF_U_USMC_MCCUU_MARPAT_M81: CUP_U_B_USMC_MCCUU_MARPAT_M81 {
@@ -69,9 +77,11 @@ class CfgWeapons {
         };
     };
 
+    class CUP_U_C_Worker_01: ItemCore {};
+
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_U_C_Worker_02 {
-        class ItemInfo;
+    class CUP_U_C_Worker_02: CUP_U_C_Worker_01 {
+        class ItemInfo: UniformItem {};
     };
 
     class FGWF_U_C_Worker_02: CUP_U_C_Worker_02 {
@@ -86,8 +96,8 @@ class CfgWeapons {
     };
 
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_I_B_PMC_Unit_1 {
-        class ItemInfo;
+    class CUP_I_B_PMC_Unit_1: ItemCore {
+        class ItemInfo: UniformItem {};
     };
 
     class FGWF_U_PMC_Unit_1: CUP_I_B_PMC_Unit_1 {
@@ -102,8 +112,8 @@ class CfgWeapons {
     };
 
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_I_B_PMC_Unit_31 {
-        class ItemInfo;
+    class CUP_I_B_PMC_Unit_31: ItemCore {
+        class ItemInfo: UniformItem {};
     };
 
     class FGWF_U_PMC_Unit_31: CUP_I_B_PMC_Unit_31 {
@@ -118,8 +128,8 @@ class CfgWeapons {
     };
 
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_I_B_PMC_Unit_35 {
-        class ItemInfo;
+    class CUP_I_B_PMC_Unit_35: ItemCore {
+        class ItemInfo: UniformItem {};
     };
 
     class FGWF_U_PMC_Unit_35: CUP_I_B_PMC_Unit_35 {
