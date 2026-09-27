@@ -19,6 +19,8 @@ class CfgPatches {
             "CUP_Creatures_Military_Russia" // Scarf
         };
         units[] = {
+            "FGWF_O_Uman_Companion_Finn",
+            "FGWF_O_Uman_Companion_Haaken",
             "FGWF_O_Uman_Militant_AK12",
             "FGWF_O_Uman_Militant_AK74M",
             "FGWF_O_Uman_Terrorist_AK74M",
