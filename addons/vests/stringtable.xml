@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="GR7BOW_FGWF">
+    <Package name="Vests">
+        <Key ID="STR_GR7BOW_FGWF_Vests_vydra_3m_flakvest">
+            <English>Vydra-3M - Flak Vest</English>
+            <Polish>Wydra-3M - Flak Vest</Polish>
+        </Key>
+    </Package>
+</Project>
