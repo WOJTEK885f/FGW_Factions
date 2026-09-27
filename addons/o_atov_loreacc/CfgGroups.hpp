@@ -116,19 +116,6 @@ class CfgGroups {
             class Infantry_CompanionLed {
                 name = "$STR_GR7BOW_FGWF_Main_Subcat_Infantry_CompanionLed";
 
-                class GVAR(Group_Army_InvestigationCompany_Kostyantin) {
-                    name = CSTRING(Group_Army_InvestigationCompany_Kostyantin);
-                    side = 0;
-                    faction = QGVAR(Atov);
-                    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
-
-                    class Unit0 { side = 0; vehicle = "FGWF_O_Atov_Companion_Kostyantin"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
-                    class Unit1 { side = 0; vehicle = "FGWF_O_Atov_Scout";                rank = "SERGEANT";   position[] = {5,-5,0}; };
-                    class Unit2 { side = 0; vehicle = "FGWF_O_Atov_Scout";                rank = "CORPORAL";   position[] = {-5,-5,0}; };
-                    class Unit3 { side = 0; vehicle = "FGWF_O_Atov_Scout";                rank = "PRIVATE";    position[] = {10,-10,0}; };
-                    class Unit4 { side = 0; vehicle = "FGWF_O_Atov_Sharpshooter";         rank = "PRIVATE";    position[] = {-10,-10,0}; };
-                };
-
                 class GVAR(Group_InfantryFireteam_Oleg) {
                     name = CSTRING(Group_InfantryFireteam_Oleg);
                     side = 0;
@@ -169,6 +156,19 @@ class CfgGroups {
                     class Unit2 { side = 0; vehicle = "FGWF_O_Atov_ArmedPolice";      rank = "CORPORAL";   position[] = {-5,-5,0}; };
                     class Unit3 { side = 0; vehicle = "FGWF_O_Atov_ArmedPolice";      rank = "PRIVATE";    position[] = {10,-10,0}; };
                     class Unit4 { side = 0; vehicle = "FGWF_O_Atov_Infantry";         rank = "PRIVATE";    position[] = {-10,-10,0}; };
+                };
+
+                class GVAR(Group_Army_InvestigationCompany_Kostyantin) {
+                    name = CSTRING(Group_Army_InvestigationCompany_Kostyantin);
+                    side = 0;
+                    faction = QGVAR(Atov);
+                    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+
+                    class Unit0 { side = 0; vehicle = "FGWF_O_Atov_Companion_Kostyantin"; rank = "LIEUTENANT"; position[] = {0,0,0}; };
+                    class Unit1 { side = 0; vehicle = "FGWF_O_Atov_Scout";                rank = "SERGEANT";   position[] = {5,-5,0}; };
+                    class Unit2 { side = 0; vehicle = "FGWF_O_Atov_Scout";                rank = "CORPORAL";   position[] = {-5,-5,0}; };
+                    class Unit3 { side = 0; vehicle = "FGWF_O_Atov_Scout";                rank = "PRIVATE";    position[] = {10,-10,0}; };
+                    class Unit4 { side = 0; vehicle = "FGWF_O_Atov_Sharpshooter";         rank = "PRIVATE";    position[] = {-10,-10,0}; };
                 };
             };
         };
