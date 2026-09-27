@@ -13,6 +13,21 @@
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_ArmedEscortGuard_SPAS12">
             <English>Armed Escort Guard (SPAS-12)</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Companion_Georgiy">
+            <English>Georgiy</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Companion_Ivan">
+            <English>Ivan</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Companion_Petro">
+            <English>Petro</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Companion_Sergei">
+            <English>Sergei</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Companion_Yevgen">
+            <English>Yevgen</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_FactionName">
             <English>F:GW Freeman Coalition</English>
         </Key>
@@ -37,11 +52,20 @@
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_GSSSecurityFireteam">
             <English>GSS Security Fireteam</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_GSSSecurityFireteam_Georgiy">
+            <English>GSS Security Fireteam (Georgiy)</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_MilitiaInfantrySquad">
             <English>Militia Infantry Squad</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_MilitiaInfantrySquad_Petro">
+            <English>Militia Infantry Squad (Petro)</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_MilitiaSniperTeam">
             <English>Militia Sniper Team</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_Group_MilitiaSniperTeam_Sergei">
+            <English>Militia Sniper Team (Sergei)</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_B_Player_Loreacc_MaleVillager">
             <English>Male Villager</English>

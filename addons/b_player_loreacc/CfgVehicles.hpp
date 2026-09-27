@@ -1258,4 +1258,254 @@ class CfgVehicles {
             "ItemRadio"
         };
     };
+
+    class FGWF_B_Player_Companion_Base: FGWF_B_Player_Base {
+        editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
+    };
+
+    class FGWF_B_Player_Companion_Ivan: FGWF_B_Player_Companion_Base {
+        _generalMacro = "FGWF_B_Player_Companion_Ivan";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_Companion_Ivan.jpg";
+
+        displayName = CSTRING(Companion_Ivan);
+
+        identityTypes[] = {"FGWF_Face_Ivan_Tag"};
+
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Player_Companion_Ivan'; };";
+        };
+
+        uniformClass = "FGWF_U_PMC_Unit_1";
+        backpack = "";
+
+        weapons[] = {"CUP_hgun_M9A1", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_hgun_M9A1", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_4("CUP_15Rnd_9x19_M9")
+        };
+        respawnMagazines[] = {
+            MAG_4("CUP_15Rnd_9x19_M9")
+        };
+
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_Companion_Yevgen: FGWF_B_Player_Companion_Base {
+        _generalMacro = "FGWF_B_Player_Companion_Yevgen";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_Companion_Yevgen.jpg";
+
+        displayName = CSTRING(Companion_Yevgen);
+
+        identityTypes[] = {"FGWF_Face_Yevgen_Tag"};
+
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Player_Companion_Yevgen'; };";
+        };
+
+        uniformClass = "FGWF_U_C_Worker_02";
+        backpack = "";
+
+        weapons[] = {"rhs_weap_M590_5RD", "Throw", "Put"};
+        respawnWeapons[] = {"rhs_weap_M590_5RD", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("rhsusf_5Rnd_00Buck"),
+            MAG_8("rhsusf_5Rnd_Slug")
+        };
+        respawnMagazines[] = {
+            MAG_8("rhsusf_5Rnd_00Buck"),
+            MAG_8("rhsusf_5Rnd_Slug")
+        };
+
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_Companion_Georgiy: FGWF_B_Player_Companion_Base {
+        _generalMacro = "FGWF_B_Player_Companion_Georgiy";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_Companion_Georgiy.jpg";
+
+        displayName = CSTRING(Companion_Georgiy);
+
+        identityTypes[] = {"FGWF_Face_Georgiy_Tag"};
+
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Player_Companion_Georgiy'; };";
+        };
+
+        uniformClass = "CUP_I_B_PMC_Unit_11";
+        backpack = "";
+
+        weapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_2("CUP_17Rnd_9x19_glock17")
+        };
+        respawnMagazines[] = {
+            MAG_2("CUP_17Rnd_9x19_glock17")
+        };
+
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_Companion_Petro: FGWF_B_Player_Companion_Base {
+        _generalMacro = "FGWF_B_Player_Companion_Petro";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_Companion_Petro.jpg";
+
+        displayName = CSTRING(Companion_Petro);
+
+        identityTypes[] = {"FGWF_Face_Petro_Tag"};
+
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Player_Companion_Petro'; };";
+        };
+
+        uniformClass = "USP_RUGBY_G3C_BLK_MPW";
+        backpack = "";
+
+        weapons[] = {"srifle_EBR_F", "Throw", "Put"};
+        respawnWeapons[] = {"srifle_EBR_F", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("CUP_20Rnd_762x51_DMR")
+        };
+        respawnMagazines[] = {
+            MAG_8("CUP_20Rnd_762x51_DMR")
+        };
+
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_B_Player_Companion_Sergei: FGWF_B_Player_Companion_Base {
+        _generalMacro = "FGWF_B_Player_Companion_Sergei";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_Companion_Sergei.jpg";
+
+        displayName = CSTRING(Companion_Sergei);
+
+        identityTypes[] = {"FGWF_Face_Sergei_Tag"};
+
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Player_Companion_Sergei'; };";
+        };
+
+        uniformClass = "USP_RUGBY_G3C_BLK_MPW";
+        backpack = "";
+
+        weapons[] = {"srifle_EBR_F", "Throw", "Put"};
+        respawnWeapons[] = {"srifle_EBR_F", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("CUP_20Rnd_762x51_DMR")
+        };
+        respawnMagazines[] = {
+            MAG_8("CUP_20Rnd_762x51_DMR")
+        };
+
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
 };
