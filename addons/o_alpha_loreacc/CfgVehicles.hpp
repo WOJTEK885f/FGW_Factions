@@ -293,7 +293,7 @@ class CfgVehicles {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Alpha_Companion_Igor'; };";
         };
 
-        uniformClass = "CUP_I_B_PMC_Unit_31";
+        uniformClass = "FGWF_U_PMC_Unit_31";
         backpack = "";
 
         weapons[] = {"SMG_01_F", "CUP_hgun_Deagle", "Throw", "Put"};
