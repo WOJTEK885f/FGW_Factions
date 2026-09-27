@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="GR7BOW_FGWF">
+    <Package name="Weapons">
+        <Key ID="STR_GR7BOW_FGWF_Weapons_srifle_AWM_blk_sd">
+            <English>L115A3 LRR (Black) + L115A3 Silencer</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_Weapons_srifle_G22_wdl_sd_lmk4">
+            <English>G22 (Woodland) + Leupold Mk4 Scope + L115A3 Silencer</English>
+        </Key>
+    </Package>
+</Project>

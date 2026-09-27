@@ -1,5 +1,5 @@
 class CfgWeapons {
-    // Import parent classes for U_Marshal
+    // Import parent classes
     class Default;
     class ItemCore: Default {};
     class Uniform_Base: ItemCore {};
@@ -22,8 +22,8 @@ class CfgWeapons {
     };
 
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_U_B_USMC_FROG3_WMARPAT {
-        class ItemInfo;
+    class CUP_U_B_USMC_FROG3_WMARPAT: ItemCore {
+        class ItemInfo: UniformItem {};
     };
 
     // Custom unrestricted uniform class
@@ -37,9 +37,17 @@ class CfgWeapons {
         };
     };
 
+    class CUP_U_B_USMC_MCCUU: ItemCore {
+        class ItemInfo: UniformItem {};
+    };
+
+    class CUP_U_B_USMC_MCCUU_M81_MARPAT: CUP_U_B_USMC_MCCUU {
+        class ItemInfo: ItemInfo {};
+    };
+
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2 {
-        class ItemInfo;
+    class CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2: CUP_U_B_USMC_MCCUU_M81_MARPAT {
+        class ItemInfo: ItemInfo {};
     };
 
     class FGWF_U_USMC_MCCUU_M81_MARPAT_roll_2: CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2 {
@@ -54,8 +62,8 @@ class CfgWeapons {
     };
 
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_U_B_USMC_MCCUU_MARPAT_M81 {
-        class ItemInfo;
+    class CUP_U_B_USMC_MCCUU_MARPAT_M81: CUP_U_B_USMC_MCCUU {
+        class ItemInfo: ItemInfo     {};
     };
 
     class FGWF_U_USMC_MCCUU_MARPAT_M81: CUP_U_B_USMC_MCCUU_MARPAT_M81 {
@@ -69,9 +77,11 @@ class CfgWeapons {
         };
     };
 
+    class CUP_U_C_Worker_01: ItemCore {};
+
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_U_C_Worker_02 {
-        class ItemInfo;
+    class CUP_U_C_Worker_02: CUP_U_C_Worker_01 {
+        class ItemInfo: UniformItem {};
     };
 
     class FGWF_U_C_Worker_02: CUP_U_C_Worker_02 {
@@ -86,8 +96,8 @@ class CfgWeapons {
     };
 
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_I_B_PMC_Unit_1 {
-        class ItemInfo;
+    class CUP_I_B_PMC_Unit_1: ItemCore {
+        class ItemInfo: UniformItem {};
     };
 
     class FGWF_U_PMC_Unit_1: CUP_I_B_PMC_Unit_1 {
@@ -102,8 +112,8 @@ class CfgWeapons {
     };
 
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_I_B_PMC_Unit_31 {
-        class ItemInfo;
+    class CUP_I_B_PMC_Unit_31: ItemCore {
+        class ItemInfo: UniformItem {};
     };
 
     class FGWF_U_PMC_Unit_31: CUP_I_B_PMC_Unit_31 {
@@ -118,8 +128,8 @@ class CfgWeapons {
     };
 
     // Import the base uniform class from CUP to use as a parent for custom uniform
-    class CUP_I_B_PMC_Unit_35 {
-        class ItemInfo;
+    class CUP_I_B_PMC_Unit_35: ItemCore {
+        class ItemInfo: UniformItem {};
     };
 
     class FGWF_U_PMC_Unit_35: CUP_I_B_PMC_Unit_35 {
@@ -130,88 +140,6 @@ class CfgWeapons {
         class ItemInfo: ItemInfo {
             // Apply our unlocked dummy model instead of the restricted CUP one
             uniformClass = "FGWF_Dummy_PMC35";
-        };
-    };
-
-    class VestItem; // Define the base vest class from Arma 3 core to inherit proper item properties
-
-    class rhs_vydra_3m; // Import the base uniform class from RHS to use as a parent for custom vest
-    // Custom Vydra-3M vest class with added armor
-    class FGWF_V_Flak_Vest_Vydra_3M: rhs_vydra_3m {
-        author = AUTHOR;
-        displayName = CSTRING(vydra_3m_flakvest);
-        scope = 2; // Available in Arsenal
-
-        class ItemInfo: VestItem {
-            // Model configuration matched with Vydra-3M (rhs_vydra_3m)
-            uniformModel = "\rhsafrf\addons\rhs_infantry\gear\vests\rhs_vydra_3m";
-            hiddenSelections[] = {"Camo1", "Camo2"};
-
-            // Base stats matched with 6B3 Flak Vest (CUP_V_O_SLA_Flak_Vest03)
-            armor = 20;
-            passThrough = 1;
-            containerClass = "Supply80"; // Load matched with Vydra-3M (rhs_vydra_3m)
-            mass = 55;
-
-            // Armor stats matched with 6B3 Flak Vest (CUP_V_O_SLA_Flak_Vest03)
-            class HitpointsProtectionInfo {
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 12;
-                    passThrough = 0.4;
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 12;
-                    passThrough = 0.4;
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 12;
-                    passThrough = 0.4;
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    armor = 0;
-                    passThrough = 0.4;
-                };
-            };
-        };
-    };
-
-    class CUP_srifle_AWM_blk; // Import the base AWM sniper rifle class from CUP to use as a parent for custom suppressed variant
-
-    // Custom suppressed AWM sniper rifle class (as in-game AWR)
-    class FGWF_srifle_AWM_blk_sd: CUP_srifle_AWM_blk {
-        author = AUTHOR;
-        displayName = CSTRING(srifle_AWM_blk_sd);
-        scope = 1; // Not available in Arsenal
-
-        class LinkedItems {
-            class LinkedItemsMuzzle {
-                slot = "MuzzleSlot";
-                item = "CUP_muzzle_snds_AWM";
-            };
-        };
-    };
-
-    class CUP_srifle_G22_wdl; // Import the base G22 sniper rifle class from CUP to use as a parent for custom suppressed variant
-
-    // Custom suppressed G22 sniper rifle class with optics (as in-game SV98M)
-    class FGWF_srifle_G22_wdl_sd_lmk4: CUP_srifle_G22_wdl {
-        author = AUTHOR;
-        displayName = CSTRING(srifle_G22_wdl_sd_lmk4);
-        scope = 1; // Not available in Arsenal
-
-        class LinkedItems {
-            class LinkedItemsMuzzle {
-                slot = "MuzzleSlot";
-                item = "CUP_muzzle_snds_AWM";
-            };
-            class LinkedItemsOptic {
-                slot = "CUP_PicatinnyTopMountAWM";
-                item = "CUP_optic_LeupoldMk4";
-            };
         };
     };
 };
