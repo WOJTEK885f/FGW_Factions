@@ -17,8 +17,8 @@ class CfgPatches {
             "A3_Weapons_F",          // Standard kit, SmokeShell
             "CUP_Creatures_Military_Russia", // Scarf
             "CUP_Creatures_Military_USMC",   // Terrorist: Vest, Militant: Vest
-            "CUP_Weapons_AK",                // AK12, AK74M, AKS74U
-            "CUP_Weapons_WeaponsCore",       // Shared base classes for CUP_Weapons_*
+            "CUP_Weapons_WeaponsCore", // Shared base classes for CUP_Weapons_*
+            "CUP_Weapons_AK",          // AK12, AK74M, AKS74U
             "rhsgref_c_weapons" // Panzerfaust 60
         };
         units[] = {

@@ -16,14 +16,14 @@ class CfgPatches {
             "CUP_Creatures_Military_PMC",    // CPC lightbelt
             "CUP_Creatures_Military_Russia", // K6-3, Altyn helmet
             "CUP_Creatures_Military_USMC",   // Interceptor vests
-            "CUP_Weapons_ACR",               // ACR 556
-            "CUP_Weapons_AK",                // AKS74U, AKM
-            "CUP_Weapons_Grenades",          // RGD5 grenades
-            "CUP_Weapons_M240",              // FN MAG, 7.62x51 belts
-            "CUP_Weapons_NVG",               // NVGs (Bohdan, Ostap)
-            "CUP_Weapons_SPAS12",            // SPAS-12, 12 Gauge shells
-            "CUP_Weapons_TT",                // TT-33
-            "CUP_Weapons_WeaponsCore",       // Shared base classes for CUP_Weapons_*
+            "CUP_Weapons_WeaponsCore", // Shared base classes for CUP_Weapons_*
+            "CUP_Weapons_ACR",         // ACR 556
+            "CUP_Weapons_AK",          // AKS74U, AKM
+            "CUP_Weapons_Grenades",    // RGD5 grenades
+            "CUP_Weapons_M240",        // FN MAG, 7.62x51 belts
+            "CUP_Weapons_NVG",         // NVGs (Bohdan, Ostap)
+            "CUP_Weapons_SPAS12",      // SPAS-12, 12 Gauge shells
+            "CUP_Weapons_TT",          // TT-33
             "cfp_headgear", // PASGT helmet
             "cfp_vests",    // RUMVD SURPAT vest
             "rhsgref_c_troops",  // Patrol cap

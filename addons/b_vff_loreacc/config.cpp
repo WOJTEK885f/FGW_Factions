@@ -16,8 +16,8 @@ class CfgPatches {
             "CUP_Creatures_Military_PMC",    // PMC Unit 1 uniform, CIRAS vest
             "CUP_Creatures_Military_Russia", // Altyn helmet, K6-3 helmet
             "CUP_Creatures_Military_USMC",   // Interceptor vests, M1 helmet, ACR backpack
-            "CUP_Weapons_NVG",               // NVGs (Special Owl, Special Snowfox)
-            "CUP_Weapons_WeaponsCore",       // HK416, M16A4, AA12, Colt1911, M9A1
+            "CUP_Weapons_WeaponsCore", // HK416, M16A4, AA12, Colt1911, M9A1
+            "CUP_Weapons_NVG",         // NVGs (Special Owl, Special Snowfox)
             "cfp_headgear", // CFP PASGT helmet
             "cfp_uniforms", // CFP M81Tee, TanTee
             "cfp_vests",    // CFP Tactical vest

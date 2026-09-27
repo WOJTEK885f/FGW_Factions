@@ -21,11 +21,11 @@ class CfgPatches {
             "CUP_Creatures_Military_Russia",  // K6-3 helmet (Steel Helmet), Altyn helmet
             "CUP_Creatures_Military_SLA",     // Old Helmet
             "CUP_Creatures_Military_USMC",    // Interceptor vest, Protec helmet (Bike Helmet)
-            "CUP_Weapons_AWM",                // L115A1 AWM (Trained Marksman)
-            "CUP_Weapons_Grenades",           // RGD5 grenades
-            "CUP_Weapons_M240",               // FN MAG (Special Rattlesnake)
-            "CUP_Weapons_NVG",                // NVGs (Special Owl, Special Snowfox)
-            "CUP_Weapons_WeaponsCore",        // M14, Scorpion EVO, Stanag mags, SVD, AUG, M9A1, Glock 17 mags
+            "CUP_Weapons_WeaponsCore", // M14, Scorpion EVO, Stanag mags, SVD, AUG, M9A1, Glock 17 mags
+            "CUP_Weapons_AWM",         // L115A1 AWM (Trained Marksman)
+            "CUP_Weapons_Grenades",    // RGD5 grenades
+            "CUP_Weapons_M240",        // FN MAG (Special Rattlesnake)
+            "CUP_Weapons_NVG",         // NVGs (Special Owl, Special Snowfox)
             "cfp_glasses",  // CFP Neck gaiters (Trained units)
             "cfp_headgear", // SP_M1Helmet M1 helmet (MP Helmet)
             "cfp_uniforms", // CFP_GUER_M81, CFP_GUER_M81Tee

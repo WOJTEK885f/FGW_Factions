@@ -18,9 +18,9 @@ class CfgPatches {
             "CUP_Creatures_Military_Russia", // Infantry: Balaclava, Machinegunner: Helmet
             "CUP_Creatures_Military_USArmy", // Machinegunner: Vest
             "CUP_Creatures_Military_USMC",   // Infantry, Machinegunner: Uniform(Custom), SpecialForce: Vest, Sharpshooter: Headgear
-            "CUP_Weapons_East_Attachments",  // Weapon attachments
-            "CUP_Weapons_NVG",               // NVGs
-            "CUP_Weapons_WeaponsCore",       // Shared base classes for CUP_Weapons_*
+            "CUP_Weapons_WeaponsCore",      // Shared base classes for CUP_Weapons_*
+            "CUP_Weapons_East_Attachments", // Weapon attachments
+            "CUP_Weapons_NVG",              // NVGs
             "cfp_headgear", // Scout, ArmedPolice, Commando, SpecialForce: Helmet
             "cfp_uniforms", // Scout, ArmedPolice, Commando, Sharpshooter: Uniform
             "cfp_vests",    // Scout, ArmedPolice, Commando, Sharpshooter: Vest

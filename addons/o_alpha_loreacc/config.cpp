@@ -21,11 +21,11 @@ class CfgPatches {
             "CUP_Creatures_Military_SLA",     // Old Helmet (Elite Sniper)
             "CUP_Creatures_Military_USArmy",  // Bike Helmet (Elite Scouts)
             "CUP_Creatures_Military_USMC",    // Interceptor helmet (Elite Scouts)
-            "CUP_Weapons_AWM",                // G22, AWM silencer (Elite Sniper)
-            "CUP_Weapons_Grenades",           // RGD5 grenades
-            "CUP_Weapons_M240",               // FN MAG (Elite Stormtrooper)
-            "CUP_Weapons_NVG",                // NVGs (all units)
-            "CUP_Weapons_WeaponsCore",        // HK416, Desert Eagle, Leupold Mk4, Stanag mags
+            "CUP_Weapons_WeaponsCore", // HK416, Desert Eagle, Leupold Mk4, Stanag mags
+            "CUP_Weapons_AWM",         // G22, AWM silencer (Elite Sniper)
+            "CUP_Weapons_Grenades",    // RGD5 grenades
+            "CUP_Weapons_M240",        // FN MAG (Elite Stormtrooper)
+            "CUP_Weapons_NVG",         // NVGs (all units)
             "cfp_headgear", // OPS 2017 helmet, PASGT helmet
             "cfp_uniforms", // Poly Desert uniform (all units)
             "cfp_vests",    // RAV vest, M81 tactical vest, heavy tactical vest

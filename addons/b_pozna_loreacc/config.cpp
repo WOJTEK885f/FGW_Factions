@@ -17,8 +17,8 @@ class CfgPatches {
             "CUP_Creatures_Military_CDF",    // Sniper Elite: Vest
             "CUP_Creatures_Military_Russia", // Fighter: Balaclava
             "CUP_Creatures_Military_USMC",   // Commando: Vest
-            "CUP_Weapons_NVG",               // NVGs
-            "CUP_Weapons_WeaponsCore",       // Shared base classes for CUP_Weapons_*
+            "CUP_Weapons_WeaponsCore", // Shared base classes for CUP_Weapons_*
+            "CUP_Weapons_NVG",         // NVGs
             "cfp_headgear", // Commando, Sniper Elite: Helmet
             "cfp_uniforms", // Denis: Uniform
             "cfp_vests",    // Fighter: Vest

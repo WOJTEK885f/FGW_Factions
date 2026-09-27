@@ -20,9 +20,9 @@ class CfgPatches {
             "CUP_Creatures_Military_SLA",           // SLA helmet (Old Helmet)
             "CUP_Creatures_Military_USMC",          // Interceptor vest, M1 helmet, Protec (Bike Helmet), MCCUU
             "CUP_Creatures_People_Civil_Chernarus", // Worker_02 uniform, Police_Holster vest (Villager, Olga)
-            "CUP_Weapons_Grenades",                 // RGD5 grenades
-            "CUP_Weapons_M3A1",                     // M3A1 SMG (Coral)
-            "CUP_Weapons_WeaponsCore",              // Saiga MK03, DMR mag, Desert Eagle
+            "CUP_Weapons_WeaponsCore", // Saiga MK03, DMR mag, Desert Eagle
+            "CUP_Weapons_Grenades",    // RGD5 grenades
+            "CUP_Weapons_M3A1",        // M3A1 SMG (Coral)
             "cfp_headgear", // CFP_BoonieHat_M81, SP_Bandana_Black, SP_BoonieHat_Tan
             "cfp_uniforms", // CFP_GUER_M81, CFP_GUER_M81Tee
             "cfp_vests",    // CFP_Tactical1_M81
