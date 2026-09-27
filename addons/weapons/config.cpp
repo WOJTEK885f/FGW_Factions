@@ -8,9 +8,10 @@ class CfgPatches {
         name = QUOTE(COMPONENT);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            "cba_main",
             "gr7bow_fgwf_main",
-            "CUP_Weapons_WeaponsCore", // Leupold Mk4 scope
-            "CUP_Weapons_AWM"          // AWM, G22, G22 mags, AWM suppressor
+            "CUP_Weapons_AWM",        // AWM, G22, G22 mags, AWM suppressor
+            "CUP_Weapons_WeaponsCore" // Leupold Mk4 scope
         };
         units[] = {};
         weapons[] = {

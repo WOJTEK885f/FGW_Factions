@@ -8,14 +8,14 @@ class CfgPatches {
         name = QUOTE(COMPONENT);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            "cba_main",
             "gr7bow_fgwf_main",
-            "gr7bow_fgwf_i_cfr_loreacc",
-            "gr7bow_fgwf_b_vff_loreacc",
-            "gr7bow_fgwf_b_pozna_loreacc",
-            "gr7bow_fgwf_b_player_loreacc",
-            "A3_Characters_F",
-            "A3_Weapons_F",
-            "zee_FiftyShadesOfFemale"
+            "gr7bow_fgwf_b_player_loreacc", // Regular unit identity overrides
+            "gr7bow_fgwf_b_pozna_loreacc",  // Companion identity overrides (Tatyana)
+            "gr7bow_fgwf_b_vff_loreacc",    // Regular unit and companion identity overrides (Oksana, Victoria)
+            "gr7bow_fgwf_i_cfr_loreacc",    // Companion identity overrides (Olga)
+            "A3_Characters_F",              // B_Soldier_F, Man_A3, G_CIVIL_female
+            "zee_FiftyShadesOfFemale"       // FSOF female face classes
         };
         units[] = {};
         weapons[] = {};

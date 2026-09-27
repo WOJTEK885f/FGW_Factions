@@ -8,22 +8,23 @@ class CfgPatches {
         name = QUOTE(COMPONENT);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            "cba_main",
             "gr7bow_fgwf_main",
-            "gr7bow_fgwf_vests",         // FGWF_V_Flak_Vest_Vydra_3M
-            "A3_Characters_F",
-            "A3_Characters_F_Enoch",
-            "A3_Weapons_F",
-            "CUP_Weapons_WeaponsCore",
-            "CUP_Weapons_NVG",
-            "USP_Gear_Body",             // All units: Uniforms
-            "USP_Gear_Face",             // Tatuana: Balaclava
+            "gr7bow_fgwf_vests",     // FGWF_V_Flak_Vest_Vydra_3M
+            "A3_Characters_F",       // B_Soldier_F, Man_A3, WhiteHead_01, Head_Euro
+            "A3_Characters_F_Enoch", // Head_Russian, Head_Enoch, LivonianHead_3/10, RussianMen
+            "A3_Weapons_F",          // Standard kit, SmokeShell
             "CUP_Creatures_Military_CDF",    // Sniper Elite: Vest
-            "CUP_Creatures_Military_USMC",   // Commando: Vest
             "CUP_Creatures_Military_Russia", // Fighter: Balaclava
-            "cfp_vests",                 // Fighter: Vest
-            "cfp_headgear",              // Commando, Sniper Elite: Helmet
-            "cfp_uniforms",              // Denis: Uniform
-            "rhs_main"                   // Denis, Tatyana: Vest
+            "CUP_Creatures_Military_USMC",   // Commando: Vest
+            "CUP_Weapons_NVG",               // NVGs
+            "CUP_Weapons_WeaponsCore",       // Shared base classes for CUP_Weapons_*
+            "cfp_headgear", // Commando, Sniper Elite: Helmet
+            "cfp_uniforms", // Denis: Uniform
+            "cfp_vests",    // Fighter: Vest
+            "rhs_main",      // Denis, Tatyana: Vest
+            "USP_Gear_Body", // All units: Uniforms
+            "USP_Gear_Face"  // Tatuana: Balaclava
         };
         units[] = {
             "FGWF_B_Pozna_Fighter",

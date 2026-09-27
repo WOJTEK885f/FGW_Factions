@@ -8,8 +8,11 @@ class CfgPatches {
         name = QUOTE(COMPONENT);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            "cba_main",
             "gr7bow_fgwf_main",
-            "rhs_main"          // Vydra-3M vest
+            "A3_Characters_F", // Supply80 (vest container class)
+            "A3_Weapons_F",    // VestItem
+            "rhs_main" // Vydra-3M vest
         };
         units[] = {};
         weapons[] = {

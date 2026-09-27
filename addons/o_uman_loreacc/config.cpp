@@ -8,17 +8,18 @@ class CfgPatches {
         name = QUOTE(COMPONENT);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            "cba_main",
             "gr7bow_fgwf_main",
-            "gr7bow_fgwf_uniforms",      // FGWF_U_USMC_MCCUU_M81_MARPAT_roll_2
-            "gr7bow_fgwf_vests",         // FGWF_V_Flak_Vest_Vydra_3M
-            "A3_Characters_F",
-            "A3_Characters_F_Enoch",
-            "A3_Weapons_F",
-            "CUP_Weapons_WeaponsCore",
-            "CUP_Weapons_AK",            // AK12, AK74M, AKS74U
-            "rhsgref_c_weapons",         // Panzerfaust 60
-            "CUP_Creatures_Military_USMC",  // Terrorist: Vest, Militant: Vest
-            "CUP_Creatures_Military_Russia" // Scarf
+            "gr7bow_fgwf_uniforms",  // FGWF_U_USMC_MCCUU_M81_MARPAT_roll_2
+            "gr7bow_fgwf_vests",     // FGWF_V_Flak_Vest_Vydra_3M
+            "A3_Characters_F",       // Man_A3
+            "A3_Characters_F_Enoch", // RussianHead_3
+            "A3_Weapons_F",          // Standard kit, SmokeShell
+            "CUP_Creatures_Military_Russia", // Scarf
+            "CUP_Creatures_Military_USMC",   // Terrorist: Vest, Militant: Vest
+            "CUP_Weapons_AK",                // AK12, AK74M, AKS74U
+            "CUP_Weapons_WeaponsCore",       // Shared base classes for CUP_Weapons_*
+            "rhsgref_c_weapons" // Panzerfaust 60
         };
         units[] = {
             "FGWF_O_Uman_Terrorist_AK74M",
