@@ -16,10 +16,11 @@ class CfgPatches {
             "CUP_Weapons_M240",          // FN MAG (Special Rattlesnake)
             "CUP_Weapons_AWM",           // L115A1 AWM (Trained Marksman)
             "CUP_Weapons_NVG",           // NVGs (Special Owl, Special Snowfox)
-            "CUP_Creatures_Military_USMC", // Interceptor vest, Protec helmet (Bike Helmet)
-            "CUP_Creatures_Military_SLA",  // Old Helmet
-            "CUP_Creatures_Military_Russia", // K6-3 helmet (Steel Helmet), Altyn helmet
-            "CUP_Creatures_Military_PMC",   // PMC uniforms, CIRAS vest
+            "CUP_Creatures_Military_USMC",    // Interceptor vest, Protec helmet (Bike Helmet)
+            "CUP_Creatures_Military_SLA",     // Old Helmet
+            "CUP_Creatures_Military_Russia",  // K6-3 helmet (Steel Helmet), Altyn helmet
+            "CUP_Creatures_Military_PMC",     // PMC uniforms, CIRAS vest
+            "CUP_Creatures_Military_Germany", // ArmedBodyguard: Light Black Vest
             "USP_Gear_Body",             // USP PCU uniform (Armed Escort Guard)
             "USP_Gear_Face",             // USP FM-12 gas mask, Oakley, SOTR, shemagh
             "rhs_main",                  // M590 shotgun
