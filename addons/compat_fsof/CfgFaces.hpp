@@ -163,17 +163,17 @@ class CfgFaces {
         class fsof_femaleCauc02t4_HazelEyes_Bun_LBrownHair { identityTypes[] = {"G_CIVIL_female", "FGWF_Female_Faces_Hair"}; };
 
         // Config overrides for female companion faces
+        class FGWF_Face_Oksana: fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair {
+            identityTypes[] = {"FGWF_Face_Oksana_Tag"};
+        };
         class FGWF_Face_Tatyana: fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair {
             identityTypes[] = {"FGWF_Face_Tatyana_Tag"};
-        };
-        class FGWF_Face_Olga: fsof_femaleCauc02t4_HazelEyes_Bun_BlondeHair {
-            identityTypes[] = {"FGWF_Face_Olga_Tag"};
         };
         class FGWF_Face_Victoria: fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair {
             identityTypes[] = {"FGWF_Face_Victoria_Tag"};
         };
-        class FGWF_Face_Oksana: fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair {
-            identityTypes[] = {"FGWF_Face_Oksana_Tag"};
+        class FGWF_Face_Olga: fsof_femaleCauc02t4_HazelEyes_Bun_BlondeHair {
+            identityTypes[] = {"FGWF_Face_Olga_Tag"};
         };
 
         // Config overrides appending FGWF_Female_Faces_NoHair alongside G_CIVIL_female

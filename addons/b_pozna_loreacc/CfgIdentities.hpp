@@ -1,12 +1,4 @@
 class CfgIdentities {
-    class FGWF_Identity_Pozna_Companion_Roman {
-        name = "Roman";
-        nameSound = "Roman";
-        face = "WhiteHead_31";
-        glasses = "USP_BEARD_BRN2";
-        speaker = "Male03RUS";
-        pitch = 1.0;
-    };
     class FGWF_Identity_Pozna_Companion_Yuriy {
         name = "Yuriy";
         nameSound = "Yuriy";
@@ -29,6 +21,14 @@ class CfgIdentities {
         face = "WhiteHead_01";
         glasses = "None";
         speaker = "rhs_Female01ENG";
+        pitch = 1.0;
+    };
+    class FGWF_Identity_Pozna_Companion_Roman {
+        name = "Roman";
+        nameSound = "Roman";
+        face = "WhiteHead_31";
+        glasses = "USP_BEARD_BRN2";
+        speaker = "Male03RUS";
         pitch = 1.0;
     };
 };
