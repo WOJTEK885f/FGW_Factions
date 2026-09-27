@@ -317,6 +317,7 @@ class CfgVehicles {
 
         linkedItems[] = {
             "CUP_V_B_JPC_Black_Light",
+            "USP_BEARD_BRN6",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -324,6 +325,7 @@ class CfgVehicles {
         };
         respawnLinkedItems[] = {
             "CUP_V_B_JPC_Black_Light",
+            "USP_BEARD_BRN6",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
