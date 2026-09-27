@@ -19,6 +19,12 @@ class CfgVehicles {
         modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allows all sides to wear this model
     };
 
+    class CUP_I_PMC_Soldier_31; // Original carrier from CUP forward declaration
+    class FGWF_Dummy_PMC31: CUP_I_PMC_Soldier_31 {
+        scope = 1; // Hidden in Eden Editor
+        modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7}; // Allows all sides to wear this model
+    };
+
     class CUP_B_USMC_Soldier_MCCUU_M81_MARPAT_roll_2; // Original carrier from CUP forward declaration
     class FGWF_Dummy_MCCUU2: CUP_B_USMC_Soldier_MCCUU_M81_MARPAT_roll_2 {
         scope = 1; // Hidden in Eden Editor

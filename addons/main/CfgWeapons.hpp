@@ -48,6 +48,22 @@ class CfgWeapons {
     };
 
     // Import the base uniform class from CUP to use as a parent for custom uniform
+    class CUP_I_B_PMC_Unit_31 {
+        class ItemInfo;
+    };
+
+    class FGWF_U_PMC_Unit_31: CUP_I_B_PMC_Unit_31 {
+        author = AUTHOR;
+        displayName = CSTRING(PMC_Unit_31);
+        scope = 2; // Available in Arsenal
+
+        class ItemInfo: ItemInfo {
+            // Apply our unlocked dummy model instead of the restricted CUP one
+            uniformClass = "FGWF_Dummy_PMC31";
+        };
+    };
+
+    // Import the base uniform class from CUP to use as a parent for custom uniform
     class CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2 {
         class ItemInfo;
     };
