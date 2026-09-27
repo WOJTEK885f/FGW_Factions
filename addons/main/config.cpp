@@ -8,7 +8,14 @@ class CfgPatches {
         name = QUOTE(COMPONENT);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "cba_main"
+            "cba_main",
+            "A3_Characters_F",                      // U_Marshal, C_Marshal_F
+            "CUP_Creatures_Military_USMC",          // FROG3 + MCCUU uniforms, USMC dummies
+            "CUP_Creatures_Military_PMC",           // PMC uniforms + PMC dummies
+            "CUP_Creatures_People_Civil_Chernarus", // Worker 02 uniform + dummy
+            "CUP_Weapons_WeaponsCore",              // Leupold Mk4 scope
+            "CUP_Weapons_AWM",                      // AWM, G22, G22 mags, AWM suppressor
+            "rhs_main"                              // Vydra-3M vest
         };
         units[] = {};
         weapons[] = {
@@ -21,6 +28,7 @@ class CfgPatches {
             "FGWF_U_USMC_MCCUU_M81_MARPAT_roll_2",
             "FGWF_U_USMC_MCCUU_MARPAT_M81",
             "FGWF_V_Flak_Vest_Vydra_3M",
+            "FGWF_srifle_AWM_blk_sd",
             "FGWF_srifle_G22_wdl_sd_lmk4"
         };
         VERSION_CONFIG;
