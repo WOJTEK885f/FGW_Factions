@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="GR7BOW_FGWF">
     <Package name="O_Alpha_Loreacc">
+        <Key ID="STR_GR7BOW_FGWF_O_Alpha_Loreacc_Companion_Igor">
+            <English>Igor</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_O_Alpha_Loreacc_Companion_Volodimir">
+            <English>Volodimir</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_O_Alpha_Loreacc_EliteScout">
             <English>Alpha Elite Scout</English>
         </Key>
@@ -19,11 +25,17 @@
         <Key ID="STR_GR7BOW_FGWF_O_Alpha_Loreacc_Group_Army_FortifiedForces">
             <English>Fortified Fireteam</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_O_Alpha_Loreacc_Group_Army_FortifiedForces_Igor">
+            <English>Fortified Fireteam (Igor)</English>
+        </Key>
         <Key ID="STR_GR7BOW_FGWF_O_Alpha_Loreacc_Group_Army_SpecialForces">
             <English>Special Fireteam</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_O_Alpha_Loreacc_Group_Army_TrumpForces">
-            <English>Trump Fireteam</English>
+            <English>Trump Forces</English>
+        </Key>
+        <Key ID="STR_GR7BOW_FGWF_O_Alpha_Loreacc_Group_Army_TrumpForces_Volodimir">
+            <English>Trump Forces (Volodimir)</English>
         </Key>
         <Key ID="STR_GR7BOW_FGWF_O_Alpha_Loreacc_SpecialForce">
             <English>Alpha Special Force</English>

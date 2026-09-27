@@ -18,15 +18,20 @@ class CfgPatches {
             "CUP_Weapons_Grenades",    // RGD5 grenades
             "CUP_Weapons_NVG",         // NVGs (all units)
             "rhsgref_c_weapons",       // Panzerfaust 60 (Elite Scouts)
+            "CUP_Creatures_Military_PMC",   // Igor: Uniform
             "CUP_Creatures_Military_SLA",  // Old Helmet (Elite Sniper)
             "CUP_Creatures_Military_USArmy", // Bike Helmet (Elite Scouts)
             "CUP_Creatures_Military_USMC",  // Interceptor helmet (Elite Scouts)
             "CUP_Creatures_Military_Russia", // 6B3-4 vest (Elite Stormtrooper)
             "cfp_uniforms",            // Poly Desert uniform (all units)
             "cfp_vests",               // RAV vest, M81 tactical vest, heavy tactical vest
-            "cfp_headgear"             // OPS 2017 helmet, PASGT helmet
+            "cfp_headgear",            // OPS 2017 helmet, PASGT helmet
+            "USP_Gear_Body",           // Volodimir: Uniform
+            "USP_Gear_Face"            // Igor: Beard
         };
         units[] = {
+            "FGWF_O_Alpha_Companion_Igor",
+            "FGWF_O_Alpha_Companion_Volodimir",
             "FGWF_O_Alpha_EliteScout",
             "FGWF_O_Alpha_EliteSniper",
             "FGWF_O_Alpha_EliteStormtrooper",
@@ -38,6 +43,9 @@ class CfgPatches {
 };
 
 #include "CfgFactionClasses.hpp"
+
+#include "CfgIdentities.hpp"
+#include "CfgFaces.hpp"
 
 #include "CfgVehicles.hpp"
 #include "CfgGroups.hpp"

@@ -225,4 +225,110 @@ class CfgVehicles {
         };
     };
 
+    class FGWF_O_Alpha_Companion_Base: FGWF_O_Alpha_Base {
+        editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
+    };
+
+    class FGWF_O_Alpha_Companion_Volodimir: FGWF_O_Alpha_Companion_Base {
+        _generalMacro = "FGWF_O_Alpha_Companion_Volodimir";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\o_alpha_loreacc\data\previews\FGWF_O_Alpha_Companion_Volodimir.jpg";
+
+        displayName = CSTRING(Companion_Volodimir);
+
+        identityTypes[] = {"FGWF_Face_Volodimir_Tag"};
+
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Alpha_Companion_Volodimir'; };";
+        };
+
+        uniformClass = "USP_RUGBY_G3C_BLK_MPW";
+        backpack = "";
+
+        weapons[] = {"SMG_01_F", "Throw", "Put"};
+        respawnWeapons[] = {"SMG_01_F", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_8("30Rnd_45ACP_Mag_SMG_01")
+        };
+        respawnMagazines[] = {
+            MAG_8("30Rnd_45ACP_Mag_SMG_01")
+        };
+
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "FGWF_V_Flak_Vest_Vydra_3M",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_O_Alpha_Companion_Igor: FGWF_O_Alpha_Companion_Base {
+        _generalMacro = "FGWF_O_Alpha_Companion_Igor";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\o_alpha_loreacc\data\previews\FGWF_O_Alpha_Companion_Igor.jpg";
+
+        displayName = CSTRING(Companion_Igor);
+
+        identityTypes[] = {"FGWF_Face_Igor_Tag"};
+
+        class EventHandlers {
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Alpha_Companion_Igor'; };";
+        };
+
+        uniformClass = "CUP_I_B_PMC_Unit_31";
+        backpack = "";
+
+        weapons[] = {"SMG_01_F", "CUP_hgun_Deagle", "Throw", "Put"};
+        respawnWeapons[] = {"SMG_01_F", "CUP_hgun_Deagle", "Throw", "Put"};
+
+        magazines[] = {
+            MAG_4("CUP_7Rnd_50AE_Deagle"),
+            MAG_8("30Rnd_45ACP_Mag_SMG_01")
+        };
+        respawnMagazines[] = {
+            MAG_4("CUP_7Rnd_50AE_Deagle"),
+            MAG_8("30Rnd_45ACP_Mag_SMG_01")
+        };
+
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "CUP_V_B_JPC_Black_Light",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_B_JPC_Black_Light",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
 };
