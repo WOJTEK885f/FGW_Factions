@@ -32,6 +32,7 @@ class CfgPatches {
             "cfp_glasses"                // CFP Neck gaiters (Trained units)
         };
         units[] = {
+            "FGWF_B_Player_ArmedBodyguard",
             "FGWF_B_Player_MilitiaRifleman_Light",
             "FGWF_B_Player_MilitiaRifleman_OldHelmet",
             "FGWF_B_Player_MilitiaRifleman_SteelHelmet",
@@ -39,26 +40,25 @@ class CfgPatches {
             "FGWF_B_Player_MilitiaSniper",
             "FGWF_B_Player_MilitiaSMGFighter",
             "FGWF_B_Player_MaleVillager",
-            "FGWF_B_Player_ArmedBodyguard",
+            "FGWF_B_Player_FemaleMilitia_TT33",
+            "FGWF_B_Player_FemaleMilitia_M1911",
             "FGWF_B_Player_ArmedEscortGuard_M1A1",
             "FGWF_B_Player_ArmedEscortGuard_MP5",
             "FGWF_B_Player_ArmedEscortGuard_SPAS12",
-            "FGWF_B_Player_FemaleMilitia_TT33",
-            "FGWF_B_Player_FemaleMilitia_M1911",
             "FGWF_B_Player_FemaleVillager",
             "FGWF_B_Player_FemaleCivilianFighter",
             "FGWF_B_Player_FemaleCivilianFighterCaptain",
-            "FGWF_B_Player_Spetsnaz",
             "FGWF_B_Player_TrainedInfantry",
             "FGWF_B_Player_TrainedMarksman",
-            "FGWF_B_Player_SpecialCheetah",
+            "FGWF_B_Player_Spetsnaz",
+            "FGWF_B_Player_SpecialSealion",
             "FGWF_B_Player_SpecialOwl",
             "FGWF_B_Player_SpecialRattlesnake",
             "FGWF_B_Player_SpecialScorpion",
-            "FGWF_B_Player_SpecialSealion",
+            "FGWF_B_Player_SpecialCheetah",
+            "FGWF_B_Player_SpecialWolf",
             "FGWF_B_Player_SpecialSnowfox",
-            "FGWF_B_Player_SpecialVulture",
-            "FGWF_B_Player_SpecialWolf"
+            "FGWF_B_Player_SpecialVulture"
         };
         weapons[] = {};
         VERSION_CONFIG;

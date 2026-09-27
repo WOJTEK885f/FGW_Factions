@@ -64,6 +64,56 @@ class CfgVehicles {
         };
     };
 
+    class FGWF_B_Pozna_SniperElite: FGWF_B_Pozna_Base {
+        _generalMacro = "FGWF_B_Pozna_SniperElite";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGWF_B_Pozna_SniperElite.jpg";
+
+        displayName = CSTRING(SniperElite);
+
+        uniformClass = "USP_G3F_AOR1";
+        backpack = "";
+
+        weapons[] = {"CUP_srifle_SVD_pso", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_srifle_SVD_pso", "Throw", "Put"};
+
+        magazines[] = {
+            "SmokeShell",
+            MAG_8("CUP_10Rnd_762x54_SVD_M")
+        };
+        respawnMagazines[] = {
+            "SmokeShell",
+            MAG_8("CUP_10Rnd_762x54_SVD_M")
+        };
+
+        Items[] = {
+            "CUP_NVG_PVS7",
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "CUP_NVG_PVS7",
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "CUP_V_CDF_OfficerBelt",
+            "SP_BoonieHat_Tan",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_CDF_OfficerBelt",
+            "SP_BoonieHat_Tan",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
     class FGWF_B_Pozna_Commando: FGWF_B_Pozna_Base {
         _generalMacro = "FGWF_B_Pozna_Commando";
         scope = 2;
@@ -109,56 +159,6 @@ class CfgVehicles {
         respawnLinkedItems[] = {
             "CUP_V_CPC_Fastbelt_rngr",
             "SP_PASGTHelmet_Black1",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-    };
-
-    class FGWF_B_Pozna_SniperElite: FGWF_B_Pozna_Base {
-        _generalMacro = "FGWF_B_Pozna_SniperElite";
-        scope = 2;
-        scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\b_pozna_loreacc\data\previews\FGWF_B_Pozna_SniperElite.jpg";
-
-        displayName = CSTRING(SniperElite);
-
-        uniformClass = "USP_G3F_AOR1";
-        backpack = "";
-
-        weapons[] = {"CUP_srifle_SVD_pso", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_srifle_SVD_pso", "Throw", "Put"};
-
-        magazines[] = {
-            "SmokeShell",
-            MAG_8("CUP_10Rnd_762x54_SVD_M")
-        };
-        respawnMagazines[] = {
-            "SmokeShell",
-            MAG_8("CUP_10Rnd_762x54_SVD_M")
-        };
-
-        Items[] = {
-            "CUP_NVG_PVS7",
-            "FirstAidKit"
-        };
-        RespawnItems[] = {
-            "CUP_NVG_PVS7",
-            "FirstAidKit"
-        };
-
-        linkedItems[] = {
-            "CUP_V_CDF_OfficerBelt",
-            "SP_BoonieHat_Tan",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-        respawnLinkedItems[] = {
-            "CUP_V_CDF_OfficerBelt",
-            "SP_BoonieHat_Tan",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",

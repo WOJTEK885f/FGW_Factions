@@ -16,106 +16,6 @@ class CfgVehicles {
         genericNames = "TakistaniMen";
     };
 
-    class FGWF_O_Uman_Militant_AK12: FGWF_O_Uman_Base {
-        _generalMacro = "FGWF_O_Uman_Militant_AK12";
-        scope = 2;
-        scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Militant_AK12.jpg";
-
-        displayName = CSTRING(Militant_AK12);
-
-        uniformClass = "U_C_Uniform_Scientist_02_formal_F";
-        backpack = "";
-
-        weapons[] = {"CUP_arifle_AK12_black", "CUP_hgun_M17_Black", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_AK12_black", "CUP_hgun_M17_Black", "Throw", "Put"};
-
-        magazines[] = {
-            "SmokeShell",
-            MAG_4("CUP_17Rnd_9x19_M17_Black"),
-            MAG_8("CUP_30Rnd_545x39_AK12_M")
-        };
-        respawnMagazines[] = {
-            "SmokeShell",
-            MAG_4("CUP_17Rnd_9x19_M17_Black"),
-            MAG_8("CUP_30Rnd_545x39_AK12_M")
-        };
-
-        Items[] = {
-            "FirstAidKit"
-        };
-        RespawnItems[] = {
-            "FirstAidKit"
-        };
-
-        linkedItems[] = {
-            "CUP_V_CPC_Fastbelt_rngr",
-            "CUP_G_Scarf_Face_Red",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-        respawnLinkedItems[] = {
-            "CUP_V_CPC_Fastbelt_rngr",
-            "CUP_G_Scarf_Face_Red",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-    };
-
-    class FGWF_O_Uman_Militant_AK74M: FGWF_O_Uman_Base {
-        _generalMacro = "FGWF_O_Uman_Militant_AK74M";
-        scope = 2;
-        scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Militant_AK74M.jpg";
-
-        displayName = CSTRING(Militant_AK74M);
-
-        uniformClass = "U_C_Uniform_Scientist_02_formal_F";
-        backpack = "";
-
-        weapons[] = {"CUP_arifle_AK74M", "CUP_hgun_M17_Black", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_AK74M", "CUP_hgun_M17_Black", "Throw", "Put"};
-
-        magazines[] = {
-            "SmokeShell",
-            MAG_4("CUP_17Rnd_9x19_M17_Black"),
-            MAG_8("CUP_30Rnd_545x39_AK74M_M")
-        };
-        respawnMagazines[] = {
-            "SmokeShell",
-            MAG_4("CUP_17Rnd_9x19_M17_Black"),
-            MAG_8("CUP_30Rnd_545x39_AK74M_M")
-        };
-
-        Items[] = {
-            "FirstAidKit"
-        };
-        RespawnItems[] = {
-            "FirstAidKit"
-        };
-
-        linkedItems[] = {
-            "CUP_V_CPC_Fastbelt_rngr",
-            "CUP_G_Scarf_Face_Red",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-        respawnLinkedItems[] = {
-            "CUP_V_CPC_Fastbelt_rngr",
-            "CUP_G_Scarf_Face_Red",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-    };
-
     class FGWF_O_Uman_Terrorist_AK74M: FGWF_O_Uman_Base {
         _generalMacro = "FGWF_O_Uman_Terrorist_AK74M";
         scope = 2;
@@ -213,6 +113,106 @@ class CfgVehicles {
         respawnLinkedItems[] = {
             "CUP_V_B_Interceptor_Rifleman_M81",
             "G_Bandanna_blk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_O_Uman_Militant_AK12: FGWF_O_Uman_Base {
+        _generalMacro = "FGWF_O_Uman_Militant_AK12";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Militant_AK12.jpg";
+
+        displayName = CSTRING(Militant_AK12);
+
+        uniformClass = "U_C_Uniform_Scientist_02_formal_F";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_AK12_black", "CUP_hgun_M17_Black", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_AK12_black", "CUP_hgun_M17_Black", "Throw", "Put"};
+
+        magazines[] = {
+            "SmokeShell",
+            MAG_4("CUP_17Rnd_9x19_M17_Black"),
+            MAG_8("CUP_30Rnd_545x39_AK12_M")
+        };
+        respawnMagazines[] = {
+            "SmokeShell",
+            MAG_4("CUP_17Rnd_9x19_M17_Black"),
+            MAG_8("CUP_30Rnd_545x39_AK12_M")
+        };
+
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "CUP_V_CPC_Fastbelt_rngr",
+            "CUP_G_Scarf_Face_Red",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_CPC_Fastbelt_rngr",
+            "CUP_G_Scarf_Face_Red",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_O_Uman_Militant_AK74M: FGWF_O_Uman_Base {
+        _generalMacro = "FGWF_O_Uman_Militant_AK74M";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Militant_AK74M.jpg";
+
+        displayName = CSTRING(Militant_AK74M);
+
+        uniformClass = "U_C_Uniform_Scientist_02_formal_F";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_AK74M", "CUP_hgun_M17_Black", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74M", "CUP_hgun_M17_Black", "Throw", "Put"};
+
+        magazines[] = {
+            "SmokeShell",
+            MAG_4("CUP_17Rnd_9x19_M17_Black"),
+            MAG_8("CUP_30Rnd_545x39_AK74M_M")
+        };
+        respawnMagazines[] = {
+            "SmokeShell",
+            MAG_4("CUP_17Rnd_9x19_M17_Black"),
+            MAG_8("CUP_30Rnd_545x39_AK74M_M")
+        };
+
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "CUP_V_CPC_Fastbelt_rngr",
+            "CUP_G_Scarf_Face_Red",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_CPC_Fastbelt_rngr",
+            "CUP_G_Scarf_Face_Red",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",

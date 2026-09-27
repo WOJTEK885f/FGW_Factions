@@ -112,6 +112,110 @@ class CfgVehicles {
         };
     };
 
+    class FGWF_O_Atov_Sharpshooter: FGWF_O_Atov_Base {
+        _generalMacro = "FGWF_O_Atov_Sharpshooter";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Sharpshooter.jpg";
+
+        displayName = CSTRING(Sharpshooter);
+
+        uniformClass = "CFP_BDU_M81Iraq";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_AS_VAL_pso", "CUP_hgun_Deagle", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_AS_VAL_pso", "CUP_hgun_Deagle", "Throw", "Put"};
+
+        magazines[] = {
+            "SmokeShell",
+            MAG_4("CUP_7Rnd_50AE_Deagle"),
+            MAG_8("CUP_20Rnd_9x39_SP5_VSS_M")
+        };
+        respawnMagazines[] = {
+            "SmokeShell",
+            MAG_4("CUP_7Rnd_50AE_Deagle"),
+            MAG_8("CUP_20Rnd_9x39_SP5_VSS_M")
+        };
+
+        Items[] = {
+            "FirstAidKit",
+            "CUP_NVG_PVS7"
+        };
+        RespawnItems[] = {
+            "FirstAidKit",
+            "CUP_NVG_PVS7"
+        };
+
+        linkedItems[] = {
+            "CFP_Tactical1_M81",
+            "CUP_H_FR_BandanaWdl",
+            "CUP_optic_PSO_1",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CFP_Tactical1_M81",
+            "CUP_H_FR_BandanaWdl",
+            "CUP_optic_PSO_1",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_O_Atov_SpecialForce: FGWF_O_Atov_Base {
+        _generalMacro = "FGWF_O_Atov_SpecialForce";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_SpecialForce.jpg";
+
+        displayName = CSTRING(SpecialForce);
+
+        uniformClass = "FGWF_U_PMC_Unit_35";
+        backpack = "";
+
+        weapons[] = {"SMG_01_F", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        respawnWeapons[] = {"SMG_01_F", "rhs_weap_panzerfaust60", "Throw", "Put"};
+
+        magazines[] = {
+            "rhs_panzerfaust60_mag",
+            MAG_8("30Rnd_45ACP_Mag_SMG_01")
+        };
+        respawnMagazines[] = {
+            "rhs_panzerfaust60_mag",
+            MAG_8("30Rnd_45ACP_Mag_SMG_01")
+        };
+
+        Items[] = {
+            "FirstAidKit",
+            "CUP_NVG_PVS7"
+        };
+        RespawnItems[] = {
+            "FirstAidKit",
+            "CUP_NVG_PVS7"
+        };
+
+        linkedItems[] = {
+            "CUP_V_CPC_Fastbelt_rngr",
+            "CFP_OPS2017_Helmet_Grey",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CUP_V_CPC_Fastbelt_rngr",
+            "CFP_OPS2017_Helmet_Grey",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
     class FGWF_O_Atov_ArmedPolice: FGWF_O_Atov_Base {
         _generalMacro = "FGWF_O_Atov_ArmedPolice";
         scope = 2;
@@ -161,6 +265,58 @@ class CfgVehicles {
         respawnLinkedItems[] = {
             "SP_Tactical1_Black",
             "SP_PASGTHelmet_Black1",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_O_Atov_Commando: FGWF_O_Atov_Base {
+        _generalMacro = "FGWF_O_Atov_Commando";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Commando.jpg";
+
+        displayName = CSTRING(Commando);
+
+        uniformClass = "CFP_U_WorkUniform_SudanPolice";
+        backpack = "";
+
+        weapons[] = {"CUP_arifle_M4A1_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            "rhs_panzerfaust60_mag",
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            "rhs_panzerfaust60_mag",
+            MAG_8("CUP_30Rnd_556x45_Stanag")
+        };
+
+        Items[] = {
+            "FirstAidKit",
+            "CUP_NVG_PVS7"
+        };
+        RespawnItems[] = {
+            "FirstAidKit",
+            "CUP_NVG_PVS7"
+        };
+
+        linkedItems[] = {
+            "CFP_Tactical1_M81",
+            "CFP_OPS2017_Helmet_Grey",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CFP_Tactical1_M81",
+            "CFP_OPS2017_Helmet_Grey",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -223,191 +379,35 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_O_Atov_Commando: FGWF_O_Atov_Base {
-        _generalMacro = "FGWF_O_Atov_Commando";
-        scope = 2;
-        scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Commando.jpg";
-
-        displayName = CSTRING(Commando);
-
-        uniformClass = "CFP_U_WorkUniform_SudanPolice";
-        backpack = "";
-
-        weapons[] = {"CUP_arifle_M4A1_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_M4A1_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
-
-        magazines[] = {
-            "CUP_HandGrenade_RGD5",
-            "rhs_panzerfaust60_mag",
-            MAG_8("CUP_30Rnd_556x45_Stanag")
-        };
-        respawnMagazines[] = {
-            "CUP_HandGrenade_RGD5",
-            "rhs_panzerfaust60_mag",
-            MAG_8("CUP_30Rnd_556x45_Stanag")
-        };
-
-        Items[] = {
-            "FirstAidKit",
-            "CUP_NVG_PVS7"
-        };
-        RespawnItems[] = {
-            "FirstAidKit",
-            "CUP_NVG_PVS7"
-        };
-
-        linkedItems[] = {
-            "CFP_Tactical1_M81",
-            "CFP_OPS2017_Helmet_Grey",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-        respawnLinkedItems[] = {
-            "CFP_Tactical1_M81",
-            "CFP_OPS2017_Helmet_Grey",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-    };
-
-    class FGWF_O_Atov_SpecialForce: FGWF_O_Atov_Base {
-        _generalMacro = "FGWF_O_Atov_SpecialForce";
-        scope = 2;
-        scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_SpecialForce.jpg";
-
-        displayName = CSTRING(SpecialForce);
-
-        uniformClass = "FGWF_U_PMC_Unit_35";
-        backpack = "";
-
-        weapons[] = {"SMG_01_F", "rhs_weap_panzerfaust60", "Throw", "Put"};
-        respawnWeapons[] = {"SMG_01_F", "rhs_weap_panzerfaust60", "Throw", "Put"};
-
-        magazines[] = {
-            "rhs_panzerfaust60_mag",
-            MAG_8("30Rnd_45ACP_Mag_SMG_01")
-        };
-        respawnMagazines[] = {
-            "rhs_panzerfaust60_mag",
-            MAG_8("30Rnd_45ACP_Mag_SMG_01")
-        };
-
-        Items[] = {
-            "FirstAidKit",
-            "CUP_NVG_PVS7"
-        };
-        RespawnItems[] = {
-            "FirstAidKit",
-            "CUP_NVG_PVS7"
-        };
-
-        linkedItems[] = {
-            "CUP_V_CPC_Fastbelt_rngr",
-            "CFP_OPS2017_Helmet_Grey",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-        respawnLinkedItems[] = {
-            "CUP_V_CPC_Fastbelt_rngr",
-            "CFP_OPS2017_Helmet_Grey",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-    };
-
-    class FGWF_O_Atov_Sharpshooter: FGWF_O_Atov_Base {
-        _generalMacro = "FGWF_O_Atov_Sharpshooter";
-        scope = 2;
-        scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Sharpshooter.jpg";
-
-        displayName = CSTRING(Sharpshooter);
-
-        uniformClass = "CFP_BDU_M81Iraq";
-        backpack = "";
-
-        weapons[] = {"CUP_arifle_AS_VAL_pso", "CUP_hgun_Deagle", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_AS_VAL_pso", "CUP_hgun_Deagle", "Throw", "Put"};
-
-        magazines[] = {
-            "SmokeShell",
-            MAG_4("CUP_7Rnd_50AE_Deagle"),
-            MAG_8("CUP_20Rnd_9x39_SP5_VSS_M")
-        };
-        respawnMagazines[] = {
-            "SmokeShell",
-            MAG_4("CUP_7Rnd_50AE_Deagle"),
-            MAG_8("CUP_20Rnd_9x39_SP5_VSS_M")
-        };
-
-        Items[] = {
-            "FirstAidKit",
-            "CUP_NVG_PVS7"
-        };
-        RespawnItems[] = {
-            "FirstAidKit",
-            "CUP_NVG_PVS7"
-        };
-
-        linkedItems[] = {
-            "CFP_Tactical1_M81",
-            "CUP_H_FR_BandanaWdl",
-            "CUP_optic_PSO_1",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-        respawnLinkedItems[] = {
-            "CFP_Tactical1_M81",
-            "CUP_H_FR_BandanaWdl",
-            "CUP_optic_PSO_1",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-    };
-
     class FGWF_O_Atov_Companion_Base: FGWF_O_Atov_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
     };
 
-    class FGWF_O_Atov_Companion_Vitaly: FGWF_O_Atov_Companion_Base {
-        _generalMacro = "FGWF_O_Atov_Companion_Vitaly";
+    class FGWF_O_Atov_Companion_Dimitro: FGWF_O_Atov_Companion_Base {
+        _generalMacro = "FGWF_O_Atov_Companion_Dimitro";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Companion_Vitaly.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Companion_Dimitro.jpg";
 
-        displayName = CSTRING(Companion_Vitaly);
+        displayName = CSTRING(Companion_Dimitro);
 
-        identityTypes[] = {"FGWF_Face_Vitaly_Tag"};
+        identityTypes[] = {"FGWF_Face_Dimitro_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Vitaly'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Dimitro'; };";
         };
 
-        uniformClass = "FGWF_U_USMC_FROG3_WMARPAT";
+        uniformClass = "FGWF_U_PMC_Unit_1";
         backpack = "";
 
-        weapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
+        weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
 
         magazines[] = {
-            MAG_4("CUP_17Rnd_9x19_glock17")
+            MAG_4("CUP_8Rnd_9x18_Makarov_M")
         };
         respawnMagazines[] = {
-            MAG_4("CUP_17Rnd_9x19_glock17")
+            MAG_4("CUP_8Rnd_9x18_Makarov_M")
         };
 
         Items[] = {
@@ -418,14 +418,12 @@ class CfgVehicles {
         };
 
         linkedItems[] = {
-            "USP_BEARD_BRN5",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
-            "USP_BEARD_BRN5",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -531,31 +529,31 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_O_Atov_Companion_Dimitro: FGWF_O_Atov_Companion_Base {
-        _generalMacro = "FGWF_O_Atov_Companion_Dimitro";
+    class FGWF_O_Atov_Companion_Vitaly: FGWF_O_Atov_Companion_Base {
+        _generalMacro = "FGWF_O_Atov_Companion_Vitaly";
         scope = 2;
         scopeCurator = 2;
-        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Companion_Dimitro.jpg";
+        editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Companion_Vitaly.jpg";
 
-        displayName = CSTRING(Companion_Dimitro);
+        displayName = CSTRING(Companion_Vitaly);
 
-        identityTypes[] = {"FGWF_Face_Dimitro_Tag"};
+        identityTypes[] = {"FGWF_Face_Vitaly_Tag"};
 
         class EventHandlers {
-            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Dimitro'; };";
+            init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Atov_Companion_Vitaly'; };";
         };
 
-        uniformClass = "FGWF_U_PMC_Unit_1";
+        uniformClass = "FGWF_U_USMC_FROG3_WMARPAT";
         backpack = "";
 
-        weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
+        weapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
 
         magazines[] = {
-            MAG_4("CUP_8Rnd_9x18_Makarov_M")
+            MAG_4("CUP_17Rnd_9x19_glock17")
         };
         respawnMagazines[] = {
-            MAG_4("CUP_8Rnd_9x18_Makarov_M")
+            MAG_4("CUP_17Rnd_9x19_glock17")
         };
 
         Items[] = {
@@ -566,12 +564,14 @@ class CfgVehicles {
         };
 
         linkedItems[] = {
+            "USP_BEARD_BRN5",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
             "ItemRadio"
         };
         respawnLinkedItems[] = {
+            "USP_BEARD_BRN5",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",

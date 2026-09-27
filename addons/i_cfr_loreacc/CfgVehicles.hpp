@@ -305,57 +305,6 @@ class CfgVehicles {
         };
     };
 
-    class FGWF_I_CFR_MilitiaSMGFighter: FGWF_I_CFR_Base {
-        _generalMacro = "FGWF_I_CFR_MilitiaSMGFighter";
-        scope = 2;
-        scopeCurator = 2;
-        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
-        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaSMGFighter.jpg";
-
-        displayName = ECSTRING(B_Player_Loreacc,MilitiaSMGFighter);
-
-        uniformClass = "FGWF_U_USMC_MCCUU_MARPAT_M81";
-        backpack = "";
-
-        weapons[] = {"CUP_smg_EVO", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_smg_EVO", "Throw", "Put"};
-
-        magazines[] = {
-            "CUP_HandGrenade_RGD5",
-            MAG_8("CUP_30Rnd_9x19_EVO")
-        };
-        respawnMagazines[] = {
-            "CUP_HandGrenade_RGD5",
-            MAG_8("CUP_30Rnd_9x19_EVO")
-        };
-
-        Items[] = {
-            "FirstAidKit"
-        };
-        RespawnItems[] = {
-            "FirstAidKit"
-        };
-
-        linkedItems[] = {
-            "CFP_RAV_Empty_Green",
-            "SP_Bandana_Black",
-            "G_Bandanna_oli",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-        respawnLinkedItems[] = {
-            "CFP_RAV_Empty_Green",
-            "SP_Bandana_Black",
-            "G_Bandanna_oli",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio"
-        };
-    };
-
     class FGWF_I_CFR_MilitiaSniper: FGWF_I_CFR_Base {
         _generalMacro = "FGWF_I_CFR_MilitiaSniper";
         scope = 2;
@@ -402,6 +351,57 @@ class CfgVehicles {
             "CUP_V_PMC_CIRAS_Coyote_Empty",
             "CFP_BoonieHat_M81",
             "G_Bandanna_khk",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+
+    class FGWF_I_CFR_MilitiaSMGFighter: FGWF_I_CFR_Base {
+        _generalMacro = "FGWF_I_CFR_MilitiaSMGFighter";
+        scope = 2;
+        scopeCurator = 2;
+        editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
+        editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_MilitiaSMGFighter.jpg";
+
+        displayName = ECSTRING(B_Player_Loreacc,MilitiaSMGFighter);
+
+        uniformClass = "FGWF_U_USMC_MCCUU_MARPAT_M81";
+        backpack = "";
+
+        weapons[] = {"CUP_smg_EVO", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_smg_EVO", "Throw", "Put"};
+
+        magazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("CUP_30Rnd_9x19_EVO")
+        };
+        respawnMagazines[] = {
+            "CUP_HandGrenade_RGD5",
+            MAG_8("CUP_30Rnd_9x19_EVO")
+        };
+
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "CFP_RAV_Empty_Green",
+            "SP_Bandana_Black",
+            "G_Bandanna_oli",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "CFP_RAV_Empty_Green",
+            "SP_Bandana_Black",
+            "G_Bandanna_oli",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",

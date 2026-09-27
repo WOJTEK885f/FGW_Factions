@@ -30,12 +30,12 @@ class CfgPatches {
             "USP_Gear_Face"            // Igor: Beard
         };
         units[] = {
-            "FGWF_O_Alpha_Companion_Igor",
-            "FGWF_O_Alpha_Companion_Volodimir",
-            "FGWF_O_Alpha_EliteScout",
+            "FGWF_O_Alpha_SpecialForce",
             "FGWF_O_Alpha_EliteSniper",
             "FGWF_O_Alpha_EliteStormtrooper",
-            "FGWF_O_Alpha_SpecialForce"
+            "FGWF_O_Alpha_EliteScout",
+            "FGWF_O_Alpha_Companion_Volodimir",
+            "FGWF_O_Alpha_Companion_Igor"
         };
         weapons[] = {};
         VERSION_CONFIG;

@@ -28,15 +28,15 @@ class CfgPatches {
         units[] = {
             "FGWF_O_Atov_Infantry",
             "FGWF_O_Atov_Machinegunner",
-            "FGWF_O_Atov_ArmedPolice",
-            "FGWF_O_Atov_Scout",
-            "FGWF_O_Atov_Commando",
             "FGWF_O_Atov_Sharpshooter",
             "FGWF_O_Atov_SpecialForce",
-            "FGWF_O_Atov_Companion_Vitaly",
+            "FGWF_O_Atov_ArmedPolice",
+            "FGWF_O_Atov_Commando",
+            "FGWF_O_Atov_Scout",
+            "FGWF_O_Atov_Companion_Dimitro",
             "FGWF_O_Atov_Companion_Kostyantin",
             "FGWF_O_Atov_Companion_Oleg",
-            "FGWF_O_Atov_Companion_Dimitro"
+            "FGWF_O_Atov_Companion_Vitaly"
         };
         weapons[] = {};
         VERSION_CONFIG;
