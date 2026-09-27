@@ -10,7 +10,7 @@ class CfgGroups {
                     name = CSTRING(Group_Army_AdvanceForces);
                     side = 0;
                     faction = QGVAR(Alpha);
-                    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 
                     class Unit0 { side = 0; vehicle = "FGWF_O_Alpha_SpecialForce";      rank = "SERGEANT"; position[] = {0,0,0}; };
                     class Unit1 { side = 0; vehicle = "FGWF_O_Alpha_EliteStormtrooper"; rank = "CORPORAL"; position[] = {5,-5,0}; };
@@ -25,7 +25,7 @@ class CfgGroups {
                     name = CSTRING(Group_Army_FortifiedForces);
                     side = 0;
                     faction = QGVAR(Alpha);
-                    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 
                     class Unit0 { side = 0; vehicle = "FGWF_O_Alpha_SpecialForce";      rank = "SERGEANT"; position[] = {0,0,0}; };
                     class Unit1 { side = 0; vehicle = "FGWF_O_Alpha_EliteStormtrooper"; rank = "CORPORAL"; position[] = {5,-5,0}; };
@@ -37,7 +37,7 @@ class CfgGroups {
                     name = CSTRING(Group_Army_SpecialForces);
                     side = 0;
                     faction = QGVAR(Alpha);
-                    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 
                     class Unit0 { side = 0; vehicle = "FGWF_O_Alpha_SpecialForce"; rank = "SERGEANT"; position[] = {0,0,0}; };
                     class Unit1 { side = 0; vehicle = "FGWF_O_Alpha_SpecialForce"; rank = "CORPORAL"; position[] = {5,-5,0}; };
@@ -65,7 +65,7 @@ class CfgGroups {
                     name = CSTRING(Group_Army_FortifiedForces_Igor);
                     side = 0;
                     faction = QGVAR(Alpha);
-                    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 
                     class Unit0 { side = 0; vehicle = "FGWF_O_Alpha_Companion_Igor";    rank = "LIEUTENANT"; position[] = {0,0,0}; };
                     class Unit1 { side = 0; vehicle = "FGWF_O_Alpha_SpecialForce";      rank = "SERGEANT";   position[] = {5,-5,0}; };
