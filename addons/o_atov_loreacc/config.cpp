@@ -9,21 +9,22 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "gr7bow_fgwf_main",
+            "gr7bow_fgwf_uniforms",      // FGWF_U_PMC_Unit_1, FGWF_U_PMC_Unit_35, FGWF_U_USMC_FROG3_WMARPAT
             "A3_Characters_F",
             "A3_Characters_F_Enoch",
             "A3_Weapons_F",
             "CUP_Weapons_WeaponsCore",
             "CUP_Weapons_East_Attachments",
             "CUP_Weapons_NVG",
-            "rhsgref_c_weapons", // Panzerfaust 60, M3A1
-            "rhs_main", // Flak Vest (Custom)
-            "CUP_Creatures_Military_PMC", // Infantry: Vest, SpecialForce: Uniform(Custom)
-            "CUP_Creatures_Military_USMC", // Infantry, Machinegunner: Uniform(Custom), SpecialForce: Vest, Sharpshooter: Headgear
+            "rhsgref_c_weapons",         // Panzerfaust 60, M3A1
+            "rhs_main",                  // Flak Vest (Custom)
+            "CUP_Creatures_Military_PMC",    // Infantry: Vest, SpecialForce: Uniform(Custom)
+            "CUP_Creatures_Military_USMC",   // Infantry, Machinegunner: Uniform(Custom), SpecialForce: Vest, Sharpshooter: Headgear
             "CUP_Creatures_Military_USArmy", // Machinegunner: Vest
             "CUP_Creatures_Military_Russia", // Infantry: Balaclava, Machinegunner: Helmet
-            "cfp_uniforms", // Scout, ArmedPolice, Commando, Sharpshooter: Uniform
-            "cfp_vests", // Scout, ArmedPolice, Commando, Sharpshooter: Vest
-            "cfp_headgear" // Scout, ArmedPolice, Commando, SpecialForce: Helmet
+            "cfp_uniforms",              // Scout, ArmedPolice, Commando, Sharpshooter: Uniform
+            "cfp_vests",                 // Scout, ArmedPolice, Commando, Sharpshooter: Vest
+            "cfp_headgear"               // Scout, ArmedPolice, Commando, SpecialForce: Helmet
         };
         units[] = {
             "FGWF_O_Atov_Infantry",

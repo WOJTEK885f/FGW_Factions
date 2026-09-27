@@ -9,6 +9,9 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "gr7bow_fgwf_main",
+            "gr7bow_fgwf_uniforms",      // FGWF_U_Marshal
+            "gr7bow_fgwf_vests",         // FGWF_V_Flak_Vest_Vydra_3M
+            "gr7bow_fgwf_weapons",       // FGWF_srifle_AWM_blk_sd
             "A3_Characters_F",
             "A3_Weapons_F",
             "CUP_Weapons_WeaponsCore",   // M14, Scorpion EVO, Stanag mags, SVD, AUG
