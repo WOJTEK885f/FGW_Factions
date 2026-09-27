@@ -9,9 +9,14 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "gr7bow_fgwf_main",
+            "CUP_Weapons_WeaponsCore", // Leupold Mk4 scope
+            "CUP_Weapons_AWM"          // AWM, G22, G22 mags, AWM suppressor
         };
         units[] = {};
-        weapons[] = {};
+        weapons[] = {
+            "FGWF_srifle_AWM_blk_sd",
+            "FGWF_srifle_G22_wdl_sd_lmk4"
+        };
         VERSION_CONFIG;
     };
 };
