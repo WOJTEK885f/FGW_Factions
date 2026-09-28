@@ -49,19 +49,19 @@ Base, which their names suggest. Each language is a separate PBO: `CUP_Dubbing_R
 requiredAddons[] = {
     "cba_main",
     "my_mod_main",
-    "my_mod_uniforms",              // Ranger: MOD_U_Rifleman, Sniper: MOD_U_Reserve
-    "A3_Characters_F",              // Base class (O_Soldier_F)
-    "A3_Characters_F_Enoch",        // Vitaly: WhiteHead_01, Sniper: WhiteHead_04
-    "A3_Dubbing_Radio_F_Enoch",     // Vitaly, Sniper: Male02RUS, Officer: Male03RUS
-    "A3_Weapons_F",                 // Base: ItemCore, ItemInfo
-    "CUP_Creatures_Military_PMC",   // Ranger: CUP_V_PMC_IOTV_Black_Empty
-    "CUP_Creatures_Military_Russia",// Machinegunner: CUP_H_RUS_Altyn_Shield_Up_black
-    "CUP_Dubbing_Radio_RU_c",      // Base: CUP_D_Language_RU
-    "CUP_Weapons_M4",               // Ranger: CUP_arifle_M4A1_black, Sniper: CUP_arifle_M16A4_Base
-    "CUP_Weapons_Ammunition",       // All units - Ammo
-    "cfp_uniforms",                 // All units - Uniform
-    "rhs_main",                     // Sniper: rhs_weap_panzerfaust60
-    "USP_Gear_Face"                 // Sniper: USP_BEARD_BRN5
+    "my_mod_uniforms",          // Ranger: MOD_U_Rifleman, Sniper: MOD_U_Reserve
+    "A3_Characters_F",          // Base class (O_Soldier_F)
+    "A3_Characters_F_Enoch",    // Vitaly: WhiteHead_01, Sniper: WhiteHead_04
+    "A3_Dubbing_Radio_F_Enoch", // Vitaly, Sniper: Male02RUS, Officer: Male03RUS
+    "A3_Weapons_F",             // Base: ItemCore, ItemInfo
+    "CUP_Creatures_Military_PMC",    // Ranger: CUP_V_PMC_IOTV_Black_Empty
+    "CUP_Creatures_Military_Russia", // Machinegunner: CUP_H_RUS_Altyn_Shield_Up_black
+    "CUP_Dubbing_Radio_RU_c",        // Base identity: CUP_D_Language_RU
+    "CUP_Weapons_M4",         // Ranger: CUP_arifle_M4A1_black, Sniper: CUP_arifle_M16A4_Base
+    "CUP_Weapons_Ammunition", // All units - Ammo
+    "cfp_uniforms", // All units - Uniform
+    "rhs_main",      // Sniper: rhs_weap_panzerfaust60
+    "USP_Gear_Face"  // Sniper: USP_BEARD_BRN5
 };
 ```
 
@@ -79,10 +79,13 @@ requiredAddons[] = {
 - If the class is used by exactly one unit or a specific part of the mod, name that part before a
   colon: `// Ranger: CUP_arifle_M4A1_black`.
 - If several parts share it, list them: `// Ranger, Sniper: CUP_NVG_PVS7`.
-- If the set is exhaustive and long, collapse it to prose instead of listing every class:
-  `// All units - Ammo`.
+- Ammo is always safe to collapse: `// All units - Ammo`.
+- A set that is large and carried by most of the mod's units may collapse to
+  `// All units - <thing>` instead of naming every unit. This is an accepted approximation — a
+  minority without it is fine. Otherwise name every unit:
+  `// Ranger, Sniper: CUP_HandGrenade_RGD5`.
 - Do **not** use the `All units - ` form for base-data addons. Say what they provide instead:
-  `// Base class (O_Soldier_F)`, `// LanguageRUS_F; Vitaly: Male02RUS`.
+  `// Base class (O_Soldier_F)`, `// Base identity: LanguageRUS_F; Vitaly: Male02RUS`.
 - Your **own gear addons** are the opposite case: always list the classes they provide, because they
   exist only to be consumed by name — attribute them like any other class:
   `// Ranger: MOD_U_Rifleman, Sniper: MOD_U_Reserve`.
