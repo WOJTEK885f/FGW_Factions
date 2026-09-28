@@ -20,12 +20,14 @@ class CfgPatches {
             "CUP_Creatures_Military_USMC",   // Infantry, Machinegunner: Uniform(Custom), SpecialForce: Vest, Sharpshooter: Headgear
             "CUP_Weapons_WeaponsCore",      // Shared base classes for CUP_Weapons_*
             "CUP_Weapons_East_Attachments", // Weapon attachments
+            "CUP_Weapons_Grenades",         // RGD5 grenades
             "CUP_Weapons_NVG",              // NVGs
-            "cfp_headgear", // Scout, ArmedPolice, Commando, SpecialForce: Helmet
+            "CUP_Weapons_SPAS12",           // SPAS-12 shotgun, 12 gauge shells
+            "cfp_headgear", // Scout, Commando, SpecialForce: Helmet
             "cfp_uniforms", // Scout, ArmedPolice, Commando, Sharpshooter: Uniform
-            "cfp_vests",    // Scout, ArmedPolice, Commando, Sharpshooter: Vest
-            "rhs_main",         // Flak Vest (Custom)
-            "rhsgref_c_weapons" // Panzerfaust 60, M3A1
+            "cfp_vests",    // Scout, ArmedPolice, Commando, Sharpshooter: M81 tactical vest; Oleg: RUMVD SURPAT vest
+            "rhs_main",          // Flak Vest (Custom)
+            "rhsgref_c_weapons"  // Panzerfaust 60, M3A1
         };
         units[] = {
             "FGWF_O_Atov_Infantry",

@@ -12,7 +12,7 @@ class CfgPatches {
             "gr7bow_fgwf_main",
             "A3_Characters_F", // Supply80 (vest container class)
             "A3_Weapons_F",    // VestItem
-            "rhs_main" // Vydra-3M vest
+            "rhs_main"  // Vydra-3M vest
         };
         units[] = {};
         weapons[] = {

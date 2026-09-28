@@ -19,6 +19,7 @@ class CfgPatches {
             "CUP_Weapons_WeaponsCore", // Shared base classes for CUP_Weapons_*
             "CUP_Weapons_ACR",         // ACR 556
             "CUP_Weapons_AK",          // AKS74U, AKM
+            "CUP_Weapons_AWM",         // DMR magazines
             "CUP_Weapons_Grenades",    // RGD5 grenades
             "CUP_Weapons_M240",        // FN MAG, 7.62x51 belts
             "CUP_Weapons_NVG",         // NVGs (Bohdan, Ostap)

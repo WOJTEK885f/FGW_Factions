@@ -19,7 +19,9 @@ class CfgPatches {
             "CUP_Creatures_Military_USMC",   // Terrorist: Vest, Militant: Vest
             "CUP_Weapons_WeaponsCore", // Shared base classes for CUP_Weapons_*
             "CUP_Weapons_AK",          // AK12, AK74M, AKS74U
-            "rhsgref_c_weapons" // Panzerfaust 60
+            "CUP_Weapons_Grenades",    // RGD5 grenades
+            "cfp_uniforms", // CFP_GUER_M81Tee
+            "rhsgref_c_weapons"  // Panzerfaust 60
         };
         units[] = {
             "FGWF_O_Uman_Terrorist_AK74M",

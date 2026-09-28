@@ -18,6 +18,9 @@ class CfgPatches {
             "CUP_Creatures_Military_Russia", // Fighter: Balaclava
             "CUP_Creatures_Military_USMC",   // Commando: Vest
             "CUP_Weapons_WeaponsCore", // Shared base classes for CUP_Weapons_*
+            "CUP_Weapons_AK",          // AKS-74U top rail, AK-74M magazines
+            "CUP_Weapons_AWM",         // SVD magazines
+            "CUP_Weapons_Grenades",    // RGD5 grenades
             "CUP_Weapons_NVG",         // NVGs
             "cfp_headgear", // Commando, Sniper Elite: Helmet
             "cfp_uniforms", // Denis: Uniform

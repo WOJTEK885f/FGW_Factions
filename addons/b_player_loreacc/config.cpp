@@ -16,20 +16,21 @@ class CfgPatches {
             "A3_Characters_F",       // B_Soldier_F, Man_A3, WhiteHead_04, Head_Euro, NATOMen
             "A3_Characters_F_Enoch", // Head_Russian, Head_Enoch, LivonianHead_3/7/10, WhiteHead_31
             "A3_Weapons_F",          // Standard kit, SmokeShell, H_Bandanna_sgg
-            "CUP_Creatures_Military_Germany", // ArmedBodyguard: Light Black Vest
-            "CUP_Creatures_Military_PMC",     // PMC uniforms, CIRAS vest, Georgiy: Unit 11 tee
-            "CUP_Creatures_Military_Russia",  // K6-3 helmet (Steel Helmet), Altyn helmet
-            "CUP_Creatures_Military_SLA",     // Old Helmet
-            "CUP_Creatures_Military_USMC",    // Interceptor vest, Protec helmet (Bike Helmet)
+            "CUP_Creatures_Military_PMC",    // PMC uniforms, CIRAS vest, IOTV vest (ArmedBodyguard), Georgiy: Unit 11 tee
+            "CUP_Creatures_Military_Russia", // K6-3 helmet (Steel Helmet), Altyn helmet
+            "CUP_Creatures_Military_SLA",    // Old Helmet
+            "CUP_Creatures_Military_USMC",   // Interceptor vest, Protec helmet (Bike Helmet)
             "CUP_Weapons_WeaponsCore", // M14, Scorpion EVO, Stanag mags, SVD, AUG, M9A1, Glock 17 mags
             "CUP_Weapons_AWM",         // L115A1 AWM (Trained Marksman)
             "CUP_Weapons_Grenades",    // RGD5 grenades
             "CUP_Weapons_M240",        // FN MAG (Special Rattlesnake)
             "CUP_Weapons_NVG",         // NVGs (Special Owl, Special Snowfox)
+            "CUP_Weapons_SPAS12",      // SPAS-12 shotgun, 12 gauge shells
+            "CUP_Weapons_TT",          // TT-33 pistol, 8Rnd 7.62x25 magazines
             "cfp_glasses",  // CFP Neck gaiters (Trained units)
             "cfp_headgear", // SP_M1Helmet M1 helmet (MP Helmet)
-            "cfp_uniforms", // CFP_GUER_M81, CFP_GUER_M81Tee
-            "cfp_vests",    // CFP_Tactical1_M81
+            "cfp_uniforms", // CFP_GUER_M81, CFP_GUER_PolyDesTee, CFP_U_WorkUniform_SudanPolice2, CFP_FieldUniform_police_sudan_SS, CFP_U_KhetPartug_Short_Brown
+            "cfp_vests",    // CFP_RAV_Empty_Green, CFP_V_O_RUMVD_SURPAT
             "rhs_main",          // M590 shotgun (Yevgen)
             "rhsgref_c_troops",  // Patrol cap (Trained Marksman)
             "rhsgref_c_weapons", // M3A1 placeholder SMG (Armed Escort Guard Thompson)

@@ -15,7 +15,7 @@ class CfgPatches {
             "gr7bow_fgwf_b_vff_loreacc",    // Regular unit and companion identity overrides (Oksana, Victoria)
             "gr7bow_fgwf_i_cfr_loreacc",    // Companion identity overrides (Olga)
             "A3_Characters_F",              // B_Soldier_F, Man_A3, G_CIVIL_female
-            "zee_FiftyShadesOfFemale"       // FSOF female face classes
+            "zee_FiftyShadesOfFemale"  // FSOF female face classes
         };
         units[] = {};
         weapons[] = {};

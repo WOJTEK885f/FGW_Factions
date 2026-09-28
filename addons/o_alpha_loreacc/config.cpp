@@ -16,11 +16,10 @@ class CfgPatches {
             "A3_Characters_F",       // Man_A3, WhiteHead_04, NATOMen
             "A3_Characters_F_Enoch", // LivonianHead_5
             "A3_Weapons_F",          // Standard kit, Binocular, SmokeShell, SMG_01_F, 30Rnd_45ACP_Mag_SMG_01
-            "CUP_Creatures_Military_Germany", // Igor: Light Black Vest
-            "CUP_Creatures_Military_Russia",  // 6B3-4 vest (Elite Stormtrooper)
-            "CUP_Creatures_Military_SLA",     // Old Helmet (Elite Sniper)
-            "CUP_Creatures_Military_USArmy",  // Bike Helmet (Elite Scouts)
-            "CUP_Creatures_Military_USMC",    // Interceptor helmet (Elite Scouts)
+            "CUP_Creatures_Military_Russia", // 6B3-4 vest (Elite Stormtrooper)
+            "CUP_Creatures_Military_SLA",    // Old Helmet (Elite Sniper)
+            "CUP_Creatures_Military_USArmy", // Bike Helmet (Elite Scouts)
+            "CUP_Creatures_Military_USMC",   // Interceptor helmet (Elite Scouts), Igor: Light Black JPC vest
             "CUP_Weapons_WeaponsCore", // HK416, Desert Eagle, Leupold Mk4, Stanag mags
             "CUP_Weapons_AWM",         // G22, AWM silencer (Elite Sniper)
             "CUP_Weapons_Grenades",    // RGD5 grenades

@@ -12,9 +12,9 @@ class CfgPatches {
             "gr7bow_fgwf_main",
             "A3_Characters_F", // C_Marshal_F, U_Marshal, Uniform_Base
             "A3_Weapons_F",    // ItemCore, UniformItem
-            "CUP_Creatures_Military_PMC",          // PMC uniforms
-            "CUP_Creatures_Military_USMC",         // FROG3 + MCCUU uniforms
-            "CUP_Creatures_People_Civil_Chernarus" // Worker 02 uniform
+            "CUP_Creatures_Military_PMC",           // PMC uniforms
+            "CUP_Creatures_Military_USMC",          // FROG3 + MCCUU uniforms
+            "CUP_Creatures_People_Civil_Chernarus"  // Worker 02 uniform
         };
         units[] = {};
         weapons[] = {
