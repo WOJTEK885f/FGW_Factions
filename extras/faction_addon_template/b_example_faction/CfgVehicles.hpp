@@ -22,6 +22,7 @@ class CfgVehicles {
         editorPreview = "";
 
         displayName = CSTRING(UnitName);
+        icon = "iconMan"; // Explicit map icon, do not rely on the engine default
 
         uniformClass = "";
         backpack = "";
@@ -33,6 +34,51 @@ class CfgVehicles {
         };
         respawnMagazines[] = {
         };
+
+        Items[] = {
+            "FirstAidKit"
+        };
+        RespawnItems[] = {
+            "FirstAidKit"
+        };
+
+        linkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch"
+        };
+        respawnLinkedItems[] = {
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch"
+        };
+    };
+
+    class FGWF_B_Example_Marksman: FGWF_B_Example_Base {
+        _generalMacro = "FGWF_B_Example_Marksman";
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = "";
+
+        displayName = CSTRING(MarksmanName);
+        icon = "iconManSniper"; // Match the token to the role
+
+        uniformClass = "";
+        backpack = "";
+
+        weapons[] = {"", "Throw", "Put"};
+        respawnWeapons[] = {"", "Throw", "Put"};
+
+        magazines[] = {
+        };
+        respawnMagazines[] = {
+        };
+
+        // Randomization goes on the unit, never on the shared base class.
+        // The local guard makes it run once, on the machine that owns the unit. Without it the
+        // code also runs on remote machines, the roll is thrown away, and the unit ends up with a
+        // different loadout than the one that was rolled.
+        init = "if (local (_this select 0)) then { (_this select 0) addHeadgear (selectRandom ['MOD_H_Ballistic', 'MOD_H_Boonie']); }";
 
         Items[] = {
             "FirstAidKit"

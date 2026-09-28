@@ -7,5 +7,8 @@
         <Key ID="STR_GR7BOW_FGWF_B_Example_Faction_UnitName">
             <English>Example Unit</English>
         </Key>
+        <Key ID="STR_GR7BOW_FGWF_B_Example_Faction_MarksmanName">
+            <English>Example Marksman</English>
+        </Key>
     </Package>
 </Project>

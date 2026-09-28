@@ -12,7 +12,8 @@ class CfgPatches {
             "A3_Characters_F"
         };
         units[] = {
-            "FGWF_B_Example_Unit"
+            "FGWF_B_Example_Unit",
+            "FGWF_B_Example_Marksman"
         };
         weapons[] = {};
         VERSION_CONFIG;

@@ -10,35 +10,35 @@ class CfgPatches {
         requiredAddons[] = {
             "cba_main",
             "gr7bow_fgwf_main",
-            "gr7bow_fgwf_uniforms",     // FGWF_U_PMC_Unit_1, FGWF_U_PMC_Unit_35, FGWF_U_USMC_FROG3_WMARPAT
-            "A3_Characters_F",          // Head_Euro, O_Soldier_F
-            "A3_Characters_F_Enoch",    // Head_Russian, LivonianHead_5, WhiteHead_01, WhiteHead_04, WhiteHead_27
-            "A3_Characters_F_Heads",    // Man_A3
-            "A3_Dubbing_Radio_F_Enoch", // LanguageRUS, Male01RUS, Male02RUS, Male03RUS
-            "A3_Weapons_F_SMGs_SMG_01", // SMG_01_F
-            "CUP_Creatures_Military_FR",     // CUP_H_FR_BandanaWdl
-            "CUP_Creatures_Military_PMC",    // CUP_V_PMC_IOTV_Black_Empty
-            "CUP_Creatures_Military_Russia", // CUP_H_RUS_Altyn_Shield_Up_black, CUP_RUS_Balaclava_blk
-            "CUP_Creatures_Military_USArmy", // CUP_V_B_Interceptor_Base_Coyote
-            "CUP_Creatures_Military_USMC",   // CUP_V_CPC_Fastbelt_rngr
-            "CUP_Weapons_Ammunition",        // CUP_100Rnd_TE4_Green_Tracer_556x45_M249, CUP_17Rnd_9x19_glock17, CUP_17Rnd_9x19_M17_Black, CUP_20Rnd_9x39_SP5_VSS_M, CUP_30Rnd_556x45_Stanag, CUP_30Rnd_556x45_Stanag_Tracer_Green, CUP_7Rnd_50AE_Deagle, CUP_8Rnd_12Gauge_Pellets_No00_Buck, CUP_8Rnd_12Gauge_Slug, CUP_8Rnd_9x18_Makarov_M
-            "CUP_Weapons_Deagle",            // CUP_hgun_Deagle
-            "CUP_Weapons_East_Attachments",  // CUP_optic_PSO_1
-            "CUP_Weapons_Glock",             // CUP_hgun_Glock17_blk
-            "CUP_Weapons_Grenades",          // CUP_HandGrenade_RGD5
-            "CUP_Weapons_M17",               // CUP_hgun_M17_Black
-            "CUP_Weapons_M249",              // CUP_lmg_M249_E2
-            "CUP_Weapons_M4",                // CUP_arifle_HK416_Black, CUP_arifle_M16A4_Base, CUP_arifle_M4A1_black
-            "CUP_Weapons_Makarov",           // CUP_hgun_Makarov
-            "CUP_Weapons_NVG",               // CUP_NVG_PVS7
-            "CUP_Weapons_SPAS12",            // CUP_sgun_SPAS12
-            "CUP_Weapons_Val",               // CUP_arifle_AS_VAL_pso
-            "cfp_headgear", // CFP_OPS2017_Helmet_Grey, SP_PASGTHelmet_Black1
-            "CFP_O_RUMVD",  // CFP_V_O_RUMVD_SURPAT
-            "cfp_uniforms", // CFP_BDU_M81Iraq, CFP_U_WorkUniform_SudanPolice
-            "cfp_vests",    // CFP_Tactical1_M81, SP_Tactical1_Black
-            "rhsgref_c_weapons", // rhs_panzerfaust60_mag, rhs_weap_m3a1, rhs_weap_panzerfaust60, rhsgref_30rnd_1143x23_M1911B_SMG
-            "USP_Gear_Face"      // USP_BEARD_BRN5
+            "gr7bow_fgwf_uniforms",       // Uniforms
+            "A3_Characters_F",            // Base class (O_Soldier_F)
+            "A3_Characters_F_Enoch",      // Base: Head_Russian; Oleg: LivonianHead_5, Vitaly: WhiteHead_01
+            "A3_Characters_F_Heads",      // Face models (Man_A3)
+            "A3_Dubbing_Radio_F_Enoch",   // Voices (Male01RUS)
+            "A3_Weapons_F_SMGs_SMG_01",   // SpecialForce: SMG_01_F
+            "CUP_Creatures_Military_FR",     // Sharpshooter: CUP_H_FR_BandanaWdl
+            "CUP_Creatures_Military_PMC",    // Infantry: CUP_V_PMC_IOTV_Black_Empty
+            "CUP_Creatures_Military_Russia", // Machinegunner: CUP_H_RUS_Altyn_Shield_Up_black; Infantry: CUP_RUS_Balaclava_blk
+            "CUP_Creatures_Military_USArmy", // Machinegunner: CUP_V_B_Interceptor_Base_Coyote
+            "CUP_Creatures_Military_USMC",   // SpecialForce: CUP_V_CPC_Fastbelt_rngr
+            "CUP_Weapons_Ammunition",        // All units - Ammo
+            "CUP_Weapons_Deagle",            // Sharpshooter: CUP_hgun_Deagle
+            "CUP_Weapons_East_Attachments",  // Sharpshooter: CUP_optic_PSO_1
+            "CUP_Weapons_Glock",             // Vitaly: CUP_hgun_Glock17_blk
+            "CUP_Weapons_Grenades",          // All units - Grenades (CUP_HandGrenade_RGD5)
+            "CUP_Weapons_M17",               // ArmedPolice, Scout: CUP_hgun_M17_Black
+            "CUP_Weapons_M249",              // Machinegunner: CUP_lmg_M249_E2
+            "CUP_Weapons_M4",                // Infantry: CUP_arifle_M16A4_Base, Commando: CUP_arifle_M4A1_black, Oleg: CUP_arifle_HK416_Black
+            "CUP_Weapons_Makarov",           // Dimitro, Kostyantin: CUP_hgun_Makarov
+            "CUP_Weapons_NVG",               // Sharpshooter, SpecialForce, ArmedPolice, Commando, Scout: CUP_NVG_PVS7
+            "CUP_Weapons_SPAS12",            // ArmedPolice: CUP_sgun_SPAS12
+            "CUP_Weapons_Val",               // Sharpshooter: CUP_arifle_AS_VAL_pso
+            "CFP_O_RUMVD",  // Oleg: CFP_V_O_RUMVD_SURPAT
+            "cfp_headgear", // Sharpshooter, Commando, Scout: CFP_OPS2017_Helmet_Grey; ArmedPolice: SP_PASGTHelmet_Black1
+            "cfp_uniforms", // Sharpshooter: CFP_BDU_M81Iraq; ArmedPolice, Commando, Scout: CFP_U_WorkUniform_SudanPolice
+            "cfp_vests",    // Sharpshooter, Commando, Scout: CFP_Tactical1_M81; ArmedPolice: SP_Tactical1_Black
+            "rhsgref_c_weapons", // Scout: rhs_weap_m3a1; SpecialForce, ArmedPolice, Commando, Scout: rhs_weap_panzerfaust60
+            "USP_Gear_Face"      // Vitaly: USP_BEARD_BRN5
         };
         units[] = {
             "FGWF_O_Atov_Infantry",
