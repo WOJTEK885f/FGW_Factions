@@ -10,23 +10,26 @@ class CfgPatches {
         requiredAddons[] = {
             "cba_main",
             "gr7bow_fgwf_main",
-            "gr7bow_fgwf_vests", // FGWF_V_Flak_Vest_Vydra_3M
-            "A3_Characters_F",   // B_Soldier_F, Man_A3, WhiteHead_01
-            "A3_Weapons_F",      // Standard kit, SmokeShell, H_Bandanna_sgg
-            "CUP_Creatures_Military_PMC",    // PMC Unit 1 uniform, CIRAS vest
-            "CUP_Creatures_Military_Russia", // Altyn helmet, K6-3 helmet
-            "CUP_Creatures_Military_USMC",   // Interceptor vests, M1 helmet, ACR backpack
-            "CUP_Weapons_WeaponsCore", // HK416, M16A4, AA12, Colt1911, M9A1
-            "CUP_Weapons_Grenades",    // RGD5 grenades
-            "CUP_Weapons_NVG",         // NVGs (Special Owl, Special Snowfox)
-            "CUP_Weapons_SPAS12",      // AA-12, 20Rnd 12 gauge magazines
-            "cfp_headgear", // CFP PASGT helmet
-            "cfp_uniforms", // CFP M81Tee, TanTee
-            "cfp_vests",    // CFP Tactical vest
-            "rhs_main",          // M590 shotgun, RHS Vydra vest
-            "rhsgref_c_weapons", // M590 shotgun
-            "USP_Gear_Body",     // USP G3C uniform (Fighter, Marine)
-            "USP_Gear_Face"      // USP balaclava
+            "gr7bow_fgwf_vests",     // FGWF_V_Flak_Vest_Vydra_3M
+            "A3_Characters_F",       // B_Soldier_F, H_Bandanna_sgg, Head_Female
+            "A3_Characters_F_Enoch", // WhiteHead_01
+            "A3_Characters_F_Heads", // Man_A3
+            "CUP_Creatures_Military_PMC",    // CUP_I_B_PMC_Unit_1, CUP_V_PMC_CIRAS_Black_Empty
+            "CUP_Creatures_Military_Russia", // CUP_H_RUS_Altyn_Shield_Up_black, CUP_H_RUS_K6_3
+            "CUP_Creatures_Military_USArmy", // CUP_H_USArmy_Helmet_M1_plain_M81, CUP_V_B_Interceptor_Base_Coyote, CUP_V_B_Interceptor_Rifleman_M81
+            "CUP_Weapons_AA12",              // CUP_sgun_AA12
+            "CUP_Weapons_Ammunition",        // CUP_15Rnd_9x19_M9, CUP_20Rnd_B_AA12_Buck_00, CUP_20Rnd_B_AA12_Slug, CUP_30Rnd_556x45_Stanag, CUP_7Rnd_45ACP_1911
+            "CUP_Weapons_Colt1911",          // CUP_hgun_Colt1911
+            "CUP_Weapons_Grenades",          // CUP_HandGrenade_RGD5
+            "CUP_Weapons_M4",                // CUP_arifle_HK416_Black, CUP_arifle_M16A4_Base
+            "CUP_Weapons_M9",                // CUP_hgun_M9A1
+            "CUP_Weapons_NVG",               // CUP_NVG_PVS7
+            "cfp_headgear", // CFP_PASGTHelmet_M812
+            "cfp_uniforms", // CFP_GUER_M81Tee, CFP_GUER_TanTee
+            "cfp_vests",    // CFP_Tactical1_M81
+            "rhsusf_c_radio",   // rhs_Female01ENG
+            "rhsusf_c_weapons", // rhs_weap_M590_5RD, rhsusf_5Rnd_00Buck, rhsusf_5Rnd_Slug
+            "USP_Gear_Body"     // USP_G3C_CU_M81
         };
         units[] = {
             "FGWF_B_VFF_FemaleCivilianFighter",

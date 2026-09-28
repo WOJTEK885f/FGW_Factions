@@ -10,9 +10,9 @@ class CfgPatches {
         requiredAddons[] = {
             "cba_main",
             "gr7bow_fgwf_main",
-            "A3_Characters_F", // Supply80 (vest container class)
-            "A3_Weapons_F",    // VestItem
-            "rhs_main"  // Vydra-3M vest
+            "A3_Characters_F",    // Supply80
+            "A3_Weapons_F_Items", // VestItem
+            "rhs_c_troops"  // rhs_vydra_3m
         };
         units[] = {};
         weapons[] = {

@@ -10,8 +10,8 @@ class CfgPatches {
         requiredAddons[] = {
             "cba_main",
             "gr7bow_fgwf_main",
-            "CUP_Weapons_WeaponsCore", // Leupold Mk4 scope
-            "CUP_Weapons_AWM"          // AWM, G22, G22 mags, AWM suppressor
+            "CUP_Weapons_AWM",              // CUP_muzzle_snds_AWM, CUP_srifle_AWM_blk, CUP_srifle_G22_wdl
+            "CUP_Weapons_West_Attachments"  // CUP_optic_LeupoldMk4
         };
         units[] = {};
         weapons[] = {
