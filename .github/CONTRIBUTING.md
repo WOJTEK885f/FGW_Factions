@@ -44,6 +44,10 @@ python tools/registration_validator.py
 This mod follows the same coding guidelines as the ACE3 mod, which can be
 found [here](https://ace3.acemod.org/wiki/development/coding-guidelines).
 
+Additional conventions, mainly for AI assisted development, can be found in
+[CODING_CONVENTIONS.md](./CODING_CONVENTIONS.md) - currently just how
+`requiredAddons[]` is structured and commented.
+
 ## Pull Request Process
 
 - Give the pull request a descriptive title following the format:
