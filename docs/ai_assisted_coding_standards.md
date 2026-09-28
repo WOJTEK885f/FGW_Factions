@@ -31,22 +31,37 @@ This document is mod-independent. Placeholders used in examples:
 List entries in three blocks, in this order. Do **not** separate blocks with blank lines and do
 **not** insert label comments — order alone carries the grouping.
 
-1. **Core & Base** — framework, your core PBO, base data, shared gear.
-2. **Main Content** — the PBOs the addon is actually built from: one run of units, then one run of
-   weapons, then one run of clothing.
+1. **Core & Base** — the framework addon, your core PBO, your own gear addons, and base data for
+   characters, faces and voices.
+2. **Main Content** — one run per mod. A run is every PBO from the same mod, kept contiguous.
+   Addons from the same vendor that ship as separate mods stay in separate runs: `CUP_Creatures_*`
+   (units) and `CUP_Weapons_*` (weapons) are two different mods and must never be merged or
+   interleaved into one run.
 3. **Additional / Gap Fillers** — everything that fills a gap rather than defining the addon.
+
+Watch the naming trap: a PBO is classified by **which mod ships it**, not by how its name reads.
+CUP's dubbing addons are named `CUP_Dubbing_Radio_<LANG>_c` and ship with **CUP Units**, so they
+belong in the `CUP_Creatures_*` run — not alongside the vanilla `A3_Dubbing_*` base data in Core &
+Base, which their names suggest. Each language is a separate PBO: `CUP_Dubbing_Radio_RU_c` owns
+`CUP_D_Language_RU`, `CUP_Dubbing_Radio_TK_c` owns `CUP_D_Language_TK`.
 
 ```cpp
 requiredAddons[] = {
     "cba_main",
     "my_mod_main",
-    "A3_Characters_F",               // Base class (O_Soldier_F)
-    "CUP_Creatures_Military_PMC",    // Ranger: CUP_V_PMC_IOTV_Black_Empty
-    "CUP_Weapons_M4",                // Ranger: CUP_arifle_M4A1_black, Sniper: CUP_arifle_M16A4_Base
-    "CUP_Weapons_Ammunition",        // All units - Ammo
-    "cfp_uniforms",                  // All units - Uniform
-    "rhs_main",                      // Sniper: rhs_weap_panzerfaust60
-    "USP_Gear_Face"                  // Sniper: USP_BEARD_BRN5
+    "my_mod_uniforms",              // Ranger: MOD_U_Rifleman, Sniper: MOD_U_Reserve
+    "A3_Characters_F",              // Base class (O_Soldier_F)
+    "A3_Characters_F_Enoch",        // Vitaly: WhiteHead_01, Sniper: WhiteHead_04
+    "A3_Dubbing_Radio_F_Enoch",     // Vitaly, Sniper: Male02RUS, Officer: Male03RUS
+    "A3_Weapons_F",                 // Base: ItemCore, ItemInfo
+    "CUP_Creatures_Military_PMC",   // Ranger: CUP_V_PMC_IOTV_Black_Empty
+    "CUP_Creatures_Military_Russia",// Machinegunner: CUP_H_RUS_Altyn_Shield_Up_black
+    "CUP_Dubbing_Radio_RU_c",      // Base: CUP_D_Language_RU
+    "CUP_Weapons_M4",               // Ranger: CUP_arifle_M4A1_black, Sniper: CUP_arifle_M16A4_Base
+    "CUP_Weapons_Ammunition",       // All units - Ammo
+    "cfp_uniforms",                 // All units - Uniform
+    "rhs_main",                     // Sniper: rhs_weap_panzerfaust60
+    "USP_Gear_Face"                 // Sniper: USP_BEARD_BRN5
 };
 ```
 
@@ -66,8 +81,11 @@ requiredAddons[] = {
 - If several parts share it, list them: `// Ranger, Sniper: CUP_NVG_PVS7`.
 - If the set is exhaustive and long, collapse it to prose instead of listing every class:
   `// All units - Ammo`.
-- Do **not** use the `All units - ` form for base-data or your own addons. Say what they provide
-  instead: `// Base class (O_Soldier_F)`, `// Voices (Male01RUS)`, `// Uniforms`.
+- Do **not** use the `All units - ` form for base-data addons. Say what they provide instead:
+  `// Base class (O_Soldier_F)`, `// LanguageRUS; Vitaly: Male02RUS`.
+- Your **own gear addons** are the opposite case: always list the classes they provide, because they
+  exist only to be consumed by name — attribute them like any other class:
+  `// Ranger: MOD_U_Rifleman, Sniper: MOD_U_Reserve`.
 
 ### 2.4 Never guess a dependency
 
@@ -76,6 +94,10 @@ This is the rule that matters most.
 - Never add a PBO to `requiredAddons[]` because it looks like it should be there, because the class
   name is a prefix of another you already have, or because a similar mod needed it.
 - Never add a classname to a comment you have not read in this addon.
+- Derive a comment by reading every file in the addon, not just `CfgVehicles.hpp`. The easiest
+  things to miss are class **inheritance parents** (`class MyFace: WhiteHead_04`) and the
+  `face` / `glasses` / `speaker` fields in `CfgIdentities` and `CfgFaces`. A comment that names
+  one unit for a head or a voice that actually belongs to another is worse than no comment.
 - Derive the owning PBO from the **first** `configSourceAddonList` entry for the class. Not the
   highest version, not the alphabetically first, not the one whose name matches the class prefix.
 - Verify with the diagnostic scripts in `extras/utils` before writing the line.
