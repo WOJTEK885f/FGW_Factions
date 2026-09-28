@@ -14,11 +14,12 @@ class CfgPatches {
             "A3_Characters_F",                  // B_Soldier_F, Head_Euro
             "A3_Characters_F_Enoch",            // Head_Enoch, Head_Russian, LivonianHead_10, LivonianHead_3, WhiteHead_01, WhiteHead_31
             "A3_Characters_F_Heads",            // Man_A3
-            "A3_Dubbing_Radio_F_Enoch",         // LanguageRUS, Male01RUS, Male02RUS, Male03RUS
+            "A3_Dubbing_Radio_F_Enoch",         // LanguageRUS_F, Male01RUS, Male02RUS, Male03RUS
             "A3_Weapons_F_LongRangeRifles_EBR", // srifle_EBR_F
             "CUP_Creatures_Military_CDF",    // CUP_V_CDF_OfficerBelt
             "CUP_Creatures_Military_Russia", // CUP_RUS_Balaclava_blk
             "CUP_Creatures_Military_USMC",   // CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2, CUP_U_B_USMC_MCCUU_MARPAT_M81, CUP_V_CPC_Fastbelt_rngr
+            "CUP_Dubbing_Radio_RU_c",        // Base: CUP_D_Language_RU
             "CUP_Weapons_AK",                // CUP_arifle_AKS74U_top_rail
             "CUP_Weapons_Ammunition",        // CUP_10Rnd_762x39_SaigaMk03_M, CUP_10Rnd_762x54_SVD_M, CUP_15Rnd_9x19_M9, CUP_20Rnd_TE1_Green_Tracer_762x51_DMR, CUP_30Rnd_556x45_Stanag, CUP_30Rnd_TE1_Green_Tracer_545x39_AK74M_M
             "CUP_Weapons_Grenades",          // CUP_HandGrenade_RGD5

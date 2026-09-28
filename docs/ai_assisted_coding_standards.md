@@ -82,7 +82,7 @@ requiredAddons[] = {
 - If the set is exhaustive and long, collapse it to prose instead of listing every class:
   `// All units - Ammo`.
 - Do **not** use the `All units - ` form for base-data addons. Say what they provide instead:
-  `// Base class (O_Soldier_F)`, `// LanguageRUS; Vitaly: Male02RUS`.
+  `// Base class (O_Soldier_F)`, `// LanguageRUS_F; Vitaly: Male02RUS`.
 - Your **own gear addons** are the opposite case: always list the classes they provide, because they
   exist only to be consumed by name — attribute them like any other class:
   `// Ranger: MOD_U_Rifleman, Sniper: MOD_U_Reserve`.

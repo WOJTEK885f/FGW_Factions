@@ -19,7 +19,7 @@ class CfgPatches {
             "A3_Dubbing_Radio_F",               // LanguageENG_F
             "A3_Dubbing_Radio_F_ENGB",          // LanguageENGB_F
             "A3_Dubbing_Radio_F_ENGFR",         // LanguageENGFRE_F
-            "A3_Dubbing_Radio_F_Enoch",         // LanguageRUS, Male01RUS, Male02RUS, Male03RUS
+            "A3_Dubbing_Radio_F_Enoch",         // LanguageRUS_F, Male01RUS, Male02RUS, Male03RUS
             "A3_Weapons_F_LongRangeRifles_EBR", // srifle_EBR_F
             "CUP_Creatures_Military_Germany",       // CUP_V_B_JPC_Black_Light
             "CUP_Creatures_Military_PMC",           // CUP_I_B_PMC_Unit_1, CUP_I_B_PMC_Unit_11, CUP_I_B_PMC_Unit_15, CUP_I_B_PMC_Unit_19, CUP_I_B_PMC_Unit_2, CUP_I_B_PMC_Unit_43, CUP_V_PMC_CIRAS_Black_Empty, CUP_V_PMC_CIRAS_Coyote_Empty, CUP_V_PMC_CIRAS_Winter_Empty, CUP_V_PMC_IOTV_Black_Empty
@@ -28,6 +28,7 @@ class CfgPatches {
             "CUP_Creatures_Military_USArmy",        // CUP_H_USArmy_Helmet_M1_plain_M81, CUP_H_USArmy_Helmet_Protec, CUP_V_B_Interceptor_Base_Coyote, CUP_V_B_Interceptor_Rifleman_M81
             "CUP_Creatures_Military_USMC",          // CUP_U_B_USMC_MCCUU_MARPAT_M81
             "CUP_Creatures_People_Civil_Chernarus", // CUP_U_C_Worker_02, CUP_V_C_Police_Holster
+            "CUP_Dubbing_Radio_RU_c",               // GuerBase: CUP_D_Language_RU
             "CUP_Weapons_Ammunition",               // CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M, CUP_10Rnd_762x39_SaigaMk03_M, CUP_10Rnd_762x54_SVD_M, CUP_15Rnd_9x19_M9, CUP_17Rnd_9x19_glock17, CUP_17Rnd_9x19_M17_Black, CUP_20Rnd_762x51_DMR, CUP_30Rnd_556x45_AUG, CUP_30Rnd_556x45_Stanag, CUP_30Rnd_9x19_EVO, CUP_30Rnd_9x19_MP5, CUP_5Rnd_86x70_L115A1, CUP_6Rnd_45ACP_M, CUP_7Rnd_45ACP_1911, CUP_8Rnd_12Gauge_Pellets_No00_Buck, CUP_8Rnd_12Gauge_Slug, CUP_8Rnd_762x25_TT, CUP_8Rnd_9x18_Makarov_M
             "CUP_Weapons_Colt1911",                 // CUP_hgun_Colt1911
             "CUP_Weapons_EVO",                      // CUP_smg_EVO

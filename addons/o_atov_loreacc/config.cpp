@@ -14,7 +14,7 @@ class CfgPatches {
             "A3_Characters_F",          // Base class (O_Soldier_F, Head_Euro)
             "A3_Characters_F_Enoch",    // Base: Head_Russian; Vitaly: LivonianHead_5, Oleg: WhiteHead_01, Dimitro: WhiteHead_04, Kostyantin: WhiteHead_27
             "A3_Characters_F_Heads",    // Face models (Man_A3)
-            "A3_Dubbing_Radio_F_Enoch", // Base identity: LanguageRUS; Vitaly, Dimitro: Male02RUS, Oleg: Male03RUS, Kostyantin: Male01RUS
+            "A3_Dubbing_Radio_F_Enoch", // Base identity: LanguageRUS_F; Vitaly, Dimitro: Male02RUS, Oleg: Male03RUS, Kostyantin: Male01RUS
             "A3_Weapons_F_SMGs_SMG_01", // SpecialForce: SMG_01_F
             "CUP_Creatures_Military_FR",     // Sharpshooter: CUP_H_FR_BandanaWdl
             "CUP_Creatures_Military_PMC",    // Infantry: CUP_V_PMC_IOTV_Black_Empty

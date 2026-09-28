@@ -11,7 +11,7 @@ class CfgVehicles {
         editorSubcategory = "EdSubcat_Personnel";
 
         // Faction identity: Example appearance and language
-        identityTypes[] = {"LanguageRUS", "Head_Russian", "Head_Euro", "Head_Enoch"};
+        identityTypes[] = {"LanguageRUS_F", "Head_Russian", "Head_Euro", "Head_Enoch"};
         genericNames = "RussianMen";
     };
 

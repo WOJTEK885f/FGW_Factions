@@ -21,6 +21,7 @@ class CfgPatches {
             "CUP_Creatures_Military_USArmy", // CUP_G_Scarf_Face_Red, CUP_V_B_Interceptor_Rifleman_M81
             "CUP_Creatures_Military_USMC",   // CUP_V_CPC_Fastbelt_rngr
             "CUP_Dubbing_Radio_EN_c",        // CUP_D_Male05_EN
+            "CUP_Dubbing_Radio_TK_c",        // Base class: CUP_D_Language_TK
             "CUP_Weapons_AK",                // CUP_arifle_AK12_black, CUP_arifle_AK74M, CUP_arifle_AKS74U_top_rail
             "CUP_Weapons_Ammunition",        // CUP_15Rnd_9x19_M9, CUP_17Rnd_9x19_M17_Black, CUP_20Rnd_TE1_Green_Tracer_762x51_DMR, CUP_30Rnd_545x39_AK12_M, CUP_30Rnd_545x39_AK74M_M, CUP_30Rnd_556x45_Stanag, CUP_7Rnd_50AE_Deagle
             "CUP_Weapons_Deagle",            // CUP_hgun_Deagle

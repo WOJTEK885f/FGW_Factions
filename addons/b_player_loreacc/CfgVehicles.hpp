@@ -26,7 +26,7 @@ class CfgVehicles {
         editorSubcategory = "gr7bow_fgwf_Subcat_Guerrilla";
 
         // Faction identity: Slavic appearance and Russian language (locals)
-        identityTypes[] = {"LanguageRUS", "CUP_D_Language_RU", "Head_Russian", "Head_Euro", "Head_Enoch"};
+        identityTypes[] = {"LanguageRUS_F", "CUP_D_Language_RU", "Head_Russian", "Head_Euro", "Head_Enoch"};
         genericNames = "RussianMen";
     };
 

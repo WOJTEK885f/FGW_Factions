@@ -15,7 +15,7 @@ class CfgPatches {
             "A3_Characters_F",                  // G_Bandanna_blk, G_Bandanna_khk, G_Bandanna_oli, Head_Female, I_Soldier_F
             "A3_Characters_F_Enoch",            // Head_Enoch, Head_Russian, WhiteHead_01
             "A3_Characters_F_Heads",            // Man_A3
-            "A3_Dubbing_Radio_F_Enoch",         // LanguageRUS
+            "A3_Dubbing_Radio_F_Enoch",         // LanguageRUS_F
             "A3_Weapons_F_LongRangeRifles_EBR", // srifle_EBR_F
             "CUP_Creatures_Military_FR",            // CUP_H_FR_BandanaWdl
             "CUP_Creatures_Military_PMC",           // CUP_I_B_PMC_Unit_11, CUP_I_B_PMC_Unit_15, CUP_I_B_PMC_Unit_2, CUP_I_B_PMC_Unit_43, CUP_V_PMC_CIRAS_Coyote_Empty
@@ -23,6 +23,7 @@ class CfgPatches {
             "CUP_Creatures_Military_SLA",           // CUP_H_SLA_Helmet_URB_worn
             "CUP_Creatures_Military_USArmy",        // CUP_H_USArmy_Helmet_M1_plain_M81, CUP_H_USArmy_Helmet_Protec, CUP_V_B_Interceptor_Rifleman_M81
             "CUP_Creatures_People_Civil_Chernarus", // CUP_V_C_Police_Holster
+            "CUP_Dubbing_Radio_RU_c",              // Base: CUP_D_Language_RU
             "CUP_Weapons_Ammunition",               // CUP_10Rnd_762x39_SaigaMk03_M, CUP_17Rnd_9x19_M17_Black, CUP_20Rnd_762x51_DMR, CUP_30Rnd_45ACP_M3A1_BLK_M, CUP_30Rnd_9x19_EVO, CUP_7Rnd_50AE_Deagle
             "CUP_Weapons_Deagle",                   // CUP_hgun_Deagle
             "CUP_Weapons_EVO",                      // CUP_smg_EVO
