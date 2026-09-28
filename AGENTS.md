@@ -1,6 +1,6 @@
 # AI-Assisted Coding Standards
 
-These rules apply to every config file in this repository. They are strict: if a rule cannot be met, ask rather than deviate silently. Besides generic rules, at the bottom of this file are project-specific rules.
+Freeman: Guerrilla Warfare Factions is an Arma 3 mod that brings the factions of Freeman: Guerrilla Warfare game into Arma, providing a range of military, paramilitary, and rebel forces from the fictional world of Cherniv. It tries to recreate all units with game-accurate gear, custom character identities and various other features. It's built based on data extracted from F:GW game files, together with robust documentation of original units and factions.
 
 ---
 
@@ -42,3 +42,7 @@ The repository contains specialized diagnostic SQF scripts in `extras/utils/` de
 * `findUniformModel.sqf`: Quickly extracts the underlying dummy unit model (`uniformClass`) assigned to a specific uniform item.
 
 ---
+
+## Coding Guidelines
+
+These rules apply to every config file in this repository. They are strict: if a rule cannot be met, ask rather than deviate silently. Besides generic rules, at the bottom of this file are project-specific rules.
