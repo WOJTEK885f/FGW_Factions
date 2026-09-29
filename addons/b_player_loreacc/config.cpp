@@ -17,9 +17,8 @@ class CfgPatches {
             "A3_Characters_F_Enoch",            // Base: Head_Enoch, Head_Russian; Georgiy: WhiteHead_32; Ivan: LivonianHead_3; Petro: WhiteHead_25
             "A3_Characters_F_Heads",            // Face models (Man_A3); ArmedBodyguard, SpecialSnowfox: G_Sport_Blackred; Sergei: WhiteHead_09
             "A3_Characters_F_Orange",           // Yevgen: GreekHead_A3_12
-            "A3_Dubbing_Radio_F",               // Base identity class: Language (LanguageENG_F)
-            "A3_Dubbing_Radio_F_ENGB",          // Base identity class: Language (LanguageENGB_F)
-            "A3_Dubbing_Radio_F_ENGFR",         // Base identity class: Language (LanguageENGFRE_F)
+            "A3_Dubbing_Radio_F",               // Base identity class: Language (LanguageENG_F, LanguageENGB_F)
+            "A3_Dubbing_Radio_F_EXP",           // Base identity class: Language (LanguageENGFRE_F)
             "A3_Dubbing_Radio_F_Enoch",         // GuerBase identity class: Language (LanguageRUS_F); Georgiy, Petro: Male01RUS; Ivan, Yevgen: Male02RUS; Sergei: Male03RUS
             "A3_Weapons_F_LongRangeRifles_EBR", // Petro, Sergei: srifle_EBR_F
             "CUP_Creatures_Military_Germany",       // Spetsnaz: CUP_V_B_JPC_Black_Light

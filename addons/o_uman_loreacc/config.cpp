@@ -15,8 +15,7 @@ class CfgPatches {
             "A3_Characters_F",                  // Base unit class (O_Soldier_F, Head_Greek, Head_TK); Multiple units - Uniform (U_C_Uniform_Scientist_02_formal_F); Terrorist_AK74M, Terrorist_AKS74U: G_Bandanna_blk
             "A3_Characters_F_Enoch",            // Haaken: RussianHead_3
             "A3_Characters_F_Heads",            // Face models (Man_A3)
-            "A3_Dubbing_Radio_F_ENGB",          // Finn: Male04ENGB
-            "A3_Dubbing_Radio_F_PER",           // Base identity class: Language (LanguagePER_F)
+            "A3_Dubbing_Radio_F",               // Base identity class: Language (LanguagePER_F); Finn: Male04ENGB (LanguageENGB_F)
             "A3_Weapons_F_LongRangeRifles_EBR", // Haaken: srifle_EBR_F
             "CUP_Creatures_Military_USArmy", // Militant_AK12, Militant_AK74M: CUP_G_Scarf_Face_Red; Terrorist_AK74M, Terrorist_AKS74U: CUP_V_B_Interceptor_Rifleman_M81
             "CUP_Creatures_Military_USMC",   // Militant_AK12, Militant_AK74M: CUP_V_CPC_Fastbelt_rngr
