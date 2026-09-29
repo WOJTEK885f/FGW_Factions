@@ -141,7 +141,13 @@ The framework addon and the project's own core PBO must never be commented. Thei
     // Base identity class: Language (LanguageRUS_F)
     ```
 
-#### 1.5. Addon classification
+#### 1.5. Comment indentation
+
+Comments must be vertically aligned within each block of `requiredAddons[]`.
+
+For each block independently, determine the **longest addon entry in that block** and place the comment delimiter (`//`) **exactly one space after the end of that entry**. All other entries in the same block must be padded with spaces so that their comments start at the same column.
+
+#### 1.6. Addon classification
 
 Addon classification is based on **which mod ships the PBO**, not on what the PBO name appears to represent. The exact addon names and classnames must always be verified from the actual game/mod configuration. Never invent or infer `requiredAddons` entries when their precise names are unknown. Refer to `Role & Context` > `Tools & Diagnostics` section of this document.
 
