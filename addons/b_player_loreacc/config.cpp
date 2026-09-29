@@ -10,19 +10,20 @@ class CfgPatches {
         requiredAddons[] = {
             "cba_main",
             "gr7bow_fgwf_main",
-            "gr7bow_fgwf_uniforms",             // ArmedBodyguard: FGWF_U_Marshal; Ivan: FGWF_U_PMC_Unit_1; Yevgen: FGWF_U_C_Worker_02
+            "gr7bow_fgwf_uniforms",             // ArmedBodyguard: FGWF_U_Marshal; Ivan: FGWF_U_PMC_Unit_1; Yevgen: FGWF_U_PMC_Unit_31
             "gr7bow_fgwf_vests",                // FemaleCivilianFighter, FemaleMilitia_TT33, MilitiaRifleman_BikeHelmet, MilitiaRifleman_Light, MilitiaRifleman_OldHelmet, MilitiaRifleman_SteelHelmet, Petro, Sergei, SpecialSnowfox: FGWF_V_Flak_Vest_Vydra_3M
             "gr7bow_fgwf_weapons",              // TrainedMarksman: FGWF_srifle_AWM_blk_sd
             "A3_Characters_F",                  // Base unit class (B_Soldier_F, Head_Euro); FemaleBase: Head_Female; MilitiaRifleman_BikeHelmet, MilitiaRifleman_Light, MilitiaRifleman_OldHelmet, MilitiaRifleman_SteelHelmet, SpecialRattlesnake: G_Bandanna_blk; MilitiaSniper, SpecialCheetah: G_Bandanna_khk; MilitiaSMGFighter: G_Bandanna_oli; SpecialScorpion: G_Bandanna_tan; FemaleCivilianFighter: H_Bandanna_sgg
-            "A3_Characters_F_Enoch",            // Base: Head_Enoch, Head_Russian; Georgiy: LivonianHead_7; Ivan: WhiteHead_04; Petro: LivonianHead_10; Sergei: LivonianHead_3; Yevgen: WhiteHead_31
-            "A3_Characters_F_Heads",            // Face models (Man_A3); ArmedBodyguard, SpecialSnowfox: G_Sport_Blackred
+            "A3_Characters_F_Enoch",            // Base: Head_Enoch, Head_Russian; Georgiy: WhiteHead_32; Ivan: LivonianHead_3; Petro: WhiteHead_25
+            "A3_Characters_F_Heads",            // Face models (Man_A3); ArmedBodyguard, SpecialSnowfox: G_Sport_Blackred; Sergei: WhiteHead_09
+            "A3_Characters_F_Orange",           // Yevgen: GreekHead_A3_12
             "A3_Dubbing_Radio_F",               // Base identity class: Language (LanguageENG_F)
             "A3_Dubbing_Radio_F_ENGB",          // Base identity class: Language (LanguageENGB_F)
             "A3_Dubbing_Radio_F_ENGFR",         // Base identity class: Language (LanguageENGFRE_F)
             "A3_Dubbing_Radio_F_Enoch",         // GuerBase identity class: Language (LanguageRUS_F); Georgiy, Petro: Male01RUS; Ivan, Yevgen: Male02RUS; Sergei: Male03RUS
             "A3_Weapons_F_LongRangeRifles_EBR", // Petro, Sergei: srifle_EBR_F
             "CUP_Creatures_Military_Germany",       // Spetsnaz: CUP_V_B_JPC_Black_Light
-            "CUP_Creatures_Military_PMC",           // FemaleCivilianFighter, FemaleCivilianFighterCaptain, SpecialVulture: CUP_I_B_PMC_Unit_1; Georgiy, MilitiaRifleman_Light: CUP_I_B_PMC_Unit_11; MilitiaRifleman_BikeHelmet: CUP_I_B_PMC_Unit_15; SpecialSnowfox: CUP_I_B_PMC_Unit_19; MilitiaRifleman_OldHelmet: CUP_I_B_PMC_Unit_2; MilitiaRifleman_SteelHelmet: CUP_I_B_PMC_Unit_43; ArmedEscortGuard_M1A1, FemaleCivilianFighterCaptain: CUP_V_PMC_CIRAS_Black_Empty; MilitiaSniper: CUP_V_PMC_CIRAS_Coyote_Empty; SpecialSealion: CUP_V_PMC_CIRAS_Winter_Empty; ArmedBodyguard: CUP_V_PMC_IOTV_Black_Empty
+            "CUP_Creatures_Military_PMC",           // FemaleCivilianFighter, FemaleCivilianFighterCaptain, SpecialVulture: CUP_I_B_PMC_Unit_1; MilitiaRifleman_Light: CUP_I_B_PMC_Unit_11; MilitiaRifleman_BikeHelmet: CUP_I_B_PMC_Unit_15; SpecialSnowfox: CUP_I_B_PMC_Unit_19; Georgiy, MilitiaRifleman_OldHelmet: CUP_I_B_PMC_Unit_2; MilitiaRifleman_SteelHelmet: CUP_I_B_PMC_Unit_43; ArmedEscortGuard_M1A1, FemaleCivilianFighterCaptain: CUP_V_PMC_CIRAS_Black_Empty; MilitiaSniper: CUP_V_PMC_CIRAS_Coyote_Empty; SpecialSealion: CUP_V_PMC_CIRAS_Winter_Empty; ArmedBodyguard: CUP_V_PMC_IOTV_Black_Empty
             "CUP_Creatures_Military_Russia",        // FemaleCivilianFighterCaptain, MilitiaRifleman_SteelHelmet: CUP_H_RUS_K6_3; SpecialVulture: CUP_H_RUS_Altyn_Shield_Up_black
             "CUP_Creatures_Military_SLA",           // MilitiaRifleman_OldHelmet: CUP_H_SLA_Helmet_URB_worn
             "CUP_Creatures_Military_USArmy",        // MilitiaRifleman_BikeHelmet, SpecialRattlesnake: CUP_H_USArmy_Helmet_Protec; SpecialCheetah: CUP_H_USArmy_Helmet_M1_plain_M81; SpecialScorpion: CUP_V_B_Interceptor_Base_Coyote; TrainedInfantry: CUP_V_B_Interceptor_Rifleman_M81

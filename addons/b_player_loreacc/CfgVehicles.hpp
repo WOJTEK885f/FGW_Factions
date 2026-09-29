@@ -1325,7 +1325,7 @@ class CfgVehicles {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Player_Companion_Yevgen'; };";
         };
 
-        uniformClass = "FGWF_U_C_Worker_02";
+        uniformClass = "FGWF_U_PMC_Unit_31";
         backpack = "";
 
         weapons[] = {"rhs_weap_M590_5RD", "Throw", "Put"};
@@ -1375,7 +1375,7 @@ class CfgVehicles {
             init = "if (local (_this select 0)) then { (_this select 0) setIdentity 'FGWF_Identity_Player_Companion_Georgiy'; };";
         };
 
-        uniformClass = "CUP_I_B_PMC_Unit_11";
+        uniformClass = "CUP_I_B_PMC_Unit_2";
         backpack = "";
 
         weapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
