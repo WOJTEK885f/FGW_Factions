@@ -20,8 +20,5 @@ include = [
 ]
 exclude = []
 
-[hemtt.release]
-archive = false
-
 [properties]
 author = "WOJTEK885"
