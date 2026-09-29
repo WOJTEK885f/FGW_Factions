@@ -46,3 +46,103 @@ The repository contains specialized diagnostic SQF scripts in `extras/utils/` de
 ## Coding Guidelines
 
 These rules apply to every config file in this repository. They are strict: if a rule cannot be met, ask rather than deviate silently. Besides generic rules, at the bottom of this file are project-specific rules.
+
+### 1. `requiredAddons[]`
+
+The `requiredAddons[]` array must be kept deterministic, readable, and grouped by dependency and content purpose. Its order should make the dependency structure and the reason for each external addon immediately apparent to a human reader.
+
+#### 1.1. Addon blocks
+
+`requiredAddons[]` must be organized into the following logical blocks, in this order:
+
+1. **Framework and project foundation** - CBA and the project's own main addon form a **single foundation block**.
+2. **Project addons and Arma 3 base-game addons** - All dependencies on the project's own addons and on vanilla Arma 3 addons belong to a **single block**.
+3. **Main content addons** - Each major external mod must have its **own, separate block** and must never be merged with another mod. These are addons that provide a substantial part of the content represented by the current project.
+4. **Additional / gap-filler addons** - All secondary or gap-filler dependencies belong to a **single shared block**. These are addons that supplement the main content but do not constitute one of the project's primary content sources.
+
+#### 1.2. Inter-mod ordering
+
+The order of main-content blocks as well as additional-content sections must follow dependency relationships. A mod that extends, patches, or otherwise relies on another mod must appear after that mod. Where no dependency relationship exists, order the mods alphabetically.
+
+> For example, if `CFP` extends `CUP` content, `CUP` must appear before `CFP`.
+
+The same principle applies at every level:
+
+* main-content blocks,
+* additional mod groups,
+* addons within an additional mod group.
+
+#### 1.3. Intra-block ordering
+
+Within `Additional / gap-filler addons blocks`, addons must be **grouped by mod** (in other blocks it's done by default). For each mod group:
+
+1. The mod's core/base/main addon must appear first.
+2. Any remaining addons from that mod must follow in alphabetical order.
+
+Do not split addons belonging to the same mod into multiple unrelated sections within the additional-addons block.
+
+#### 1.4. Comments and content descriptions
+
+Comments inside `requiredAddons[]` describe **what content from the dependency is actually used**. They should progress from the most general information to the most specific.
+The framework addon and the project's own core PBO must never be commented. Their presence is self-evident.
+
+> When a dependency provides both shared infrastructure and specific assets, list the shared or general content first and the individual assets afterwards.
+
+1. Content associated with a specific part of the project
+
+    When the dependency is used specifically by a unit, faction, role, or other identifiable part of the project, prefix the content description with that identifier followed by a colon.
+
+    ```cpp
+    // Rifleman: M4A1
+    ```
+
+2. Classname notation
+
+   Always name the specific classname that caused the dependency when it is known. When a human-readable description is also useful, place the classname in parentheses immediately after it.
+
+    ```cpp
+    // Rifleman: M4A1 (CUP_arifle_M4A3_black)
+    ```
+
+    For multiple specific classnames belonging to the same logical item group:
+
+    ```cpp
+    // Squad Leader, Rifleman: Uniforms (CUP_U_B_USMC_MCCUU_MARPAT_M81, CUP_U_B_USMC_MCCUU_M81_MARPAT_roll_2)
+    ```
+
+3. Separating multiple pieces of content within a single comment
+
+    * use a **comma** to separate individual items belonging to the same logical group
+    * use a **semicolon** to separate distinct groups of items or different consumers
+
+    Keep related items together and introduce a new semicolon-separated group only when the consumer or logical category changes.
+
+    ```cpp
+    // Sniper: Uniform, Hat; Soldier: Helmet
+    ```
+
+4. Widely shared content
+
+    When a large, common set of content is used by most of the addon's units, it may be collapsed into the form:
+
+    ```cpp
+    // Multiple units - Ammo
+    // Multiple units - Uniforms
+    ```
+
+    This is an accepted approximation. It is not necessary for every unit to be named when a dependency is broadly shared, even if a minority of units does not use that content. Otherwise, name the individual consumers explicitly, as shown before.
+
+5. Base-data dependencies
+
+    For base data, describe the provided class or shared definition rather than pretending it is an item directly consumed by individual units.
+
+   ```cpp
+    // Base unit class (O_Soldier_F)
+    // Base identity class: Language (LanguageRUS_F)
+    ```
+
+#### 1.5. Addon classification
+
+Addon classification is based on **which mod ships the PBO**, not on what the PBO name appears to represent. The exact addon names and classnames must always be verified from the actual game/mod configuration. Never invent or infer `requiredAddons` entries when their precise names are unknown. Refer to `Role & Context` > `Tools & Diagnostics` section of this document.
+
+---
