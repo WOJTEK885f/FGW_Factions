@@ -20,5 +20,8 @@ include = [
 ]
 exclude = []
 
+[hemtt.release]
+folder = "Freeman Guerrilla Warfare Factions"
+
 [properties]
 author = "WOJTEK885"
