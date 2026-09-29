@@ -146,3 +146,27 @@ The framework addon and the project's own core PBO must never be commented. Thei
 Addon classification is based on **which mod ships the PBO**, not on what the PBO name appears to represent. The exact addon names and classnames must always be verified from the actual game/mod configuration. Never invent or infer `requiredAddons` entries when their precise names are unknown. Refer to `Role & Context` > `Tools & Diagnostics` section of this document.
 
 ---
+
+## Project-Specific: Freeman: Guerrilla Warfare Factions
+
+### 1. `requiredAddons[]` classification
+
+The table below defines how external and project-owned PBOs are classified when building `requiredAddons[]`. This classification determines the block in which an addon belongs, the ordering rules that apply to it, and how dependencies between mods are represented.
+
+**Addon classification is based on the mod that ships the PBO, not on the apparent purpose suggested by its name.** Prefixes are provided as a practical way to identify the most common PBOs belonging to each mod, but they must not be treated as a substitute for verifying the actual source configuration, as they are **not** classname prefixes, even if some classnames use the same prefix.
+
+| Mod                    | Type                              | Addon Name Prefixes              | Extends |
+|------------------------|-----------------------------------|----------------------------------|---------|
+| CBA3                   | Framework addon                   | `cba_`                           | -       |
+| F:GW Factions          | Own mod                           | `gr7bow_fgwf_`                   | -       |
+| CUP Units              | Main external content             | `CUP_Creatures_`, `CUP_Dubbing_` | -       |
+| CUP Weapons            | Main external content             | `CUP_Weapons_`                   | -       |
+| CFP                    | Main external content             | `cfp_`, `CFP_`                   | CUP     |
+| USP                    | Additional / gap-filler           | `USP_`                           | -       |
+| RHS                    | Additional / gap-filler           | `rhs_`, `rhsusf_`, `rhsgref_`    | -       |
+| The Free World Armoury | Additional / gap-filler, Optional | `sp_fwa_`                        | -       |
+| Fifty Shades of Female | Additional / gap-filler, Optional | `zee_`                           | -       |
+
+#### Optional dependencies
+
+Mods marked **Optional** are not assumed to be universally required by the project. They should only be added to `requiredAddons[]` when the current config actually consumes content from that mod. This is usually true for compatibility addons, that override other FGWF addons' configs if the optional mod is loaded.
