@@ -11,22 +11,22 @@ class CfgPatches {
             "cba_main",
             "gr7bow_fgwf_main",
             "gr7bow_fgwf_uniforms",     // Dimitro: FGWF_U_PMC_Unit_1, SpecialForce: FGWF_U_PMC_Unit_35, Infantry, Machinegunner, Kostyantin, Oleg, Vitaly: FGWF_U_USMC_FROG3_WMARPAT
-            "A3_Characters_F",          // Base class (O_Soldier_F, Head_Euro)
+            "A3_Characters_F",          // Base unit class (O_Soldier_F, Head_Euro)
             "A3_Characters_F_Enoch",    // Base: Head_Russian; Vitaly: LivonianHead_5, Oleg: WhiteHead_01, Dimitro: WhiteHead_04, Kostyantin: WhiteHead_27
             "A3_Characters_F_Heads",    // Face models (Man_A3)
-            "A3_Dubbing_Radio_F_Enoch", // Base identity: LanguageRUS_F; Vitaly, Dimitro: Male02RUS, Oleg: Male03RUS, Kostyantin: Male01RUS
+            "A3_Dubbing_Radio_F_Enoch", // Base identity class: Language (LanguageRUS_F); Vitaly, Dimitro: Male02RUS, Oleg: Male03RUS, Kostyantin: Male01RUS
             "A3_Weapons_F_SMGs_SMG_01", // SpecialForce: SMG_01_F
             "CUP_Creatures_Military_FR",     // Sharpshooter: CUP_H_FR_BandanaWdl
             "CUP_Creatures_Military_PMC",    // Infantry: CUP_V_PMC_IOTV_Black_Empty
             "CUP_Creatures_Military_Russia", // Machinegunner: CUP_H_RUS_Altyn_Shield_Up_black; Infantry: CUP_RUS_Balaclava_blk
             "CUP_Creatures_Military_USArmy", // Machinegunner: CUP_V_B_Interceptor_Base_Coyote
             "CUP_Creatures_Military_USMC",   // SpecialForce: CUP_V_CPC_Fastbelt_rngr
-            "CUP_Dubbing_Radio_RU_c",        // Base identity: CUP_D_Language_RU
-            "CUP_Weapons_Ammunition",       // All units - Ammo
+            "CUP_Dubbing_Radio_RU_c",        // Base identity class: Language (CUP_D_Language_RU)
+            "CUP_Weapons_Ammunition",       // Multiple units - Ammo
             "CUP_Weapons_Deagle",           // Sharpshooter: CUP_hgun_Deagle
             "CUP_Weapons_East_Attachments", // Sharpshooter: CUP_optic_PSO_1
             "CUP_Weapons_Glock",            // Vitaly: CUP_hgun_Glock17_blk
-            "CUP_Weapons_Grenades",         // All units - Grenades (CUP_HandGrenade_RGD5)
+            "CUP_Weapons_Grenades",         // Multiple units - Grenades (CUP_HandGrenade_RGD5)
             "CUP_Weapons_M17",              // ArmedPolice, Scout: CUP_hgun_M17_Black
             "CUP_Weapons_M249",             // Machinegunner: CUP_lmg_M249_E2
             "CUP_Weapons_M4",               // Infantry: CUP_arifle_M16A4_Base, Commando: CUP_arifle_M4A1_black, Oleg: CUP_arifle_HK416_Black

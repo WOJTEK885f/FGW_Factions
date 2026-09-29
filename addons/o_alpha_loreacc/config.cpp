@@ -13,16 +13,16 @@ class CfgPatches {
             "gr7bow_fgwf_uniforms",     // Igor: FGWF_U_PMC_Unit_31
             "gr7bow_fgwf_vests",        // Volodimir: FGWF_V_Flak_Vest_Vydra_3M
             "gr7bow_fgwf_weapons",      // EliteSniper: FGWF_srifle_G22_wdl_sd_lmk4
-            "A3_Characters_F",          // Base class (O_Soldier_F, Head_NATO)
+            "A3_Characters_F",          // Base unit class (O_Soldier_F, Head_NATO)
             "A3_Characters_F_Enoch",    // Igor: LivonianHead_5; Volodimir: WhiteHead_04
             "A3_Characters_F_Heads",    // Face models (Man_A3)
-            "A3_Dubbing_Radio_F",       // Base identity: LanguageENG_F; Volodimir: Male01ENG, Igor: Male02ENG
+            "A3_Dubbing_Radio_F",       // Base identity class: Language (LanguageENG_F); Volodimir: Male01ENG, Igor: Male02ENG
             "A3_Weapons_F_SMGs_SMG_01", // EliteScout, Igor, Volodimir: SMG_01_F
             "CUP_Creatures_Military_Germany", // Igor: CUP_V_B_JPC_Black_Light
             "CUP_Creatures_Military_Russia",  // EliteStormtrooper: CUP_V_RUS_6B3_4
             "CUP_Creatures_Military_SLA",     // EliteSniper: CUP_H_SLA_Helmet_URB_worn
             "CUP_Creatures_Military_USArmy",  // EliteScout: CUP_H_USArmy_Helmet_Protec
-            "CUP_Weapons_Ammunition", // All units - Ammo
+            "CUP_Weapons_Ammunition", // Multiple units - Ammo
             "CUP_Weapons_Deagle",     // EliteSniper, Igor: CUP_hgun_Deagle
             "CUP_Weapons_Grenades",   // EliteScout, EliteStormtrooper, SpecialForce: CUP_HandGrenade_RGD5
             "CUP_Weapons_M240",       // EliteStormtrooper: CUP_lmg_FNMAG_RIS_modern

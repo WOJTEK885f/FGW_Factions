@@ -11,14 +11,14 @@ class CfgPatches {
             "cba_main",
             "gr7bow_fgwf_main",
             "gr7bow_fgwf_vests",     // FemaleCivilianFighter, Oksana, Victoria: FGWF_V_Flak_Vest_Vydra_3M
-            "A3_Characters_F",       // Base class (B_Soldier_F, Head_Female); FemaleCivilianFighter: H_Bandanna_sgg
+            "A3_Characters_F",       // Base unit class (B_Soldier_F, Head_Female); FemaleCivilianFighter: H_Bandanna_sgg
             "A3_Characters_F_Enoch", // Oksana, Victoria: WhiteHead_01
             "A3_Characters_F_Heads", // Face models (Man_A3)
             "CUP_Creatures_Military_PMC",    // FemaleCivilianFighter, FemaleCivilianFighterCaptain: CUP_I_B_PMC_Unit_1; FemaleCivilianFighterCaptain: CUP_V_PMC_CIRAS_Black_Empty
             "CUP_Creatures_Military_Russia", // Marine: CUP_H_RUS_Altyn_Shield_Up_black; FemaleCivilianFighterCaptain: CUP_H_RUS_K6_3
             "CUP_Creatures_Military_USArmy", // SpecialPolice: CUP_H_USArmy_Helmet_M1_plain_M81; Marine: CUP_V_B_Interceptor_Base_Coyote; Fighter: CUP_V_B_Interceptor_Rifleman_M81
             "CUP_Weapons_AA12",       // SpecialPolice: CUP_sgun_AA12
-            "CUP_Weapons_Ammunition", // All units - Ammo
+            "CUP_Weapons_Ammunition", // Multiple units - Ammo
             "CUP_Weapons_Colt1911",   // FemaleCivilianFighterCaptain, SpecialPolice: CUP_hgun_Colt1911
             "CUP_Weapons_Grenades",   // Fighter, SpecialPolice: CUP_HandGrenade_RGD5
             "CUP_Weapons_M4",         // Fighter, Oksana: CUP_arifle_HK416_Black; Marine, Victoria: CUP_arifle_M16A4_Base

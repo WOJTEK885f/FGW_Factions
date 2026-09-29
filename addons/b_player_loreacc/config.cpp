@@ -13,13 +13,13 @@ class CfgPatches {
             "gr7bow_fgwf_uniforms",             // ArmedBodyguard: FGWF_U_Marshal; Ivan: FGWF_U_PMC_Unit_1; Yevgen: FGWF_U_C_Worker_02
             "gr7bow_fgwf_vests",                // FemaleCivilianFighter, FemaleMilitia_TT33, MilitiaRifleman_BikeHelmet, MilitiaRifleman_Light, MilitiaRifleman_OldHelmet, MilitiaRifleman_SteelHelmet, Petro, Sergei, SpecialSnowfox: FGWF_V_Flak_Vest_Vydra_3M
             "gr7bow_fgwf_weapons",              // TrainedMarksman: FGWF_srifle_AWM_blk_sd
-            "A3_Characters_F",                  // Base class (B_Soldier_F, Head_Euro); FemaleBase: Head_Female; MilitiaRifleman_BikeHelmet, MilitiaRifleman_Light, MilitiaRifleman_OldHelmet, MilitiaRifleman_SteelHelmet, SpecialRattlesnake: G_Bandanna_blk; MilitiaSniper, SpecialCheetah: G_Bandanna_khk; MilitiaSMGFighter: G_Bandanna_oli; SpecialScorpion: G_Bandanna_tan; FemaleCivilianFighter: H_Bandanna_sgg
+            "A3_Characters_F",                  // Base unit class (B_Soldier_F, Head_Euro); FemaleBase: Head_Female; MilitiaRifleman_BikeHelmet, MilitiaRifleman_Light, MilitiaRifleman_OldHelmet, MilitiaRifleman_SteelHelmet, SpecialRattlesnake: G_Bandanna_blk; MilitiaSniper, SpecialCheetah: G_Bandanna_khk; MilitiaSMGFighter: G_Bandanna_oli; SpecialScorpion: G_Bandanna_tan; FemaleCivilianFighter: H_Bandanna_sgg
             "A3_Characters_F_Enoch",            // Base: Head_Enoch, Head_Russian; Georgiy: LivonianHead_7; Ivan: WhiteHead_04; Petro: LivonianHead_10; Sergei: LivonianHead_3; Yevgen: WhiteHead_31
             "A3_Characters_F_Heads",            // Face models (Man_A3); ArmedBodyguard, SpecialSnowfox: G_Sport_Blackred
-            "A3_Dubbing_Radio_F",               // Base identity: LanguageENG_F
-            "A3_Dubbing_Radio_F_ENGB",          // Base identity: LanguageENGB_F
-            "A3_Dubbing_Radio_F_ENGFR",         // Base identity: LanguageENGFRE_F
-            "A3_Dubbing_Radio_F_Enoch",         // GuerBase identity: LanguageRUS_F; Georgiy, Petro: Male01RUS; Ivan, Yevgen: Male02RUS; Sergei: Male03RUS
+            "A3_Dubbing_Radio_F",               // Base identity class: Language (LanguageENG_F)
+            "A3_Dubbing_Radio_F_ENGB",          // Base identity class: Language (LanguageENGB_F)
+            "A3_Dubbing_Radio_F_ENGFR",         // Base identity class: Language (LanguageENGFRE_F)
+            "A3_Dubbing_Radio_F_Enoch",         // GuerBase identity class: Language (LanguageRUS_F); Georgiy, Petro: Male01RUS; Ivan, Yevgen: Male02RUS; Sergei: Male03RUS
             "A3_Weapons_F_LongRangeRifles_EBR", // Petro, Sergei: srifle_EBR_F
             "CUP_Creatures_Military_Germany",       // Spetsnaz: CUP_V_B_JPC_Black_Light
             "CUP_Creatures_Military_PMC",           // FemaleCivilianFighter, FemaleCivilianFighterCaptain, SpecialVulture: CUP_I_B_PMC_Unit_1; Georgiy, MilitiaRifleman_Light: CUP_I_B_PMC_Unit_11; MilitiaRifleman_BikeHelmet: CUP_I_B_PMC_Unit_15; SpecialSnowfox: CUP_I_B_PMC_Unit_19; MilitiaRifleman_OldHelmet: CUP_I_B_PMC_Unit_2; MilitiaRifleman_SteelHelmet: CUP_I_B_PMC_Unit_43; ArmedEscortGuard_M1A1, FemaleCivilianFighterCaptain: CUP_V_PMC_CIRAS_Black_Empty; MilitiaSniper: CUP_V_PMC_CIRAS_Coyote_Empty; SpecialSealion: CUP_V_PMC_CIRAS_Winter_Empty; ArmedBodyguard: CUP_V_PMC_IOTV_Black_Empty
@@ -28,12 +28,12 @@ class CfgPatches {
             "CUP_Creatures_Military_USArmy",        // MilitiaRifleman_BikeHelmet, SpecialRattlesnake: CUP_H_USArmy_Helmet_Protec; SpecialCheetah: CUP_H_USArmy_Helmet_M1_plain_M81; SpecialScorpion: CUP_V_B_Interceptor_Base_Coyote; TrainedInfantry: CUP_V_B_Interceptor_Rifleman_M81
             "CUP_Creatures_Military_USMC",          // FemaleMilitia_TT33, MilitiaSMGFighter: CUP_U_B_USMC_MCCUU_MARPAT_M81
             "CUP_Creatures_People_Civil_Chernarus", // MaleVillager: CUP_U_C_Worker_02, CUP_V_C_Police_Holster
-            "CUP_Dubbing_Radio_RU_c",               // GuerBase identity: CUP_D_Language_RU
-            "CUP_Weapons_Ammunition", // All units - Ammo
+            "CUP_Dubbing_Radio_RU_c",               // GuerBase identity class: Language (CUP_D_Language_RU)
+            "CUP_Weapons_Ammunition", // Multiple units - Ammo
             "CUP_Weapons_Colt1911",   // FemaleCivilianFighterCaptain, FemaleMilitia_M1911: CUP_hgun_Colt1911
             "CUP_Weapons_EVO",        // MilitiaSMGFighter: CUP_smg_EVO
             "CUP_Weapons_Glock",      // ArmedEscortGuard_MP5, Georgiy, SpecialOwl: CUP_hgun_Glock17_blk
-            "CUP_Weapons_Grenades",   // All units - Grenades
+            "CUP_Weapons_Grenades",   // Multiple units - Grenades
             "CUP_Weapons_M14",        // MaleVillager, MilitiaRifleman_Light, MilitiaSniper: CUP_srifle_M14
             "CUP_Weapons_M17",        // MilitiaSniper: CUP_hgun_M17_Black
             "CUP_Weapons_M240",       // SpecialRattlesnake: CUP_lmg_FNMAG_RIS_modern

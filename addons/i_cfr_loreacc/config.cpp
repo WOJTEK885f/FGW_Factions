@@ -12,10 +12,10 @@ class CfgPatches {
             "gr7bow_fgwf_main",
             "gr7bow_fgwf_uniforms",             // MaleVillager: FGWF_U_C_Worker_02; MilitiaSMGFighter: FGWF_U_USMC_MCCUU_MARPAT_M81
             "gr7bow_fgwf_vests",                // DM, MilitiaRifleman_BikeHelmet, MilitiaRifleman_Light, MilitiaRifleman_OldHelmet, MilitiaRifleman_SteelHelmet: FGWF_V_Flak_Vest_Vydra_3M
-            "A3_Characters_F",                  // Base class (I_Soldier_F, Head_Russian); Olga: Head_Female; Grenadier, MilitiaRifleman_BikeHelmet, MilitiaRifleman_Light, MilitiaRifleman_OldHelmet, MilitiaRifleman_SteelHelmet: G_Bandanna_blk; MilitiaSniper: G_Bandanna_khk; Fighter, MilitiaSMGFighter: G_Bandanna_oli
+            "A3_Characters_F",                  // Base unit class (I_Soldier_F, Head_Russian); Olga: Head_Female; Grenadier, MilitiaRifleman_BikeHelmet, MilitiaRifleman_Light, MilitiaRifleman_OldHelmet, MilitiaRifleman_SteelHelmet: G_Bandanna_blk; MilitiaSniper: G_Bandanna_khk; Fighter, MilitiaSMGFighter: G_Bandanna_oli
             "A3_Characters_F_Enoch",            // Base: Head_Enoch; Olga: WhiteHead_01
             "A3_Characters_F_Heads",            // Face models (Man_A3)
-            "A3_Dubbing_Radio_F_Enoch",         // Base identity: LanguageRUS_F
+            "A3_Dubbing_Radio_F_Enoch",         // Base identity class: Language (LanguageRUS_F)
             "A3_Weapons_F_LongRangeRifles_EBR", // DM: srifle_EBR_F
             "CUP_Creatures_Military_FR",            // DM: CUP_H_FR_BandanaWdl
             "CUP_Creatures_Military_PMC",           // MilitiaRifleman_Light: CUP_I_B_PMC_Unit_11; MilitiaRifleman_BikeHelmet: CUP_I_B_PMC_Unit_15; MilitiaRifleman_OldHelmet: CUP_I_B_PMC_Unit_2; MilitiaRifleman_SteelHelmet: CUP_I_B_PMC_Unit_43; MilitiaSniper: CUP_V_PMC_CIRAS_Coyote_Empty
@@ -23,8 +23,8 @@ class CfgPatches {
             "CUP_Creatures_Military_SLA",           // Grenadier, MilitiaRifleman_OldHelmet: CUP_H_SLA_Helmet_URB_worn
             "CUP_Creatures_Military_USArmy",        // Fighter: CUP_H_USArmy_Helmet_M1_plain_M81; MilitiaRifleman_BikeHelmet: CUP_H_USArmy_Helmet_Protec; Grenadier: CUP_V_B_Interceptor_Rifleman_M81
             "CUP_Creatures_People_Civil_Chernarus", // MaleVillager, Olga: CUP_V_C_Police_Holster
-            "CUP_Dubbing_Radio_RU_c",               // Base identity: CUP_D_Language_RU
-            "CUP_Weapons_Ammunition", // All units - Ammo
+            "CUP_Dubbing_Radio_RU_c",               // Base identity class: Language (CUP_D_Language_RU)
+            "CUP_Weapons_Ammunition", // Multiple units - Ammo
             "CUP_Weapons_Deagle",     // DM: CUP_hgun_Deagle
             "CUP_Weapons_EVO",        // MilitiaSMGFighter: CUP_smg_EVO
             "CUP_Weapons_Grenades",   // DM, Grenadier, MilitiaSMGFighter: CUP_HandGrenade_RGD5

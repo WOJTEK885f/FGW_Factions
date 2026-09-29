@@ -10,18 +10,18 @@ class CfgPatches {
         requiredAddons[] = {
             "cba_main",
             "gr7bow_fgwf_main",
-            "A3_Characters_F",                  // Base class (I_Soldier_F, Head_Euro)
+            "A3_Characters_F",                  // Base unit class (I_Soldier_F, Head_Euro)
             "A3_Characters_F_Enoch",            // Base: Head_Russian, Head_Enoch; Bohdan: LivonianHead_7; Ostap: WhiteHead_04
             "A3_Characters_F_Heads",            // Face models (Man_A3); Stepan: GreekHead_A3_03
-            "A3_Dubbing_Radio_F_Enoch",         // Base identity: LanguageRUS_F; Bohdan: Male01RUS, Ostap: Male02RUS, Stepan: Male03RUS
+            "A3_Dubbing_Radio_F_Enoch",         // Base identity class: Language (LanguageRUS_F); Bohdan: Male01RUS, Ostap: Male02RUS, Stepan: Male03RUS
             "A3_Weapons_F_LongRangeRifles_EBR", // Rifleman: srifle_EBR_F
             "CUP_Creatures_Military_Russia", // ShockTroop: CUP_H_RUS_Altyn_Shield_Up_black; Rifleman: CUP_H_RUS_K6_3
             "CUP_Creatures_Military_USArmy", // Bohdan: CUP_V_B_Interceptor_Base_Coyote; Stepan: CUP_V_B_Interceptor_Base_M81; Grenadier: CUP_V_B_Interceptor_Grenadier_M81; Ostap: CUP_V_B_Interceptor_Rifleman_M81
             "CUP_Creatures_Military_USMC",   // ShockTroop: CUP_V_CPC_lightbelt_rngr
-            "CUP_Dubbing_Radio_RU_c",        // Base identity: CUP_D_Language_RU
+            "CUP_Dubbing_Radio_RU_c",        // Base identity class: Language (CUP_D_Language_RU)
             "CUP_Weapons_ACR",        // Grenadier: CUP_arifle_ACR_blk_556
             "CUP_Weapons_AK",         // Ostap: CUP_arifle_AKM_top_rail; Bohdan, Militia: CUP_arifle_AKS74U_top_rail
-            "CUP_Weapons_Ammunition", // All units - Ammo
+            "CUP_Weapons_Ammunition", // Multiple units - Ammo
             "CUP_Weapons_Grenades",   // Grenadier, Militia, Rifleman, ShockTroop: CUP_HandGrenade_RGD5
             "CUP_Weapons_M240",       // ShockTroop: CUP_lmg_FNMAG_RIS_modern
             "CUP_Weapons_NVG",        // Grenadier: CUP_NVG_PVS7

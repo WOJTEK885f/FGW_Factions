@@ -10,11 +10,11 @@ class CfgPatches {
         requiredAddons[] = {
             "cba_main",
             "gr7bow_fgwf_main",
-            "gr7bow_fgwf_b_player_loreacc", // Base class (FGWF_B_Player_Base, FGWF_B_Player_GuerFemaleBase); FGWF_B_Player_FemaleBase, FGWF_B_Player_FemaleVillager, FGWF_B_Player_FemaleMilitia_TT33
+            "gr7bow_fgwf_b_player_loreacc", // Base unit class (FGWF_B_Player_Base, FGWF_B_Player_GuerFemaleBase); FGWF_B_Player_FemaleBase, FGWF_B_Player_FemaleVillager, FGWF_B_Player_FemaleMilitia_TT33
             "gr7bow_fgwf_b_pozna_loreacc",  // FGWF_Identity_Pozna_Companion_Tatyana
             "gr7bow_fgwf_b_vff_loreacc",    // FGWF_B_VFF_Base, FGWF_Identity_VFF_Companion_Oksana, FGWF_Identity_VFF_Companion_Victoria
             "gr7bow_fgwf_i_cfr_loreacc",    // FGWF_Identity_CFR_Companion_Olga
-            "A3_Characters_F",              // Base: B_Soldier_F; Base, FemaleBase, FemaleVillager, FemaleMilitia_TT33: Head_Female
+            "A3_Characters_F",              // Base unit class (B_Soldier_F); Base, FemaleBase, FemaleVillager, FemaleMilitia_TT33: Head_Female
             "A3_Characters_F_Heads",        // Face models (Man_A3)
             "zee_FiftyShadesOfFemale"  // Companion face overrides (fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair, fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair, fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair, fsof_femaleCauc02t4_HazelEyes_Bun_BlondeHair)
         };
