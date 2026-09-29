@@ -37,7 +37,7 @@ class CfgPatches {
             "CUP_Weapons_Grenades",   // Multiple units - Grenades
             "CUP_Weapons_HK416",      // Spetsnaz: CUP_arifle_HK416_Black
             "CUP_Weapons_M14",        // MaleVillager, MilitiaRifleman_Light, MilitiaSniper: CUP_srifle_M14
-            "CUP_Weapons_M16",        // SpecialSealion: CUP_arifle_M16A4_Base; SpecialScorpion, TrainedInfantry: CUP_arifle_M4A1_black
+            "CUP_Weapons_M16",        // SpecialSealion: CUP_arifle_M16A4_Base; SpecialScorpion, TrainedInfantry: CUP_arifle_M4A3_black
             "CUP_Weapons_M17",        // MilitiaSniper: CUP_hgun_M17_Black
             "CUP_Weapons_M240",       // SpecialRattlesnake: CUP_lmg_FNMAG_RIS_modern
             "CUP_Weapons_M9",         // Ivan: CUP_hgun_M9A1

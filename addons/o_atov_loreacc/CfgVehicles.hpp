@@ -283,8 +283,8 @@ class CfgVehicles {
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
 
-        weapons[] = {"CUP_arifle_M4A1_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_M4A1_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        weapons[] = {"CUP_arifle_M4A3_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A3_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",

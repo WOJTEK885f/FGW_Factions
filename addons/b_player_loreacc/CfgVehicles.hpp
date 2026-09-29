@@ -682,8 +682,8 @@ class CfgVehicles {
         uniformClass = "USP_G3C_CU_AOR2";
         backpack = "";
 
-        weapons[] = {"CUP_arifle_M4A1_black", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_M4A1_black", "Throw", "Put"};
+        weapons[] = {"CUP_arifle_M4A3_black", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A3_black", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
@@ -1002,8 +1002,8 @@ class CfgVehicles {
         uniformClass = "CFP_GUER_PolyDesTee";
         backpack = "";
 
-        weapons[] = {"CUP_arifle_M4A1_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_M4A1_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        weapons[] = {"CUP_arifle_M4A3_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A3_black", "rhs_weap_panzerfaust60", "Throw", "Put"};
 
         magazines[] = {
             "rhs_panzerfaust60_mag",

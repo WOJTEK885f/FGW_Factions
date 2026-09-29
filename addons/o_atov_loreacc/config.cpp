@@ -27,7 +27,7 @@ class CfgPatches {
             "CUP_Weapons_Glock17",            // Vitaly: CUP_hgun_Glock17_blk
             "CUP_Weapons_Grenades",         // Multiple units - Grenades (CUP_HandGrenade_RGD5)
             "CUP_Weapons_HK416",            // Oleg: CUP_arifle_HK416_Black
-            "CUP_Weapons_M16",              // Infantry: CUP_arifle_M16A4_Base; Commando: CUP_arifle_M4A1_black
+            "CUP_Weapons_M16",              // Infantry: CUP_arifle_M16A4_Base; Commando: CUP_arifle_M4A3_black
             "CUP_Weapons_M17",              // ArmedPolice, Scout: CUP_hgun_M17_Black
             "CUP_Weapons_M249",             // Machinegunner: CUP_lmg_M249_E2
             "CUP_Weapons_Makarov",          // Dimitro, Kostyantin: CUP_hgun_Makarov
