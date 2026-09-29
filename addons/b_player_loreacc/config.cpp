@@ -40,6 +40,7 @@ class CfgPatches {
             "CUP_Weapons_M16",        // SpecialSealion: CUP_arifle_M16A4_Base; SpecialScorpion, TrainedInfantry: CUP_arifle_M4A3_black
             "CUP_Weapons_M17",        // MilitiaSniper: CUP_hgun_M17_Black
             "CUP_Weapons_M240",       // SpecialRattlesnake: CUP_lmg_FNMAG_RIS_modern
+            "CUP_Weapons_M3A1",       // ArmedEscortGuard_M1A1: CUP_smg_M3A1_blk
             "CUP_Weapons_M9",         // Ivan: CUP_hgun_M9A1
             "CUP_Weapons_Makarov",    // ArmedBodyguard, FemaleVillager: CUP_hgun_Makarov
             "CUP_Weapons_MP5",        // ArmedBodyguard, ArmedEscortGuard_MP5, SpecialWolf: CUP_smg_MP5A5_Rail_VFG
@@ -55,7 +56,7 @@ class CfgPatches {
             "cfp_uniforms", // FemaleVillager: CFP_U_KhetPartug_Short_Brown; MilitiaSniper: CFP_GUER_M81; SpecialScorpion: CFP_GUER_PolyDesTee; SpecialSealion: CFP_FieldUniform_police_sudan_SS; Spetsnaz: CFP_U_WorkUniform_SudanPolice2
             "cfp_vests",    // MilitiaSMGFighter, SpecialRattlesnake: CFP_RAV_Empty_Green; SpecialOwl, SpecialVulture, SpecialWolf: SP_Tactical1_Black
             "rhsgref_c_troops",  // TrainedMarksman: rhsgref_patrolcap_specter
-            "rhsgref_c_weapons", // ArmedEscortGuard_M1A1: rhs_weap_m3a1, rhsgref_30rnd_1143x23_M1911B_SMG; SpecialCheetah, SpecialOwl, SpecialScorpion, SpecialSealion, SpecialSnowfox, SpecialVulture, Spetsnaz, TrainedMarksman: rhs_panzerfaust60_mag, rhs_weap_panzerfaust60
+            "rhsgref_c_weapons", // SpecialCheetah, SpecialOwl, SpecialScorpion, SpecialSealion, SpecialSnowfox, SpecialVulture, Spetsnaz, TrainedMarksman: rhs_panzerfaust60_mag, rhs_weap_panzerfaust60
             "rhsusf_c_weapons",  // FemaleCivilianFighter, FemaleCivilianFighterCaptain, SpecialVulture, Yevgen: rhs_weap_M590_5RD, rhsusf_5Rnd_00Buck, rhsusf_5Rnd_Slug
             "USP_Gear_Body",     // ArmedEscortGuard_M1A1, SpecialOwl: USP_PCU_G3C; Petro, Sergei: USP_RUGBY_G3C_BLK_MPW; SpecialCheetah: USP_RUGBY_G3C_RGR_MPW; SpecialRattlesnake: USP_RUGBY_G3C_CBR_AOR1; SpecialWolf: USP_PCU_G3C_BLK_MTN; TrainedInfantry, TrainedMarksman: USP_G3C_CU_AOR2
             "USP_Gear_Face"      // SpecialOwl: USP_OAKLEY_SI2_YEL; SpecialSealion: USP_SOTR; SpecialWolf: USP_SHEMAGH_HEAD_BLK; Spetsnaz: USP_FM12_BLK2

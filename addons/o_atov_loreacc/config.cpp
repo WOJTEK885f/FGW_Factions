@@ -30,6 +30,7 @@ class CfgPatches {
             "CUP_Weapons_M16",              // Infantry: CUP_arifle_M16A4_Base; Commando: CUP_arifle_M4A3_black
             "CUP_Weapons_M17",              // ArmedPolice, Scout: CUP_hgun_M17_Black
             "CUP_Weapons_M249",             // Machinegunner: CUP_lmg_M249_E2
+            "CUP_Weapons_M3A1",             // Scout: CUP_smg_M3A1_blk
             "CUP_Weapons_Makarov",          // Dimitro, Kostyantin: CUP_hgun_Makarov
             "CUP_Weapons_NVG",              // Sharpshooter, SpecialForce, ArmedPolice, Commando, Scout: CUP_NVG_PVS7
             "CUP_Weapons_SPAS12",           // ArmedPolice: CUP_sgun_SPAS12
@@ -38,7 +39,7 @@ class CfgPatches {
             "cfp_headgear", // Sharpshooter, Commando, Scout: CFP_OPS2017_Helmet_Grey; ArmedPolice: SP_PASGTHelmet_Black1
             "cfp_uniforms", // Sharpshooter: CFP_BDU_M81Iraq; ArmedPolice, Commando, Scout: CFP_U_WorkUniform_SudanPolice
             "cfp_vests",    // Sharpshooter, Commando, Scout: CFP_Tactical1_M81; ArmedPolice: SP_Tactical1_Black
-            "rhsgref_c_weapons", // Scout: rhs_weap_m3a1; SpecialForce, ArmedPolice, Commando, Scout: rhs_weap_panzerfaust60
+            "rhsgref_c_weapons", // SpecialForce, ArmedPolice, Commando, Scout: rhs_weap_panzerfaust60
             "USP_Gear_Face"      // Vitaly: USP_BEARD_BRN5
         };
         units[] = {

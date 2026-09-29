@@ -336,20 +336,20 @@ class CfgVehicles {
         backpack = "";
 
         // Weapon placeholder - M3A1 Grease Gun replaced with Thompson M1A1 via compat_fwa addon
-        weapons[] = {"rhs_weap_m3a1", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
-        respawnWeapons[] = {"rhs_weap_m3a1", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        weapons[] = {"CUP_smg_M3A1_blk", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_smg_M3A1_blk", "CUP_hgun_M17_Black", "rhs_weap_panzerfaust60", "Throw", "Put"};
 
         magazines[] = {
             "CUP_HandGrenade_RGD5",
             "rhs_panzerfaust60_mag",
             MAG_4("CUP_17Rnd_9x19_M17_Black"),
-            MAG_8("rhsgref_30rnd_1143x23_M1911B_SMG")
+            MAG_8("CUP_30Rnd_45ACP_M3A1_BLK_M")
         };
         respawnMagazines[] = {
             "CUP_HandGrenade_RGD5",
             "rhs_panzerfaust60_mag",
             MAG_4("CUP_17Rnd_9x19_M17_Black"),
-            MAG_8("rhsgref_30rnd_1143x23_M1911B_SMG")
+            MAG_8("CUP_30Rnd_45ACP_M3A1_BLK_M")
         };
 
         Items[] = {
