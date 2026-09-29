@@ -10,6 +10,7 @@ class CfgVehicles {
         // Common assignments
         faction = QGVAR(Uman);
         editorSubcategory = "EdSubcat_Personnel";
+        icon = "iconMan";
 
         // Faction identity: Middle Eastern appearance and language
         identityTypes[] = {"LanguagePER_F", "CUP_D_Language_TK", "Language_Ackbar", "Head_TK", "Head_Greek"};
@@ -23,6 +24,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Terrorist_AK74M.jpg";
 
         displayName = CSTRING(Terrorist_AK74M);
+        icon = "iconManAT";
 
         uniformClass = "U_C_Uniform_Scientist_02_formal_F";
         backpack = "";
@@ -75,6 +77,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\o_uman_loreacc\data\previews\FGWF_O_Uman_Terrorist_AKS74U.jpg";
 
         displayName = CSTRING(Terrorist_AKS74U);
+        icon = "iconManAT";
 
         uniformClass = "U_C_Uniform_Scientist_02_formal_F";
         backpack = "";
@@ -222,6 +225,7 @@ class CfgVehicles {
 
     class FGWF_O_Uman_Companion_Base: FGWF_O_Uman_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
+        icon = "iconManOfficer";
     };
 
     class FGWF_O_Uman_Companion_Finn: FGWF_O_Uman_Companion_Base {

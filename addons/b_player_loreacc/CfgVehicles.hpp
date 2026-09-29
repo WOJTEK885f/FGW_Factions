@@ -10,6 +10,7 @@ class CfgVehicles {
         // Common assignments
         faction = QGVAR(Player);
         editorSubcategory = "EdSubcat_Personnel";
+        icon = "iconMan";
 
         // Faction identity: European appearance and English language with mixed accents
         identityTypes[] = {"LanguageENG_F", "LanguageENGB_F", "LanguageENGFRE_F", "Head_Russian", "Head_Euro", "Head_Enoch"};
@@ -730,6 +731,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_TrainedMarksman.jpg";
 
         displayName = CSTRING(TrainedMarksman);
+        icon = "iconManAT";
 
         uniformClass = "USP_G3C_CU_AOR2";
         backpack = "";
@@ -784,6 +786,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_Spetsnaz.jpg";
 
         displayName = CSTRING(Spetsnaz);
+        icon = "iconManAT";
 
         uniformClass = "CFP_U_WorkUniform_SudanPolice2";
         backpack = "";
@@ -837,6 +840,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialSealion.jpg";
 
         displayName = CSTRING(SpecialSealion);
+        icon = "iconManAT";
 
         uniformClass = "CFP_FieldUniform_police_sudan_SS";
         backpack = "";
@@ -890,6 +894,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialOwl.jpg";
 
         displayName = CSTRING(SpecialOwl);
+        icon = "iconManAT";
 
         uniformClass = "USP_PCU_G3C";
         backpack = "";
@@ -947,6 +952,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialRattlesnake.jpg";
 
         displayName = CSTRING(SpecialRattlesnake);
+        icon = "iconManMG";
 
         uniformClass = "USP_RUGBY_G3C_CBR_AOR1";
         backpack = "";
@@ -998,6 +1004,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialScorpion.jpg";
 
         displayName = CSTRING(SpecialScorpion);
+        icon = "iconManAT";
 
         uniformClass = "CFP_GUER_PolyDesTee";
         backpack = "";
@@ -1051,6 +1058,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialCheetah.jpg";
 
         displayName = CSTRING(SpecialCheetah);
+        icon = "iconManAT";
 
         uniformClass = "USP_RUGBY_G3C_RGR_MPW";
         backpack = "";
@@ -1157,6 +1165,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialSnowfox.jpg";
 
         displayName = CSTRING(SpecialSnowfox);
+        icon = "iconManAT";
 
         uniformClass = "CUP_I_B_PMC_Unit_19";
         backpack = "";
@@ -1214,6 +1223,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\b_player_loreacc\data\previews\FGWF_B_Player_SpecialVulture.jpg";
 
         displayName = CSTRING(SpecialVulture);
+        icon = "iconManAT";
 
         uniformClass = "CUP_I_B_PMC_Unit_1";
         backpack = "";
@@ -1261,6 +1271,7 @@ class CfgVehicles {
 
     class FGWF_B_Player_Companion_Base: FGWF_B_Player_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
+        icon = "iconManOfficer";
     };
 
     class FGWF_B_Player_Companion_Ivan: FGWF_B_Player_Companion_Base {

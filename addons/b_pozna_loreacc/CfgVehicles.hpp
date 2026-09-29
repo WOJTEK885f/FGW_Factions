@@ -10,6 +10,7 @@ class CfgVehicles {
         // Common assignments
         faction = QGVAR(Pozna);
         editorSubcategory = "EdSubcat_Personnel";
+        icon = "iconMan";
 
         // Faction identity: Slavic appearance and Russian language
         identityTypes[] = {"LanguageRUS_F", "CUP_D_Language_RU", "Head_Russian", "Head_Euro", "Head_Enoch"};
@@ -168,6 +169,7 @@ class CfgVehicles {
 
     class FGWF_B_Pozna_Companion_Base: FGWF_B_Pozna_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
+        icon = "iconManOfficer";
     };
 
     class FGWF_B_Pozna_Companion_Roman: FGWF_B_Pozna_Companion_Base {

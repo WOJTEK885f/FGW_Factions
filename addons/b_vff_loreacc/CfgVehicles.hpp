@@ -10,6 +10,7 @@ class CfgVehicles {
         // Common assignments
         faction = QGVAR(VFF);
         editorSubcategory = "EdSubcat_Personnel";
+        icon = "iconMan";
 
         // Faction identity: Female slavic appearance (placeholder when no FSOF) and female voice (only English language works)
         identityTypes[] = {"Head_Female"}; // Head_Female for RHS Female voice
@@ -268,6 +269,7 @@ class CfgVehicles {
 
     class FGWF_B_VFF_Companion_Base: FGWF_B_VFF_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
+        icon = "iconManOfficer";
     };
 
     class FGWF_B_VFF_Companion_Victoria: FGWF_B_VFF_Companion_Base {

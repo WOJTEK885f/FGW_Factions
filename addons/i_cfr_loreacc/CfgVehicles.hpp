@@ -10,6 +10,7 @@ class CfgVehicles {
         // Common assignments
         faction = QGVAR(CFR);
         editorSubcategory = "EdSubcat_Personnel";
+        icon = "iconMan";
 
         // Faction identity: Slavic appearance and Russian language
         identityTypes[] = {"LanguageRUS_F", "CUP_D_Language_RU", "Head_Russian", "Head_Enoch"};
@@ -71,6 +72,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\i_cfr_loreacc\data\previews\FGWF_I_CFR_Grenadier.jpg";
 
         displayName = CSTRING(Grenadier);
+        icon = "iconManAT";
 
         uniformClass = "CFP_GUER_M81";
         backpack = "";
@@ -123,6 +125,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\i_cfr_loreacc\data\previews\FGWF_I_CFR_DM.jpg";
 
         displayName = CSTRING(DM);
+        icon = "iconManAT";
 
         uniformClass = "CFP_GUER_M81";
         backpack = "";
@@ -458,6 +461,7 @@ class CfgVehicles {
 
     class FGWF_I_CFR_Companion_Base: FGWF_I_CFR_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
+        icon = "iconManOfficer";
     };
 
     class FGWF_I_CFR_Companion_Olga: FGWF_I_CFR_Companion_Base {

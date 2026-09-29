@@ -10,6 +10,7 @@ class CfgVehicles {
         // Common assignments
         faction = QGVAR(Alpha);
         editorSubcategory = "EdSubcat_Personnel";
+        icon = "iconMan";
 
         // Faction identity: Western european, american appearance and English language
         identityTypes[] = {"LanguageENG_F", "Head_NATO"};
@@ -126,6 +127,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\o_alpha_loreacc\data\previews\FGWF_O_Alpha_EliteStormtrooper.jpg";
 
         displayName = CSTRING(EliteStormtrooper);
+        icon = "iconManMG";
 
         uniformClass = "CFP_GUER_PolyDesert";
         backpack = "";
@@ -180,6 +182,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\o_alpha_loreacc\data\previews\FGWF_O_Alpha_EliteScout.jpg";
 
         displayName = CSTRING(EliteScout);
+        icon = "iconManAT";
 
         uniformClass = "CFP_GUER_PolyDesert";
         backpack = "";
@@ -227,6 +230,7 @@ class CfgVehicles {
 
     class FGWF_O_Alpha_Companion_Base: FGWF_O_Alpha_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
+        icon = "iconManOfficer";
     };
 
     class FGWF_O_Alpha_Companion_Volodimir: FGWF_O_Alpha_Companion_Base {

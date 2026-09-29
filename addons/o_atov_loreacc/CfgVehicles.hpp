@@ -10,6 +10,7 @@ class CfgVehicles {
         // Common assignments
         faction = QGVAR(Atov);
         editorSubcategory = "EdSubcat_Personnel";
+        icon = "iconMan";
 
         // Faction identity: Eastern Slavic appearance and Russian language
         identityTypes[] = {"LanguageRUS_F", "CUP_D_Language_RU", "Head_Russian", "Head_Euro"};
@@ -71,6 +72,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Machinegunner.jpg";
 
         displayName = CSTRING(Machinegunner);
+        icon = "iconManMG";
 
         uniformClass = "FGWF_U_USMC_FROG3_WMARPAT";
         backpack = "";
@@ -173,6 +175,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_SpecialForce.jpg";
 
         displayName = CSTRING(SpecialForce);
+        icon = "iconManAT";
 
         uniformClass = "FGWF_U_PMC_Unit_35";
         backpack = "";
@@ -223,6 +226,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_ArmedPolice.jpg";
 
         displayName = CSTRING(ArmedPolice);
+        icon = "iconManAT";
 
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
@@ -279,6 +283,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Commando.jpg";
 
         displayName = CSTRING(Commando);
+        icon = "iconManAT";
 
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
@@ -331,6 +336,7 @@ class CfgVehicles {
         editorPreview = "z\gr7bow_fgwf\addons\o_atov_loreacc\data\previews\FGWF_O_Atov_Scout.jpg";
 
         displayName = CSTRING(Scout);
+        icon = "iconManAT";
 
         uniformClass = "CFP_U_WorkUniform_SudanPolice";
         backpack = "";
@@ -381,6 +387,7 @@ class CfgVehicles {
 
     class FGWF_O_Atov_Companion_Base: FGWF_O_Atov_Base {
         editorSubcategory = "gr7bow_fgwf_Subcat_Companions";
+        icon = "iconManOfficer";
     };
 
     class FGWF_O_Atov_Companion_Dimitro: FGWF_O_Atov_Companion_Base {
