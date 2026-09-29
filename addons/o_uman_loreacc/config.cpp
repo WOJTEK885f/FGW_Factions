@@ -25,8 +25,8 @@ class CfgPatches {
             "CUP_Weapons_Ammunition", // Multiple units - Ammo
             "CUP_Weapons_Deagle",     // Terrorist_AK74M, Terrorist_AKS74U: CUP_hgun_Deagle
             "CUP_Weapons_Grenades",   // Terrorist_AK74M, Terrorist_AKS74U: CUP_HandGrenade_RGD5
+            "CUP_Weapons_M16",        // Finn: CUP_arifle_M16A4_Base
             "CUP_Weapons_M17",        // Militant_AK12, Militant_AK74M: CUP_hgun_M17_Black
-            "CUP_Weapons_M4",         // Finn: CUP_arifle_M16A4_Base
             "CUP_Weapons_M9",         // Finn: CUP_hgun_M9A1
             "cfp_protocols", // Base identity class: Language (Language_Ackbar)
             "cfp_uniforms",  // Finn: CFP_GUER_M81Tee

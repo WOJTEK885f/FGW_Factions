@@ -16,24 +16,24 @@ class CfgPatches {
             "A3_Characters_F_Heads",    // Face models (Man_A3)
             "A3_Dubbing_Radio_F_Enoch", // Base identity class: Language (LanguageRUS_F); Vitaly, Dimitro: Male02RUS, Oleg: Male03RUS, Kostyantin: Male01RUS
             "A3_Weapons_F_SMGs_SMG_01", // SpecialForce: SMG_01_F
-            "CUP_Creatures_Military_FR",     // Sharpshooter: CUP_H_FR_BandanaWdl
             "CUP_Creatures_Military_PMC",    // Infantry: CUP_V_PMC_IOTV_Black_Empty
             "CUP_Creatures_Military_Russia", // Machinegunner: CUP_H_RUS_Altyn_Shield_Up_black; Infantry: CUP_RUS_Balaclava_blk
             "CUP_Creatures_Military_USArmy", // Machinegunner: CUP_V_B_Interceptor_Base_Coyote
-            "CUP_Creatures_Military_USMC",   // SpecialForce: CUP_V_CPC_Fastbelt_rngr
+            "CUP_Creatures_Military_USMC",   // Sharpshooter: CUP_H_FR_BandanaWdl; SpecialForce: CUP_V_CPC_Fastbelt_rngr
             "CUP_Dubbing_Radio_RU_c",        // Base identity class: Language (CUP_D_Language_RU)
             "CUP_Weapons_Ammunition",       // Multiple units - Ammo
             "CUP_Weapons_Deagle",           // Sharpshooter: CUP_hgun_Deagle
             "CUP_Weapons_East_Attachments", // Sharpshooter: CUP_optic_PSO_1
-            "CUP_Weapons_Glock",            // Vitaly: CUP_hgun_Glock17_blk
+            "CUP_Weapons_Glock17",            // Vitaly: CUP_hgun_Glock17_blk
             "CUP_Weapons_Grenades",         // Multiple units - Grenades (CUP_HandGrenade_RGD5)
+            "CUP_Weapons_HK416",            // Oleg: CUP_arifle_HK416_Black
+            "CUP_Weapons_M16",              // Infantry: CUP_arifle_M16A4_Base; Commando: CUP_arifle_M4A1_black
             "CUP_Weapons_M17",              // ArmedPolice, Scout: CUP_hgun_M17_Black
             "CUP_Weapons_M249",             // Machinegunner: CUP_lmg_M249_E2
-            "CUP_Weapons_M4",               // Infantry: CUP_arifle_M16A4_Base, Commando: CUP_arifle_M4A1_black, Oleg: CUP_arifle_HK416_Black
             "CUP_Weapons_Makarov",          // Dimitro, Kostyantin: CUP_hgun_Makarov
             "CUP_Weapons_NVG",              // Sharpshooter, SpecialForce, ArmedPolice, Commando, Scout: CUP_NVG_PVS7
             "CUP_Weapons_SPAS12",           // ArmedPolice: CUP_sgun_SPAS12
-            "CUP_Weapons_Val",              // Sharpshooter: CUP_arifle_AS_VAL_pso
+            "CUP_Weapons_VSS",              // Sharpshooter: CUP_arifle_AS_VAL_pso
             "CFP_O_RUMVD",  // Oleg: CFP_V_O_RUMVD_SURPAT
             "cfp_headgear", // Sharpshooter, Commando, Scout: CFP_OPS2017_Helmet_Grey; ArmedPolice: SP_PASGTHelmet_Black1
             "cfp_uniforms", // Sharpshooter: CFP_BDU_M81Iraq; ArmedPolice, Commando, Scout: CFP_U_WorkUniform_SudanPolice

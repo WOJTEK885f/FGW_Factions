@@ -29,21 +29,22 @@ class CfgPatches {
             "CUP_Creatures_Military_USMC",          // FemaleMilitia_TT33, MilitiaSMGFighter: CUP_U_B_USMC_MCCUU_MARPAT_M81
             "CUP_Creatures_People_Civil_Chernarus", // MaleVillager: CUP_U_C_Worker_02, CUP_V_C_Police_Holster
             "CUP_Dubbing_Radio_RU_c",               // GuerBase identity class: Language (CUP_D_Language_RU)
+            "CUP_Weapons_AK",         // SpecialSnowfox: CUP_arifle_SAIGA_MK03
             "CUP_Weapons_Ammunition", // Multiple units - Ammo
             "CUP_Weapons_Colt1911",   // FemaleCivilianFighterCaptain, FemaleMilitia_M1911: CUP_hgun_Colt1911
             "CUP_Weapons_EVO",        // MilitiaSMGFighter: CUP_smg_EVO
-            "CUP_Weapons_Glock",      // ArmedEscortGuard_MP5, Georgiy, SpecialOwl: CUP_hgun_Glock17_blk
+            "CUP_Weapons_Glock17",      // ArmedEscortGuard_MP5, Georgiy, SpecialOwl: CUP_hgun_Glock17_blk
             "CUP_Weapons_Grenades",   // Multiple units - Grenades
+            "CUP_Weapons_HK416",      // Spetsnaz: CUP_arifle_HK416_Black
             "CUP_Weapons_M14",        // MaleVillager, MilitiaRifleman_Light, MilitiaSniper: CUP_srifle_M14
+            "CUP_Weapons_M16",        // SpecialSealion: CUP_arifle_M16A4_Base; SpecialScorpion, TrainedInfantry: CUP_arifle_M4A1_black
             "CUP_Weapons_M17",        // MilitiaSniper: CUP_hgun_M17_Black
             "CUP_Weapons_M240",       // SpecialRattlesnake: CUP_lmg_FNMAG_RIS_modern
-            "CUP_Weapons_M4",         // SpecialSealion: CUP_arifle_M16A4_Base; SpecialScorpion, TrainedInfantry: CUP_arifle_M4A1_black; Spetsnaz: CUP_arifle_HK416_Black
             "CUP_Weapons_M9",         // Ivan: CUP_hgun_M9A1
             "CUP_Weapons_Makarov",    // ArmedBodyguard, FemaleVillager: CUP_hgun_Makarov
             "CUP_Weapons_MP5",        // ArmedBodyguard, ArmedEscortGuard_MP5, SpecialWolf: CUP_smg_MP5A5_Rail_VFG
             "CUP_Weapons_NVG",        // SpecialOwl, SpecialSnowfox: CUP_NVG_PVS7
             "CUP_Weapons_Revolver",   // ArmedEscortGuard_M1A1, SpecialSnowfox: CUP_hgun_TaurusTracker455
-            "CUP_Weapons_Saiga",      // SpecialSnowfox: CUP_arifle_SAIGA_MK03
             "CUP_Weapons_SPAS12",     // ArmedEscortGuard_SPAS12: CUP_sgun_SPAS12
             "CUP_Weapons_Steyr",      // SpecialCheetah: CUP_arifle_AUG_A1
             "CUP_Weapons_SVD",        // SpecialOwl: CUP_srifle_SVD_pso

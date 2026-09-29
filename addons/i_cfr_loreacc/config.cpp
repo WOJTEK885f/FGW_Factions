@@ -17,13 +17,14 @@ class CfgPatches {
             "A3_Characters_F_Heads",            // Face models (Man_A3)
             "A3_Dubbing_Radio_F_Enoch",         // Base identity class: Language (LanguageRUS_F)
             "A3_Weapons_F_LongRangeRifles_EBR", // DM: srifle_EBR_F
-            "CUP_Creatures_Military_FR",            // DM: CUP_H_FR_BandanaWdl
             "CUP_Creatures_Military_PMC",           // MilitiaRifleman_Light: CUP_I_B_PMC_Unit_11; MilitiaRifleman_BikeHelmet: CUP_I_B_PMC_Unit_15; MilitiaRifleman_OldHelmet: CUP_I_B_PMC_Unit_2; MilitiaRifleman_SteelHelmet: CUP_I_B_PMC_Unit_43; MilitiaSniper: CUP_V_PMC_CIRAS_Coyote_Empty
             "CUP_Creatures_Military_Russia",        // MilitiaRifleman_SteelHelmet: CUP_H_RUS_K6_3
             "CUP_Creatures_Military_SLA",           // Grenadier, MilitiaRifleman_OldHelmet: CUP_H_SLA_Helmet_URB_worn
             "CUP_Creatures_Military_USArmy",        // Fighter: CUP_H_USArmy_Helmet_M1_plain_M81; MilitiaRifleman_BikeHelmet: CUP_H_USArmy_Helmet_Protec; Grenadier: CUP_V_B_Interceptor_Rifleman_M81
+            "CUP_Creatures_Military_USMC",          // DM: CUP_H_FR_BandanaWdl
             "CUP_Creatures_People_Civil_Chernarus", // MaleVillager, Olga: CUP_V_C_Police_Holster
             "CUP_Dubbing_Radio_RU_c",               // Base identity class: Language (CUP_D_Language_RU)
+            "CUP_Weapons_AK",         // Fighter, Olga: CUP_arifle_SAIGA_MK03
             "CUP_Weapons_Ammunition", // Multiple units - Ammo
             "CUP_Weapons_Deagle",     // DM: CUP_hgun_Deagle
             "CUP_Weapons_EVO",        // MilitiaSMGFighter: CUP_smg_EVO
@@ -31,7 +32,6 @@ class CfgPatches {
             "CUP_Weapons_M14",        // MaleVillager, MilitiaRifleman_Light, MilitiaSniper: CUP_srifle_M14
             "CUP_Weapons_M17",        // MilitiaSniper: CUP_hgun_M17_Black
             "CUP_Weapons_M3A1",       // Grenadier: CUP_smg_M3A1_blk
-            "CUP_Weapons_Saiga",      // Fighter, Olga: CUP_arifle_SAIGA_MK03
             "cfp_headgear", // MilitiaSniper: CFP_BoonieHat_M81; MilitiaSMGFighter: SP_Bandana_Black; MaleVillager: SP_BoonieHat_Tan
             "cfp_uniforms", // DM, Grenadier, MilitiaSniper: CFP_GUER_M81; Fighter: CFP_GUER_M81Tee
             "cfp_vests",    // MilitiaSMGFighter: CFP_RAV_Empty_Green; Fighter: CFP_Tactical1_M81

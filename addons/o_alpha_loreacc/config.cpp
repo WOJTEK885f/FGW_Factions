@@ -25,8 +25,8 @@ class CfgPatches {
             "CUP_Weapons_Ammunition", // Multiple units - Ammo
             "CUP_Weapons_Deagle",     // EliteSniper, Igor: CUP_hgun_Deagle
             "CUP_Weapons_Grenades",   // EliteScout, EliteStormtrooper, SpecialForce: CUP_HandGrenade_RGD5
+            "CUP_Weapons_HK416",      // SpecialForce: CUP_arifle_HK416_Black
             "CUP_Weapons_M240",       // EliteStormtrooper: CUP_lmg_FNMAG_RIS_modern
-            "CUP_Weapons_M4",         // SpecialForce: CUP_arifle_HK416_Black
             "CUP_Weapons_NVG",        // EliteScout, EliteSniper, EliteStormtrooper, SpecialForce: CUP_NVG_PVS7
             "cfp_headgear", // EliteStormtrooper: CFP_OPS2017_Helmet_Grey; SpecialForce: SP_PASGTHelmet_Black1
             "cfp_uniforms", // EliteScout, EliteSniper, EliteStormtrooper, SpecialForce: CFP_GUER_PolyDesert

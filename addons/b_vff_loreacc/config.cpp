@@ -21,7 +21,8 @@ class CfgPatches {
             "CUP_Weapons_Ammunition", // Multiple units - Ammo
             "CUP_Weapons_Colt1911",   // FemaleCivilianFighterCaptain, SpecialPolice: CUP_hgun_Colt1911
             "CUP_Weapons_Grenades",   // Fighter, SpecialPolice: CUP_HandGrenade_RGD5
-            "CUP_Weapons_M4",         // Fighter, Oksana: CUP_arifle_HK416_Black; Marine, Victoria: CUP_arifle_M16A4_Base
+            "CUP_Weapons_HK416",      // Fighter, Oksana: CUP_arifle_HK416_Black
+            "CUP_Weapons_M16",        // Marine, Victoria: CUP_arifle_M16A4_Base
             "CUP_Weapons_M9",         // Victoria: CUP_hgun_M9A1
             "CUP_Weapons_NVG",        // Fighter: CUP_NVG_PVS7
             "cfp_headgear", // Fighter: CFP_PASGTHelmet_M812
